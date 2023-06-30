@@ -1,0 +1,1 @@
+This is a collections of notes working as Steven's second brain.
