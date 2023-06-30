@@ -11,8 +11,12 @@
             "id": "2b84d06baf7b3994",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Dimensional Reduction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Dimensional Reduction.md"
+              }
             }
           }
         ]
@@ -140,13 +148,13 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "2b84d06baf7b3994",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
-    "Machine Learning/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Model Evaluation.md",
-    "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/Outline.md",
     "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Outline.md",
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
