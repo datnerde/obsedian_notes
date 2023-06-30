@@ -4,7 +4,14 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "obsidian-mind-map:app:markmap-preview",
+      "icon": "align-horizontal-justify-start",
+      "name": "Mind Map: Preview the current note as a Mind Map",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
