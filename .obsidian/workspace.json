@@ -14,21 +14,8 @@
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "6e596fe3f01aa80c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -155,8 +138,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e596fe3f01aa80c",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "2023-06-30.md",
+    "Machine Learning/Testing.md",
+    "Machine Learning/Model Evaluation.md",
+    "Machine Learning/Feature Engineering.md",
     "README.md"
   ]
 }
