@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Testing.md",
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Testing.md",
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Testing.md",
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Testing.md"
+                "file": "Machine Learning/Dimensional Reduction.md"
               }
             }
           }
@@ -148,17 +148,18 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "bafffc465417805c",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/Outline.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Model Evaluation.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
-    "Machine Learning/Testing.md",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
     "Projects - Demo Project",
-    "Machine Learning/Model Evaluation.md",
-    "Machine Learning/Feature Engineering.md",
     "Untitled.canvas",
     "2023-06-30.md",
     "README.md"
