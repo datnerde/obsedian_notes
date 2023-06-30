@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "091d766348633277",
+        "id": "25e360325ae4f936",
         "type": "tabs",
         "children": [
           {
-            "id": "69a5dbcde17d768f",
+            "id": "2b84d06baf7b3994",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,14 +140,14 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "2b84d06baf7b3994",
   "lastOpenFiles": [
-    "Machine Learning/Annotate Test.md",
     "Machine Learning/百面机器学习算法工程师带你去面试.pdf",
-    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Model Evaluation.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Outline.md",
-    "Machine Learning/Model Evaluation.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
