@@ -11,8 +11,10 @@
             "id": "2b84d06baf7b3994",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Machine Learning/annotation lab.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/annotation lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/annotation lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/annotation lab.md"
+              }
             }
           }
         ]
@@ -136,22 +142,22 @@
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": false,
-      "cmdr:Mind Map: Preview the current note as a Mind Map": false,
-      "obsidian-projects:Open projects": false
+      "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
   "active": "2b84d06baf7b3994",
   "lastOpenFiles": [
-    "Machine Learning/Outline.md",
     "Machine Learning/Model Evaluation.md",
+    "Machine Learning/annotation lab.md",
+    "Machine Learning/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
+    "Machine Learning/Outline.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Sampling.md",
-    "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/Feature Engineering.md",
-    "Machine Learning/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",

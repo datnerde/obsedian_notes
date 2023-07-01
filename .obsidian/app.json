@@ -1,4 +1,7 @@
 {
   "newFileLocation": "current",
-  "attachmentFolderPath": "Pictures"
+  "attachmentFolderPath": "Pictures",
+  "showLineNumber": true,
+  "tabSize": 5,
+  "alwaysUpdateLinks": true
 }
