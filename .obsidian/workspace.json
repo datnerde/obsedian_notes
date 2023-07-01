@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "25e360325ae4f936",
+        "id": "12b94f544ee01677",
         "type": "tabs",
         "children": [
           {
-            "id": "2b84d06baf7b3994",
+            "id": "227c83a516762fc9",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "Machine Learning/annotation lab.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/annotation lab.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/annotation lab.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Machine Learning/annotation lab.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -145,11 +139,23 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "2b84d06baf7b3994",
+  "active": "227c83a516762fc9",
   "lastOpenFiles": [
+    "Books/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf",
+    "Books/System Design.pdf",
+    "Template/Book Notes.md",
+    "Template",
+    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
+    "Untitled 1.md",
+    "Machine Learning/books notes",
+    "Books/百面机器学习算法工程师带你去面试.pdf",
+    "Books/An Introduction to Statistical learning.pdf",
+    "Books",
+    "Books/machine learning basics.pdf",
+    "Books/data science cheat sheet.pdf",
+    "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
+    "Machine Learning/Sampling.md",
     "Machine Learning/Model Evaluation.md",
-    "Machine Learning/annotation lab.md",
-    "Machine Learning/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Outline.md",
@@ -157,14 +163,12 @@
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Classic Model.md",
-    "Machine Learning/Sampling.md",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project",
     "Untitled.canvas",
     "2023-06-30.md",
     "README.md"

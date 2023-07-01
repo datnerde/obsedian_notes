@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "📗",
+      "🖥",
+      "🖨",
       "🔢",
-      "🧠",
-      "🎰"
+      "🧠"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -22,5 +24,8 @@
   },
   "Machine Learning": "🎰",
   "Machine Learning System Design": "🧠",
-  "Bayesian Statistics": "🔢"
+  "Bayesian Statistics": "🔢",
+  "Template": "🖨",
+  "System Design": "🖥",
+  "Books": "📗"
 }
