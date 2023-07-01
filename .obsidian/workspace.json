@@ -8,12 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6b9aa5810f0c9d52",
+            "id": "db8f76f5b777fe30",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
                 "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b59c5a6e460f671b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b9aa5810f0c9d52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Model Evaluation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -63,11 +81,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -83,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md"
+                "file": "Machine Learning/Model Evaluation.md"
               }
             }
           }
@@ -145,11 +165,13 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "6b9aa5810f0c9d52",
+  "active": "321a442ce4078c70",
   "lastOpenFiles": [
+    "Machine Learning/Classic Model.md",
+    "Machine Learning/Model Evaluation.md",
+    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "Books/data science cheat sheet.pdf",
     "Books/An Introduction to Statistical learning.pdf",
-    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "README.md",
     "Books/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf",
     "Books/System Design.pdf",
@@ -162,14 +184,12 @@
     "Books/machine learning basics.pdf",
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
     "Machine Learning/Sampling.md",
-    "Machine Learning/Model Evaluation.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Outline.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Classic Model.md",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",

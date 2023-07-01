@@ -33,8 +33,8 @@
 - ROC will keep its shape when the balance of samples changes, compared to P-R curve
 
 ### 3.Cosine Distance
+- Use case of distance measurement
+	- Euclidean Distance focuses on difference in magnitude
+	- Cosine Distance reflects difference directionally
 
-- Euclidean Distance focuses on difference in magnitude
-- Cosine Distance reflects difference directionally
-
-#model_evaluation
+#model_evaluation #distance_measure 
