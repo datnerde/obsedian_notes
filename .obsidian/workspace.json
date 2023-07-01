@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -129,12 +130,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,11 +150,11 @@
   },
   "active": "abf3a4464302f29e",
   "lastOpenFiles": [
+    "Machine Learning/Outline.md",
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Outline.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Dimensional Reduction.md",
