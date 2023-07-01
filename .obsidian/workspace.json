@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "12b94f544ee01677",
+        "id": "161c503f2173cfd0",
         "type": "tabs",
         "children": [
           {
-            "id": "227c83a516762fc9",
+            "id": "d32dd0d7ef8e7c11",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -81,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/An Introduction to Statistical learning.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Books/An Introduction to Statistical learning.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +120,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Books/An Introduction to Statistical learning.pdf"
+              }
             }
           }
         ]
@@ -139,13 +143,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "227c83a516762fc9",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
+    "README.md",
     "Books/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf",
     "Books/System Design.pdf",
-    "Template/Book Notes.md",
+    "Template/annotate.md",
     "Template",
-    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "Untitled 1.md",
     "Machine Learning/books notes",
     "Books/百面机器学习算法工程师带你去面试.pdf",
@@ -170,7 +175,6 @@
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
     "Untitled.canvas",
-    "2023-06-30.md",
-    "README.md"
+    "2023-06-30.md"
   ]
 }

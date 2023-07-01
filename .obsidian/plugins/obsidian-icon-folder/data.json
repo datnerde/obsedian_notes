@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "🖼",
       "📗",
       "🖥",
       "🖨",
-      "🔢",
-      "🧠"
+      "🔢"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -27,5 +27,6 @@
   "Bayesian Statistics": "🔢",
   "Template": "🖨",
   "System Design": "🖥",
-  "Books": "📗"
+  "Books": "📗",
+  "Pictures": "🖼"
 }
