@@ -3,5 +3,6 @@
   "attachmentFolderPath": "Pictures",
   "showLineNumber": true,
   "tabSize": 5,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "foldHeading": true
 }
