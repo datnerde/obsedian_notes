@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "161c503f2173cfd0",
+        "id": "47e783c9caefd7dc",
         "type": "tabs",
         "children": [
           {
-            "id": "d32dd0d7ef8e7c11",
+            "id": "6b9aa5810f0c9d52",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md"
+              }
             }
           }
         ]
@@ -81,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/An Introduction to Statistical learning.pdf",
+                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/An Introduction to Statistical learning.pdf",
+                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/An Introduction to Statistical learning.pdf"
+                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md"
               }
             }
           }
@@ -143,8 +145,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "6b9aa5810f0c9d52",
   "lastOpenFiles": [
+    "Books/data science cheat sheet.pdf",
+    "Books/An Introduction to Statistical learning.pdf",
     "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "README.md",
     "Books/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf",
@@ -154,10 +158,8 @@
     "Untitled 1.md",
     "Machine Learning/books notes",
     "Books/百面机器学习算法工程师带你去面试.pdf",
-    "Books/An Introduction to Statistical learning.pdf",
     "Books",
     "Books/machine learning basics.pdf",
-    "Books/data science cheat sheet.pdf",
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
     "Machine Learning/Sampling.md",
     "Machine Learning/Model Evaluation.md",
