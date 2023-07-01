@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "47e783c9caefd7dc",
+        "id": "7c5be72f25293350",
         "type": "tabs",
         "children": [
           {
-            "id": "db8f76f5b777fe30",
+            "id": "a9e518d9ebd098c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -147,10 +147,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "a9e518d9ebd098c4",
   "lastOpenFiles": [
-    "Machine Learning/Sampling.md",
     "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Sampling.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Classic Model.md",
