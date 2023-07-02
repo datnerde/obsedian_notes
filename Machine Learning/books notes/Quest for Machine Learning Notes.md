@@ -16,3 +16,17 @@ annotation-target: 百面机器学习算法工程师带你去面试.pdf
 >%%TAGS%%
 >#distance_measure
 ^11ju0g1hxgpk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-07-02T22:01:02.912Z","updated":"2023-07-02T22:01:02.912Z","document":{"title":"百面机器学习 算法工程师带你去面试","link":[{"href":"urn:x-pdf:31356561616166333837333030653064343335363866373030333039653863343766666361363066373935666339626263613137623865376565393433303366"},{"href":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf"}],"documentFingerprint":"31356561616166333837333030653064343335363866373030333039653863343766666361363066373935666339626263613137623865376565393433303366"},"uri":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf","target":[{"source":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf","selector":[{"type":"TextPositionSelector","start":38884,"end":38929},{"type":"TextQuoteSelector","exact":"然而，当样本规模比较小时，将样本集进行划分会让训练集进一步减小，这可能会影响模型训练效果。","prefix":"验还是交叉检验，都是基于划分训练集和测试集的方法进行模型评估的。","suffix":"有没有能维持训练集样本规模的验证方法呢？自助法可以比较好地解决这"}]}]}
+>```
+>%%
+>*%%PREFIX%%验还是交叉检验，都是基于划分训练集和测试集的方法进行模型评估的。%%HIGHLIGHT%% ==然而，当样本规模比较小时，将样本集进行划分会让训练集进一步减小，这可能会影响模型训练效果。== %%POSTFIX%%有没有能维持训练集样本规模的验证方法呢？自助法可以比较好地解决这*
+>%%LINK%%[[#^a5bt5biw4n|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^a5bt5biw4n

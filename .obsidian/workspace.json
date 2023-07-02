@@ -29,9 +29,9 @@
             "id": "abf3a4464302f29e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Books/百面机器学习算法工程师带你去面试.pdf"
+                "file": "Machine Learning/books notes/Quest for Machine Learning Notes.md"
               }
             }
           }
@@ -166,8 +166,10 @@
   },
   "active": "e3431ae81072f4a5",
   "lastOpenFiles": [
+    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "Books/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Model Evaluation.md",
+    "Machine Learning/AB Testing.md",
     "Machine Learning/Outline.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Classic Model.md",
@@ -175,7 +177,6 @@
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "Books/data science cheat sheet.pdf",
     "Books/An Introduction to Statistical learning.pdf",
     "README.md",
