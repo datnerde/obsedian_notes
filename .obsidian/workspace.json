@@ -11,6 +11,16 @@
             "id": "abf3a4464302f29e",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/百面机器学习算法工程师带你去面试.pdf"
+              }
+            }
+          },
+          {
+            "id": "e3431ae81072f4a5",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Machine Learning/Model Evaluation.md",
@@ -19,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,10 +159,11 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "abf3a4464302f29e",
+  "active": "e3431ae81072f4a5",
   "lastOpenFiles": [
-    "Machine Learning/Outline.md",
+    "Books/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/Model Evaluation.md",
+    "Machine Learning/Outline.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Unsupervised Learning.md",
@@ -168,7 +180,6 @@
     "Template",
     "Untitled 1.md",
     "Machine Learning/books notes",
-    "Books/百面机器学习算法工程师带你去面试.pdf",
     "Books",
     "Books/machine learning basics.pdf",
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
