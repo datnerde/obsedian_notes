@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Model Evaluation.md",
+                "file": "Machine Learning/Classic Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Model Evaluation.md",
+                "file": "Machine Learning/Classic Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Model Evaluation.md",
+                "file": "Machine Learning/Classic Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Model Evaluation.md"
+                "file": "Machine Learning/Classic Model.md"
               }
             }
           }
@@ -166,9 +165,9 @@
   },
   "active": "e3431ae81072f4a5",
   "lastOpenFiles": [
+    "Machine Learning/Model Evaluation.md",
     "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "Books/百面机器学习算法工程师带你去面试.pdf",
-    "Machine Learning/Model Evaluation.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Outline.md",
     "Machine Learning/Optimization.md",

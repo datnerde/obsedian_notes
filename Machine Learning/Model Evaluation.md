@@ -54,8 +54,17 @@
 ### 6. Hyper-parameter tuning
 - grid search
 - random search
-- bayesian optimization:
-	- 
-- 
+- bayesian optimization:[贝叶斯优化算法](https://www.cnblogs.com/marsggbo/p/9866764.html)
+	- 具体来说，它学习目标函数形状的方法是，首先根据先验分布，假设一个搜集函数；然后，每一次使用新的采样点来测试目标函数时，利用这个信息来更新目标函数的先验分布；最后，算法测试由后验分布给出的全局最值最可能出现的位置的点。
+### 7.Overfitting & Underfitting
+- Overfitting: Perform well in training set but not prediction set
+	- Get more data
+	- Reduce model complexity
+	- Regularization
+	- Ensemble learning
+- Underfitting: Perform bad in both training set and prediction set
+	- Add new features
+	- Add model complexity
+	- Reduce regularization
 
 #model_evaluation #distance_measure 
