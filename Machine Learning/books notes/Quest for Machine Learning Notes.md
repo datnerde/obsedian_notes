@@ -44,3 +44,17 @@ annotation-target: 百面机器学习算法工程师带你去面试.pdf
 >%%TAGS%%
 >
 ^nhfrz09mg6c
+
+
+>%%
+>```annotation-json
+>{"created":"2023-07-02T23:31:28.439Z","updated":"2023-07-02T23:31:28.439Z","document":{"title":"百面机器学习 算法工程师带你去面试","link":[{"href":"urn:x-pdf:31356561616166333837333030653064343335363866373030333039653863343766666361363066373935666339626263613137623865376565393433303366"},{"href":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf"}],"documentFingerprint":"31356561616166333837333030653064343335363866373030333039653863343766666361363066373935666339626263613137623865376565393433303366"},"uri":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf","target":[{"source":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf","selector":[{"type":"TextPositionSelector","start":48349,"end":48387},{"type":"TextQuoteSelector","exact":"当存在样本可能属于多个标签的情况时，我们可以训练k个二分类的逻辑回归分类器。","prefix":"此，多项逻辑回归实际上是二分类逻辑回归在多标签分类下的一种拓展。","suffix":"第i个分类器用以区分每个样本是否可以归为第i类，训练该分类器时，"}]}]}
+>```
+>%%
+>*%%PREFIX%%此，多项逻辑回归实际上是二分类逻辑回归在多标签分类下的一种拓展。%%HIGHLIGHT%% ==当存在样本可能属于多个标签的情况时，我们可以训练k个二分类的逻辑回归分类器。== %%POSTFIX%%第i个分类器用以区分每个样本是否可以归为第i类，训练该分类器时，*
+>%%LINK%%[[#^a2ukf77urp|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^a2ukf77urp
