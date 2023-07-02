@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abf3a4464302f29e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Books/百面机器学习算法工程师带你去面试.pdf"
-              }
-            }
-          },
-          {
             "id": "e3431ae81072f4a5",
             "type": "leaf",
             "state": {
@@ -29,8 +19,23 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "9d1b2d155474a790",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "abf3a4464302f29e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Books/百面机器学习算法工程师带你去面试.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"

@@ -36,6 +36,7 @@
 - Use case of distance measurement
 	- Euclidean Distance focuses on difference in magnitude
 	- Cosine Distance reflects difference directionally
-### 4.Online A/B Testing
-
+### 4.A/B Testing
+- Reasons for online A/B Testing
+	- Offline testing doesn't remove the impact of overfi
 #model_evaluation #distance_measure 
