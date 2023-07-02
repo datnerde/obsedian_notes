@@ -6,6 +6,7 @@
       {
         "id": "9f9d8305924848a3",
         "type": "tabs",
+        "dimension": 78.16593886462883,
         "children": [
           {
             "id": "e3431ae81072f4a5",
@@ -24,6 +25,7 @@
       {
         "id": "9d1b2d155474a790",
         "type": "tabs",
+        "dimension": 21.83406113537118,
         "children": [
           {
             "id": "abf3a4464302f29e",
@@ -81,7 +83,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,13 +170,15 @@
   },
   "active": "e3431ae81072f4a5",
   "lastOpenFiles": [
+    "Machine Learning/support vector.md",
+    "Machine Learning/Classic Model.md",
+    "Pictures/Pasted image 20230702170546.png",
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/books notes/Quest for Machine Learning Notes.md",
     "Books/百面机器学习算法工程师带你去面试.pdf",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Outline.md",
     "Machine Learning/Optimization.md",
-    "Machine Learning/Classic Model.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
