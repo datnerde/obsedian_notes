@@ -49,6 +49,7 @@
 	- leave-one-out
 - Bootstrap
 	- when sample size is too small for data split
-	- for sample n
+	- for sample size n, sampling data n times with repetition; data not sampled from n times will be used as validation set
+	- 
 
 #model_evaluation #distance_measure 
