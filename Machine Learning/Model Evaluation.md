@@ -50,6 +50,12 @@
 - Bootstrap
 	- when sample size is too small for data split
 	- for sample size n, sampling data n times with repetition; data not sampled from n times will be used as validation set
+	- when $n->\infty$, around $\frac{1}{e}$ = 36.8% samples don't get picked
+### 6. Hyper-parameter tuning
+- grid search
+- random search
+- bayesian optimization:
 	- 
+- 
 
 #model_evaluation #distance_measure 
