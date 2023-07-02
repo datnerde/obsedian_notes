@@ -23,4 +23,13 @@
 	- If one sample can have multiple label
 		- Train k binary classifier, where i classifier is to classify if a sample belongs to class i or not.
 ### 3.Decision Tree
-![[Pasted image 20230702173806.png]]
+- Comparison of different decision tree methods:
+	- ![[Pasted image 20230702173806.png]]
+- Pruning
+	- Pre-pruning
+		- Stop tree growth with certain depth
+		- Stop tree growth with certain sample size
+		- Stop tree growth with certain model improvement
+	- Post pruning
+		- REP, PEP, CVP, OPP
+		- Cost Complexity Pruning
