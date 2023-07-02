@@ -18,5 +18,9 @@
 	- Continus y v.s. discontinus y
 	- Both can use Maximum likelihood estimation to estimate $\beta$ 
 - Multiple Labels
-	- Softmax Regression
-		- 
+	- If one sample only has one label
+		- Softmax Regression
+	- If one sample can have multiple label
+		- Train k binary classifier, where i classifier is to classify if a sample belongs to class i or not.
+### 3.Decision Tree
+![[Pasted image 20230702173806.png]]
