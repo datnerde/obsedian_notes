@@ -42,6 +42,8 @@
 				- Amazon describes response time requirements for internal services in terms of the 99.9th percentile because the customers with the slowest requests are often those who have the most data. The most valuable customers.
 				- On the other hand, optimizing for the 99.99th percentile would be too expensive.
 - **Approaches for Coping with Load**
-	- 
+	- _Scaling up_ or _vertical scaling_: Moving to a more powerful machine
+	- _Scaling out_ or _horizontal scaling_: Distributing the load across multiple smaller machines.
+	- _Elastic_ systems: Automatically add computing resources when detected load increase. Quite useful if load is unpredictable.
 
 ## Maintainability
