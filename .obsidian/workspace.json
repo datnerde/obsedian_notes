@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Reliable, Scalable and Maintainable.md",
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Reliable, Scalable and Maintainable.md",
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Reliable, Scalable and Maintainable.md"
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -159,10 +158,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "2ca857fa71b31eed",
+  "active": "e486be8db6cedb4c",
   "lastOpenFiles": [
-    "Books/DDIA Notes.md",
     "System Design/Reliable, Scalable and Maintainable.md",
+    "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "Books/designing-data-intensive-applications.pdf",
     "Template/annotate.md",
