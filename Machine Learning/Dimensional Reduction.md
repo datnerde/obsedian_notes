@@ -11,4 +11,8 @@
 - Linear Discriminant Analysis can be used for classification / supervised dimensional reduction
 - Intuition:
 	- Maximize inter-class distance while minimizing inner class distance
-- 
+- Limitation:
+	- Gaussian Distribution
+	- Covariance is the same across two classes
+- QDA
+### 3. Comparison
