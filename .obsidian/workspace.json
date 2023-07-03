@@ -4,37 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3e17684175fb91cc",
+        "id": "eb1b7c07ab21565c",
         "type": "tabs",
-        "dimension": 64.12579957356077,
         "children": [
           {
-            "id": "23acad4f5115879a",
+            "id": "162cbe108d732e0a",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "Books/DDIA Notes.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b66830e3f133e015",
-        "type": "tabs",
-        "dimension": 35.87420042643924,
-        "children": [
-          {
-            "id": "e486be8db6cedb4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design/Data Models and Query Languages.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -87,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -104,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Data Models and Query Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Data Models and Query Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "System Design/Data Models and Query Languages.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -167,13 +140,15 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e486be8db6cedb4c",
+  "active": "162cbe108d732e0a",
   "lastOpenFiles": [
-    "Books/DDIA Notes.md",
-    "Books/DDIA.pdf",
-    "System Design/Data Models and Query Languages.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Probability Graphical Model.md",
+    "System Design/Data Models and Query Languages.md",
+    "Books/DDIA Notes.md",
+    "Books/DDIA.pdf",
     "Machine Learning/Outline.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "Books/designing-data-intensive-applications.pdf",
@@ -195,10 +170,8 @@
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Optimization.md",
-    "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
     "Untitled 1.md",
-    "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
