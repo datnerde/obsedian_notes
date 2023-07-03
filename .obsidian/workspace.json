@@ -11,9 +11,11 @@
             "id": "e486be8db6cedb4c",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Reliable, Scalable and Maintainable.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Reliable, Scalable and Maintainable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Reliable, Scalable and Maintainable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Reliable, Scalable and Maintainable.md"
               }
             }
           }
@@ -147,8 +149,9 @@
   },
   "active": "e486be8db6cedb4c",
   "lastOpenFiles": [
-    "Books/DDIA.pdf",
     "Books/DDIA Notes.md",
+    "System Design/Reliable, Scalable and Maintainable.md",
+    "Books/DDIA.pdf",
     "Books/designing-data-intensive-applications.pdf",
     "Template/annotate.md",
     "Books/Quest for Machine Learning Notes.md",
