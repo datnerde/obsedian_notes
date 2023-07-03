@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "eb1b7c07ab21565c",
+        "id": "7daa447be83e944d",
         "type": "tabs",
         "children": [
           {
-            "id": "162cbe108d732e0a",
+            "id": "14ab9ddb86ab406a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Supervised Learning.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Supervised Learning.md"
+              }
             }
           }
         ],
@@ -140,17 +148,23 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "162cbe108d732e0a",
+  "active": "14ab9ddb86ab406a",
   "lastOpenFiles": [
-    "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Feature Engineering.md",
-    "Machine Learning/Probability Graphical Model.md",
+    "Machine Learning/Model Evaluation.md",
+    "Machine Learning/AB Testing.md",
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Machine Learning/Optimization.md",
+    "Machine Learning/Sampling.md",
+    "Machine Learning/Quest for Machine Learning Book Outline.md",
+    "Machine Learning/Supervised Learning.md",
+    "System Design/Reliable, Scalable and Maintainable.md",
     "System Design/Data Models and Query Languages.md",
+    "Machine Learning/Classic Model.md",
+    "Machine Learning/Probability Graphical Model.md",
     "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
-    "Machine Learning/Outline.md",
-    "System Design/Reliable, Scalable and Maintainable.md",
     "Books/designing-data-intensive-applications.pdf",
     "Template/annotate.md",
     "Books/Quest for Machine Learning Notes.md",
@@ -163,14 +177,9 @@
     "Books/An Introduction to Statistical learning.pdf",
     "Books/百面机器学习算法工程师带你去面试.pdf",
     "README.md",
-    "Machine Learning/Classic Model.md",
     "Pictures/Pasted image 20230702173806.png",
     "Machine Learning/support vector.md",
     "Pictures/Pasted image 20230702170546.png",
-    "Machine Learning/Model Evaluation.md",
-    "Machine Learning/AB Testing.md",
-    "Machine Learning/Optimization.md",
-    "Machine Learning/Sampling.md",
     "Untitled 1.md",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",

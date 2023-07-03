@@ -1,6 +1,6 @@
 ## Classic Model
 
-### 1. Support Vector Machine
+### 1. Support Vector Machine[[Supervised Learning]]
 - Where it comes from:![[Pasted image 20230702170546.png]]
 - Soft Margin help with the sensitivity of support vectors
 - Intuition:
@@ -11,7 +11,7 @@
 	- Polynomial Kernel
 	- Kernel Trick:
 		- Calculate the relationships between every pair of points as if they are in the higher dimension instead of doing the transformation
-### 2.Logistics Regression
+### 2.Logistics Regression[[Supervised Learning]]
 - Comparison against linear regression
 	- Binary v.s. regression
 	- Logistics regression can be considered as regression model of log(odd) of event $y = \frac{1}{x}$ , with $odd = \frac{p}{1-p}$ 
@@ -22,7 +22,7 @@
 		- Softmax Regression
 	- If one sample can have multiple label
 		- Train k binary classifier, where i classifier is to classify if a sample belongs to class i or not.
-### 3.Decision Tree
+### 3.Decision Tree[[Supervised Learning]]
 - Comparison of different decision tree methods:
 	- ![[Pasted image 20230702173806.png]]
 - Pruning

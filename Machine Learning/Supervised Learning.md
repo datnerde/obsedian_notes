@@ -1,0 +1,9 @@
+# Outline
+- Linear Regression
+- Logistic Regression
+- K nearest neighbors
+- Random Forest
+- SVM
+- Naive Bayes
+- Decision Tree
+- LDA
