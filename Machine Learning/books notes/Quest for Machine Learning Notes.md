@@ -58,3 +58,17 @@ annotation-target: 百面机器学习算法工程师带你去面试.pdf
 >%%TAGS%%
 >
 ^a2ukf77urp
+
+
+>%%
+>```annotation-json
+>{"created":"2023-07-03T00:07:56.596Z","updated":"2023-07-03T00:07:56.596Z","document":{"title":"百面机器学习 算法工程师带你去面试","link":[{"href":"urn:x-pdf:31356561616166333837333030653064343335363866373030333039653863343766666361363066373935666339626263613137623865376565393433303366"},{"href":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf"}],"documentFingerprint":"31356561616166333837333030653064343335363866373030333039653863343766666361363066373935666339626263613137623865376565393433303366"},"uri":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf","target":[{"source":"vault:/Books/%E7%99%BE%E9%9D%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E5%B8%A6%E4%BD%A0%E5%8E%BB%E9%9D%A2%E8%AF%95.pdf","selector":[{"type":"TextPositionSelector","start":57965,"end":58032},{"type":"TextQuoteSelector","exact":"线性判别分析（Linear  Discriminant  Analysis，LDA）是一种有监督学习算法，同时经常被用来对数据进行降维","prefix":"标函数出发，得到了相同的求解方法。9903 线性判别分析场景描述","suffix":"。它是Ronald  Fisher在1936年发明的，有些资料上"}]}]}
+>```
+>%%
+>*%%PREFIX%%标函数出发，得到了相同的求解方法。9903 线性判别分析场景描述%%HIGHLIGHT%% ==线性判别分析（Linear  Discriminant  Analysis，LDA）是一种有监督学习算法，同时经常被用来对数据进行降维== %%POSTFIX%%。它是Ronald  Fisher在1936年发明的，有些资料上*
+>%%LINK%%[[#^gjuuanoxu16|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gjuuanoxu16

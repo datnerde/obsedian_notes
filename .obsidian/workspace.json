@@ -6,7 +6,7 @@
       {
         "id": "9f9d8305924848a3",
         "type": "tabs",
-        "dimension": 52.23880597014925,
+        "dimension": 50.50761421319797,
         "children": [
           {
             "id": "e3431ae81072f4a5",
@@ -25,7 +25,7 @@
       {
         "id": "9d1b2d155474a790",
         "type": "tabs",
-        "dimension": 47.76119402985074,
+        "dimension": 49.49238578680203,
         "children": [
           {
             "id": "abf3a4464302f29e",
@@ -87,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -166,7 +167,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e3431ae81072f4a5",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
     "Machine Learning/Classic Model.md",
     "Pictures/Pasted image 20230702173806.png",
