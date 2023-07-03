@@ -31,6 +31,14 @@
 		- How is the performance affected?
 		- How much do you need to increase your resources?
 	- Batch Processing System
-		- through
+		- throughput
+			- The number of records we can process per second
+			- The total time it takes to run a job on a dataset with certain size
+	- Online System
+		- response time
+			- The time between a client sending a request and receiving a response
+			- _Median_ (_50th percentile_ or _p50_).
+			- Percentiles _95th_, _99th_ and _99.9th_ (_p95_, _p99_ and _p999_) are good to figure out how bad your outliners are.
+				- High percentiles of response times, tail latencies are importance (user experience )
 
 ## Maintainability
