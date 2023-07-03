@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ed4afc1a83ed10a2",
+        "id": "3e17684175fb91cc",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a9cc8f17e6d7cc",
+            "id": "e486be8db6cedb4c",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -132,8 +132,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,12 +145,13 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e5a9cc8f17e6d7cc",
+  "active": "e486be8db6cedb4c",
   "lastOpenFiles": [
-    "Template/annotate.md",
+    "Books/DDIA.pdf",
     "Books/DDIA Notes.md",
-    "Books/Quest for Machine Learning Notes.md",
     "Books/designing-data-intensive-applications.pdf",
+    "Template/annotate.md",
+    "Books/Quest for Machine Learning Notes.md",
     "Books/ESLII.pdf",
     "Books/System Design Interview.pdf",
     "Books/System Design.pdf",
