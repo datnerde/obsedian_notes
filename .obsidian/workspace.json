@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md"
+                "file": "Machine Learning/Unsupervised Learning.md"
               }
             }
           }
@@ -167,8 +167,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "e3431ae81072f4a5",
   "lastOpenFiles": [
+    "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Classic Model.md",
     "Pictures/Pasted image 20230702173806.png",
     "Books/ESLII.pdf",
@@ -185,7 +186,6 @@
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
-    "Machine Learning/Dimensional Reduction.md",
     "Books/data science cheat sheet.pdf",
     "Books/An Introduction to Statistical learning.pdf",
     "README.md",

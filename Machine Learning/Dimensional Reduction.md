@@ -16,3 +16,7 @@
 	- Covariance is the same across two classes
 - QDA
 ### 3. Comparison
+- Different purposes:
+	- PCA picks the direction that maximizes the variance after projections
+	- LDA picks the direction that minimize inner class variance and maximize inter class variance
+	- Both can be done by eigendecomposition
