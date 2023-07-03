@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "642011bff24fd3b9",
+        "id": "ed4afc1a83ed10a2",
         "type": "tabs",
         "children": [
           {
-            "id": "cebe1a9c17595811",
+            "id": "e5a9cc8f17e6d7cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Books/DDIA Notes.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Books/DDIA Notes.md"
+              }
             }
           }
         ],
@@ -140,24 +146,26 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "cebe1a9c17595811",
+  "active": "e5a9cc8f17e6d7cc",
   "lastOpenFiles": [
+    "Template/annotate.md",
+    "Books/DDIA Notes.md",
+    "Books/Quest for Machine Learning Notes.md",
+    "Books/designing-data-intensive-applications.pdf",
+    "Books/ESLII.pdf",
     "Books/System Design Interview.pdf",
     "Books/System Design.pdf",
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
     "Books/data science cheat sheet.pdf",
     "Books/machine learning basics.pdf",
     "Books/An Introduction to Statistical learning.pdf",
-    "Books/Quest for Machine Learning Notes.md",
     "Books/百面机器学习算法工程师带你去面试.pdf",
     "Books/Elements of Programming Interviews in Python.pdf",
     "README.md",
-    "Untitled",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Classic Model.md",
     "Pictures/Pasted image 20230702173806.png",
-    "Books/ESLII.pdf",
     "Machine Learning/support vector.md",
     "Pictures/Pasted image 20230702170546.png",
     "Machine Learning/Model Evaluation.md",
@@ -166,8 +174,6 @@
     "Machine Learning/Optimization.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
-    "Books/System Design Interview An Insider’s Guide by Alex Xu (z-lib.org).pdf",
-    "Template/annotate.md",
     "Untitled 1.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Annotate Test.md",
