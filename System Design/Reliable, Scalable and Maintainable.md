@@ -19,10 +19,18 @@
 
 ## Scalability
 - This is how do we cope with increased load. We need to succinctly describe the current load on the system; only then we can discuss growth questions.
-- **Describing Load**: load parameter
+- **Describing Load**
+	- load parameter
+		- The best choice of parameters depends on the architecture of your system:
+			- requests per second to a web server,
+			- the ratio of reads to writes in a database,
+			- the number of simultaneously active users in a chat room
+			- ...
 - **Describing Performance**
-	- When you increase a load parameter and keep the system resources (CPU, memory, network bandwidth, etc.) unchanged, how is the performance of your system  affected?  
-	- When you increase a load parameter, how much do you need to increase the resources if you want to keep performance unchanged?
-- 
+	- What happens when the load increases:
+		- How is the performance affected?
+		- How much do you need to increase your resources?
+	- Batch Processing System
+		- through
 
 ## Maintainability
