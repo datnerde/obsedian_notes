@@ -7,3 +7,5 @@
 - Naive Bayes
 - Decision Tree
 - LDA
+- Boosting
+- Bagging
