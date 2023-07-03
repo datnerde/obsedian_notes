@@ -41,5 +41,7 @@
 			- Percentiles _95th_, _99th_ and _99.9th_ (_p95_, _p99_ and _p999_) are good to figure out how bad your outliners are.
 				- Amazon describes response time requirements for internal services in terms of the 99.9th percentile because the customers with the slowest requests are often those who have the most data. The most valuable customers.
 				- On the other hand, optimizing for the 99.99th percentile would be too expensive.
+- **Approaches for Coping with Load**
+	- 
 
 ## Maintainability
