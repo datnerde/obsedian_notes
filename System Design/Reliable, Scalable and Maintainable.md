@@ -51,4 +51,5 @@
 	- **Operability**. Make it easy for operation teams to keep the system running.
 	- **Simplicity**. Easy for new engineers to understand the system by removing as much complexity as possible.
 	- **Evolvability**. Make it easy for engineers to make changes to the system in the future.
-- 
+#system_design
+[[DDIA Notes]]
