@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7daa447be83e944d",
+        "id": "a15f1650243f002f",
         "type": "tabs",
         "children": [
           {
-            "id": "14ab9ddb86ab406a",
+            "id": "ebbcbc1000cd6575",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Supervised Learning.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Machine Learning/Supervised Learning.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,8 +140,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "14ab9ddb86ab406a",
+  "active": "ebbcbc1000cd6575",
   "lastOpenFiles": [
+    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/AB Testing.md",
@@ -158,7 +151,6 @@
     "Machine Learning/Optimization.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
-    "Machine Learning/Supervised Learning.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "System Design/Data Models and Query Languages.md",
     "Machine Learning/Classic Model.md",
