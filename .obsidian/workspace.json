@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "System Design/Data Models and Query Languages.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "f98b72efa2909ad3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Books/DDIA Notes.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md"
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -148,8 +159,11 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "f8c1a3d40dea670f",
+  "active": "f98b72efa2909ad3",
   "lastOpenFiles": [
+    "System Design/Data Models and Query Languages.md",
+    "System Design/Reliable, Scalable and Maintainable.md",
+    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Probability Graphical Model.md",
@@ -159,10 +173,7 @@
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Classic Model.md",
-    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Dimensional Reduction.md",
-    "System Design/Reliable, Scalable and Maintainable.md",
-    "System Design/Data Models and Query Languages.md",
     "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "Books/designing-data-intensive-applications.pdf",
