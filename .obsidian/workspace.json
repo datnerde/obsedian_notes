@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a15f1650243f002f",
+        "id": "eed868bc052d3a1c",
         "type": "tabs",
         "children": [
           {
-            "id": "ebbcbc1000cd6575",
+            "id": "f8c1a3d40dea670f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,8 +140,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "ebbcbc1000cd6575",
+  "active": "f8c1a3d40dea670f",
   "lastOpenFiles": [
+    "System Design/Reliable, Scalable and Maintainable.md",
+    "System Design/Data Models and Query Languages.md",
     "Machine Learning/Supervised Learning.md",
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Model Evaluation.md",
@@ -151,8 +153,6 @@
     "Machine Learning/Optimization.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
-    "System Design/Reliable, Scalable and Maintainable.md",
-    "System Design/Data Models and Query Languages.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Probability Graphical Model.md",
     "Books/DDIA Notes.md",
