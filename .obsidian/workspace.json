@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md",
+                "file": "Machine Learning/Optimization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md",
+                "file": "Machine Learning/Optimization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md",
+                "file": "Machine Learning/Optimization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Dimensional Reduction.md"
+                "file": "Machine Learning/Optimization.md"
               }
             }
           }
@@ -148,21 +148,21 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "f8c1a3d40dea670f",
   "lastOpenFiles": [
-    "Machine Learning/Classic Model.md",
     "Machine Learning/Model Evaluation.md",
+    "Machine Learning/Optimization.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Probability Graphical Model.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Machine Learning/Classic Model.md",
+    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Dimensional Reduction.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "System Design/Data Models and Query Languages.md",
-    "Machine Learning/Supervised Learning.md",
-    "Machine Learning/Feature Engineering.md",
     "Machine Learning/AB Testing.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Optimization.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
-    "Machine Learning/Probability Graphical Model.md",
     "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "Books/designing-data-intensive-applications.pdf",
