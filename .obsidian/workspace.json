@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Classic Model.md",
+                "file": "Machine Learning/Supervised Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Classic Model.md",
+                "file": "Machine Learning/Supervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Classic Model.md",
+                "file": "Machine Learning/Supervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Classic Model.md"
+                "file": "Machine Learning/Supervised Learning.md"
               }
             }
           }
@@ -150,10 +150,10 @@
   },
   "active": "a58c2659292e02de",
   "lastOpenFiles": [
-    "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Model Evaluation.md",
+    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Classic Model.md",
+    "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Optimization.md",
