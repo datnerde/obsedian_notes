@@ -18,7 +18,7 @@
 	- Doesn't work well with outlier
 		- If the outlier is noise, we shall remove it in data prep
 		- If the outlier is not noise, we shall create better model to account for it
-		- Map (Mean Absolute Percent Error)
+		- MAPE (Mean Absolute Percent Error)
 			- ![[Pasted image 20230630094130.png]]
 
 ### 2.ROC Curve

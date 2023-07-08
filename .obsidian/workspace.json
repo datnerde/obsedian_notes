@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "eed868bc052d3a1c",
+        "id": "9a78d2ff7fcf72ea",
         "type": "tabs",
         "children": [
           {
-            "id": "f8c1a3d40dea670f",
+            "id": "a58c2659292e02de",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -148,9 +148,17 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "f8c1a3d40dea670f",
+  "active": "a58c2659292e02de",
   "lastOpenFiles": [
     "Machine Learning/Supervised Learning.md",
+    "Machine Learning/Classic Model.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/AB Testing.md",
+    "Machine Learning/Optimization.md",
+    "Machine Learning/Feature Engineering.md",
+    "Books/machine learning basics.pdf",
+    "Machine Learning/Model Evaluation.md",
     "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "System Design/Storage and Retrieval.md",
@@ -160,13 +168,6 @@
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Probability Graphical Model.md",
-    "Machine Learning/Feature Engineering.md",
-    "Machine Learning/AB Testing.md",
-    "Machine Learning/Model Evaluation.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Optimization.md",
-    "Machine Learning/Classic Model.md",
-    "Machine Learning/Dimensional Reduction.md",
     "Books/designing-data-intensive-applications.pdf",
     "Template/annotate.md",
     "Books/Quest for Machine Learning Notes.md",
@@ -175,7 +176,6 @@
     "Books/System Design.pdf",
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
     "Books/data science cheat sheet.pdf",
-    "Books/machine learning basics.pdf",
     "Books/An Introduction to Statistical learning.pdf",
     "Books/百面机器学习算法工程师带你去面试.pdf",
     "README.md",
