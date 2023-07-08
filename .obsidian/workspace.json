@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md"
+                "file": "Machine Learning/Model Evaluation.md"
               }
             }
           }
@@ -150,13 +150,13 @@
   },
   "active": "f8c1a3d40dea670f",
   "lastOpenFiles": [
+    "Machine Learning/Supervised Learning.md",
     "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "System Design/Storage and Retrieval.md",
     "System Design/Data Models and Query Languages.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "Pictures/Pasted image 20230704165926.png",
-    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Probability Graphical Model.md",
