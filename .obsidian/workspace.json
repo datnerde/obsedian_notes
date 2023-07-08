@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "36.8%",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md",
+                "file": "Machine Learning/Model Evaluation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Supervised Learning.md"
+                "file": "Machine Learning/Model Evaluation.md"
               }
             }
           }
@@ -150,11 +151,11 @@
   },
   "active": "a58c2659292e02de",
   "lastOpenFiles": [
-    "Machine Learning/Model Evaluation.md",
-    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Classic Model.md",
-    "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Unsupervised Learning.md",
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/Supervised Learning.md",
+    "Machine Learning/Model Evaluation.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Feature Engineering.md",
