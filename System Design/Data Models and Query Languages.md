@@ -1,6 +1,9 @@
 [[DDIA Notes]]
 ## Data Model
 - ![[Pasted image 20230704165926.png]]
+- Relational model
+	- The roots of relational databases lie in business data processing, transaction processing and batch processing.
+	- The goal was to hide the implementation details behind a cleaner interface.
 - Document based model
 	-  target use cases where data comes in self-constrained documents and relationships between one document and another are rare
 - Graph model
