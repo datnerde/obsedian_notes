@@ -11,9 +11,11 @@
             "id": "a58c2659292e02de",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "Machine Learning/Classic Model.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "trick",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "Machine Learning/Classic Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "Machine Learning/Classic Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "Machine Learning/Classic Model.md"
               }
             }
           }
@@ -149,6 +151,7 @@
   },
   "active": "a58c2659292e02de",
   "lastOpenFiles": [
+    "Books/DDIA Notes.md",
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Unsupervised Learning.md",
@@ -158,7 +161,6 @@
     "Machine Learning/Optimization.md",
     "Machine Learning/Feature Engineering.md",
     "Books/machine learning basics.pdf",
-    "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "System Design/Storage and Retrieval.md",
     "System Design/Data Models and Query Languages.md",
