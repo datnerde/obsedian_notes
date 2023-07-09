@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "11eb3a980f04f4e8",
+            "id": "a401f08f6ca35412",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design/Storage and Retrieval.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81c79a509dedb181",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -83,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Storage and Retrieval.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Storage and Retrieval.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Storage and Retrieval.md"
               }
             }
           }
@@ -146,12 +158,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "11eb3a980f04f4e8",
+  "active": "a401f08f6ca35412",
   "lastOpenFiles": [
-    "System Design/Data Models and Query Languages.md",
-    "System Design/Storage and Retrieval.md",
-    "System Design/Reliable, Scalable and Maintainable.md",
     "Books/DDIA Notes.md",
+    "System Design/Storage and Retrieval.md",
+    "Pictures/Pasted image 20230709171156.png",
+    "System Design/Storag.md",
+    "System Design/Data Models and Query Languages.md",
+    "System Design/Reliable, Scalable and Maintainable.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/Unsupervised Learning.md",
@@ -185,7 +199,6 @@
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Untitled.canvas"
   ]
 }
