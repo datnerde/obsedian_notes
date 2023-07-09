@@ -21,5 +21,12 @@
 	- Partially written records
 	- Concurrency control
 	- Range queries
+- More about index![[Pasted image 20230709171832.png]]
 # Storage Engines
-* *
+* Log-structured - LSM-Trees: SSTables
+	* HBase, Cassan
+	* ![[Pasted image 20230709171706.png]]
+	* ![[Pasted image 20230709171731.png]]
+* Page-Oriented - B-trees: RDBMS
+	* ![[Pasted image 20230709171740.png]]
+	* ![[Pasted image 20230709171802.png]]

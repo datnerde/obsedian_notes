@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/Storage and Retrieval.md",
+                "file": "System Design/Encoding and Evolution.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Storage and Retrieval.md",
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Storage and Retrieval.md",
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Storage and Retrieval.md"
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -158,10 +159,17 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "a401f08f6ca35412",
+  "active": "81c79a509dedb181",
   "lastOpenFiles": [
-    "Books/DDIA Notes.md",
+    "System Design/Encoding and Evolution.md",
     "System Design/Storage and Retrieval.md",
+    "Books/DDIA Notes.md",
+    "Pictures/Pasted image 20230709171832.png",
+    "Pictures/Pasted image 20230709171802.png",
+    "Pictures/Pasted image 20230709171740.png",
+    "Pictures/Pasted image 20230709171731.png",
+    "Pictures/Pasted image 20230709171706.png",
+    "Pictures/Pasted image 20230709171607.png",
     "Pictures/Pasted image 20230709171156.png",
     "System Design/Storag.md",
     "System Design/Data Models and Query Languages.md",
