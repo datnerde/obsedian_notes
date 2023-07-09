@@ -11,11 +11,9 @@
             "id": "11eb3a980f04f4e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "System Design/Data Models and Query Languages.md",
-                "mode": "source",
-                "source": false
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Data Models and Query Languages.md",
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Data Models and Query Languages.md",
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Data Models and Query Languages.md"
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -150,8 +148,8 @@
   },
   "active": "11eb3a980f04f4e8",
   "lastOpenFiles": [
-    "System Design/Storage and Retrieval.md",
     "System Design/Data Models and Query Languages.md",
+    "System Design/Storage and Retrieval.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "Books/DDIA Notes.md",
     "Machine Learning/Classic Model.md",
