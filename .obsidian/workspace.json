@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9a78d2ff7fcf72ea",
+        "id": "d87cc3c987d6ba1c",
         "type": "tabs",
         "children": [
           {
-            "id": "a58c2659292e02de",
+            "id": "11eb3a980f04f4e8",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Data Models and Query Languages.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Data Models and Query Languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Data Models and Query Languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Data Models and Query Languages.md"
               }
             }
           }
@@ -147,10 +148,13 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "a58c2659292e02de",
+  "active": "11eb3a980f04f4e8",
   "lastOpenFiles": [
-    "Machine Learning/Classic Model.md",
+    "System Design/Storage and Retrieval.md",
+    "System Design/Data Models and Query Languages.md",
+    "System Design/Reliable, Scalable and Maintainable.md",
     "Books/DDIA Notes.md",
+    "Machine Learning/Classic Model.md",
     "Machine Learning/Model Evaluation.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Dimensional Reduction.md",
@@ -160,9 +164,6 @@
     "Machine Learning/Feature Engineering.md",
     "Books/machine learning basics.pdf",
     "Books/DDIA.pdf",
-    "System Design/Storage and Retrieval.md",
-    "System Design/Data Models and Query Languages.md",
-    "System Design/Reliable, Scalable and Maintainable.md",
     "Pictures/Pasted image 20230704165926.png",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Sampling.md",
