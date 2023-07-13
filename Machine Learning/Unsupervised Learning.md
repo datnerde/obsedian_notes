@@ -30,4 +30,19 @@
 * ## ISODATA
 	* Remove a group if there are no enough samples belonging to this group
 	* Break down a group if there are many samples and dispersion under this group
-	* 
+	* It deals with the case that it is hard to estimate cluster number K when your data is high-dimensional and big. 
+# Gaussian Mixed Model
+* ## Idea
+	* Assuming dataset can be seen as generations from several Gaussian distributions, we estimate the probability of a dataset generated from these distributions.![[Pasted image 20230712213157.png]] You can also consider it as weighted probability of K Gaussian distributions
+* ## Process
+	1. Given a cluster number K
+	2. Estimate the best Gaussian Mixed probability using EM algorithm
+		1. E step: Given the current parameters, calculate probability of each point
+		2. M step: Using the probability generated from E step, improve the parameters of Gaussian Mixed distributions
+	3. When converging, we have our optimal models
+# Comparison
+- Both are clustering method
+- Both need to specify K cluster number
+- Both use EM algorithm to get the optimal model
+- Both have the risk to converge in local optimal solution
+- Gaussian Mixed Model can also predict the probability of a sample belonging to 
