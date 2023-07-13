@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md",
+                "file": "Machine Learning/Probabilistic Graphical Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md",
+                "file": "Machine Learning/Probabilistic Graphical Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md",
+                "file": "Machine Learning/Probabilistic Graphical Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md"
+                "file": "Machine Learning/Probabilistic Graphical Model.md"
               }
             }
           }
@@ -166,12 +166,13 @@
   },
   "active": "9fcc55faad04a33e",
   "lastOpenFiles": [
+    "Machine Learning/Unsupervised Learning.md",
+    "Machine Learning/Probabilistic Graphical Model.md",
     "Pictures/Pasted image 20230712213157.png",
     "Pictures/Pasted image 20230712211503.png",
     "Pictures/Pasted image 20230712211452.png",
     "Pictures/Pasted image 20230712211442.png",
     "Books/Quest for Machine Learning Notes.md",
-    "Machine Learning/Unsupervised Learning.md",
     "Pictures/Pasted image 20230712211017.png",
     "Pictures/Pasted image 20230712210843.png",
     "Machine Learning/Dimensional Reduction.md",
@@ -187,7 +188,6 @@
     "Pictures/Pasted image 20230709171802.png",
     "Pictures/Pasted image 20230709171740.png",
     "Pictures/Pasted image 20230709171731.png",
-    "Pictures/Pasted image 20230709171706.png",
     "System Design/Storag.md",
     "System Design/Data Models and Query Languages.md",
     "System Design/Reliable, Scalable and Maintainable.md",

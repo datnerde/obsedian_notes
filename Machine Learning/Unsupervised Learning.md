@@ -55,4 +55,14 @@
 * ...
 -------
 # Evaluation of Clustering Methods
-* 
+* ## Evaluate the tendency of cluster
+	* Goal: check if the distribution is purely random or not. If it is random, then clustering has no actual implication.
+	* Hopkins Statistics
+* ## Determine the cluster number
+	* Gap Statistics
+	* Elbow Method
+* ## Measure the quality of clustering
+	* Silhouette Coefficient(轮廓系数)
+	* Root-mean-square standard deviation (RMSSTD)
+	* R-Square
+	* Hubert $\Gamma$
