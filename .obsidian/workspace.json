@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Probabilistic Graphical Model.md",
+                "file": "Machine Learning/Optimization Algorithm.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Probabilistic Graphical Model.md",
+                "file": "Machine Learning/Optimization Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Probabilistic Graphical Model.md",
+                "file": "Machine Learning/Optimization Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Probabilistic Graphical Model.md"
+                "file": "Machine Learning/Optimization Algorithm.md"
               }
             }
           }
@@ -167,7 +167,7 @@
   "active": "9fcc55faad04a33e",
   "lastOpenFiles": [
     "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Probabilistic Graphical Model.md",
+    "Machine Learning/Optimization Algorithm.md",
     "Pictures/Pasted image 20230712213157.png",
     "Pictures/Pasted image 20230712211503.png",
     "Pictures/Pasted image 20230712211452.png",
