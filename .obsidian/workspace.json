@@ -11,9 +11,19 @@
             "id": "81c79a509dedb181",
             "type": "leaf",
             "state": {
+              "type": "pdf-annotator",
+              "state": {
+                "file": "Books/Quest for Machine Learning Notes.md"
+              }
+            }
+          },
+          {
+            "id": "9fcc55faad04a33e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "System Design/Encoding and Evolution.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Encoding and Evolution.md",
+                "file": "Books/Quest for Machine Learning Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Encoding and Evolution.md",
+                "file": "Books/Quest for Machine Learning Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Encoding and Evolution.md"
+                "file": "Books/Quest for Machine Learning Notes.md"
               }
             }
           }
@@ -150,8 +160,16 @@
   },
   "active": "81c79a509dedb181",
   "lastOpenFiles": [
-    "Books/DDIA Notes.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Books/Quest for Machine Learning Notes.md",
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/Sampling.md",
+    "Machine Learning/Optimization.md",
+    "Machine Learning/Classic Model.md",
+    "Machine Learning/Model Evaluation.md",
+    "System Design/Untitled.md",
     "System Design/Encoding and Evolution.md",
+    "Books/DDIA Notes.md",
     "System Design/Storage and Retrieval.md",
     "Pictures/Pasted image 20230709171832.png",
     "Pictures/Pasted image 20230709171802.png",
@@ -163,23 +181,16 @@
     "System Design/Storag.md",
     "System Design/Data Models and Query Languages.md",
     "System Design/Reliable, Scalable and Maintainable.md",
-    "Machine Learning/Classic Model.md",
-    "Machine Learning/Model Evaluation.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Supervised Learning.md",
     "Machine Learning/AB Testing.md",
-    "Machine Learning/Optimization.md",
     "Machine Learning/Feature Engineering.md",
     "Books/machine learning basics.pdf",
     "Books/DDIA.pdf",
     "Pictures/Pasted image 20230704165926.png",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
-    "Machine Learning/Sampling.md",
     "Machine Learning/Probability Graphical Model.md",
     "Books/designing-data-intensive-applications.pdf",
     "Template/annotate.md",
-    "Books/Quest for Machine Learning Notes.md",
     "Books/ESLII.pdf",
     "Books/System Design Interview.pdf",
     "Books/System Design.pdf",
@@ -195,7 +206,6 @@
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
     "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
-    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
     "Untitled.canvas"
   ]
 }
