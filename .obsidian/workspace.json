@@ -16,7 +16,13 @@
                 "file": "Books/Quest for Machine Learning Notes.md"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "986661ca94bbd77c",
+        "type": "tabs",
+        "children": [
           {
             "id": "9fcc55faad04a33e",
             "type": "leaf",
@@ -95,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md"
+                "file": "Machine Learning/Unsupervised Learning.md"
               }
             }
           }
@@ -158,10 +164,15 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "81c79a509dedb181",
+  "active": "9fcc55faad04a33e",
   "lastOpenFiles": [
-    "Machine Learning/Unsupervised Learning.md",
+    "Pictures/Pasted image 20230712211503.png",
+    "Pictures/Pasted image 20230712211452.png",
+    "Pictures/Pasted image 20230712211442.png",
     "Books/Quest for Machine Learning Notes.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Pictures/Pasted image 20230712211017.png",
+    "Pictures/Pasted image 20230712210843.png",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Optimization.md",
@@ -177,7 +188,6 @@
     "Pictures/Pasted image 20230709171731.png",
     "Pictures/Pasted image 20230709171706.png",
     "Pictures/Pasted image 20230709171607.png",
-    "Pictures/Pasted image 20230709171156.png",
     "System Design/Storag.md",
     "System Design/Data Models and Query Languages.md",
     "System Design/Reliable, Scalable and Maintainable.md",
@@ -186,7 +196,6 @@
     "Machine Learning/Feature Engineering.md",
     "Books/machine learning basics.pdf",
     "Books/DDIA.pdf",
-    "Pictures/Pasted image 20230704165926.png",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Probability Graphical Model.md",
     "Books/designing-data-intensive-applications.pdf",
@@ -199,13 +208,10 @@
     "Books/An Introduction to Statistical learning.pdf",
     "Books/百面机器学习算法工程师带你去面试.pdf",
     "README.md",
-    "Pictures/Pasted image 20230702173806.png",
     "Machine Learning/support vector.md",
-    "Pictures/Pasted image 20230702170546.png",
     "Untitled 1.md",
     "Machine Learning/Annotate Test.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
-    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
     "Untitled.canvas"
   ]
 }
