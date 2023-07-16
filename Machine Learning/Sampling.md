@@ -16,4 +16,21 @@
 - Adaptive Rejection Sampling
 	- Use several functions to cover the target distribution instead of only one like accept-reject sampling![[Pasted image 20230715185508.png]]
 - Importance Sampling![[Pasted image 20230715191913.png]]
-- 
+# Markov Chain Monte Carlo (MCMC)
+- Usage:
+	- In high dimensional space, it is hard to find a good proxy distribution to sample, we use MCMC as an alternative
+- Idea:
+	- 针对待采样的目标分  布，构造一个马尔可夫链，使得该马尔可夫链的平稳分布就是目标分布；然后，  从任何一个初始状态出发，沿着马可夫链进行状态转移，最终得到的状态转移序列会收敛到目标分布，由此可以得到目标分布的一系列样本。
+- Metropolis-Hastings Sampling / Gibbs Sampling
+# Unbalanced Sample
+- Over Sampling and Under Sampling
+	- Over sampling may increase model complexity and overfitting
+	- Under sampling may lose important information
+- SMOTE![[Pasted image 20230715192826.png]]
+	- This method could decrease the risk of overfitting
+	- However, this method may increase the overlapping between two groups
+		- Borderline - SMOTE
+			- Only generate new sample for sample near borderline
+		- ADASYN
+			- Different new sample numbers for different class
+		- 
