@@ -15,4 +15,5 @@
 - Accept - reject Sampling![[Pasted image 20230715185214.png]]
 - Adaptive Rejection Sampling
 	- Use several functions to cover the target distribution instead of only one like accept-reject sampling![[Pasted image 20230715185508.png]]
+- Importance Sampling![[Pasted image 20230715191913.png]]
 - 
