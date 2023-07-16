@@ -11,4 +11,8 @@
 # Some general sampling methods
 - ![[Pasted image 20230715180304.png]]
 - ![[Pasted image 20230715180312.png]]
+- Inverse Transform Sampling![[Pasted image 20230715185021.png]]
+- Accept - reject Sampling![[Pasted image 20230715185214.png]]
+- Adaptive Rejection Sampling
+	- Use several functions to cover the target distribution instead of only one like accept-reject sampling![[Pasted image 20230715185508.png]]
 - 
