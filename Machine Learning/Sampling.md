@@ -9,4 +9,6 @@
 	- generate $x_{t+1}$ based on existing $x_t$
 	- the above range is $[0,m-1]$,  we can divide $x_t$ by $m$ to get the range $[0,1]$
 # Some general sampling methods
+- ![[Pasted image 20230715180304.png]]
+- ![[Pasted image 20230715180312.png]]
 - 
