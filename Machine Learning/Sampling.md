@@ -26,11 +26,16 @@
 - Over Sampling and Under Sampling
 	- Over sampling may increase model complexity and overfitting
 	- Under sampling may lose important information
-- SMOTE![[Pasted image 20230715192826.png]]
+- SMOTE - Remedy for Over Sampling![[Pasted image 20230715192826.png]]
 	- This method could decrease the risk of overfitting
 	- However, this method may increase the overlapping between two groups
 		- Borderline - SMOTE
 			- Only generate new sample for sample near borderline
 		- ADASYN
 			- Different new sample numbers for different class
-		- 
+- Informed Undersampling - Remedy for Under Sampling
+	- Easy Ensemble Method
+	- Balance Cascade Method
+	- NearMiss / One-sided Selection
+- We can also modify the target function / convert the problem to one-class learning & anomaly detection
+

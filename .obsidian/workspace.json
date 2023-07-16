@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "91268ddb35a79357",
+        "id": "eb2f129cbb8bc37f",
         "type": "tabs",
         "children": [
           {
-            "id": "e935b2585dc39c6c",
+            "id": "99e9f9e1e08e7a27",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "c3d3d121d278196b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b30672c211d84006",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Sampling.md",
-                "mode": "source",
-                "source": false
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -102,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Sampling.md",
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Sampling.md",
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Sampling.md"
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -165,8 +147,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "b30672c211d84006",
+  "active": "99e9f9e1e08e7a27",
   "lastOpenFiles": [
+    "Books/Quest for Machine Learning Notes.md",
+    "Machine Learning/Sampling.md",
     "Pictures/Pasted image 20230715192826.png",
     "Pictures/Pasted image 20230715191913.png",
     "Pictures/Pasted image 20230715185508.png",
@@ -175,9 +159,7 @@
     "Pictures/Pasted image 20230715180312.png",
     "Pictures/Pasted image 20230715180304.png",
     "Pictures/Pasted image 20230715132203.png",
-    "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA Notes.md",
-    "Machine Learning/Sampling.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
@@ -192,7 +174,6 @@
     "Machine Learning/Optimization Algorithm.md",
     "Pictures/Pasted image 20230712213157.png",
     "Pictures/Pasted image 20230712211503.png",
-    "Pictures/Pasted image 20230712211452.png",
     "Machine Learning/Model Evaluation.md",
     "System Design/Untitled.md",
     "System Design/Encoding and Evolution.md",
