@@ -11,9 +11,11 @@
             "id": "99e9f9e1e08e7a27",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "Machine Learning/Unsupervised Learning.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "Machine Learning/Unsupervised Learning.md"
               }
             }
           }
@@ -149,6 +150,7 @@
   },
   "active": "99e9f9e1e08e7a27",
   "lastOpenFiles": [
+    "Books/DDIA Notes.md",
     "Books/Quest for Machine Learning Notes.md",
     "Machine Learning/Sampling.md",
     "Pictures/Pasted image 20230715192826.png",
@@ -159,7 +161,6 @@
     "Pictures/Pasted image 20230715180312.png",
     "Pictures/Pasted image 20230715180304.png",
     "Pictures/Pasted image 20230715132203.png",
-    "Books/DDIA Notes.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
