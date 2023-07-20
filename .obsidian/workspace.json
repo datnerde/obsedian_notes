@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md",
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Kernel",
+                "query": "PCA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md",
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md",
+                "file": "Machine Learning/Dimensional Reduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Unsupervised Learning.md"
+                "file": "Machine Learning/Dimensional Reduction.md"
               }
             }
           }
@@ -150,6 +151,7 @@
   },
   "active": "99e9f9e1e08e7a27",
   "lastOpenFiles": [
+    "Machine Learning/Unsupervised Learning.md",
     "Books/DDIA Notes.md",
     "Books/Quest for Machine Learning Notes.md",
     "Machine Learning/Sampling.md",
@@ -171,7 +173,6 @@
     "Machine Learning/AB Testing.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Supervised Learning.md",
-    "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Optimization Algorithm.md",
     "Pictures/Pasted image 20230712213157.png",
     "Pictures/Pasted image 20230712211503.png",
