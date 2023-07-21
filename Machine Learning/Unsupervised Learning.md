@@ -25,10 +25,10 @@
 # K-means clustering Improved Method
 * ## K-means++
 	* Randomly pick the first center of a cluster
-	* Assuming we have selected n initial cluster centers, when picking the n+1 center, centers that are further away fro from the previous selected centers have higher chances to get selected
+	* Assuming we have selected n initial cluster centers, when picking the n+1 center, centers that are further away from the previous selected centers have higher chances to get selected
 	* It improves the drawbacks of initialization of K-means method
 * ## ISODATA
-	* Remove a group if there are no enough samples belonging to this group
+	* Remove a group if there are not enough samples belonging to this group
 	* Break down a group if there are many samples and dispersion under this group
 	* It deals with the case that it is hard to estimate cluster number K when your data is high-dimensional and big. 
 --------

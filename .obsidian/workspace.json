@@ -11,8 +11,12 @@
             "id": "0715d0b30c74b46c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Unsupervised Learning.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "k-mean",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Unsupervised Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Unsupervised Learning.md"
+              }
             }
           }
         ],
@@ -142,16 +151,16 @@
   },
   "active": "0715d0b30c74b46c",
   "lastOpenFiles": [
+    "Machine Learning/Dimensional Reduction.md",
+    "Machine Learning/AB Testing.md",
+    "Machine Learning/Quest for Machine Learning Book Outline.md",
+    "Machine Learning/Feature Engineering.md",
     "Machine Learning/Sampling.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Unsupervised Learning.md",
     "Machine Learning/Supervised Learning.md",
     "Machine Learning/Classic Model.md",
-    "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/AB Testing.md",
-    "Machine Learning/Feature Engineering.md",
-    "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Model Evaluation.md",
     "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA.pdf",
