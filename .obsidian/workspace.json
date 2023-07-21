@@ -11,8 +11,12 @@
             "id": "7cd9d5f297d51e0b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Sampling.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Sampling.md"
+              }
             }
           }
         ],
@@ -142,13 +150,20 @@
   },
   "active": "7cd9d5f297d51e0b",
   "lastOpenFiles": [
+    "Machine Learning/Optimization.md",
+    "Machine Learning/Probability Graphical Model.md",
+    "Machine Learning/Unsupervised Learning.md",
+    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/AB Testing.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Books/DDIA Notes.md",
-    "Books/Quest for Machine Learning Notes.md",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/Quest for Machine Learning Book Outline.md",
+    "Machine Learning/Model Evaluation.md",
     "Machine Learning/Sampling.md",
+    "Books/Quest for Machine Learning Notes.md",
+    "Books/DDIA.pdf",
+    "Books/DDIA Notes.md",
     "Pictures/Pasted image 20230715192826.png",
     "Pictures/Pasted image 20230715191913.png",
     "Pictures/Pasted image 20230715185508.png",
@@ -157,17 +172,9 @@
     "Pictures/Pasted image 20230715180312.png",
     "Pictures/Pasted image 20230715180304.png",
     "Pictures/Pasted image 20230715132203.png",
-    "Machine Learning/Optimization.md",
-    "Machine Learning/Probability Graphical Model.md",
-    "Machine Learning/Quest for Machine Learning Book Outline.md",
-    "Machine Learning/Probability Graphical Model.md",
-    "Machine Learning/Optimization.md",
-    "Machine Learning/Feature Engineering.md",
-    "Machine Learning/Supervised Learning.md",
     "Machine Learning/Optimization Algorithm.md",
     "Pictures/Pasted image 20230712213157.png",
     "Pictures/Pasted image 20230712211503.png",
-    "Machine Learning/Model Evaluation.md",
     "System Design/Untitled.md",
     "System Design/Encoding and Evolution.md",
     "System Design/Storage and Retrieval.md",
@@ -175,7 +182,6 @@
     "System Design/Data Models and Query Languages.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "Books/machine learning basics.pdf",
-    "Books/DDIA.pdf",
     "Books/designing-data-intensive-applications.pdf",
     "Template/annotate.md",
     "Books/ESLII.pdf",
