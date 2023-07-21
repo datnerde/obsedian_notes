@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "390145fdba028287",
+        "id": "1a22d55841554e65",
         "type": "tabs",
         "children": [
           {
-            "id": "7cd9d5f297d51e0b",
+            "id": "0715d0b30c74b46c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Sampling.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Machine Learning/Sampling.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,8 +140,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "7cd9d5f297d51e0b",
+  "active": "0715d0b30c74b46c",
   "lastOpenFiles": [
+    "Machine Learning/Sampling.md",
     "Machine Learning/Optimization.md",
     "Machine Learning/Probability Graphical Model.md",
     "Machine Learning/Unsupervised Learning.md",
@@ -160,7 +153,6 @@
     "Machine Learning/Feature Engineering.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Model Evaluation.md",
-    "Machine Learning/Sampling.md",
     "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA.pdf",
     "Books/DDIA Notes.md",
