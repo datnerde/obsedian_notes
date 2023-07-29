@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3d6bad99779eee9e",
+        "id": "a15c0324ddf8f9f3",
         "type": "tabs",
         "children": [
           {
-            "id": "35390087d8ad8295",
+            "id": "13b2df643ef28c5c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,7 +140,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "35390087d8ad8295",
+  "active": "13b2df643ef28c5c",
   "lastOpenFiles": [
     "Machine Learning/Unsupervised Learning.md",
     "Books/DDIA Notes.md",
