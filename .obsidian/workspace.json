@@ -11,9 +11,11 @@
             "id": "d9e6055cc610e7c2",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Encoding and Evolution.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Encoding and Evolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/DDIA Notes.md",
+                "file": "System Design/Encoding and Evolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/DDIA Notes.md"
+                "file": "System Design/Encoding and Evolution.md"
               }
             }
           }
@@ -148,12 +150,13 @@
   },
   "active": "d9e6055cc610e7c2",
   "lastOpenFiles": [
+    "Books/DDIA Notes.md",
+    "Books/Quest for Machine Learning Notes.md",
     "System Design/Data Models and Query Languages.md",
     "System Design/Storage and Retrieval.md",
     "System Design/Encoding and Evolution.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "Machine Learning/Unsupervised Learning.md",
-    "Books/DDIA Notes.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
@@ -164,7 +167,6 @@
     "Machine Learning/Supervised Learning.md",
     "Machine Learning/Classic Model.md",
     "Machine Learning/Model Evaluation.md",
-    "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA.pdf",
     "Pictures/Pasted image 20230715192826.png",
     "Pictures/Pasted image 20230715191913.png",
