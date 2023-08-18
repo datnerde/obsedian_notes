@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Replication.md",
+                "file": "Books/DDIA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Replication.md",
+                "file": "Books/DDIA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Replication.md"
+                "file": "Books/DDIA Notes.md"
               }
             }
           }
@@ -147,47 +147,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "floating": {
-    "id": "83b6fdf59906518e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "00cef150100e81a0",
-        "type": "window",
-        "children": [
-          {
-            "id": "36c0f7f45287c6a6",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c25a362b70f4a4be",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "System Design/Replication.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 2254,
-        "y": 92,
-        "width": 1045,
-        "height": 880,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "c25a362b70f4a4be",
+  "active": "d9e6055cc610e7c2",
   "lastOpenFiles": [
-    "Books/DDIA Notes.md",
     "System Design/Replication.md",
+    "Books/DDIA Notes.md",
     "System Design/Encoding and Evolution.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "System Design/Data Models and Query Languages.md",
