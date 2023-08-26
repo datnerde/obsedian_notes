@@ -97,5 +97,3 @@
 	* portability
 	* complexity of software development
 	* cost of user/kernel crossing
-## Summary
-* 
