@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Untitled.md",
+                "file": "OMSCS/GOIS/Process and Process Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 422.5,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Untitled.md",
+                "file": "OMSCS/GOIS/Process and Process Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Untitled.md",
+                "file": "OMSCS/GOIS/Process and Process Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Untitled.md"
+                "file": "OMSCS/GOIS/Process and Process Management.md"
               }
             }
           }
@@ -151,7 +152,7 @@
   "active": "65a611123607629f",
   "lastOpenFiles": [
     "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "OMSCS/GOIS/Untitled.md",
+    "OMSCS/GOIS/Process and Process Management.md",
     "Pictures/Pasted image 20230826155849.png",
     "Pictures/Pasted image 20230826153832.png",
     "Pictures/Pasted image 20230826150957.png",
