@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,12 +142,12 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
-      "templates:Insert template": true,
       "command-palette:Open command palette": false,
+      "templates:Insert template": true,
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "65a611123607629f",
+  "active": "a471eeee4f3500b4",
   "lastOpenFiles": [
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS",
