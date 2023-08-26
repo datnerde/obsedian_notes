@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiInternetarchive",
       "SiWolframmathematica",
       "🖼",
       "📗",
-      "🖥",
-      "🖨"
+      "🖥"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -29,5 +29,6 @@
   "System Design": "🖥",
   "Books": "📗",
   "Pictures": "🖼",
-  "Algorithm": "SiWolframmathematica"
+  "Algorithm": "SiWolframmathematica",
+  "OMSCS": "SiInternetarchive"
 }

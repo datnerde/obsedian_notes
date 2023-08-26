@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
-    "collapsed": true
+    "width": 422.5
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -141,8 +140,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "65a611123607629f",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "OMSCS/GOIS",
+    "OMSCS",
     "Books/DDIA Notes.md",
     "System Design/Replication.md",
     "System Design/Encoding and Evolution.md",
@@ -183,7 +184,6 @@
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
     "Books/data science cheat sheet.pdf",
     "Books/An Introduction to Statistical learning.pdf",
-    "Books/百面机器学习算法工程师带你去面试.pdf",
     "README.md",
     "Machine Learning/support vector.md",
     "Untitled.canvas"
