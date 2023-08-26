@@ -22,4 +22,8 @@
 
 ## What is an Operation System?
 * Hide hardware complexity
-* 
+* Resource management
+* Provide isolation & protection
+
+## Operation System Definition
+![[Pasted image 20230826150957.png]]
