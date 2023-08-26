@@ -44,4 +44,21 @@
 ## User / Kernel Protection Boundary
 > [!quote]  
 > In order for OS to manage hardware, it shall have a privileged access called kernel -level, compared to user-level
-* 
+* User-level
+	* applications
+* Kernel-level
+	* OS kernel
+	* privileged direct hardware access
+* User-Kernel switch is supported by Hardware;
+	* Trap instructions
+	* system call
+		* open, send, mmap
+	* Signals
+## System Call Flowchart
+* To make a system call an application mush
+	* write arguments
+	* save relevant data at well-defined location
+	* make system call
+	* ![[Pasted image 20230826153832.png]]
+## Crossing the OS Boundary
+* *
