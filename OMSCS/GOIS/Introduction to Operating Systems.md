@@ -27,3 +27,21 @@
 
 ## Operation System Definition
 ![[Pasted image 20230826150957.png]]
+## OS Elements
+* Abstractions
+	* process, thread, file, socket, memory page
+* Mechanisms
+	* create, schedule, open, write, allocate
+* Policies
+	* least-recently used (LRU), earliest deadline first(EDF)
+## OS Design Principles
+* Separation of mechanism & policy
+	* Implement flexible mechanisms to support many policies
+* Optimize for common case
+	* Where will the OS be used?
+	* What will the user want to execute on that machine?
+	* ...
+## User / Kernel Protection Boundary
+> [!quote]  
+> In order for OS to manage hardware, it shall have a privileged access called kernel -level, compared to user-level
+* 
