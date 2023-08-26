@@ -61,4 +61,14 @@
 	* make system call
 	* ![[Pasted image 20230826153832.png]]
 ## Crossing the OS Boundary
-* *
+* hardware supported
+	* e.g. traps on illegal instructions or memory access requiring special privilege
+* involves a number of instructions
+* switches locality
+	* affects hardware cache
+* not cheap
+## OS Services
+* process management
+* file management
+* device management
+* ...
