@@ -72,3 +72,30 @@
 * file management
 * device management
 * ...
+## Monolithic OS
+* Pros
+	* Everything included
+	* inlining, compile time optimizations
+* Cons
+	* Customizations, portability, manageability
+	* Memory footprint
+	* performance
+## Modular OS (more common)
+* Pros
+	* maintainability
+	* smaller footprint
+	* less resource needs
+* Cons
+	* indirection can impact performance
+	* maintenance can still be an issue
+## Microkernel
+![[Pasted image 20230826155849.png]]
+* Pros
+	* size
+	* verifiability
+* Cons
+	* portability
+	* complexity of software development
+	* cost of user/kernel crossing
+## Summary
+* 
