@@ -69,7 +69,17 @@
 # Role of the CPU Scheduler
 > [!quote]  
 > A CPU scheduler determines which one of the currently ready processes will be dispatched to the CPU to start running and how long it should run for
-- OS must
+- OS must be efficient in 
 	- preempt = interrupt and save current context
 	- schedule = run scheduler to choose next process
 	- dispatch = dispatch process and switch into  its context
+# Length of Process
+- Calculate Useful CPU work
+	- ![[Pasted image 20230827122935.png]]
+	- ![[Pasted image 20230827122945.png]]
+- Timeslice
+	- ![[Pasted image 20230827123019.png]]
+- Scheduling Design Decisions
+	- What are appropriate timeslice values?
+	- Metrics to choose next process to run?
+# I/O Operation
