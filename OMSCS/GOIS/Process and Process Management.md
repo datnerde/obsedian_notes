@@ -83,3 +83,20 @@
 	- What are appropriate timeslice values?
 	- Metrics to choose next process to run?
 # I/O Operation
+![[Pasted image 20230827123646.png]]
+# Inter Process Communication
+- IPC Mechanisms
+	- transfer data / info between address spaces
+	- maintain protection and isolation
+	- provide flexibility and performance
+- Message - passing IPC:
+	- OS provides communication channel, like share buffer
+	- Process write (send) / Read (recv) messages to / from channel
+	- + OS manage
+	- - Overheads: need to copy data through channel![[Pasted image 20230827124432.png]]
+- Shared Memory IPC:
+	- ![[Pasted image 20230827124559.png]]
+		- OS established a shared channel and maps it into each process address space
+		- Processes directly read / write from this memory
+		- + OS is out of the way
+		- - 
