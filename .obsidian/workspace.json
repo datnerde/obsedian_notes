@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "cd4efb2cd89644e8",
+        "id": "a36805215fcda499",
         "type": "tabs",
         "children": [
           {
-            "id": "65a611123607629f",
+            "id": "2fee43260bde8033",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Process and Process Management.md",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
-    "collapsed": true
+    "width": 422.5
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Process and Process Management.md",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Process and Process Management.md",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Process and Process Management.md"
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md"
               }
             }
           }
@@ -149,8 +148,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "65a611123607629f",
+  "active": "2fee43260bde8033",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Process and Process Management.md",
+    "Books/DDIA Notes.md",
     "Pictures/Pasted image 20230826194922.png",
     "Pictures/Pasted image 20230826191447.png",
     "Pictures/Pasted image 20230826191418.png",
@@ -158,13 +159,11 @@
     "Pictures/Pasted image 20230826191318.png",
     "Pictures/Pasted image 20230826185853.png",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "OMSCS/GOIS/Process and Process Management.md",
     "Pictures/Pasted image 20230826155849.png",
     "Pictures/Pasted image 20230826153832.png",
     "Pictures/Pasted image 20230826150957.png",
     "OMSCS/GOIS",
     "OMSCS",
-    "Books/DDIA Notes.md",
     "System Design/Replication.md",
     "System Design/Encoding and Evolution.md",
     "System Design/Reliable, Scalable and Maintainable.md",
@@ -184,7 +183,6 @@
     "Machine Learning/Model Evaluation.md",
     "Books/DDIA.pdf",
     "Pictures/Pasted image 20230715192826.png",
-    "Pictures/Pasted image 20230715191913.png",
     "Machine Learning/Optimization Algorithm.md",
     "System Design/Storag.md",
     "Books/machine learning basics.pdf",
