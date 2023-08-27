@@ -23,7 +23,14 @@
 	* Stack
 		* grows and shrinks ~ LIFO queue
 # Process Address Space
+> [!tip]  
+> Decouple virtual address from physical address for the process
 * Address space
 	*  'in memory'  representation of a process
 * Page tables
 	* mapping of virtual to physical addresses
+# Address Space and Memory Management
+* parts of virtual address space may not be allocated
+* may not be enough physical memory for all state
+* portions of project 1 / project 2 may be allocated in DRAM and Disk, depending on the need to save space![[Pasted image 20230826185853.png]]
+# Process Execution Sta
