@@ -50,3 +50,8 @@
 # How is a PCB Used?
 * OS will save information to PCB when the project is interrupted (kind of like a bookmark for resuming the work in the future)
 # Context Switch
+* switching the CPU from the context of one process to the context of another
+* they are expensive
+	* direct costs: number of cycles for load & store instructions
+	* indirect costs: COLD cache / cache misses
+# Process Life Cycle: States
