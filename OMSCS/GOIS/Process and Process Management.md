@@ -59,5 +59,17 @@
 * Ready and running state can be executed by CPU
 # Process Life Cycle: Creation
 - Mechanisms for process creation
-	- fork = copies the parent PCB into new child PCB
-	- exec = child contin
+	- fork
+		- copies the parent PCB into new child PCB
+		- child continues execution at instruction after fork
+	- exec
+		- replace child image
+		- load new program and start from first instruction
+	- to create a new program, call fork and exec
+# Role of the CPU Scheduler
+> [!quote]  
+> A CPU scheduler determines which one of the currently ready processes will be dispatched to the CPU to start running and how long it should run for
+- OS must
+	- preempt = interrupt and save current context
+	- schedule = run scheduler to choose next process
+	- dispatch = dispatch process and switch into  its context
