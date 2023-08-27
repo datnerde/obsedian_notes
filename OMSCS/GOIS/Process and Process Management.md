@@ -58,3 +58,6 @@
 ![[Pasted image 20230826194922.png]]
 * Ready and running state can be executed by CPU
 # Process Life Cycle: Creation
+- Mechanisms for process creation
+	- fork = copies the parent PCB into new child PCB
+	- exec = child contin
