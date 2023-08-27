@@ -40,3 +40,13 @@
 		* CPU registers
 		* Stack Pointer
 # Process Control Block
+![[Pasted image 20230826191447.png]]
+> [!quote]  
+> Data Structure that the OS maintains for every one of the processes that it manages
+
+* PCB created when process is created
+* Certain fields are updated when process state changes
+* Other fields change too frequently
+# How is a PCB Used?
+* OS will save information to PCB when the project is interrupted (kind of like a bookmark for resuming the work in the future)
+# Context Switch
