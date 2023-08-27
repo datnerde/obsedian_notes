@@ -33,4 +33,10 @@
 * parts of virtual address space may not be allocated
 * may not be enough physical memory for all state
 * portions of project 1 / project 2 may be allocated in DRAM and Disk, depending on the need to save space![[Pasted image 20230826185853.png]]
-# Process Execution Sta
+# Process Execution State
+* How does the OS know what a process is doing? 
+	* A series of trackers for the OS to know where are we
+		* Program Counter
+		* CPU registers
+		* Stack Pointer
+# Process Control Block
