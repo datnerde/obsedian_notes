@@ -16,4 +16,6 @@
 - Efficiency => lower memory management requirement& cheaper IPC
 
 # Benefits of Multithreading:  # threads > # CPUs
-- 
+![[Pasted image 20230827171717.png]]
+- if (t_idle)>2*(t_ctx_switch) then context switch to hide idling time
+- t_ctx_switch threads < t_ctx_switch process
