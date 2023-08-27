@@ -57,4 +57,4 @@
 # Process Life Cycle: States
 ![[Pasted image 20230826194922.png]]
 * Ready and running state can be executed by CPU
-# Process Life
+# Process Life Cycle: Creation
