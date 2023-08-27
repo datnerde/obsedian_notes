@@ -11,4 +11,9 @@
 # Process v.s. Thread
 ![[Pasted image 20230827130011.png]]
 # Benefits of Multithreading
+- Parallelization => Speed UP
+- Specialization => Hot Cache!
+- Efficiency => lower memory management requirement& cheaper IPC
 
+# Benefits of Multithreading:  # threads > # CPUs
+- 
