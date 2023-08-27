@@ -55,3 +55,6 @@
 	* direct costs: number of cycles for load & store instructions
 	* indirect costs: COLD cache / cache misses
 # Process Life Cycle: States
+![[Pasted image 20230826194922.png]]
+* Ready and running state can be executed by CPU
+# Process Life
