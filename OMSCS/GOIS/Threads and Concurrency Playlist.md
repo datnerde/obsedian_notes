@@ -42,3 +42,8 @@
 - Fork (proc, args)
 	- create a thread
 	- not UNIX fork
+- Join (thread)
+	- terminate a thread
+- ![[Pasted image 20230827203156.png]]
+# Mutexes
+
