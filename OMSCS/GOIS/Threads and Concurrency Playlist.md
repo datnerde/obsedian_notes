@@ -64,3 +64,4 @@
 - Why we use while instead of i ![[Pasted image 20230827213837.png]]
 
 # Reader/Writer Problem
+![[Pasted image 20230827215254.png]]
