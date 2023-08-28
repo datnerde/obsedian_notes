@@ -61,4 +61,6 @@
 	- notify only one thread waiting on condition
 - Broadcast (cond)
 	- notify all waiting thread
+- Why we use while instead of i ![[Pasted image 20230827213837.png]]
 
+# Reader/Writer Problem
