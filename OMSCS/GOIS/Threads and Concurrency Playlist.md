@@ -45,5 +45,7 @@
 - Join (thread)
 	- terminate a thread
 - ![[Pasted image 20230827203156.png]]
-# Mutexes
-
+# Mutual Exclusion
+- Mutex
+	- It is like a Lock
+	- 
