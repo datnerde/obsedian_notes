@@ -47,5 +47,7 @@
 - ![[Pasted image 20230827203156.png]]
 # Mutual Exclusion
 - Mutex
-	- It is like a Lock
-	- 
+	- It is like a Lock![[Pasted image 20230827204823.png]]
+	- Critical Section: The portion of code protected by the Mutex
+	- ![[Pasted image 20230827205302.png]]
+- 
