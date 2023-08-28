@@ -50,5 +50,15 @@
 	- It is like a Lock![[Pasted image 20230827204823.png]]
 	- Critical Section: The portion of code protected by the Mutex
 	- ![[Pasted image 20230827205302.png]]
-# Producer and Consumer Example
+# Condition Variable
+![[Pasted image 20230827213108.png]]
+- use the Signal to notify wait function for consumer to modify the list when it is full
+# Condition Variable API
+- Condition type data structure
+- Wait (mutex, cond)
+	- mutex is automatically released and re-acquired on wait
+- Signal (cond)
+	- notify only one thread waiting on condition
+- Broadcast (cond)
+	- notify all waiting thread
 
