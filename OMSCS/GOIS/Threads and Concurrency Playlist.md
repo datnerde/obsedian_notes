@@ -24,8 +24,21 @@
 # Benefits of Multithreading: Apps and OS
 ![[Pasted image 20230827172036.png]]
 # Basic Thread Mechanisms
-- thread data structure
-	- identify threads, keep track of resources
-- mechanisms to create and manage threads
-- mechanisms to safely coordinate among threads running concurrently in the same address space
-- 
+- What we need to support thread?
+	- thread data structure
+		- identify threads, keep track of resources
+	- mechanisms to create and manage threads
+	- mechanisms to safely coordinate among threads running concurrently in the same address space
+- Concurrency Control & Coordination![[Pasted image 20230827201858.png]]
+	- mutual exclusion
+		- exclusive access to only one thread at a time
+		- mutex
+	- wait on other threads
+		- specific condition before proceeding
+	- waking up other threads from the wait stage
+# Thread Creation
+- Thread type
+	- thread data structure ![[Pasted image 20230827202600.png]]
+- Fork (proc, args)
+	- create a thread
+	- not UNIX fork
