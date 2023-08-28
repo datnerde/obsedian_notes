@@ -24,3 +24,8 @@
 # Benefits of Multithreading: Apps and OS
 ![[Pasted image 20230827172036.png]]
 # Basic Thread Mechanisms
+- thread data structure
+	- identify threads, keep track of resources
+- mechanisms to create and manage threads
+- mechanisms to safely coordinate among threads running concurrently in the same address space
+- 
