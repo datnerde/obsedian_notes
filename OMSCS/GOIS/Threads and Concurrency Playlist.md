@@ -141,4 +141,13 @@
 			- + simplicity
 			- - thread pool management
 			- - locality
-	- Boss-Worker Variants
+	- Boss-Worker Variants![[Pasted image 20230828221703.png]]
+	- Pipeline Pattern![[Pasted image 20230828222358.png]]
+		- threads assigned one subtask in the system
+		- entire tasks == pipeline of threads
+		- multiple tasks concurrently in the system, in different pipeline stages
+		- throughput == weakest link
+			- pipeline stage == thread pool
+		- shared-buffer based or communication b/w stages
+	- Layered Pattern![[Pasted image 20230828222615.png]]
+	- 
