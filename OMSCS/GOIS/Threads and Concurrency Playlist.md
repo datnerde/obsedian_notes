@@ -82,6 +82,9 @@
 	- signal: only 1 thread will proceed ... remaining threads will continue to wait ... possibly indefinitely
 - ask yourself: do you need priority guarantees?
 	- thread execution order not controlled by signals to condition variables
-- spurious wake ups
-	- 
+- spurious wake ups![[Pasted image 20230828212126.png]]
+	- when we wake threads up knowing they may not be able to proceed
+	- can we unlock the mutex before broadcast / signal?![[Pasted image 20230828212344.png]]
+	- We can do it on writer but not reader![[Pasted image 20230828212450.png]]
 - dead locks
+	- two or more competing threads are waiting on each other to complete, but none of them ever do
