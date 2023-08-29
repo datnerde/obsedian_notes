@@ -106,7 +106,23 @@
 		- deadlock detection & recovery (rollback)
 		- apply the ostrich algorithm => do nothing!
 		- if all else fails just reboot
-# Kernel vs. User-level Threads (Multithreading Models)
-- One to One Model![[Pasted image 20230828215257.png]]
-- Many to One Model![[Pasted image 20230828215518.png]]
-- Many to Many Model
+# Kernel vs. User-level Threads
+- Multithreading Models
+	- One to One Model![[Pasted image 20230828215257.png]]
+	- Many to One Model![[Pasted image 20230828215518.png]]
+	- Many to Many Model![[Pasted image 20230828215745.png]]
+- Scope of Multithreading
+	- system scope
+		- system-wide thread management by OS-level thread managers (e.g. CPU scheduler)
+		- it will scheduled threads based on resources requirements
+	- process scope
+		- user-level library manages threads within a single process
+		- it will scheduled threads based on the OS's perspective on process because it has no visibility on their resources requirements
+- Multithreading patterns
+	- Boss/Workers Pattern
+		- boss: assigns work to workers
+		- worker: performs entier task
+		- throughput
+		- throughput of the system limited by boss thread => must keep boss efficient
+		- throughput = 1/(boss_time_per_order)
+		- 
