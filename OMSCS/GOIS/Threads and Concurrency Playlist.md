@@ -123,6 +123,22 @@
 		- boss: assigns work to workers
 		- worker: performs entier task
 		- throughput
-		- throughput of the system limited by boss thread => must keep boss efficient
-		- throughput = 1/(boss_time_per_order)
-		- 
+			- throughput of the system limited by boss thread => must keep boss efficient
+			- throughput = 1/(boss_time_per_order)
+		- boss assigns work by:
+			- directly signaling specific worker
+				- + workers don't need to synchronize
+				- - boss must track what each worker is doing
+				- - throughput will go down
+			- placing work in producer / consumer queue 
+				- + boss doesn't need to know details about workers
+				- - queue synchronization
+		- how many workers:
+			- on demand
+			- pool of workers created upfront 
+				- static v.s. dynamic
+		- pros and cons:
+			- + simplicity
+			- - thread pool management
+			- - locality
+	- Boss-Worker Variants
