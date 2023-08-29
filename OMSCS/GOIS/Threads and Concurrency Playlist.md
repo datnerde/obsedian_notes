@@ -150,4 +150,4 @@
 			- pipeline stage == thread pool
 		- shared-buffer based or communication b/w stages
 	- Layered Pattern![[Pasted image 20230828222615.png]]
-	- 
+	- 240,265 300,320
