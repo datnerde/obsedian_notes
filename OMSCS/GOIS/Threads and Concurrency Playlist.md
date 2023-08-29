@@ -106,4 +106,7 @@
 		- deadlock detection & recovery (rollback)
 		- apply the ostrich algorithm => do nothing!
 		- if all else fails just reboot
-- 
+# Kernel vs. User-level Threads (Multithreading Models)
+- One to One Model![[Pasted image 20230828215257.png]]
+- Many to One Model![[Pasted image 20230828215518.png]]
+- Many to Many Model
