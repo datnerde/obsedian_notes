@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5,
-    "collapsed": true
+    "width": 422.5
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -151,6 +150,10 @@
   },
   "active": "2fee43260bde8033",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Introduction to Operating Systems.md",
+    "OMSCS/GOIS/Process and Process Management.md",
+    "OMSCS/GOIS/Threads and Concurrency Playlist.md",
+    "Pictures/Pasted image 20230828223812.png",
     "Pictures/Pasted image 20230828222615.png",
     "Pictures/Pasted image 20230828222358.png",
     "Pictures/Pasted image 20230828221703.png",
@@ -160,11 +163,6 @@
     "Pictures/Pasted image 20230828213525.png",
     "Pictures/Pasted image 20230828213103.png",
     "Pictures/Pasted image 20230828212450.png",
-    "Pictures/Pasted image 20230828212344.png",
-    "Pictures/Pasted image 20230828212126.png",
-    "OMSCS/GOIS/Process and Process Management.md",
-    "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "Books/DDIA Notes.md",
     "OMSCS/GOIS",
     "OMSCS",
