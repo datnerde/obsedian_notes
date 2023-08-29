@@ -66,4 +66,6 @@
 # Reader/Writer Problem
 - Problem Description
 ![[Pasted image 20230827215254.png]]
-- Example Code
+- Example Code![[Pasted image 20230828210205.png]]
+- General Structure![[Pasted image 20230828210229.png]]
+- Conceptual Critical Section![[Pasted image 20230828210618.png]]
