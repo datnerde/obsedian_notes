@@ -86,5 +86,16 @@
 	- when we wake threads up knowing they may not be able to proceed
 	- can we unlock the mutex before broadcast / signal?![[Pasted image 20230828212344.png]]
 	- We can do it on writer but not reader![[Pasted image 20230828212450.png]]
-- dead locks
-	- two or more competing threads are waiting on each other to complete, but none of them ever do
+- dead locks![[Pasted image 20230828213103.png]]
+	- definition
+		- two or more competing threads are waiting on each other to complete, but none of them ever do
+	- how to avoid
+		- unlock A before locking B
+			- but threads need both A&B
+		- get all locks upfront, then release at the end
+		- use on mega lock
+			- can work but too restrictive => limits parallelism
+		- maintain lock order![[Pasted image 20230828213525.png]]
+			- first m_a
+			- then m_b
+			- can prevent cycles in wait graph
