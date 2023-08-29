@@ -66,6 +66,22 @@
 # Reader/Writer Problem
 - Problem Description
 ![[Pasted image 20230827215254.png]]
-- Example Code![[Pasted image 20230828210205.png]]
+- Example Code![[Pasted image 20230828210205.png]]![[Pasted image 20230828210632.png]]
 - General Structure![[Pasted image 20230828210229.png]]
 - Conceptual Critical Section![[Pasted image 20230828210618.png]]
+- Critical Section Structure with Proxy Variable![[Pasted image 20230828210900.png]]
+	- By pass the limitation of mutex so that we can perform more complicated operation
+# Common Pitfalls
+- keep track of mutex / cond. variables used with a resource
+	- e.g., mutex_type 
+- check that you are always (and correctly) using lock & unlock
+	- e.g., did you forget to lock / unlock? what about compilers?
+- use a single mutex to access a single resources!
+- check that you are signaling correct condition
+- check that you are not using signal when broadcast is needed
+	- signal: only 1 thread will proceed ... remaining threads will continue to wait ... possibly indefinitely
+- ask yourself: do you need priority guarantees?
+	- thread execution order not controlled by signals to condition variables
+- spurious wake ups
+	- 
+- dead locks
