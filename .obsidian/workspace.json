@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a36805215fcda499",
+        "id": "2212aa01f0e5afbe",
         "type": "tabs",
         "children": [
           {
-            "id": "2fee43260bde8033",
+            "id": "620c805b5dbd649e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,11 +140,12 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "2fee43260bde8033",
+  "active": "620c805b5dbd649e",
   "lastOpenFiles": [
+    "README.md",
+    "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/Process and Process Management.md",
-    "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "Pictures/Pasted image 20230828223812.png",
     "Pictures/Pasted image 20230828222615.png",
     "Pictures/Pasted image 20230828222358.png",
@@ -194,7 +187,6 @@
     "Books/System Design.pdf",
     "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
     "Books/data science cheat sheet.pdf",
-    "README.md",
     "Untitled.canvas"
   ]
 }
