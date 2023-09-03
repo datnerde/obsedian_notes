@@ -6,3 +6,4 @@
 	* specifies syntax and semantics of the operations
 # PThread Creation
 ![[Pasted image 20230902181948.png]]
+- PThread Attributes
