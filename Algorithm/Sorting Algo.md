@@ -1,16 +1,13 @@
-```python
-def sortintegers(self, A):
-	if A == null or len(A) == 0:
-		return
-	self.QuickSort(A, 0, len(A) - 1)
-```
-
 # Quick Sort
 - Expected Time Complexity: O(nlogn)
 - Worst Time Complexity: O(n^2)
 	- when the sequence i s in reversed order
 - Space Complexity: O(1)
 ```python
+def sortintegers(self, A):
+	if A == null or len(A) == 0:
+		return
+	self.QuickSort(A, 0, len(A) - 1)
 def QuickSort(self, A, start, end):
 	# handle edge case
 	if start >= end:
@@ -38,6 +35,10 @@ def QuickSort(self, A, start, end):
 - Expected Time Complexity: O(nlogn)
 - Space Complexity: O(n)
 ```python
-
+def sortintergers(self, A):
+	if A == null or len(A) == 0:
+		return
+def MergeSort(self, A, start, end, temp):
+	
 ```
 # Bubble Sort
