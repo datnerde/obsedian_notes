@@ -1,5 +1,7 @@
 ```python
 def sortintegers(self, A):
+	if A == null or len(A) == 0:
+		return
 	self.QuickSort(A, 0, len(A) - 1)
 ```
 
@@ -33,8 +35,9 @@ def QuickSort(self, A, start, end):
 	self.QuickSort(A, left, end)
 ```
 # Merge Sort
-Expected Time Complexity: O(nlogn)
-- Worst Time Complexity: O(n^2)
-	- when the sequence i s in reversed order
+- Expected Time Complexity: O(nlogn)
 - Space Complexity: O(n)
+```python
+
+```
 # Bubble Sort
