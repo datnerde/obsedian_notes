@@ -61,14 +61,14 @@ def merge(self, A, start, end, temp):
 			temp[index] = A[right_start]
 			right_start += 1
 			index += 1
-		while left_start <= middle:
-			temp[index] = A[left_start]
-			index += 1
-			left_start += 1
-		while right_start <= end:
-			temp[index] = A[right_start]
-			index += 1
-			right_start += 1
+	while left_start <= middle:
+		temp[index] = A[left_start]
+		index += 1
+		left_start += 1
+	while right_start <= end:
+		temp[index] = A[right_start]
+		index += 1
+		right_start += 1
 	for i in range(start, end + 1):
 		A[i] = temp[i]
 ```
