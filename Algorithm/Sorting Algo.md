@@ -38,7 +38,35 @@ def QuickSort(self, A, start, end):
 def sortintergers(self, A):
 	if A == null or len(A) == 0:
 		return
+	temp = [0]*len(A)
+	self.MergeSort(A, 0, len(A) - 1, temp)
 def MergeSort(self, A, start, end, temp):
-	
+	if start >= end:
+		return
+	self.MergeSort(A, start, (start + end) // 2, temp)
+	self.MergeSort(A, (start + end) // 2 + 1, end, temp)
+	self.merge(A, start, end, temp)
+def merge(self, A, start, end, temp):
+	middle = (start + end) // 2
+	left_start = start
+	right_start = middle + 1
+	index = start
+	while left_start <= middle and right_start <= end:
+		if A[left_start] < A[right_start]:
+			temp[index] = A[left_start]
+			left_start += 1
+			index += 1
+		else:
+			temp[index] = A[right_start]
+			right_start += 1
+			index += 1
+		while left_start <= middle:
+			temp[index] = A[left_start]
+			index += 1
+			left_start += 1
+		while right_start <= end:
+			temp[index] = A[right_start]
+			index += 1
+			left_start += 1
 ```
 # Bubble Sort
