@@ -11,8 +11,12 @@
             "id": "620c805b5dbd649e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md"
+              }
             }
           }
         ],
@@ -142,10 +150,12 @@
   },
   "active": "620c805b5dbd649e",
   "lastOpenFiles": [
-    "README.md",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
+    "OMSCS/GOIS/Threads Case Study - PThreads.md",
+    "Pictures/Pasted image 20230902181948.png",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/Process and Process Management.md",
+    "README.md",
     "Pictures/Pasted image 20230828223812.png",
     "Pictures/Pasted image 20230828222615.png",
     "Pictures/Pasted image 20230828222358.png",
@@ -155,7 +165,6 @@
     "Pictures/Pasted image 20230828215257.png",
     "Pictures/Pasted image 20230828213525.png",
     "Pictures/Pasted image 20230828213103.png",
-    "Pictures/Pasted image 20230828212450.png",
     "Books/DDIA Notes.md",
     "OMSCS/GOIS",
     "OMSCS",
@@ -181,7 +190,6 @@
     "System Design/Storag.md",
     "Books/machine learning basics.pdf",
     "Books/designing-data-intensive-applications.pdf",
-    "Template/annotate.md",
     "Books/ESLII.pdf",
     "Books/System Design Interview.pdf",
     "Books/System Design.pdf",
