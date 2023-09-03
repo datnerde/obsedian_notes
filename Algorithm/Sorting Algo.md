@@ -32,7 +32,7 @@ def QuickSort(self, A, start, end):
 	self.QuickSort(A, left, end)
 ```
 # Merge Sort
-- Expected Time Complexity: O(nlogn)
+- Expected  / Worst Time Complexity: O(nlogn)
 - Space Complexity: O(n)
 ```python
 def sortintergers(self, A):
@@ -71,4 +71,3 @@ def merge(self, A, start, end, temp):
 	for i in range(start, end + 1):
 		A[i] = temp[i]
 ```
-# Bubble Sort
