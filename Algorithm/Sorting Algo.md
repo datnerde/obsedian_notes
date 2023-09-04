@@ -31,11 +31,6 @@ def QuickSort(self, A, start, end):
 	self.QuickSort(A, start, right)
 	self.QuickSort(A, left, end)
 ```
-
-[5,3,2,1,3]  3
-[1,2,3,3,3]
-[2,3,5,3]
-
 ![[Pasted image 20230903150133.png]]
 # Merge Sort
 - Expected  / Worst Time Complexity: O(nlogn)
