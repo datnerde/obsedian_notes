@@ -12,5 +12,5 @@
 	- The PCB will still contain info of virtual address mapping for the whole process warped in user level
 	- Thread_lib will contain info for each user-level thread (ULT)
 
-# Thread Data Structures: At Scale
-- 
+# Thread Data Structures: At Scale![[Pasted image 20230904162643.png]]
+# Hard and Light Process State
