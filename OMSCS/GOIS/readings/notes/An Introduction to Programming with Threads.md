@@ -267,3 +267,59 @@ annotation-target: ud923-birrell-paper.pdf
 >%%TAGS%%
 >
 ^eb0fp2wvxl5
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-04T21:53:45.759Z","updated":"2023-09-04T21:53:45.759Z","document":{"title":"ud923-birrell-paper.pdf","link":[{"href":"urn:x-pdf:30ec6095364d8a2eb8e15883f4c72bb4"},{"href":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf"}],"documentFingerprint":"30ec6095364d8a2eb8e15883f4c72bb4"},"uri":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","target":[{"source":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","selector":[{"type":"TextPositionSelector","start":18307,"end":18439},{"type":"TextQuoteSelector","exact":"Broadcast”  operation  is  like  “Signal”,  except  that  it  awakens  all  the  threads  currentlyblocked on the condition variable","prefix":"ossibly  more  than  one).  The“","suffix":". When a thread is awoken inside"}]}]}
+>```
+>%%
+>*%%PREFIX%%ossibly  more  than  one).  The“%%HIGHLIGHT%% ==Broadcast”  operation  is  like  “Signal”,  except  that  it  awakens  all  the  threads  currentlyblocked on the condition variable== %%POSTFIX%%. When a thread is awoken inside*
+>%%LINK%%[[#^k2fonw9f8wd|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^k2fonw9f8wd
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-04T21:54:41.446Z","updated":"2023-09-04T21:54:41.446Z","document":{"title":"ud923-birrell-paper.pdf","link":[{"href":"urn:x-pdf:30ec6095364d8a2eb8e15883f4c72bb4"},{"href":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf"}],"documentFingerprint":"30ec6095364d8a2eb8e15883f4c72bb4"},"uri":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","target":[{"source":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","selector":[{"type":"TextPositionSelector","start":19725,"end":19731},{"type":"TextQuoteSelector","exact":"Alerts","prefix":"ent;Thread.Signal(nonEmpty);END;","suffix":"The final aspect of the SRC thre"}]}]}
+>```
+>%%
+>*%%PREFIX%%ent;Thread.Signal(nonEmpty);END;%%HIGHLIGHT%% ==Alerts== %%POSTFIX%%The final aspect of the SRC thre*
+>%%LINK%%[[#^gngbym09us4|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gngbym09us4
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-04T21:54:58.722Z","updated":"2023-09-04T21:54:58.722Z","document":{"title":"ud923-birrell-paper.pdf","link":[{"href":"urn:x-pdf:30ec6095364d8a2eb8e15883f4c72bb4"},{"href":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf"}],"documentFingerprint":"30ec6095364d8a2eb8e15883f4c72bb4"},"uri":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","target":[{"source":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","selector":[{"type":"TextPositionSelector","start":19732,"end":19886},{"type":"TextQuoteSelector","exact":"he final aspect of the SRC thread facility is a mechanism for interrupting a particularthread, causing it to back out of some long-term wait or computatio","prefix":"ead.Signal(nonEmpty);END;AlertsT","suffix":"n.EXCEPTION Alerted;PROCEDURE Al"}]}]}
+>```
+>%%
+>*%%PREFIX%%ead.Signal(nonEmpty);END;AlertsT%%HIGHLIGHT%% ==he final aspect of the SRC thread facility is a mechanism for interrupting a particularthread, causing it to back out of some long-term wait or computatio== %%POSTFIX%%n.EXCEPTION Alerted;PROCEDURE Al*
+>%%LINK%%[[#^ob0uig2lvgo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ob0uig2lvgo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-04T21:55:36.185Z","updated":"2023-09-04T21:55:36.185Z","document":{"title":"ud923-birrell-paper.pdf","link":[{"href":"urn:x-pdf:30ec6095364d8a2eb8e15883f4c72bb4"},{"href":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf"}],"documentFingerprint":"30ec6095364d8a2eb8e15883f4c72bb4"},"uri":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","target":[{"source":"vault:/OMSCS/GOIS/readings/ud923-birrell-paper.pdf","selector":[{"type":"TextPositionSelector","start":20095,"end":20311},{"type":"TextQuoteSelector","exact":"ll of “AlertWait” behaves the same as “Wait”, except that if the thread’s alert-pendingboolean is true, then instead of blocking on c it sets alert-pending to false, re-locks m andraises  the  exception  “Alerted”.  ","prefix":"t-pending”, initially false. Aca","suffix":"(Don’t  worry  about  the  seman"}]}]}
+>```
+>%%
+>*%%PREFIX%%t-pending”, initially false. Aca%%HIGHLIGHT%% ==ll of “AlertWait” behaves the same as “Wait”, except that if the thread’s alert-pendingboolean is true, then instead of blocking on c it sets alert-pending to false, re-locks m andraises  the  exception  “Alerted”.== %%POSTFIX%%(Don’t  worry  about  the  seman*
+>%%LINK%%[[#^wcyqpk14n9k|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^wcyqpk14n9k

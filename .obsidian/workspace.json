@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "178ac99c3e77d05b",
+        "id": "7375fd9f628faa16",
         "type": "tabs",
         "children": [
           {
-            "id": "7202122ba9bff519",
+            "id": "5e0414a83b313098",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md"
+                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5026054382324,
-    "collapsed": true
+    "width": 309.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/Thread Design considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/Thread Design considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md"
+                "file": "OMSCS/GOIS/Thread Design considerations.md"
               }
             }
           }
@@ -147,13 +148,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "5e0414a83b313098",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
-    "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
+    "Pictures/Pasted image 20230904160322.png",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
+    "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
+    "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
     "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA Notes.md",
     "Research/paper reading/notes",
@@ -163,7 +165,6 @@
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
     "Research",
-    "OMSCS/GOIS/readings",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "Pictures/Pasted image 20230904145007.png",
     "Pictures/Pasted image 20230904144955.png",
