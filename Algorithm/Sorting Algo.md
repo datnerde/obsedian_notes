@@ -49,14 +49,7 @@ def MergeSort(self, A, start, end, temp):
 	self.MergeSort(A, (start + end) // 2 + 1, end, temp)
 	self.merge(A, start, end, temp)
 def merge(self, A, start, end, temp):
-	middle = (start + end) // 2
-	[3,1,7,2,5,1]
-	[3,1,7] [2,5,1]
-	[3] [1,7] [2] [5,1]
-	[3][1][7][2][5][1]
-	[5][2,4]
-	
-   
+	middle = (start + end) // 2   
 	left_start = start
 	right_start = middle + 1
 	index = start
