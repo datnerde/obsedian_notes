@@ -52,3 +52,7 @@
 	- when in doubt broadcast
 		- but performance loss
 	- you do not need a mutex to signal / broadcast
+# Summary
+- PThreads (vs Birrell)
+	- Threads, Mutexes, and Condition Variables
+	- Tips and Code examples
