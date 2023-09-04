@@ -18,4 +18,16 @@
 		- the detached thread can exit ![[Pasted image 20230904142221.png]]
 # Compiling PThreads
 ![[Pasted image 20230904142550.png]]
-
+# Code Example
+![[Pasted image 20230904143711.png]]
+- the above mentioned will happen due to data race or race condition
+	- a thread tries to read a value, while another thread modifies it
+- How to avoid the problem![[Pasted image 20230904143807.png]]
+# Pthread Mutexes
+>[!quote]
+>to solve mutual exclusion problems among concurrent threads
+- Pthreads implementation
+	- Lock and Unlock
+		- ![[Pasted image 20230904144044.png]]
+		- ![[Pasted image 20230904144200.png]]
+	
