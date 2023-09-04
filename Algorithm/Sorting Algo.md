@@ -54,7 +54,8 @@ def merge(self, A, start, end, temp):
 	[3,1,7] [2,5,1]
 	[3] [1,7] [2] [5,1]
 	[3][1][7][2][5][1]
-	[3] [1,7] [2] [1,5]
+	[5][2,4]
+	
    
 	left_start = start
 	right_start = middle + 1
