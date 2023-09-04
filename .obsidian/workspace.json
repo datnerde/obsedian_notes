@@ -11,11 +11,9 @@
             "id": "620c805b5dbd649e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
-                "mode": "source",
-                "source": false
+                "file": "Books/Quest for Machine Learning Notes.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
+                "file": "Books/Quest for Machine Learning Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
+                "file": "Books/Quest for Machine Learning Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md"
+                "file": "Books/Quest for Machine Learning Notes.md"
               }
             }
           }
@@ -150,6 +148,18 @@
   },
   "active": "620c805b5dbd649e",
   "lastOpenFiles": [
+    "Books/DDIA Notes.md",
+    "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
+    "OMSCS/GOIS/readings/network programming in C.pdf",
+    "Research/paper reading/notes",
+    "OMSCS/GOIS/readings/notes",
+    "OMSCS/GOIS/Thread Design considerations.md",
+    "Research/paper reading/speculative sampling.pdf",
+    "Research/paper reading/nucleus sampling.pdf",
+    "Research/paper reading",
+    "Research",
+    "OMSCS/GOIS/readings",
+    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "Pictures/Pasted image 20230904145007.png",
     "Pictures/Pasted image 20230904144955.png",
     "Pictures/Pasted image 20230904144918.png",
@@ -159,13 +169,11 @@
     "Algorithm/Tips on Improving Coding Quality.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/相向two pointer.md",
-    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "Pictures/Pasted image 20230904144200.png",
     "Pictures/Pasted image 20230904144044.png",
     "Pictures/Pasted image 20230904144038.png",
     "Pictures/Pasted image 20230904143807.png",
     "Pictures/Pasted image 20230904143711.png",
-    "Pictures/Pasted image 20230904142550.png",
     "Algorithm/背向two pointer.md",
     "Algorithm/Sorting Algo.md",
     "Machine Learning/Dimensional Reduction.md",
@@ -180,22 +188,11 @@
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/Process and Process Management.md",
-    "Books/DDIA Notes.md",
     "OMSCS/GOIS",
-    "OMSCS",
     "System Design/Replication.md",
     "System Design/Encoding and Evolution.md",
     "System Design/Reliable, Scalable and Maintainable.md",
     "System Design/Data Models and Query Languages.md",
-    "System Design/Storage and Retrieval.md",
-    "Books/DDIA.pdf",
-    "Books/machine learning basics.pdf",
-    "Books/designing-data-intensive-applications.pdf",
-    "Books/ESLII.pdf",
-    "Books/System Design Interview.pdf",
-    "Books/System Design.pdf",
-    "Books/面试常考算法模板 Cheat Sheet V5.0.pdf",
-    "Books/data science cheat sheet.pdf",
     "Untitled.canvas"
   ]
 }
