@@ -11,11 +11,9 @@
             "id": "5e0414a83b313098",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
-                "mode": "source",
-                "source": false
+                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md"
+                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf"
               }
             }
           }
@@ -150,17 +148,17 @@
   },
   "active": "5e0414a83b313098",
   "lastOpenFiles": [
-    "Pictures/Pasted image 20230904160322.png",
-    "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
-    "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
-    "OMSCS/GOIS/readings/network programming in C.pdf",
     "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
     "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
+    "OMSCS/GOIS/readings/network programming in C.pdf",
+    "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
+    "OMSCS/GOIS/Thread Design considerations.md",
+    "Pictures/Pasted image 20230904160322.png",
+    "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA Notes.md",
     "Research/paper reading/notes",
     "OMSCS/GOIS/readings/notes",
-    "OMSCS/GOIS/Thread Design considerations.md",
     "Research/paper reading/speculative sampling.pdf",
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
@@ -179,7 +177,6 @@
     "Pictures/Pasted image 20230904144044.png",
     "Pictures/Pasted image 20230904144038.png",
     "Pictures/Pasted image 20230904143807.png",
-    "Pictures/Pasted image 20230904143711.png",
     "Algorithm/背向two pointer.md",
     "Algorithm/Sorting Algo.md",
     "Machine Learning/Dimensional Reduction.md",
