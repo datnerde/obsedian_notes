@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2212aa01f0e5afbe",
+        "id": "178ac99c3e77d05b",
         "type": "tabs",
         "children": [
           {
-            "id": "620c805b5dbd649e",
+            "id": "7202122ba9bff519",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md"
+                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md",
+                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md",
+                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Quest for Machine Learning Notes.md"
+                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md"
               }
             }
           }
@@ -146,11 +146,15 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "620c805b5dbd649e",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
-    "Books/DDIA Notes.md",
+    "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
+    "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
+    "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
+    "Books/Quest for Machine Learning Notes.md",
+    "Books/DDIA Notes.md",
     "Research/paper reading/notes",
     "OMSCS/GOIS/readings/notes",
     "OMSCS/GOIS/Thread Design considerations.md",
@@ -188,11 +192,7 @@
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/Process and Process Management.md",
-    "OMSCS/GOIS",
     "System Design/Replication.md",
-    "System Design/Encoding and Evolution.md",
-    "System Design/Reliable, Scalable and Maintainable.md",
-    "System Design/Data Models and Query Languages.md",
     "Untitled.canvas"
   ]
 }
