@@ -2,6 +2,7 @@
 - Expected Time Complexity: O(nlogn)
 - Worst Time Complexity: O(n^2)
 	- when the sequence i s in reversed order
+	- LogN degrades to (N - 1), which is the partition time of each quick sort, N is the number of iterations
 - Space Complexity: O(1)
 ```python
 def sortintegers(self, A):
