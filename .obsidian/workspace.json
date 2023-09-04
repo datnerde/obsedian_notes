@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5026054382324
+    "width": 309.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -150,6 +151,11 @@
   },
   "active": "620c805b5dbd649e",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230904142221.png",
+    "Pictures/Pasted image 20230904142152.png",
+    "Pictures/Pasted image 20230904142127.png",
+    "Pictures/Pasted image 20230904141641.png",
+    "Pictures/Pasted image 20230904141512.png",
     "Algorithm/相向two pointer.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/Tips on Improving Coding Quality.md",
@@ -175,10 +181,6 @@
     "Pictures/Pasted image 20230828223812.png",
     "Pictures/Pasted image 20230828222615.png",
     "Pictures/Pasted image 20230828222358.png",
-    "Pictures/Pasted image 20230828221703.png",
-    "Pictures/Pasted image 20230828215745.png",
-    "Pictures/Pasted image 20230828215518.png",
-    "Pictures/Pasted image 20230828215257.png",
     "Books/DDIA Notes.md",
     "OMSCS/GOIS",
     "OMSCS",
@@ -187,7 +189,6 @@
     "System Design/Reliable, Scalable and Maintainable.md",
     "System Design/Data Models and Query Languages.md",
     "System Design/Storage and Retrieval.md",
-    "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA.pdf",
     "Books/machine learning basics.pdf",
     "Books/designing-data-intensive-applications.pdf",
