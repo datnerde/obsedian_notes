@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
+                "file": "Algorithm/Sorting Algo.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 309.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
+                "file": "Algorithm/Sorting Algo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
+                "file": "Algorithm/Sorting Algo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md"
+                "file": "Algorithm/Sorting Algo.md"
               }
             }
           }
@@ -148,8 +148,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "620c805b5dbd649e",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
@@ -167,7 +168,6 @@
     "Machine Learning/Unsupervised Learning.md",
     "Pictures/Pasted image 20230902194144.png",
     "README.md",
-    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "Pictures/Pasted image 20230902181948.png",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
