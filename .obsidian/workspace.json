@@ -11,9 +11,11 @@
             "id": "5e0414a83b313098",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf"
+                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
+                "file": "OMSCS/GOIS/Thread Design considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
+                "file": "OMSCS/GOIS/Thread Design considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-birrell-paper.pdf"
+                "file": "OMSCS/GOIS/Thread Design considerations.md"
               }
             }
           }
@@ -148,10 +150,11 @@
   },
   "active": "5e0414a83b313098",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20230904161801.png",
+    "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
     "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
     "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
-    "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230904160322.png",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
