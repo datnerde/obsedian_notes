@@ -16,3 +16,6 @@
 		- to detach a thread![[Pasted image 20230904142127.png]]
 		- to create a detached thread![[Pasted image 20230904142152.png]]
 		- the detached thread can exit ![[Pasted image 20230904142221.png]]
+# Compiling PThreads
+![[Pasted image 20230904142550.png]]
+
