@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7375fd9f628faa16",
+        "id": "bcff885a56984ae8",
         "type": "tabs",
         "children": [
           {
-            "id": "5e0414a83b313098",
+            "id": "064c7981c89fc572",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "poxis",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +61,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,8 +140,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "5e0414a83b313098",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230904195922.png",
     "Pictures/Pasted image 20230904162643.png",
@@ -170,7 +162,6 @@
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
     "Research",
-    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "Pictures/Pasted image 20230904145007.png",
     "Pictures/Pasted image 20230904144955.png",
     "Pictures/Pasted image 20230904144918.png",
