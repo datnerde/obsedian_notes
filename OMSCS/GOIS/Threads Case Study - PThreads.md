@@ -1,6 +1,6 @@
 # Overview
 * PThreads == POSIX Threads
-* POSIX == Portable OPperating System Interface
+* POSIX == Portable Operating System Interface
 * POSIX Threads
 	* POXIS versions of Birrell's API
 	* specifies syntax and semantics of the operations

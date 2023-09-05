@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k-mean",
+                "query": "poxis",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 309.5026054382324,
-    "collapsed": true
+    "width": 309.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md"
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   },
   "active": "5e0414a83b313098",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230904195922.png",
     "Pictures/Pasted image 20230904162643.png",
     "Pictures/Pasted image 20230904162642.png",
@@ -159,7 +160,6 @@
     "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
     "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
-    "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230904160322.png",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Books/Quest for Machine Learning Notes.md",
@@ -180,7 +180,6 @@
     "Algorithm/Tips on Improving Coding Quality.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/相向two pointer.md",
-    "Pictures/Pasted image 20230904144200.png",
     "Algorithm/背向two pointer.md",
     "Algorithm/Sorting Algo.md",
     "Machine Learning/Dimensional Reduction.md",

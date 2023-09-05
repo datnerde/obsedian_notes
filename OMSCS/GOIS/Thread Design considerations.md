@@ -36,4 +36,9 @@
 		- easier to share
 		- on context switch only save and restore what needs to change
 		- user-level library need only update portion of the state
-	- 
+	- pros
+		- scalability
+		- overheads
+		- performance
+		- flexibility
+- 
