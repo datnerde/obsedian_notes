@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bcff885a56984ae8",
+        "id": "69f6788e366e3c5a",
         "type": "tabs",
         "children": [
           {
-            "id": "064c7981c89fc572",
+            "id": "23d84c63f46fc0ff",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,7 +140,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "23d84c63f46fc0ff",
   "lastOpenFiles": [
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Thread Design considerations.md",
