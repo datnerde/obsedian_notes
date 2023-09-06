@@ -58,10 +58,23 @@
 	- virtual address space
 	- user credentials
 	- signal handlers
-- light-weight process (LWP)
+- light-weight process (LWP) - relevant info of a subset of process
 	- user- level registers
 	- system call args
 	- resource usage info
 	- signal mask
 	- similar to ULT, but visible to kernel to kernel 
 	- not needed when process not running
+- kernel-level threads
+	- kernel-level registers
+	- stack pointer
+	- scheduling info
+	- pointers to associated LWP, process, CPU structures
+	- info needed even when process not running => not swappable
+- CPU
+	- current thread
+	- list of kernel-level thread
+	- dispatching & interrupt handling info
+	- on SPARC dedicated reg == current thread
+![[Pasted image 20230905211332.png]]
+# Basic Thread Management Interaction
