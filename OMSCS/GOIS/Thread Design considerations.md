@@ -41,4 +41,14 @@
 		- overheads
 		- performance
 		- flexibility
-- 
+# User Level Structures in Solaris 2.0
+![[Pasted image 20230905203950.png]]
+- LWP == Light Weight Process
+- CPU == Central Processing Unit
+- Implementing lightweight threads by Stein & Shah
+	- not POSIX threads, but similar
+	- thread creation => thread ID(tid)
+		- tid => index into table of pointers
+		- table pointers point to per thread data structure
+	- stack growth can be dangerous
+		- solution => red zone![[Pasted image 20230905204503.png]]
