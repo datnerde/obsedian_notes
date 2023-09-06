@@ -78,3 +78,4 @@
 	- on SPARC dedicated reg == current thread
 ![[Pasted image 20230905211332.png]]
 # Basic Thread Management Interaction
+- Request additional kernel-level thread![[Pasted image 20230905212622.png]]
