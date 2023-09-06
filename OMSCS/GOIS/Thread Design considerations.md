@@ -79,3 +79,8 @@
 ![[Pasted image 20230905211332.png]]
 # Basic Thread Management Interaction
 - Request additional kernel-level thread![[Pasted image 20230905212622.png]]
+- When kernel-level threads are blocked
+	- ![[Pasted image 20230905212831.png]]
+	- Kernel does not know what is happening in user-level library![[Pasted image 20230905213033.png]] 
+- System calls and special signals allow kernel and ULT library to interact and coordinate
+# Thread Management Visibilty and Design
