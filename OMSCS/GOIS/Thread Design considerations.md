@@ -52,3 +52,16 @@
 		- table pointers point to per thread data structure
 	- stack growth can be dangerous
 		- solution => red zone![[Pasted image 20230905204503.png]]
+# Kernel Level Structures in Solaris 2.0
+- process
+	- list of kernel-level threads
+	- virtual address space
+	- user credentials
+	- signal handlers
+- light-weight process (LWP)
+	- user- level registers
+	- system call args
+	- resource usage info
+	- signal mask
+	- similar to ULT, but visible to kernel to kernel 
+	- not needed when process not running
