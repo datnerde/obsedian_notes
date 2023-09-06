@@ -91,4 +91,9 @@
 - UL library sees
 	- ULTs
 	- available KLTs
--  
+-  1-1 mapping KLT - ULT![[Pasted image 20230906144033.png]]
+- Many-Many KLT -ULT mapping![[Pasted image 20230906144415.png]]
+	- other ULTs can only be executed when the preempted KLT is back
+- Problem
+	- Visibility of state and decisions between kernel and UL library
+	-  
