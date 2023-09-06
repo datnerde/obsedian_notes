@@ -84,6 +84,7 @@
 	- Kernel does not know what is happening in user-level library![[Pasted image 20230905213033.png]] 
 - System calls and special signals allow kernel and ULT library to interact and coordinate
 # Thread Management Visibility and Design
+## Lack of Thread Management Visibility
 - Kernel sees
 	- KLTs
 	- CPUs
@@ -96,4 +97,18 @@
 	- other ULTs can only be executed when the preempted KLT is back
 - Problem
 	- Visibility of state and decisions between kernel and UL library
-	-  
+	-  Kernel level library is not ware of Many to Many cases:
+		- UL scheduling decisions
+		- change ULT - KLT mapping
+		- mutex variables and wait queues
+	- 1-1 helps address some of these issues 
+## How / When  does the UL library run?
+- Process jumps to UL library scheduler
+	- ULTs explicitly yield
+	- timer set by UL library expires
+	- ULTs call library functions like lock / unlock
+	- blocked thread become runnable
+	- runs on ULT operations
+	- runs on signals from timer or kernel
+# Issues on Multiple CPUs
+
