@@ -83,4 +83,12 @@
 	- ![[Pasted image 20230905212831.png]]
 	- Kernel does not know what is happening in user-level library![[Pasted image 20230905213033.png]] 
 - System calls and special signals allow kernel and ULT library to interact and coordinate
-# Thread Management Visibilty and Design
+# Thread Management Visibility and Design
+- Kernel sees
+	- KLTs
+	- CPUs
+	- KL scheduler
+- UL library sees
+	- ULTs
+	- available KLTs
+-  
