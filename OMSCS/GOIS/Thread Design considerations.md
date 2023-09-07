@@ -198,3 +198,6 @@
 # Threads and Signal Handling
 ![[Pasted image 20230906214548.png]]
 - The thread_lib will invoke the UTL with mask = 1 to handle the signal
+![[Pasted image 20230906215307.png]]
+- thread_lib will send a signal to the second KLT and use that to talk to ULT for handling signal
+![[Pasted image 20230906215731.png]]
