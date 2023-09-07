@@ -126,5 +126,20 @@
 		- put a "death row"
 		- periodically destroyed by reaper thread
 		- otherwise thread structures / stacks are reused => performance gained
-# Interrupts and Signals Intro
+# Interrupts and Signals Intro![[Pasted image 20230906203545.png]]
 - Interrupts v.s. signals
+	- Interrupts
+		- events generated externally by components other than the CPU (I/O devices, timers, other CPUs)
+		- determined based on the physical platform
+		- appear asynchronously
+	- Signals
+		- events triggered by the CPU & software running on it
+		- determined based on the operating system
+		- appear synchronously or asynchronously
+	- have a unique ID depending on the hardware or OS
+	- can be masked and disabled / suspended via corresponding mask
+		- per-CPU interrupt mask. per-process signal mask
+	- if enabled, trigger corresponding handler
+		- interrupt handler set for entire system by OS
+		- signal handlers set on per process basis, by process
+# Interrupt Handling
