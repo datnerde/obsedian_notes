@@ -196,3 +196,5 @@
 	- fewer interrupts than mutex lock / unlock operations => a win!
 	- Optimize for the common case
 # Threads and Signal Handling
+![[Pasted image 20230906214548.png]]
+- The thread_lib will invoke the UTL with mask = 1 to handle the signal
