@@ -116,4 +116,15 @@
 - ![[Pasted image 20230906201447.png]]
 - ![[Pasted image 20230906201526.png]]
 # Synchronization-Related Issues
-
+- ![[Pasted image 20230906202156.png]]
+- Adaptive mutexes:
+	- if critical section short => don't block ! spin!
+	- for long critical sections default blocking behavior
+- Destroying Threads
+	- Instead of destroying ... reuse threads
+	- when a thread exits
+		- put a "death row"
+		- periodically destroyed by reaper thread
+		- otherwise thread structures / stacks are reused => performance gained
+# Interrupts and Signals Intro
+- Interrupts v.s. signals
