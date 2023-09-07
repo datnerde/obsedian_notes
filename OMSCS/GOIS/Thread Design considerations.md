@@ -143,3 +143,5 @@
 		- interrupt handler set for entire system by OS
 		- signal handlers set on per process basis, by process
 # Interrupt Handling
+![[Pasted image 20230906204641.png]]
+# Signal Handling
