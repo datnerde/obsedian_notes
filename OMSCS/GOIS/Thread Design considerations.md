@@ -195,4 +195,4 @@
 		- no changes in interrupt mask, level...
 	- fewer interrupts than mutex lock / unlock operations => a win!
 	- Optimize for the common case
-- 
+# Threads and Signal Handling
