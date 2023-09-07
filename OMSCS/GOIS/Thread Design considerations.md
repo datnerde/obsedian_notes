@@ -215,4 +215,9 @@
 	- single-threaded process => 1 task
 	- multi-threaded process => many tasks
 - Task Creation
-	- 
+	- ![[Pasted image 20230906220926.png]]
+- Linux Threads Model
+	- NPTL (Native POSIXz Threads Library) "1:1 Model"
+	- kernel sees each ULT info
+	- kernel traps are cheaper
+	- more resources: memory,  large range of IDs
