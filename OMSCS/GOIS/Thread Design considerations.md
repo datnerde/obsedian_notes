@@ -175,4 +175,15 @@
 	- avoids overheads & perturbations on all other cores
 # Types of Signals
 - one-shot signals
-	- "n signals pending == 1 signal pending"
+	- "n signals pending == 1 signal pending", the handler will be triggered at least once 
+	- must be explicitly re-enabled
+- real time signals
+	- "if n signals raised, then handler is called n times"
+# Interrupts as Threads
+![[Pasted image 20230906211454.png]]
+- Dynamic Thread Creation is Expensive
+	- if handler doesn't lock => execute on interrupted thread's stack
+	- if handler can block => turn into real thread
+- Optimization
+	- pre-create & preinitialize thread structures for interrupt routines
+- 
