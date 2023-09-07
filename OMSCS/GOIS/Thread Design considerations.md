@@ -186,4 +186,13 @@
 	- if handler can block => turn into real thread
 - Optimization
 	- pre-create & preinitialize thread structures for interrupt routines
+# Interrupts: Top vs. Bottom Half
+![[Pasted image 20230906212334.png]]
+# Performance of Threads as Interrupts
+- Overall Cost
+	-  overhead of 40 SPARC instructions per interrupt 
+	- saving of 12 instructions per mutex
+		- no changes in interrupt mask, level...
+	- fewer interrupts than mutex lock / unlock operations => a win!
+	- Optimize for the common case
 - 
