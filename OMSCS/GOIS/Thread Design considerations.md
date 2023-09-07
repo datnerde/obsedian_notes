@@ -196,8 +196,23 @@
 	- fewer interrupts than mutex lock / unlock operations => a win!
 	- Optimize for the common case
 # Threads and Signal Handling
+## Case 2
 ![[Pasted image 20230906214548.png]]
 - The thread_lib will invoke the UTL with mask = 1 to handle the signal
+## Case 3
 ![[Pasted image 20230906215307.png]]
 - thread_lib will send a signal to the second KLT and use that to talk to ULT for handling signal
-![[Pasted image 20230906215731.png]]
+## Case 4
+![[Pasted image 20230906215731.png]]![[Pasted image 20230906220011.png]]
+- Optimize Common Case
+	- signals less frequent than signal mask updates
+	- system calls avoided - cheaper to update UL mask
+	- signal handling more expensive
+# Task in Linux
+- Task Struct
+	- main execution abstraction => task
+		- kernel level thread
+	- single-threaded process => 1 task
+	- multi-threaded process => many tasks
+- Task Creation
+	- 
