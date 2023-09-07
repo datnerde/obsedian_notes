@@ -157,3 +157,22 @@
 		- for most signals, some cannot be "caught"
 	- Examples![[Pasted image 20230906205228.png]]
 # Why Disable Interrupts or Signals
+- Deadlock
+	- keep handler code simple
+		- too restrictive
+	- control interruptions by handler code
+		- user interrupt / signal masks
+		- ![[Pasted image 20230906210000.png]]
+# More on Signal Masks
+- Interrupt mask
+	- if mask disables interrupt, hardware interrupt routing mechanism will not deliver interrupt to CPU
+- Signal masks
+	- are per execution context
+	- if mask disables interrupt, kernel sees mask and will not interrupt routing corresponding thread
+# Interrupts on Multicore Systems
+- Interrupts can be directed to any CPU that has them enabled
+- May set interrupt on just a single core
+	- avoids overheads & perturbations on all other cores
+# Types of Signals
+- one-shot signals
+	- "n signals pending == 1 signal pending"
