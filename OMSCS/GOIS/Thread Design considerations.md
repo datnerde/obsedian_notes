@@ -111,4 +111,9 @@
 	- runs on ULT operations
 	- runs on signals from timer or kernel
 # Issues on Multiple CPUs
+![[Pasted image 20230906201400.png]]
+- We need to switch the kernel level thread bound to T1 with T3
+- ![[Pasted image 20230906201447.png]]
+- ![[Pasted image 20230906201526.png]]
+# Synchronization-Related Issues
 
