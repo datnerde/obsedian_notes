@@ -145,3 +145,15 @@
 # Interrupt Handling
 ![[Pasted image 20230906204641.png]]
 # Signal Handling
+![[Pasted image 20230906204836.png]]
+- Handler / Actions
+	- Default Actions
+		- Terminate, 
+		- Ignore
+		- Terminate and Core Dump
+		- Stop / Continue
+	- Process Installs Handler
+		- signal(), sigaction()
+		- for most signals, some cannot be "caught"
+	- Examples![[Pasted image 20230906205228.png]]
+# Why Disable Interrupts or Signals
