@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "69f6788e366e3c5a",
+        "id": "6f9bc7a537bdba13",
         "type": "tabs",
         "children": [
           {
-            "id": "23d84c63f46fc0ff",
+            "id": "9b890af2f8cb6612",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5026054382324,
-    "collapsed": true
+    "width": 309.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -149,8 +148,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "23d84c63f46fc0ff",
+  "active": "9b890af2f8cb6612",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230906220926.png",
     "Pictures/Pasted image 20230906220011.png",
     "Pictures/Pasted image 20230906215731.png",
@@ -161,10 +161,8 @@
     "Pictures/Pasted image 20230906211454.png",
     "Pictures/Pasted image 20230906210000.png",
     "Pictures/Pasted image 20230906205228.png",
-    "Pictures/Pasted image 20230906204836.png",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
-    "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
     "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
     "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
