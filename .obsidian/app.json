@@ -4,5 +4,6 @@
   "showLineNumber": true,
   "tabSize": 5,
   "alwaysUpdateLinks": true,
-  "foldHeading": true
+  "foldHeading": true,
+  "readableLineLength": false
 }

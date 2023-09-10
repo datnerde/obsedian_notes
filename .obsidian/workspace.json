@@ -15,7 +15,7 @@
               "state": {
                 "file": "Algorithm/相向two pointer.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -151,7 +151,9 @@
   "active": "9b890af2f8cb6612",
   "lastOpenFiles": [
     "Algorithm/Two Pointer.md",
+    "Algorithm/Sorting Algo.md",
     "Algorithm/相向two pointer.md",
+    "Pictures/Pasted image 20230910162250.png",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230906220926.png",
     "Pictures/Pasted image 20230906220011.png",
@@ -162,7 +164,6 @@
     "Pictures/Pasted image 20230906212334.png",
     "Pictures/Pasted image 20230906211454.png",
     "Pictures/Pasted image 20230906210000.png",
-    "Pictures/Pasted image 20230906205228.png",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
@@ -181,7 +182,6 @@
     "Algorithm/Tips on Improving Coding Quality.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/背向two pointer.md",
-    "Algorithm/Sorting Algo.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
