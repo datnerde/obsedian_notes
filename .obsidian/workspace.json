@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "Algorithm/相向two pointer.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5026054382324
+    "width": 200.50260543823242
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "Algorithm/相向two pointer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "Algorithm/相向two pointer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md"
+                "file": "Algorithm/相向two pointer.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   },
   "active": "9b890af2f8cb6612",
   "lastOpenFiles": [
+    "Algorithm/Two Pointer.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230906220926.png",
     "Pictures/Pasted image 20230906220011.png",
@@ -176,7 +177,6 @@
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
     "Research",
-    "Algorithm/Two Pointer.md",
     "Algorithm/Tips on Improving Coding Quality.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/相向two pointer.md",
