@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/相向two pointer.md",
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.50260543823242
+    "width": 293.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/相向two pointer.md",
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/相向two pointer.md",
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/相向two pointer.md"
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md"
               }
             }
           }
@@ -150,9 +150,13 @@
   },
   "active": "9b890af2f8cb6612",
   "lastOpenFiles": [
+    "Algorithm/相向two pointer.md",
+    "Algorithm/Leetcode/680. Valid Palindrome II.md",
+    "Algorithm/Leetcode/125. Valid Palindrome.md",
     "Algorithm/Two Pointer.md",
     "Algorithm/Sorting Algo.md",
-    "Algorithm/相向two pointer.md",
+    "Algorithm/Leetcode",
+    "Pictures/Pasted image 20230910163125.png",
     "Pictures/Pasted image 20230910162250.png",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230906220926.png",
@@ -163,7 +167,6 @@
     "Pictures/Pasted image 20230906214548.png",
     "Pictures/Pasted image 20230906212334.png",
     "Pictures/Pasted image 20230906211454.png",
-    "Pictures/Pasted image 20230906210000.png",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
@@ -178,7 +181,6 @@
     "Research/paper reading/speculative sampling.pdf",
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
-    "Research",
     "Algorithm/Tips on Improving Coding Quality.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/背向two pointer.md",
