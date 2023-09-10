@@ -1,3 +1,28 @@
+# 模版
+```python
+# 相向双指针(patition in quicksort)
+def partition(self, A, start, end):
+	if start >= end:
+		return
+	
+	left, right = start, end
+	
+	# key point 1: pivot is the value, not the index
+	pivot = A[(start + end) // 2]
+	
+	# key point 2: every time you compare left & right, it should be
+	# left <= right not left < right
+	
+	while left <= right:
+		while left <= right and A[left] < pivot:
+			left += 1
+		while left <= right and A[right] > pivot:
+			right -= 1
+		if left <= right:
+			A[left], A[right] = A[right], A[left]
+			left += 1
+			right -= 1
+```
 # Reverse型
 - 反转字符
 - 反转回文串
