@@ -15,7 +15,7 @@
               "state": {
                 "file": "Algorithm/相向two pointer.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -151,6 +151,7 @@
   "active": "9b890af2f8cb6612",
   "lastOpenFiles": [
     "Algorithm/Two Pointer.md",
+    "Algorithm/相向two pointer.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Pictures/Pasted image 20230906220926.png",
     "Pictures/Pasted image 20230906220011.png",
@@ -179,7 +180,6 @@
     "Research",
     "Algorithm/Tips on Improving Coding Quality.md",
     "Algorithm/同向two pointer.md",
-    "Algorithm/相向two pointer.md",
     "Algorithm/背向two pointer.md",
     "Algorithm/Sorting Algo.md",
     "Machine Learning/Dimensional Reduction.md",
