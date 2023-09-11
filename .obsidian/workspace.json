@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
+                "file": "Algorithm/Two Pointer.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5026054382324,
-    "collapsed": true
+    "width": 293.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
+                "file": "Algorithm/Two Pointer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
+                "file": "Algorithm/Two Pointer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md"
+                "file": "Algorithm/Two Pointer.md"
               }
             }
           }
@@ -149,18 +148,20 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "9b890af2f8cb6612",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Algorithm/背向two pointer.md",
+    "Algorithm/同向two pointer.md",
+    "Algorithm/相向two pointer.md",
+    "Algorithm/Sorting Algo.md",
+    "Algorithm/Leetcode/680. Valid Palindrome II.md",
     "Algorithm/Leetcode/1. Two Sum.md",
     "Algorithm/Leetcode/15. 3Sum.md",
     "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
-    "Algorithm/相向two pointer.md",
     "Algorithm/Two Pointer.md",
     "Algorithm/Leetcode/125. Valid Palindrome.md",
-    "Algorithm/Leetcode/680. Valid Palindrome II.md",
     "Pictures/Pasted image 20230910170704.png",
     "Pictures/Pasted image 20230910164609.png",
-    "Algorithm/Sorting Algo.md",
     "Algorithm/Leetcode",
     "Pictures/Pasted image 20230910163125.png",
     "Pictures/Pasted image 20230910162250.png",
@@ -186,8 +187,6 @@
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
     "Algorithm/Tips on Improving Coding Quality.md",
-    "Algorithm/同向two pointer.md",
-    "Algorithm/背向two pointer.md",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/AB Testing.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
