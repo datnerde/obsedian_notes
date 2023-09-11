@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Leetcode/1. Two Sum.md",
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5026054382324
+    "width": 293.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Leetcode/1. Two Sum.md",
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Leetcode/1. Two Sum.md",
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Leetcode/1. Two Sum.md"
+                "file": "Algorithm/Leetcode/680. Valid Palindrome II.md"
               }
             }
           }
@@ -148,10 +149,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "9b890af2f8cb6612",
   "lastOpenFiles": [
-    "Algorithm/Leetcode/15. 3Sum.md",
     "Algorithm/Leetcode/1. Two Sum.md",
+    "Algorithm/Leetcode/15. 3Sum.md",
     "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
     "Algorithm/相向two pointer.md",
     "Algorithm/Two Pointer.md",
