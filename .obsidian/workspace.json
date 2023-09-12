@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6f9bc7a537bdba13",
+        "id": "bae2a80eb742f36a",
         "type": "tabs",
         "children": [
           {
-            "id": "9b890af2f8cb6612",
+            "id": "1353f029e9b45b59",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Algorithm/Two Pointer.md",
-                "mode": "source",
-                "source": false
+                "file": "Research/paper reading/notes/Speculative Sampling.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Two Pointer.md",
+                "file": "Research/paper reading/notes/Speculative Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Two Pointer.md",
+                "file": "Research/paper reading/notes/Speculative Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Two Pointer.md"
+                "file": "Research/paper reading/notes/Speculative Sampling.md"
               }
             }
           }
@@ -148,8 +146,12 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "1353f029e9b45b59",
   "lastOpenFiles": [
+    "Research/paper reading/speculative sampling.pdf",
+    "Research/paper reading/notes/Speculative Sampling.md",
+    "Books/DDIA Notes.md",
+    "Algorithm/Two Pointer.md",
     "Algorithm/背向two pointer.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/相向two pointer.md",
@@ -158,7 +160,6 @@
     "Algorithm/Leetcode/1. Two Sum.md",
     "Algorithm/Leetcode/15. 3Sum.md",
     "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
-    "Algorithm/Two Pointer.md",
     "Algorithm/Leetcode/125. Valid Palindrome.md",
     "Pictures/Pasted image 20230910170704.png",
     "Pictures/Pasted image 20230910164609.png",
@@ -180,10 +181,8 @@
     "OMSCS/GOIS/readings/network programming in C.pdf",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Books/Quest for Machine Learning Notes.md",
-    "Books/DDIA Notes.md",
     "Research/paper reading/notes",
     "OMSCS/GOIS/readings/notes",
-    "Research/paper reading/speculative sampling.pdf",
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading",
     "Algorithm/Tips on Improving Coding Quality.md",
@@ -194,8 +193,6 @@
     "Machine Learning/Optimization.md",
     "OMSCS/GTID.md",
     "Machine Learning/Probability Graphical Model.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "README.md",
     "Untitled.canvas"
   ]
 }
