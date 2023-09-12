@@ -184,3 +184,17 @@ annotation-target: speculative sampling.pdf
 >%%TAGS%%
 >
 ^ap9ryhyt39
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:39:49.013Z","updated":"2023-09-12T17:39:49.013Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":14078,"end":14198},{"type":"TextQuoteSelector","exact":"Therefore we may simply use a smaller version of thetarget language model as the draft and obtain high acceptance rates.","prefix":"aller models may be sufficient. ","suffix":" This would also be convenientfr"}]}]}
+>```
+>%%
+>*%%PREFIX%%aller models may be sufficient.%%HIGHLIGHT%% ==Therefore we may simply use a smaller version of thetarget language model as the draft and obtain high acceptance rates.== %%POSTFIX%%This would also be convenientfr*
+>%%LINK%%[[#^e64xb21eahf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^e64xb21eahf
