@@ -141,3 +141,17 @@ annotation-target: speculative sampling.pdf
 >%%TAGS%%
 >
 ^3egqntsbdzj
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:16:21.548Z","updated":"2023-09-12T17:16:21.548Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":10683,"end":10825},{"type":"TextQuoteSelector","exact":" require a method to recover the distribution of the target model from samples from the draftmodel, and logits of said tokens from both models","prefix":"𝐾.Modified Rejection SamplingWe","suffix":".To achieve this, we introduce t"}]}]}
+>```
+>%%
+>*%%PREFIX%%𝐾.Modified Rejection SamplingWe%%HIGHLIGHT%% ==require a method to recover the distribution of the target model from samples from the draftmodel, and logits of said tokens from both models== %%POSTFIX%%.To achieve this, we introduce t*
+>%%LINK%%[[#^8xpa4pr8jlt|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^8xpa4pr8jlt
