@@ -155,3 +155,32 @@ annotation-target: speculative sampling.pdf
 >%%TAGS%%
 >
 ^8xpa4pr8jlt
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:37:42.395Z","text":"no freaking idea what this is talking about","updated":"2023-09-12T17:37:42.395Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":10654,"end":10680},{"type":"TextQuoteSelector","exact":"Modified Rejection Samplin","prefix":"gnificantly slower for small 𝐾.","suffix":"gWe require a method to recover "}]}]}
+>```
+>%%
+>*%%PREFIX%%gnificantly slower for small 𝐾.%%HIGHLIGHT%% ==Modified Rejection Samplin== %%POSTFIX%%gWe require a method to recover*
+>%%LINK%%[[#^g9p77766k8|show annotation]]
+>%%COMMENT%%
+>no freaking idea what this is talking about
+>%%TAGS%%
+>
+^g9p77766k8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:38:18.441Z","text":"what does logits mean in this context?\n","updated":"2023-09-12T17:38:18.441Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":12979,"end":13007},{"type":"TextQuoteSelector","exact":"as long as it exposes logits","prefix":"hod for drafting a continuation ","suffix":", and there is a highenough acce"}]}]}
+>```
+>%%
+>*%%PREFIX%%hod for drafting a continuation%%HIGHLIGHT%% ==as long as it exposes logits== %%POSTFIX%%, and there is a highenough acce*
+>%%LINK%%[[#^ap9ryhyt39|show annotation]]
+>%%COMMENT%%
+>what does logits mean in this context?
+>
+>%%TAGS%%
+>
+^ap9ryhyt39
