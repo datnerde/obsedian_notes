@@ -71,3 +71,73 @@ annotation-target: speculative sampling.pdf
 >%%TAGS%%
 >
 ^3odiona61c8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T16:59:32.677Z","updated":"2023-09-12T16:59:32.677Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":2211,"end":2226},{"type":"TextQuoteSelector","exact":"uto-regressive ","prefix":" 2018) or by calling a faster, a","suffix":"model 𝐾 times. We shall refer t"}]}]}
+>```
+>%%
+>*%%PREFIX%%2018) or by calling a faster, a%%HIGHLIGHT%% ==uto-regressive== %%POSTFIX%%model 𝐾 times. We shall refer t*
+>%%LINK%%[[#^o73my3xwxik|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^o73my3xwxik
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:01:43.563Z","updated":"2023-09-12T17:01:43.563Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":2343,"end":2411},{"type":"TextQuoteSelector","exact":"Scoring the draft using the larger, more powerful model from we wish","prefix":" where it is auto-regressive.2. ","suffix":" to sample from. We shallrefer t"}]}]}
+>```
+>%%
+>*%%PREFIX%%where it is auto-regressive.2.%%HIGHLIGHT%% ==Scoring the draft using the larger, more powerful model from we wish== %%POSTFIX%%to sample from. We shallrefer t*
+>%%LINK%%[[#^3dvlos4enyo|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3dvlos4enyo
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:01:47.063Z","updated":"2023-09-12T17:01:47.063Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":2487,"end":2521},{"type":"TextQuoteSelector","exact":"modified rejection sampling scheme","prefix":" as the target model.3. Using a ","suffix":", accept a subset of the 𝐾 draf"}]}]}
+>```
+>%%
+>*%%PREFIX%%as the target model.3. Using a%%HIGHLIGHT%% ==modified rejection sampling scheme== %%POSTFIX%%, accept a subset of the 𝐾 draf*
+>%%LINK%%[[#^1te14jz4ogk|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^1te14jz4ogk
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:06:42.476Z","updated":"2023-09-12T17:06:42.476Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":6094,"end":6214},{"type":"TextQuoteSelector","exact":"t transformers can be trained efficiently and in parallel on TPUs and GPUs, samples are typicallydrawn auto-regressively","prefix":"me.Auto-regressive SamplingWhils","suffix":" (See algorithm 1). For most app"}]}]}
+>```
+>%%
+>*%%PREFIX%%me.Auto-regressive SamplingWhils%%HIGHLIGHT%% ==t transformers can be trained efficiently and in parallel on TPUs and GPUs, samples are typicallydrawn auto-regressively== %%POSTFIX%%(See algorithm 1). For most app*
+>%%LINK%%[[#^c0phr3trppf|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^c0phr3trppf
+
+
+>%%
+>```annotation-json
+>{"created":"2023-09-12T17:08:21.617Z","updated":"2023-09-12T17:08:21.617Z","document":{"title":"speculative sampling.pdf","link":[{"href":"urn:x-pdf:4d0ac52d083f2915952051a645b9930b"},{"href":"vault:/Research/paper reading/speculative sampling.pdf"}],"documentFingerprint":"4d0ac52d083f2915952051a645b9930b"},"uri":"vault:/Research/paper reading/speculative sampling.pdf","target":[{"source":"vault:/Research/paper reading/speculative sampling.pdf","selector":[{"type":"TextPositionSelector","start":6897,"end":6967},{"type":"TextQuoteSelector","exact":" gives us a hard ceiling on the maximum auto-regressive samplingspeed.","prefix":"emory bandwidth across all chips","suffix":" Larger models also require serv"}]}]}
+>```
+>%%
+>*%%PREFIX%%emory bandwidth across all chips%%HIGHLIGHT%% ==gives us a hard ceiling on the maximum auto-regressive samplingspeed.== %%POSTFIX%%Larger models also require serv*
+>%%LINK%%[[#^3egqntsbdzj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^3egqntsbdzj
