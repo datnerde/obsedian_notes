@@ -4,31 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bae2a80eb742f36a",
+        "id": "ad2bd2bcda5dd39b",
         "type": "tabs",
         "children": [
           {
-            "id": "1353f029e9b45b59",
+            "id": "d2a285d58af4c296",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "Research/paper reading/notes/Speculative Sampling.md"
-              }
-            }
-          },
-          {
-            "id": "d3d57bb55a508bee",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.12"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research/paper reading/notes/Speculative Sampling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research/paper reading/notes/Speculative Sampling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Research/paper reading/notes/Speculative Sampling.md"
-              }
+              "state": {}
             }
           },
           {
@@ -168,10 +151,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "d3d57bb55a508bee",
+  "active": "d2a285d58af4c296",
   "lastOpenFiles": [
-    "Research/paper reading/speculative sampling.pdf",
     "Research/paper reading/notes/Speculative Sampling.md",
+    "Research/paper reading/speculative sampling.pdf",
     "Books/DDIA Notes.md",
     "Algorithm/Two Pointer.md",
     "Algorithm/背向two pointer.md",
