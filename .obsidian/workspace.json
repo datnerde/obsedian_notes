@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md",
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md",
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md",
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Threads and Concurrency Playlist.md"
+                "file": "OMSCS/GOIS/Threads Case Study - PThreads.md"
               }
             }
           },
@@ -160,8 +160,8 @@
   },
   "active": "d2a285d58af4c296",
   "lastOpenFiles": [
-    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
+    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "Research/paper reading/notes/Speculative Sampling.md",
     "Research/paper reading/speculative sampling.pdf",
     "Books/DDIA Notes.md",
