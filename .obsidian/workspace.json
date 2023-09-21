@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5026054382324,
-    "collapsed": true
+    "width": 374.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -161,11 +160,11 @@
   },
   "active": "1f47b79ae0116745",
   "lastOpenFiles": [
-    "Pictures/Pasted image 20230920210541.png",
     "Algorithm/相向two pointer.md",
+    "Algorithm/Leetcode/75. Sort Colors.md",
+    "Pictures/Pasted image 20230920210541.png",
     "Algorithm/Leetcode/31. Partition Array.md",
     "Pictures/Pasted image 20230920201822.png",
-    "Algorithm/Leetcode/75. Sort Colors.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/背向two pointer.md",
     "Algorithm/Sorting Algo.md",
@@ -191,7 +190,6 @@
     "Pictures/Pasted image 20230906220011.png",
     "Pictures/Pasted image 20230906215731.png",
     "Pictures/Pasted image 20230906215307.png",
-    "Pictures/Pasted image 20230906215139.png",
     "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
     "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
     "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
