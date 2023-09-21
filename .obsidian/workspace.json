@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Leetcode/75. Sort Colors.md",
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5026054382324,
-    "collapsed": true
+    "width": 374.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Leetcode/75. Sort Colors.md",
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Leetcode/75. Sort Colors.md",
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Leetcode/75. Sort Colors.md"
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md"
               }
             }
           },
@@ -161,18 +160,19 @@
   },
   "active": "1f47b79ae0116745",
   "lastOpenFiles": [
+    "Algorithm/背向two pointer.md",
+    "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
+    "Algorithm/Two Pointer.md",
+    "Algorithm/Sorting Algo.md",
+    "Algorithm/Tips on Improving Coding Quality.md",
+    "Algorithm/同向two pointer.md",
+    "Algorithm/Leetcode/75. Sort Colours.md",
     "Algorithm/相向two pointer.md",
-    "Algorithm/Leetcode/75. Sort Colors.md",
     "Pictures/Pasted image 20230920210541.png",
     "Algorithm/Leetcode/31. Partition Array.md",
     "Pictures/Pasted image 20230920201822.png",
-    "Algorithm/同向two pointer.md",
-    "Algorithm/背向two pointer.md",
-    "Algorithm/Sorting Algo.md",
-    "Algorithm/Two Pointer.md",
     "Algorithm/Leetcode/125. Valid Palindrome.md",
     "Algorithm/Leetcode/15. 3Sum.md",
-    "Algorithm/Tips on Improving Coding Quality.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "Research/paper reading/notes/Speculative Sampling.md",

@@ -40,4 +40,4 @@ def partition(self, A, start, end):
 * 颜色排序
 ## 经典例题
 - [[31. Partition Array]]
-- [[75. Sort Colors]]
+- [[75. Sort Colours]]
