@@ -34,3 +34,10 @@ def partition(self, A, start, end):
 - Three Sums
 ## 经典例题
 - [[1. Two Sum]]
+- [[15. 3Sum]]
+# Partition 型
+* 快速排序
+* 颜色排序
+## 经典例题
+- [[31. Partition Array]]
+- [[75. Sort Colors]]
