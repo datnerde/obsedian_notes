@@ -4,20 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "fa1e113c6a5e1ec5",
-        "type": "tabs",
+        "id": "21f83622e5c7b55d",
+        "type": "split",
         "children": [
           {
-            "id": "b696fa0fcd67ed38",
-            "type": "leaf",
-            "state": {
-              "type": "pdf-annotator",
-              "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md"
+            "id": "fa1e113c6a5e1ec5",
+            "type": "tabs",
+            "dimension": 56.00000000000001,
+            "children": [
+              {
+                "id": "49f33ca7462cb446",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf"
+                  }
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "84041598c6297b19",
+            "type": "tabs",
+            "dimension": 44,
+            "children": [
+              {
+                "id": "b696fa0fcd67ed38",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf"
+                  }
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -67,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5026054382324
+    "width": 221.50260543823242
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -83,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md"
+                "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf"
               }
             }
           },
@@ -156,9 +181,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "b696fa0fcd67ed38",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
+    "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+    "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
+    "OMSCS/GOIS/readings/network programming in C.pdf",
     "OMSCS/GOIS/Thread Design considerations.md",
+    "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
     "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
     "Algorithm/背向two pointer.md",
@@ -190,11 +220,7 @@
     "Pictures/Pasted image 20230906220011.png",
     "Pictures/Pasted image 20230906215731.png",
     "Pictures/Pasted image 20230906215307.png",
-    "OMSCS/GOIS/readings/ud923-birrell-paper.pdf",
-    "OMSCS/GOIS/readings/ud923-stein-shah-paper.pdf",
     "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
-    "OMSCS/GOIS/readings/network programming in C.pdf",
-    "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Books/Quest for Machine Learning Notes.md",
     "Research/paper reading/notes",
     "OMSCS/GOIS/readings/notes",
@@ -202,8 +228,6 @@
     "Research/paper reading",
     "Machine Learning/Dimensional Reduction.md",
     "Machine Learning/AB Testing.md",
-    "Machine Learning/Quest for Machine Learning Book Outline.md",
-    "Machine Learning/Feature Engineering.md",
     "Untitled.canvas"
   ]
 }
