@@ -10,7 +10,7 @@
           {
             "id": "fa1e113c6a5e1ec5",
             "type": "tabs",
-            "dimension": 56.00000000000001,
+            "dimension": 64.57142857142857,
             "children": [
               {
                 "id": "49f33ca7462cb446",
@@ -27,15 +27,17 @@
           {
             "id": "84041598c6297b19",
             "type": "tabs",
-            "dimension": 44,
+            "dimension": 35.42857142857142,
             "children": [
               {
                 "id": "b696fa0fcd67ed38",
                 "type": "leaf",
                 "state": {
-                  "type": "pdf",
+                  "type": "markdown",
                   "state": {
-                    "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf"
+                    "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
+                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
+                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf"
+                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md"
               }
             }
           },
@@ -181,12 +183,17 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "b696fa0fcd67ed38",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
-    "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+    "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
+    "OMSCS/GOIS/Process and Process Management.md",
+    "OMSCS/GOIS/Introduction to Operating Systems.md",
+    "OMSCS/GTID.md",
     "OMSCS/GOIS/readings/network programming in C.pdf",
+    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
+    "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
+    "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
@@ -220,14 +227,9 @@
     "Pictures/Pasted image 20230906220011.png",
     "Pictures/Pasted image 20230906215731.png",
     "Pictures/Pasted image 20230906215307.png",
-    "OMSCS/GOIS/readings/ud923-eykholt-paper.pdf",
-    "Books/Quest for Machine Learning Notes.md",
     "Research/paper reading/notes",
     "OMSCS/GOIS/readings/notes",
     "Research/paper reading/nucleus sampling.pdf",
-    "Research/paper reading",
-    "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/AB Testing.md",
     "Untitled.canvas"
   ]
 }
