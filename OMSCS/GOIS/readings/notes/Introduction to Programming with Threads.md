@@ -10,5 +10,8 @@
 ----
 # Why use concurrency
 - The advent of multi-processeors
-- Useful in driving slow devices 
-- 
+- Useful in driving slow devices such as disks, networks, terminals and printers
+- Human users want their computer to do multiple works
+- Building a distributed system needs concurrency to handle clients' requests in parallel
+----
+# The design of a thread facility
