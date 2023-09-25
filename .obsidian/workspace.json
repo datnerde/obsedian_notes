@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
+                "file": "Algorithm/Leetcode/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
+                "file": "Algorithm/Leetcode/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
+                "file": "Algorithm/Leetcode/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md"
+                "file": "Algorithm/Leetcode/Untitled.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   "active": "b696fa0fcd67ed38",
   "lastOpenFiles": [
     "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
+    "Algorithm/Leetcode/Untitled.md",
     "Algorithm/背向two pointer.md",
     "Algorithm/Two Pointer.md",
     "Algorithm/Sorting Algo.md",
@@ -205,7 +206,6 @@
     "Machine Learning/AB Testing.md",
     "Machine Learning/Quest for Machine Learning Book Outline.md",
     "Machine Learning/Feature Engineering.md",
-    "Machine Learning/Optimization.md",
     "Untitled.canvas"
   ]
 }
