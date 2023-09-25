@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "76a1ee80fdf41c64",
+        "id": "fa1e113c6a5e1ec5",
         "type": "tabs",
         "children": [
           {
-            "id": "d84e37a10fb767b3",
+            "id": "b696fa0fcd67ed38",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -151,7 +151,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "d84e37a10fb767b3",
+  "active": "b696fa0fcd67ed38",
   "lastOpenFiles": [
     "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
     "Algorithm/背向two pointer.md",
