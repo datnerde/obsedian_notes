@@ -15,3 +15,7 @@
 - Building a distributed system needs concurrency to handle clients' requests in parallel
 ----
 # The design of a thread facility
+- Thread creation
+- Mutual exclusion
+- Waiting for events
+- 
