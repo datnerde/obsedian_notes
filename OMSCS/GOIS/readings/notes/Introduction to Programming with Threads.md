@@ -6,4 +6,5 @@
 	- threads as executing simultaneously
 - "single address space": permit the threads to read and write the same memory locations
 - each thread executes on a separate call stack with its own separate local variables
+- The programmer has to synchronize the threads to the shared (global memory)
 - 
