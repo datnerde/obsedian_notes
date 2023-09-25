@@ -11,8 +11,12 @@
             "id": "b696fa0fcd67ed38",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5026054382324,
-    "collapsed": true
+    "width": 374.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithm/Leetcode/5. Longest Palindromic Substring.md"
+              }
             }
           },
           {
