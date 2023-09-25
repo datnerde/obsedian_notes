@@ -16,6 +16,8 @@
 ----
 # The design of a thread facility
 - Thread creation
+	- using "Fork" to create a new thread
+	- using "Join" to wait for a given thread to terminate
 - Mutual exclusion
 - Waiting for events
 - 
