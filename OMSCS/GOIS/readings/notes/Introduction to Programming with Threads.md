@@ -33,6 +33,11 @@
 	LOCK mutex DO ... statements ... END ;
 	```
 	- A mutex has two states
-		- 
-- Waiting for events
+		- locked and unlocked
+		- initially unlocked
+	- achieve mutual exclusion
+		- associating them with a mutex
+		- accessing the variables only from a thread that holds the mutex
+- Condition variables
+	- 
 - 
