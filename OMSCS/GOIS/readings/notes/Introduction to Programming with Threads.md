@@ -17,7 +17,15 @@
 # The design of a thread facility
 - Thread creation
 	- using "Fork" to create a new thread
-	- using "Join" to wait for a given thread to terminate
+	- When a procedure returns, the thread dies
+	- The fork returns a caller handle which is sometimes joined (i.e., join means the calling thread waits for the thread to die before continuing)
+	```
+	TYPE Thread; 
+	TYPE Forkee = PROCEDURE(REFANY): REFANY;
+	PROCEDURE Fork(proc: Forkee; arg: REFANY): Thread; 
+	PROCEDURE Join(thread: Thread): REFANY;
+	```
 - Mutual exclusion
+	- 
 - Waiting for events
 - 
