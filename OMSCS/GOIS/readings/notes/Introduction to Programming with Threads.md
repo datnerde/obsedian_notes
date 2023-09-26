@@ -39,5 +39,5 @@
 		- associating them with a mutex
 		- accessing the variables only from a thread that holds the mutex
 - Condition variables
-	- 
+	- a mechanism that allows a thread to block until some event happens
 - 
