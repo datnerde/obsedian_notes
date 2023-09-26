@@ -47,3 +47,9 @@
 	 PROCEDURE Broadcast(c: Condition);
 	```
 	- always associated with a particular mutex
+	- 'wait' unlocks the mutex and blocks the thread
+		- if a thread is awoken inside 'wait' after blocking, it re-locks the mutex then returns
+	- 'signal' awakens at least one such blocked thread
+	- 'broadcast' awakens all threads blocked
+- Alerts
+	- A mechanism for interrupting a particular thread
