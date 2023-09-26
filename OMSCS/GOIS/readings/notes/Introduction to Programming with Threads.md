@@ -58,4 +58,6 @@
 		- sets alert-pending = False
 		- re-locks m and raises the exception 'alerted'
 	- 'testalert' tests and clears the alert-pending boolean
+# Using a mutex: Accessing shared data
+- Unprotected data
 	- 
