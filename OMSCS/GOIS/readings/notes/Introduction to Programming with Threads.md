@@ -53,3 +53,8 @@
 	- 'broadcast' awakens all threads blocked
 - Alerts
 	- A mechanism for interrupting a particular thread
+	- 'alert-pending' = False initially
+	- 'alertwait' similar to 'wait', except that it will 
+		- sets alert-pending = False
+		- re-locks m and raises the exception 'alerted'
+	- ''
