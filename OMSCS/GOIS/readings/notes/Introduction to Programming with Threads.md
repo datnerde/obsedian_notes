@@ -57,4 +57,5 @@
 	- 'alertwait' similar to 'wait', except that it will 
 		- sets alert-pending = False
 		- re-locks m and raises the exception 'alerted'
-	- ''
+	- 'testalert' tests and clears the alert-pending boolean
+	- 
