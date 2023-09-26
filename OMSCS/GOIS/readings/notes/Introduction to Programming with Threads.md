@@ -40,4 +40,10 @@
 		- accessing the variables only from a thread that holds the mutex
 - Condition variables
 	- a mechanism that allows a thread to block until some event happens
-- 
+	```
+	 TYPE Condition; 
+	 PROCEDURE Wait(m: Mutex; c: Condition); 
+	 PROCEDURE Signal(c: Condition); 
+	 PROCEDURE Broadcast(c: Condition);
+	```
+	- always associated with a particular mutex
