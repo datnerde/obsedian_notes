@@ -26,6 +26,13 @@
 	PROCEDURE Join(thread: Thread): REFANY;
 	```
 - Mutual exclusion
-	- 
+	- avoid errors arising when more than one thread is accessing the shared variables
+	- a primitive that offers mutual exclusion, specifying for a particular region of code that only one thread can execute there at any time
+	```
+	TYPE Mutex;
+	LOCK mutex DO ... statements ... END ;
+	```
+	- A mutex has two states
+		- 
 - Waiting for events
 - 
