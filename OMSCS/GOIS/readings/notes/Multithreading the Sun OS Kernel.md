@@ -14,4 +14,5 @@
 	- fully preemptible
 - Kernel Threads are used to:
 	- provide asynchronous kernel activity
-	- 
+	- threads are independently schedulable
+	- interrupts are also handled by kernel threads
