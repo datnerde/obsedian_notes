@@ -10,6 +10,7 @@
           {
             "id": "dd32dc9702f4bfc1",
             "type": "tabs",
+            "dimension": 57.78032036613272,
             "children": [
               {
                 "id": "6fc3355fa086cdfc",
@@ -17,7 +18,7 @@
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
+                    "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf"
                   }
                 }
               }
@@ -26,6 +27,7 @@
           {
             "id": "4c45c6daea3c75bc",
             "type": "tabs",
+            "dimension": 42.21967963386727,
             "children": [
               {
                 "id": "3edb61260989bf80",
@@ -33,7 +35,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                    "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
                     "mode": "source",
                     "source": false
                   }
@@ -92,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50260543823242,
-    "collapsed": true
+    "width": 240.50260543823242
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md"
+                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md"
               }
             }
           },
@@ -184,13 +185,14 @@
   },
   "active": "3edb61260989bf80",
   "lastOpenFiles": [
+    "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
+    "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GTID.md",
-    "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/Process and Process Management.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/readings/network programming in C.pdf",
@@ -216,7 +218,6 @@
     "Research/paper reading/speculative sampling.pdf",
     "Books/DDIA Notes.md",
     "Algorithm/Leetcode/680. Valid Palindrome II.md",
-    "Algorithm/Leetcode/1. Two Sum.md",
     "Pictures/Pasted image 20230910170704.png",
     "Pictures/Pasted image 20230910164609.png",
     "Algorithm/Leetcode",
