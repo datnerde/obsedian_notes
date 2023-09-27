@@ -95,3 +95,5 @@
 	- you should probably separate the blocked threads onto two conditions variables
 		- one for readers
 		- and one for writers
+	- Spurious lock conflicts
+		- 
