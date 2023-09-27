@@ -92,3 +92,6 @@
 	- shared / exclusive locking
 - Spurious wake-ups
 	- awakening threads that cannot make useful progress
+	- you should probably separate the blocked threads onto two conditions variables
+		- one for readers
+		- and one for writers
