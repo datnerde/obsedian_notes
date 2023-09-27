@@ -25,4 +25,7 @@
 		- scheduled at user-level and switched by the library to any of the LWPs belonging to the process
 		- bound to a particular LWP
 		- user-level threads can be switched between without entering the kernel
-	- 
+		- allows a user process to have thousands of threads without overwhelming kernel resources
+# Data Structures
+---
+- 
