@@ -127,7 +127,16 @@
     - Writing output to file thread
     - User input thread
     - Background thread to clean up data structures
-    - If you don't want to wait for a device, create a thread
-    - If you want multiple device request, use multiple threads
-    - If you are interacting with a user, you'll want a separate thread to deal with and respond
-    - 
+- If you don't want to wait for a device, create a thread
+- If you want multiple device request, use multiple threads
+- If you are interacting with a user, you'll want a separate thread to deal with and respond
+- Network servers will require separate threads
+    - RPC protocol requires separate threads already
+    - If you are writing a client program, create a separate thread to contact the server
+- Strategies
+    - Once a procedure has a usable result, fork the thread and complete the rest of the work and return to the original thread
+        - However this could create large numbers of threads and forking has a time cost
+    - Instead, keep a single housekeeping thread and feed requests to it
+        - Also, the housekeeper can merge similar requests and only run after a certain period of time
+- Pipelining
+	- 
