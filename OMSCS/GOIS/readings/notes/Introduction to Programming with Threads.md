@@ -169,4 +169,16 @@
 			- avoid holding a mutex while making an up-call
 - Version stamps
 	- avoid cache issues
-		- 
+		- maintain a counter associated with the true data in a lower level
+		- higher level also caches the associated counter value
+		- low level receives and compares the counter value and return an exception to high level to re-consider its call
+	- also useful in distributed system
+- Work crews
+	- when you have more concurrency than can be run on your hardware
+	- be more retrained on forking / abstraction that control forking
+		- fixed pool of threads that perform the requests
+	- defers fork until there is a processor available to run it => lazy forking
+# Building your program
+- design interfaces with the assumption that your callers will be using multiple threads
+- "Correct" means your program produces and answer according to a specification
+- 
