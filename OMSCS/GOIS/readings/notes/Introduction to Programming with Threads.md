@@ -140,3 +140,11 @@
         - Also, the housekeeper can merge similar requests and only run after a certain period of time
 - Pipelining
 	- A chain of producer-consumer relationship
+	- be careful about how much of the work gets done in each stage (hopefully each stage workload is equal)
+	- number of stages determines statically the amount of concurrency
+- The impact of your environment
+	- design of OS and runtime libraries will affect the extent to which it is desirable to fork threads
+		- should not suspend the entire address space just because on thread is blocked on i/o
+		- should be available as synchronous calls that block only calling thread
+	- cost of a thread / cost of keeping a blocked thread in existence / context switch
+- 
