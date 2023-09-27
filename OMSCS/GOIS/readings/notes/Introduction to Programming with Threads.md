@@ -147,4 +147,11 @@
 		- should not suspend the entire address space just because on thread is blocked on i/o
 		- should be available as synchronous calls that block only calling thread
 	- cost of a thread / cost of keeping a blocked thread in existence / context switch
+- Potential problems with adding threads
+	- performance degrades if ***ready to run*** threads >> processors
+		- thread schedulers are slow at re-scheduling decision
+		- conflicts over mutexes or over the resources managed by condition variables
+	- cost of thread creation and termination are not cheap
+		- smallest computation for which it is profitable to fork a thread (measurement of thread implementation)
+# Using alert: Diverting the flow of control
 - 
