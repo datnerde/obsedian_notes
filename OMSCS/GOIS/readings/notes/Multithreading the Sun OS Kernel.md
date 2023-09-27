@@ -28,4 +28,5 @@
 		- allows a user process to have thousands of threads without overwhelming kernel resources
 # Data Structures
 ---
+- Traditionally, `user` and `proc` structures contained all kernel data for the process
 - 
