@@ -139,4 +139,4 @@
     - Instead, keep a single housekeeping thread and feed requests to it
         - Also, the housekeeper can merge similar requests and only run after a certain period of time
 - Pipelining
-	- 
+	- A chain of producer-consumer relationship
