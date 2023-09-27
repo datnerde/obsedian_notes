@@ -59,5 +59,36 @@
 		- re-locks m and raises the exception 'alerted'
 	- 'testalert' tests and clears the alert-pending boolean
 # Using a mutex: Accessing shared data
+- All shared mutable data must be protected by associating it with some mutex
+- And you must access the data only from a thread that is holding the mutex
 - Unprotected data
-	- 
+	- Fail to protect some mutable data and then you access it wo the benefits of synchronization
+	- the effects of unsynchronized access is non-deterministic
+- Invariants
+	- a boolean function of the data that is true whenever the mutex is not held
+	- each thread has the responsibility to restore the invariant before releasing the mutex
+- Cheating
+	- skip mutex because of the simplicity in code and machine
+- Deadlocks involving only mutexes
+	- apply a partial order to the acquisition of mutexes (e.g., make sure M1 is always locked before M2)
+	- Breakdown your mutexes into smaller chunk
+- Poor performance through lock conflicts
+	- to get good performance, you must arrange that lock conflicts are rare events
+	- lock at a finer granularity ; but this introduces complexity
+- Releasing the mutex within a LOCK clause
+	- “acquire” and “release” because you want to avoid blocking the thread for a long time due to long-time execution
+	- vicinity of forking: transfer the holding of the mutex to the newly forked thread
+	- don’t recommend to do this
+# Using a condition variable: scheduling shared resources
+- WHILE NOT expression DO Thread.Wait(m,c) END;
+- re-testing the condition
+    - “signal” dose not guarantee that the awoken thread will be the next to lock the mutex
+    - SRC “signal” may wake up more than one thread
+    - make your program more obviously, robust and correct
+    - it allows for simple programming of calls to “Signal” or “Broadcast”
+- Using “Broadcast”
+	- The correctness of the program will be unaffected between “signal” / “broadcast” after applying the re-checking style
+	- One use of “Broadcast” trades poorer performance for greater simplicity
+	- shared / exclusive locking
+- Spurious wake-ups
+	- awakening threads that cannot make useful progress
