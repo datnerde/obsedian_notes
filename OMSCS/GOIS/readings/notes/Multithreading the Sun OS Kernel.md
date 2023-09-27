@@ -19,4 +19,5 @@
 	- interrupts are also handled by kernel threads
 	- support of multiple kernel-supported threads of control 
 		- LWPs = lightweight processes
-	- 
+		- while all LWPs have a kernel thread, not all kernel threads have an LWP
+		- 
