@@ -113,4 +113,7 @@
 	- whether the potential cost of ignoring the problem is enough to merit writing a more complex program
 - Deadlock
 	- avoid by assigning order on the resources managed by the condition variables
-	- 
+	- lock a mutex at one abstraction level of your program then call down to a lower level, which blcoks
+		- explicitly unlock the mutex before calling the lower level abstraction
+# Using fork: Working in parallel
+- 
