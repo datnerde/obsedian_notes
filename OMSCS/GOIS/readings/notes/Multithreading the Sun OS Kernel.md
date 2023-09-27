@@ -14,5 +14,9 @@
 	- fully preemptible
 - Kernel Threads are used to:
 	- provide asynchronous kernel activity
-	- threads are independently schedulable
+		- remove diversions in the idle loop and trap code
+		- replaces them with independently scheduled threads
 	- interrupts are also handled by kernel threads
+	- support of multiple kernel-supported threads of control 
+		- LWPs = lightweight processes
+	- 
