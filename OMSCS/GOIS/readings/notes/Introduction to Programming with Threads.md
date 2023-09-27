@@ -162,4 +162,11 @@
 - alters are most useful when you don't know exactly what is going on
 # Additional techniques
 - Up-calls
-	- 
+	- calling a higher level abstraction
+		- no unnecessary context switches
+		- programmer's task has been made more complicated: up-call & down-call
+		- more likely to violate the partial order rule for locking mutexes
+			- avoid holding a mutex while making an up-call
+- Version stamps
+	- avoid cache issues
+		- 
