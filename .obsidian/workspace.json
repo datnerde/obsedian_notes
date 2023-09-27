@@ -10,7 +10,7 @@
           {
             "id": "fa1e113c6a5e1ec5",
             "type": "tabs",
-            "dimension": 58.62857142857143,
+            "dimension": 39.42857142857143,
             "children": [
               {
                 "id": "49f33ca7462cb446",
@@ -27,7 +27,7 @@
           {
             "id": "84041598c6297b19",
             "type": "tabs",
-            "dimension": 41.37142857142857,
+            "dimension": 60.57142857142858,
             "children": [
               {
                 "id": "b696fa0fcd67ed38",
@@ -35,24 +35,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "OMSCS/GTID.md",
+                    "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
                     "mode": "source",
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "61acf555dbbf00c3",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.4.14"
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -121,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GTID.md",
+                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GTID.md",
+                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GTID.md"
+                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md"
               }
             }
           },
@@ -194,8 +183,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "61acf555dbbf00c3",
+  "active": "b696fa0fcd67ed38",
   "lastOpenFiles": [
+    "OMSCS/GTID.md",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
@@ -203,7 +193,6 @@
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/Process and Process Management.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "OMSCS/GTID.md",
     "OMSCS/GOIS/readings/network programming in C.pdf",
     "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
