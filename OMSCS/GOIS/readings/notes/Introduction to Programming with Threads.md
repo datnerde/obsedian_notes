@@ -95,13 +95,22 @@
 	- you should probably separate the blocked threads onto two conditions variables
 		- one for readers
 		- and one for writers
-	- Spurious lock conflicts
-		- excessive scheduling overhead
-			- a terminating reader calls "signal" and still has the mutex locked
-				- the writer will be awakened
-				- the write will continue to work when reader unlocks the mutex (two extra re-scehdule operations)
-			- we can move the signal after the lock clause
-		- a terminating writer calls "broadcast"
-			- only one reader can lock the mutex, but other readers are also trying to lock the mutex causing the block
-			- we can awaken just one reader and having each reader in turn awaken the next
-		- 
+- Spurious lock conflicts
+	- excessive scheduling overhead
+		- a terminating reader calls "signal" and still has the mutex locked
+			- the writer will be awakened
+			- the write will continue to work when reader unlocks the mutex (two extra re-scehdule operations)
+		- we can move the signal after the lock clause
+	- a terminating writer calls "broadcast"
+		- only one reader can lock the mutex, but other readers are also trying to lock the mutex causing the block
+		- we can awaken just one reader and having each reader in turn awaken the next
+- Starvation
+	- when some thread will never make progress. 
+		- here is always at least one thread wanting to be a reader, but the system is heavily loaded.
+		- the writer can never proceed
+		- we can add a counter for blocked writers, and defer the reader
+- Complexity
+	- whether the potential cost of ignoring the problem is enough to merit writing a more complex program
+- Deadlock
+	- avoid by assigning order on the resources managed by the condition variables
+	- 

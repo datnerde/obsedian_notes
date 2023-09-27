@@ -10,7 +10,7 @@
           {
             "id": "fa1e113c6a5e1ec5",
             "type": "tabs",
-            "dimension": 66.85714285714286,
+            "dimension": 61.48571428571429,
             "children": [
               {
                 "id": "49f33ca7462cb446",
@@ -27,7 +27,7 @@
           {
             "id": "84041598c6297b19",
             "type": "tabs",
-            "dimension": 33.14285714285714,
+            "dimension": 38.51428571428571,
             "children": [
               {
                 "id": "b696fa0fcd67ed38",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md"
+                "file": "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf"
               }
             }
           },
@@ -184,10 +184,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "b696fa0fcd67ed38",
+  "active": "49f33ca7462cb446",
   "lastOpenFiles": [
-    "OMSCS/GTID.md",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+    "OMSCS/GTID.md",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
