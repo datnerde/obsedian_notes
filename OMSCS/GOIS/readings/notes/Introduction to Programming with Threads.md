@@ -96,5 +96,12 @@
 		- one for readers
 		- and one for writers
 	- Spurious lock conflicts
-		- 
+		- excessive scheduling overhead
+			- a terminating reader calls "signal" and still has the mutex locked
+				- the writer will be awakened
+				- the write will continue to work when reader unlocks the mutex (two extra re-scehdule operations)
+			- we can move the signal after the lock clause
+		- a terminating writer calls "broadcast"
+			- only one reader can lock the mutex, but other readers are also trying to lock the mutex causing the block
+			- we can awaken just one reader and having each reader in turn awaken the next
 		- 
