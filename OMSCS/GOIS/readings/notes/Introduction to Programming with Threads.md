@@ -154,4 +154,7 @@
 	- cost of thread creation and termination are not cheap
 		- smallest computation for which it is profitable to fork a thread (measurement of thread implementation)
 # Using alert: Diverting the flow of control
-- 
+- purpose
+	- termination of along running computation or a long-term wait
+- any procedure in a public interface that might incur a long computation or a long-term wait should be alertable
+	- 
