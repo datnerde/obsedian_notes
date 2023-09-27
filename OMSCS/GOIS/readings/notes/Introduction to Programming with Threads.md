@@ -157,4 +157,6 @@
 - purpose
 	- termination of along running computation or a long-term wait
 - any procedure in a public interface that might incur a long computation or a long-term wait should be alertable
-	- 
+- only alert a thread if you forked the thread
+- using them will tend to make your program less well structured
+- alternatives to using alerts
