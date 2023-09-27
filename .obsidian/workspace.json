@@ -4,38 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "21f83622e5c7b55d",
+        "id": "a8190b3171b3a7b8",
         "type": "split",
         "children": [
           {
-            "id": "fa1e113c6a5e1ec5",
+            "id": "dd32dc9702f4bfc1",
             "type": "tabs",
-            "dimension": 55.2,
             "children": [
               {
-                "id": "49f33ca7462cb446",
+                "id": "6fc3355fa086cdfc",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
-                    "file": "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf"
+                    "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
                   }
                 }
               }
             ]
           },
           {
-            "id": "84041598c6297b19",
+            "id": "4c45c6daea3c75bc",
             "type": "tabs",
-            "dimension": 44.800000000000004,
             "children": [
               {
-                "id": "b696fa0fcd67ed38",
+                "id": "3edb61260989bf80",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+                    "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
                     "mode": "source",
                     "source": false
                   }
@@ -94,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5026054382324,
+    "width": 240.50260543823242,
     "collapsed": true
   },
   "right": {
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md"
+                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md"
               }
             }
           },
@@ -184,13 +182,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "b696fa0fcd67ed38",
+  "active": "3edb61260989bf80",
   "lastOpenFiles": [
+    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
+    "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+    "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GTID.md",
-    "OMSCS/GOIS/readings/Flash_Web Server.pdf",
-    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/Process and Process Management.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
@@ -218,7 +217,6 @@
     "Books/DDIA Notes.md",
     "Algorithm/Leetcode/680. Valid Palindrome II.md",
     "Algorithm/Leetcode/1. Two Sum.md",
-    "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
     "Pictures/Pasted image 20230910170704.png",
     "Pictures/Pasted image 20230910164609.png",
     "Algorithm/Leetcode",
