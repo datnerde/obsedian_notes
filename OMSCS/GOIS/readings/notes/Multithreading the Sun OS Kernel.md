@@ -20,4 +20,9 @@
 	- support of multiple kernel-supported threads of control 
 		- LWPs = lightweight processes
 		- while all LWPs have a kernel thread, not all kernel threads have an LWP
-		- 
+	- user-level library
+		- uses LWPs to implement user-level threads
+		- scheduled at user-level and switched by the library to any of the LWPs belonging to the process
+		- bound to a particular LWP
+		- user-level threads can be switched between without entering the kernel
+	- 
