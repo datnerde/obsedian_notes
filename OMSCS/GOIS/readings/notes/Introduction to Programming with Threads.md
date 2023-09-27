@@ -116,4 +116,18 @@
 	- lock a mutex at one abstraction level of your program then call down to a lower level, which blocks
 		- explicitly unlock the mutex before calling the lower level abstraction
 # Using fork: Working in parallel
-- 
+- Reasons to fork a thread
+    - utilize multiple processors
+    - do work while waiting for I/O
+    - Satisfy multitasking humans
+    - provide a network service to multiple clients
+    - defer work until a less busy time
+- Applications use several threads, for example:
+    - Computation thread
+    - Writing output to file thread
+    - User input thread
+    - Background thread to clean up data structures
+    - If you don't want to wait for a device, create a thread
+    - If you want multiple device request, use multiple threads
+    - If you are interacting with a user, you'll want a separate thread to deal with and respond
+    - 
