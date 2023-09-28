@@ -120,3 +120,5 @@
 - Alternatively, the sleep queue can be sleected using a hash function on the address of the synchronzation object
     - `sleep()` uses this approach in a traditional kernel
 - That said, the turnstile approach is favored for more predictable real-time behaviour since they are never shared by other locks
+# Interrupts as Threads
+---
