@@ -6,3 +6,49 @@
     - Includes threads library and a modified kernel to support multiple threads in a single UNIX process
 # Threads Model
 ---
+- Traditionally, UNIX processes had a single thread
+- SunOS Multi-thread Architecture allowed for more than one thread
+- Threads are viewed as execution resources that can be applied to solving the problem at hand
+- Threads share process instructions and most of its data
+- A change in shared data can be seen by the other threads in the process
+    - Ex. One thread opens a file, another can read from it
+- Synchronization Facilities
+    - Mutex Locks
+    - Condition Variables
+    - Semaphores
+    - Multiple Readers / Single Writers locks
+- Synchronization variables are allocated in ordinary memory
+- Threads in different processes can synchronize via synchronization variables in shared memory or mapped files
+    - These variables must be marked as being process-shared when they are initialized
+    - They may have different variants with different blocking behavior
+- Each thread has its own program counter (PC) and stack to keep track of local variables and return addresses
+- Each thread can make arbitrary system calls and interact with processes
+- NOTE: If one thread calls `exit()` all threads are destroyed
+- Each thread has its own signal mask
+    - This allows blocking asynchronously generated signals while accessing a state modified by a signal handler
+    - Synchronously generate signals such as `SIGSEGV` are sent to the thread that caused them
+    - Externally generated signals are sent to one of the threads that has it unmasked
+        - If all threads mask a signal, it is set to pending until a thread unmasks it
+        - Signals can also be send to particular threads in the same process
+        - The number of signals recieved by the process is less than or equal to the number sent
+- All threads within a process share the set of signal handlers
+    - If the handler is set to `SIG_IGN` any received signals are discarded
+    - If the handler is set to `SIG_DFL` the default action (ex. stop, continue, exit) applies to the process as a whole
+- Processes can fork in one of two ways
+    - The first clones the entire process and all of its threads
+    - The second only reproduces the calling thread in the new process
+        - This is useful when the process is going to call `exec()`
+# Threads Library Architecture
+---
+- Threads are the programmer's interface for multi-threading
+- LWP (LightWeight Processes) can be thought of as a virual CPU
+- Each LWP is separately dispatched by the kernel onto the available CPUs according to scheduling class and priority
+- The threads library schedules threads on a pool of LWPs in the same way the kernel schedules LWPs on a pool of processors
+- Threads are simply data structures and stacks maintained by the library
+- The thread library can start and stop threads without involving the kernel
+    - Also, create, destroy, block, activate etc without the OS getting involved
+- LWPs are more expensive than threads as each one uses kernel resources
+- Note: only a few threads need to be active at the same instant
+- Some threads must be visible to the system, for example, when a real-time response in needed such as for a mouse tracking thread
+    - This is accomplished by binding the thread to be permanently bound to an LWP
+- Most programmers use threads and don't worry about LWPs
