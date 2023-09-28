@@ -91,3 +91,32 @@
     - `sema_p_sig()`
         - These allow blocking to be interrupted by reception of a signal
         - Once a signal is received, the caller must release any resources and return
+# Mutual Exclusion Lock Implementation
+---
+- Mutexes are the most commonly used primitive
+    - Usually held for short intervals
+        - So don't wait for Disk I/O while using this
+    - Not recursive (cannot call `mutex_enter()` once already entered)
+    - Thread that holds a mutex must release the mutex
+        - These rules help to avoid deadlocks
+- If `mutex_enter` cannot set an already set lock, the blocking action taken will depend on the mutex type that was passed to `mutex_init()`
+    - The default blocking policy is called _adaptive_
+        - type `MUTEX_DEFAULT`
+        - spins while the owner of the lock remains running
+            - Done by polling the owner's status
+            - If the owner stops running, the caller stops spinning and sleeps
+            - Gives fast response and low overhead
+- Spin mutexes are another type (`MUTEX_SPIN`)
+    - Rarely used as adaptive mutex is more efficient
+- Device drivers have their own mutex type, `MUTEX_DRIVER`
+- `mutex_enter()` for adaptive mutexes
+    - non-adaptive mutexes use a separate primitive lock field in the mutex data structure
+        - So, it can always try to apply an adaptive lock first, and if that fails, consider the mutex may be another type
+# Turnstiles vs Queues in Synchronization Objects
+---
+- Each object needs way to find threads that are suspended and waiting for that object
+- To reduce storage cost of synchronization objects, the queue header is not in the object, but rather preallocated.
+    - Therefore the header information is stored as two bytes pointing to a turnstie structure containing the sleep queue header and priority inheritnace information
+- Alternatively, the sleep queue can be sleected using a hash function on the address of the synchronzation object
+    - `sleep()` uses this approach in a traditional kernel
+- That said, the turnstile approach is favored for more predictable real-time behaviour since they are never shared by other locks
