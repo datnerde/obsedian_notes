@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd32dc9702f4bfc1",
+        "id": "fe6fe04b9ce1cba5",
         "type": "tabs",
         "children": [
           {
-            "id": "6fc3355fa086cdfc",
+            "id": "889e1556e03fc615",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf"
+                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
               }
             }
           }
@@ -63,12 +63,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 240.50260543823242
+    "width": 215.50260543823242
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -196,9 +195,9 @@
   },
   "active": "3edb61260989bf80",
   "lastOpenFiles": [
+    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
-    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",

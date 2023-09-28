@@ -164,5 +164,61 @@
     - An additional interrupt thread is preallocated for the clock (one per system)
     - Each thread requires a stack and data structure of about 8KB so the memory cost can add up
     - But since it is unlikely all interrupt levels will be active, we can have a smaller pool of threads and block all interrupts below the thread level when the pool is empty
-        - Note: The Sun SPARC implementation has 9 levels.
 ## Clock Interrupt
+- The clock interrupt is handled specially as there is only one in the whole system (not per CPU)
+- The clock interrupt invokes the clock thread only if it is not already active
+- The clock thread can be delayed due to blocking on a mutex or higher level interrupt
+    - If the clock tick occurs and the clock thread is already active, the interrupt is cleared and a counter is incremented
+    - If the clock thread finds a non-zero counter it decrements the counter and repeats the clock processing
+        - Rare in practice though
+# Kernel Locking Strategy
+---
+- The Kernel uses data-based blocking
+	- This meands the mutex and reader/writer locks protect a set of shared data as opposed to protecting routines (monitors)
+	    - Every piece of shared data is protected by a synchronization object
+# Non-MT Driver Support
+---
+- Some drivers have not been written to protect themselves against concurrency in a multithreaded environment
+    - They are called _MT-unsafe_ as they don't provide their own locking
+- So, they have provided wrappers that acquire a single global mutex called `unsafe_driver`
+    - This ensures only one such driver is in use at a time
+- Every entry point for a driver must acquire the `unsafe_driver` mutex.
+- MT-unsafe drivers can also use the old sleep/wakeup mechanism
+    - `sleep()` safely releases the `unsafe_driver` mutex after the thread is asleep and reacquires it before returning
+    - `longjmp()` is also maintained
+        - NOTE: I don't understand the next part so I left it out of my notes
+    - `sleep()` checks to make sure it is called by an MT-unsafe driver and panics if it isn't
+        - Don't use `sleep()` with a driver that does its own locking
+    - Drivers that do their own locking are called _MT-safe_
+    - _MT-hot_ refers to drivers that do fine-grained locking
+# SVR4/MP DKI Locking Primitives
+---
+- SvR4/MP DKI is a standard used by UNIX
+    - SunOS implements the same interfaces but uses its own internal mechanisms
+        - This allows for easier porting
+# Kernel Time Slicing
+---
+- Clock interrupt handler preempts a thread
+    - Allows single processor systems to have arbitrary code interleaving
+    - By increasing the rate of preemption, the developers were able to find locking problems even before multiprocessor architectures were available
+        - Only use as a debugging feature
+# Lock Hierarchy Violation Detection
+---
+- The developers created a static analysis tool called _locknest_ that checks for lock ordering violations
+- Valuable in debugging deadlocks
+# Deadlock Detection
+---
+Deadlocks caused by hierarchy violations are usually detected at run time, and on locks held for writes, but lock held for reads is harder as there is not complete list of threads holding a read lock. Condition variable deadlocks aren't detected
+# Summary
+---
+- SunOS 5.0 is:
+    - Fully preemptible, real-time kernel
+    - Higly concurrent on symmetric multiprocessors
+    - Support for user threads
+    - Interrupts handled as independent threads
+    - Adaptive Mutual Exculsion Locks
+- Threads in the kernel and user level are almost identical
+- Threads in the kernal is mostly positive, but can be overused - there is a cost
+    - The stacks are large and must be allocated on separate pages
+    - Context switching is still expensive
+    - Callouts and other "zero-weight" processes are still useful, but threads "provide a nice strcuturing paradigm for the kernel"
