@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "fe6fe04b9ce1cba5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "889e1556e03fc615",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
+                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
+                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
+                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md"
               }
             }
           },
@@ -174,15 +158,15 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "889e1556e03fc615",
+  "active": "1ccd845fc1be6f76",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
-    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
+    "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
+    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
+    "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
-    "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GTID.md",
     "OMSCS/GOIS/Process and Process Management.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
