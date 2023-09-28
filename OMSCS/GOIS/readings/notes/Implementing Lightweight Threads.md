@@ -94,5 +94,14 @@
     - provide meaningful errors
 # Thread-local Storage
 ---
-
-
+- Private storage for each thread
+    - Used for thread-private data
+- The thread structures and `errno` is allocated in TLS
+- TLS is obtained via a new `#pragma` called `unshared` that is supported by the compiler and linker
+- TLS is zeroed initially (static initialization is not allowed)
+- The linker determines the size of the TLS
+    - `_etls` represents the size of the TLS
+- After a program starts, the size of TLS is fixed
+- On SPARC global register `%g7` is assumed to point to the base address of TLS
+# Thread Scheduling
+---
