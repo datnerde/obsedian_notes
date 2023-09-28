@@ -91,3 +91,8 @@
     - The page following the stack is invalid to protect from overruns (red zone)
 - When a thread is created a thread ID is assigned
     - The ID is an index in a table of pointers to thread structures
+    - provide meaningful errors
+# Thread-local Storage
+---
+
+
