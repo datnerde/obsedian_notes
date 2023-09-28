@@ -41,7 +41,7 @@
 # Threads Library Architecture
 ---
 - Threads are the programmer's interface for multi-threading
-- LWP (LightWeight Processes) can be thought of as a virual CPU
+- LWP (LightWeight Processes) can be thought of as a virtual CPU
 - Each LWP is separately dispatched by the kernel onto the available CPUs according to scheduling class and priority
 - The threads library schedules threads on a pool of LWPs in the same way the kernel schedules LWPs on a pool of processors
 - Threads are simply data structures and stacks maintained by the library
@@ -52,3 +52,5 @@
 - Some threads must be visible to the system, for example, when a real-time response in needed such as for a mouse tracking thread
     - This is accomplished by binding the thread to be permanently bound to an LWP
 - Most programmers use threads and don't worry about LWPs
+# LWP interfaces
+---
