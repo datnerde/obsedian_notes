@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "premeptible",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
+                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
+                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md"
+                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf"
               }
             }
           },
@@ -194,10 +194,10 @@
       }
     ]
   },
-  "active": "3edb61260989bf80",
+  "active": "6fc3355fa086cdfc",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
+    "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",

@@ -51,3 +51,23 @@
 - Per-processor data is kept in the `cpu` structure
     - contains pointers to the currently executing thread, idle thread, dispatching and interrupt handling information
 - To speed access to the thread, LWP, process, and CPU structures, there is a global register (%g7) that points to the current thread structure
+# Kernel Thread Scheduling
+-----
+- A scheduling class determines the relative priority of processes within a class and converts it to a global priority
+    - The scheduling class and dispatcher operate on threads instead of processes
+    - Three Scheduling classes in SPARC
+        - system
+        - time-share
+        - real-time (Fixed Priority)
+- The dispatcher choose the thread with the greatest global priority
+    - If there are two with the same priority, they are dispatched in round robin order
+- By making the kernel preemptible, the real-time class and interrupt threads are better supported
+# System Threads
+---
+- Can be created for short and long term activities
+- Scheduled like any thread but belong to system scheduling class
+- No need for LWP structure so the thread and stack are allocated together in a non-swappable area
+- The segment driver, `seg_kp` handles stack allocations
+    - Also handles virtual memory allocations for the kernel and provides "red zones" to protect stack overflows
+# Synchronization Architecture
+---
