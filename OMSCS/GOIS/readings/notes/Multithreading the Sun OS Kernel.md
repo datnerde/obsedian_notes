@@ -71,3 +71,23 @@
     - Also handles virtual memory allocations for the kernel and provides "red zones" to protect stack overflows
 # Synchronization Architecture
 ---
+- Kernel uses same synchronization objects as the user-level libraries
+    - Mutex (Mutual Exclusion Locks)
+    - Condition variables
+    - Semaphores
+    - multiple readers
+    - single writer (reader/writer) locks
+- The synchronization object is specified when it is initialized
+- Synchronization options take a pointer to the object as an argument
+- Most objects allow for collecting statistics
+- Most synchronization primitives prevent thread from getting past the primitive until some condition is satisfied
+    - Sleep
+    - Spin
+    - Other
+- By default, kernel thread synchronization primitives can _potentially_ sleep
+- Some synchronization primitives are "_strictly bracketing_" which means the thread that locks a mutex, must be the one that unlocks it
+- Some synchronization primitives are intended for use where they may block for long or indeterminant periods
+    - `cv_wait_sig()`
+    - `sema_p_sig()`
+        - These allow blocking to be interrupted by reception of a signal
+        - Once a signal is received, the caller must release any resources and return
