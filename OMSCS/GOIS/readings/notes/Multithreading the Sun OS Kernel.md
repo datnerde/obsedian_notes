@@ -28,5 +28,26 @@
 		- allows a user process to have thousands of threads without overwhelming kernel resources
 # Data Structures
 ---
-- Traditionally, `user` and `proc` structures contained all kernel data for the process
-- 
+- Traditionally, `user` and `proc` structures contained all kernal data for a given process
+- The new kernel separated the data into data associated with each LWP and its kernel thread
+- Per-process data is contained in the `proc` structure and contains a list of:
+    - kernel threads associated with the process
+    - pointer to the process address space
+    - user credentials
+    - list of signal handlers
+- The LWP structure contains:
+    - PCB (Process Control Block)
+        - processor registers
+        - system call arguments
+        - signal handling masks
+        - resource usage info
+        - profiling pointers
+    - Pointers to the kernel thread and process structures
+- The Kernel Thread structure contains:
+    - kernel registers
+    - scheduling class
+    - dispatch queue links
+    - pointers to the stack and associated LWP, process, and CPU structures
+- Per-processor data is kept in the `cpu` structure
+    - contains pointers to the currently executing thread, idle thread, dispatching and interrupt handling information
+- To speed access to the thread, LWP, process, and CPU structures, there is a global register (%g7) that points to the current thread structure

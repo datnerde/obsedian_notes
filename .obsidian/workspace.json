@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50260543823242,
-    "collapsed": true
+    "width": 240.50260543823242
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
+                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
+                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf"
+                "file": "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md"
               }
             }
           },
@@ -186,8 +185,8 @@
           }
         ],
         "direction": "vertical",
-        "x": 241,
-        "y": 164,
+        "x": 1952,
+        "y": 303,
         "width": 1315,
         "height": 600,
         "maximize": false,
@@ -195,10 +194,10 @@
       }
     ]
   },
-  "active": "6fc3355fa086cdfc",
+  "active": "3edb61260989bf80",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
+    "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
