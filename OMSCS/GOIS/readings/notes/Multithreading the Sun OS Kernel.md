@@ -122,3 +122,36 @@
 - That said, the turnstile approach is favored for more predictable real-time behaviour since they are never shared by other locks
 # Interrupts as Threads
 ---
+- Various implementations have various synchronization primitives
+- For mutexes, spin primitives must hold the interrupt priority high enough to prevent interrupt handlers from using the synchronization object while it is locked (causing a deadlock)
+    - The interrupt level must be raised before the lock is acquired and lowered after the lock is released
+- Drawbacks of this Approach
+    - Raising and lowering is an expensive operation
+    - Many subsystems are interdependent and the mutexes must protect themselves at a fairly high interrupt level
+    - Interrupt handlers must avoid use of kernel functions that can potentially sleep, even for short periods
+- To avoid the above drawbacks
+    - interrupts are asynchronously created and dispatched high-priority threads
+        - This allows them to sleep and use the standard synchronization primitives
+- Putting threads to sleep must be done in software
+    - For this reason, this section of code is bounded and cannot be interrupted
+- Traditional UNIX kernels protect the dispatcher by locking out interrupts
+- But the restructured kernel has a level above which interrupts are handled more like firmware.
+    - If the thread level is set to max, then all interrupts are locked out during dispatching.
+# Implementing Interrupts as Threads
+---
+- Previous SunOS versions worked like UNIX - once an interrupt occurs the interrupted process is _pinned_ until the interrupt returns
+- In SunOS 5.0, interrupts behave like asynchronous threads
+    - Interrupt threads are preallocated and partly initialized
+    - When an interrupt occurs, the minimum amount of work is done to move on to the stack of an interrupt thread and set it as the current thread
+    - At this point, the interrupt thread is not a full-fledged thread (can't be descheduled) and the interrupted thread is _pinned_ until the intterupt thread returns or blocks
+    - When the interrupt returns, the interrupted thread state is restored
+- Interrupts may nest - an interrupt thread my be interrupted!
+- If an interrupt thread blocks on a synchronization variable (mutex or condition), it saves state (_passivates_) and becomes a full-fledged thread, capable of being run by the CPU, and then returns to the pinned thread.
+- While interrupt threads are in progress its interrupt level and all lower priority interrupts are blocked
+    - If the thread blocks, normal intrupts must be disabled in case the interrupt handler is not reenterable or is doing high-priority processing
+    - While blocked, the interrupt thread is bound to a particular processor (the one it stared on)
+        - A flag is set in the CPU to indicate an interrupt at that level has blocked and the minimum interrupt level is noted
+        - When the interrupt level changes, the base interrupt level is checked and the interrupt priority level is not allowed below that
+- When `release_interrupt()` is called, it saves the state of the pinned thread and clears the interrupt indication which allows the CPU to lower the interrput priority level
+- Alternatively, we can use _bounded first-level interrupt handlers_ to capture device state, whatever that means....
+    - But this requires device drivers to be restructured and a full context switch
