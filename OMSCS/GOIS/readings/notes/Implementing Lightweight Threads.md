@@ -190,3 +190,13 @@
     - Low overhead safe synchronization primitives are crucial for multithreaded libraries
 # Signal Model Implementation 
 ---
+- One strategy is for LWPs to reflect the thread's signal mask
+- This allows the kernel to directly choose a thread from the ACTIVE threads
+    - Problem is threads are rarely ACTIVE
+    - Also, threads that are asleep will not recieve signals
+    - Also, a system call is necessary when switching between threads with different masks which is expensive
+- The problems above can be solved if LWP signal masks and ACTIVE thread masks are treated independently
+    - A process can receive a set of signals equal to the intersection of all the thread signal masks
+    - The library makes sure the LWP signal mask is equal to or less restrictive than the thread mask
+- There is a global handler mechanism to prevent signals from reaching interrupted threads
+    - There's a lot more detail on Page 7 - read it if you're interested.
