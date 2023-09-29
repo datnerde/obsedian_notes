@@ -200,3 +200,9 @@
     - The library makes sure the LWP signal mask is equal to or less restrictive than the thread mask
 - There is a global handler mechanism to prevent signals from reaching interrupted threads
     - There's a lot more detail on Page 7 - read it if you're interested.
+#### Sending a directed signal
+- A thread can send a signal to another thread in the same process using `thr_kill()`
+    - If the tread is not ACTIVE, the signal is posted in a pending signals mask
+        - When execution is resumed, the thread receives pending signals
+# Signal Safe Critical Sections
+---
