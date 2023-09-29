@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf",
+                "file": "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf",
+                "file": "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf"
+                "file": "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md"
               }
             }
           },
@@ -184,19 +184,19 @@
           }
         ],
         "direction": "vertical",
-        "x": 150,
-        "y": 247,
+        "x": 487,
+        "y": 480,
         "width": 1340,
         "height": 600,
-        "maximize": true,
+        "maximize": false,
         "zoom": 1
       }
     ]
   },
-  "active": "531052f29487e7b3",
+  "active": "1ccd845fc1be6f76",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
+    "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
