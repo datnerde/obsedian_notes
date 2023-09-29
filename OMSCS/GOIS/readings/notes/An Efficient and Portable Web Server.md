@@ -57,11 +57,12 @@
     - non-blocking `read` and `write` operations work on network sockets and pipes, but block when used on disk files
 - Some UNIX systems have APIs that implment asynchronous disk I/O but they are not integrated with `select`. Also `open` and `stat` on file descriptors may still block
 
-### Asymmetric Multi-Process Event-Drive (AMPED)
+## Asymmetric Multi-Process Event-Drive (AMPED)
 
 - Combines event-driven SPED architecture with multiple _helper_ processes (or threads) to handle blocking disk I/O operations
 - The main process handles all HTTP request processing.
 - Disk I/O is handled via IPC (pipe) to helper threads that handle the disk stuff
     - The helper returns notification via IPC
-    - The main process learns of this vai `select`
+    - The main process learns of this via `select`
 - In a UNIX system, AMPED uses the standard non-blocking `read`, `write`, and `accept` system calls on sockets and pipes, and the `select` system call to test for I/O completion. The `mmap` operation is used to access data from the filesystem and the `mincore` operation is used to check if a file is in main memory.
+
