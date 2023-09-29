@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c569e08cad7f5773",
+        "id": "2f64251075602a07",
         "type": "tabs",
         "children": [
           {
-            "id": "531052f29487e7b3",
+            "id": "c1faaefcb31c07c9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf"
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.50260543823242
+    "width": 200
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf"
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md"
               }
             }
           },
@@ -156,10 +158,12 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "531052f29487e7b3",
+  "active": "c1faaefcb31c07c9",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
+    "OMSCS/GOIS/Thread Design considerations.md",
+    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
+    "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
@@ -170,7 +174,6 @@
     "OMSCS/GOIS/Process and Process Management.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/readings/network programming in C.pdf",
-    "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
     "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
@@ -186,7 +189,6 @@
     "Pictures/Pasted image 20230920201822.png",
     "Algorithm/Leetcode/125. Valid Palindrome.md",
     "Algorithm/Leetcode/15. 3Sum.md",
-    "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Threads and Concurrency Playlist.md",
     "Research/paper reading/notes/Speculative Sampling.md",
     "Research/paper reading/speculative sampling.pdf",
