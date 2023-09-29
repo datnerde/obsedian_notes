@@ -105,3 +105,42 @@
 - On SPARC global register `%g7` is assumed to point to the base address of TLS
 # Thread Scheduling
 ---
+- When a thread is scheduled it is assigned to an LWP in a pool
+    - It then has all the attributes of a kernel-supported thread
+- Thread priorities range from 0 to infinity
+    - priority is fixed in the sense the library sets it, but it can be altered by the thread itself, or another thread in the same process
+        - This priority is not known to the scheduler
+- An LWP is either idling or running a thread
+    - When it is idle it waits on a synchronization variable
+    - When a thread is made runnable, it is added to the dispatch queue and an idle LWP is awakened
+        - the LWP wakes up and switches to the highest priority thread on the dispatch queue
+        - If blocked, the thread is put to sleep and switches to the highest priority on the dispatch queue
+        - If the queue is empty, the LWP goes back to idle
+        - If all LWPs are busy, the thread stays on the dispatch queue until an LWP becomes available
+## Thread States and the Two Level Model
+- An unbound thread can be in one of five different states:
+    - RUNNABLE
+    - ACTIVE
+    - SLEEPING
+    - STOPPED
+    - ZOMBIE
+- Interestingly, a thread's LWP can have one of multiple states:
+    - RUNNING
+    - SLEEPING
+    - STOPPED
+    - WAITING
+## Idling and parking
+- When there are no more RUNNABLE threads, the LWP switches to the idle stack and waits on the global LWP condition variable
+- When another thread becomes RUNNABLE the global condition is signaled and an idling LWP awakes and tries to run any RUNNABLE threads
+- When a bound thread blocks a process-local synchronization variable, its associated LWP also stops running
+    - This is done through the use of a semaphore and the LWP is now _parked_
+- When an unbound thread becomes blocked and no more RUNNABLE threads
+	- LWP parks itself on semaphore rather than idling on stack and global condition variable
+	- avoid context switch
+## Preemption
+- Threads compete for LWPs based on priority
+- A queue of active threads is maintained and if a RUNNABLE thread has a higher priority than an active thread, then the thread is removed from the queue and preempted from its LWP
+- Two cases when preempt is needed:
+    - A newly RUNNABLE thread has a higher priority than the lowest active thread
+    - The priority of an ACTIVE thread is lowered below that of the highest priority RUNNABLE thread
+- ACTIVE threads are preempted by setting a flag and sending its LWP a SIGLWP.
