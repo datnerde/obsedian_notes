@@ -11,31 +11,26 @@
             "id": "1ccd845fc1be6f76",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "314007fb64b11dbb",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "78de9e6ecef42191",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "531052f29487e7b3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.50260543823242,
-    "collapsed": true
+    "width": 215.50260543823242
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -102,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md"
+                "file": "OMSCS/GOIS/readings/Flash_Web Server.pdf"
               }
             }
           },
@@ -175,12 +169,13 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "78de9e6ecef42191",
+  "active": "531052f29487e7b3",
   "lastOpenFiles": [
+    "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
+    "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
-    "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
@@ -209,7 +204,6 @@
     "Research/paper reading/notes/Speculative Sampling.md",
     "Research/paper reading/speculative sampling.pdf",
     "Books/DDIA Notes.md",
-    "Algorithm/Leetcode/680. Valid Palindrome II.md",
     "Pictures/Pasted image 20230910170704.png",
     "Pictures/Pasted image 20230910164609.png",
     "Algorithm/Leetcode",

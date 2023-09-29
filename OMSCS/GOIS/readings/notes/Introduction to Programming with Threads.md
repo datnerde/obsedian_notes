@@ -1,4 +1,6 @@
-## Introduction
+## Introduction to Programming with Threads
+
+### Introduction
 
 - Programming with threads introduces new difficulties
 - Thread is A single sequential flow of control
@@ -10,7 +12,7 @@
 - The programmer has to synchronize the threads to the shared (global memory)
 ----
 
-## Why Use Concurrency
+### Why Use Concurrency
 
 - The advent of multi-processeors
 - Useful in driving slow devices such as disks, networks, terminals and printers
@@ -18,7 +20,7 @@
 - Building a distributed system needs concurrency to handle clients' requests in parallel
 ----
 
-## The Design of a Thread Facility
+### The Design of a Thread Facility
 
 - Thread creation
 	- using "Fork" to create a new thread
@@ -70,7 +72,7 @@
 		- re-locks m and raises the exception 'alerted'
 	- 'testalert' tests and clears the alert-pending boolean
 
-## Using a Mutex: Accessing Shared Data
+### Using a Mutex: Accessing Shared Data
 
 - All shared mutable data must be protected by associating it with some mutex
 - And you must access the data only from a thread that is holding the mutex
@@ -93,7 +95,7 @@
 	- vicinity of forking: transfer the holding of the mutex to the newly forked thread
 	- don't recommend to do this
 
-## Using a Condition Variable: Scheduling Shared Resources
+### Using a Condition Variable: Scheduling Shared Resources
 
 - WHILE NOT expression DO Thread.Wait(m,c) END;
 - re-testing the condition
@@ -131,7 +133,7 @@
 	- lock a mutex at one abstraction level of your program then call down to a lower level, which blocks
 		- explicitly unlock the mutex before calling the lower level abstraction
 
-## Using Fork: Working in Parallel
+### Using Fork: Working in Parallel
 
 - Reasons to fork a thread
 	- utilize multiple processors
@@ -171,7 +173,7 @@
 	- cost of thread creation and termination are not cheap
 		- smallest computation for which it is profitable to fork a thread (measurement of thread implementation)
 
-## Using Alert: Diverting the Flow of Control
+### Using Alert: Diverting the Flow of Control
 
 - purpose
 	- termination of along running computation or a long-term wait
@@ -180,7 +182,7 @@
 - using them will tend to make your program less well structured
 - alters are most useful when you don't know exactly what is going on
 
-## Additional Techniques
+### Additional Techniques
 
 - Up-calls
 	- calling a higher level abstraction
@@ -200,7 +202,7 @@
 		- fixed pool of threads that perform the requests
 	- defers fork until there is a processor available to run it => lazy forking
 
-## Building Your Program
+### Building Your Program
 
 - design interfaces with the assumption that your callers will be using multiple threads
 - "Correct" means your program produces and answer according to a specification
