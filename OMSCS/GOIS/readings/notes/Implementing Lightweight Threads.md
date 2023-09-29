@@ -145,4 +145,11 @@
     - The priority of an ACTIVE thread is lowered below that of the highest priority RUNNABLE thread
 - ACTIVE threads are preempted by setting a flag and sending its LWP a SIGLWP.
 ## The Size of the LWP Pool
-- 
+- The threads library adjusts the size
+    - Can't allow deadlock due to lack of LWPs
+    - Must make efficient use of LWPs
+        - We don't create one per thread as most would be idle and wasting resources
+    - When the number of threads exceeds the number of LWPs, the threads library installs a handler for SIGWAITING and if there are RUNNABLE threads, creates a new LWP and adds it to the pool
+    - It is possible to computer a weighted time average and adjust, but it's not certain if the costs outweight the benefits
+- Applications can inform the threads library about their expected concurrency using `thr_setconcurrency()`
+- Occasionally, the number of LWPs can grow to be larger than the number of threads. In this case, the library prunes old LWPs, typically those over 5 minutes
