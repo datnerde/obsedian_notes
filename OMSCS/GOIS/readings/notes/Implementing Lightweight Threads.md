@@ -176,8 +176,8 @@
     - If the thread is bound, the scheduler unparks it so its LWP is dispatched by the kernel
     - For unbound threads, the thread is placed on a run queue based on its priority
 - Process-shared Synchronization Variables
-    - These are placed into memory accessible by multiple processses so threads can be synchronized
+    - These are placed into memory accessible by multiple processes so threads can be synchronized
     - Must be initialized when created
-        - When intialized, they are marked as process-shared
-        - This allows for the correct blocking behavior
+        - When initialized, they are marked as process-shared
+        - This allows for the correct blocking behaviour
             - LWP synchronization primitives put blocking threads to sleep in the kernel still attached to LWPs and correctly synchronize between processes
