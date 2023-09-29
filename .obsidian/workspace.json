@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1ccd845fc1be6f76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "531052f29487e7b3",
             "type": "leaf",
             "state": {
@@ -29,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,6 +155,43 @@
       "templates:Insert template": true,
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
+  },
+  "floating": {
+    "id": "3ecc54f6b8244087",
+    "type": "floating",
+    "children": [
+      {
+        "id": "83af02f5c3949b69",
+        "type": "window",
+        "children": [
+          {
+            "id": "ff71a4f279567b67",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1ccd845fc1be6f76",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 150,
+        "y": 247,
+        "width": 1340,
+        "height": 600,
+        "maximize": true,
+        "zoom": 1
+      }
+    ]
   },
   "active": "531052f29487e7b3",
   "lastOpenFiles": [
