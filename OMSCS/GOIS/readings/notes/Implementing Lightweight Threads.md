@@ -161,3 +161,23 @@
 - The thread library has special thread called reaper that clears out the ZOMBIE processes
     - Runs when there are idle LWPs or when `deathrow` gets full
 - Need to find a good balance between running reaper too often and not often enough
+# Thread Synchronization
+---
+- Two basic types of synchronization variables
+    - process-local (default)
+    - process-shared
+- Process-local synchronization Variables
+    - Default blocking behavior is to put the thread to sleep
+    - Each synchronization variable has a sleep queue associated with it
+        - If a thread is unbound, the scheduler dispatches another thread to its underlying LWP
+        - If it is bound, it shatys permanently bound to its LWP so the LWP is _parked_ on its thread
+    - Blocked threads are awakened when the synchronization variables become available
+    - Blocked threads are removed from the synchronization variable's sleep queue and is dispatched by the scheduler
+    - If the thread is bound, the scheduler unparks it so its LWP is dispatched by the kernel
+    - For unbound threads, the thread is placed on a run queue based on its priority
+- Process-shared Synchronization Variables
+    - These are placed into memory accessible by multiple processses so threads can be synchronized
+    - Must be initialized when created
+        - When intialized, they are marked as process-shared
+        - This allows for the correct blocking behavior
+            - LWP synchronization primitives put blocking threads to sleep in the kernel still attached to LWPs and correctly synchronize between processes
