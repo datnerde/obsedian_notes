@@ -45,7 +45,7 @@
 
 ## Single-process event-driven (SPED)
 
-- Single processs processes HTTP requests
+- Single process processes HTTP requests
 - Use non-blocking system calls to perform asynchronous I/O operations
     - Ex `select` on UNIX or `poll` on System V to check for I/O operations that have completed
 - A SPED Server can be thought of as a state machine that performs one step of an HTTP request at a time
