@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md"
+                "file": "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf"
               }
             }
           },
@@ -175,10 +175,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "78de9e6ecef42191",
+  "active": "1ccd845fc1be6f76",
   "lastOpenFiles": [
-    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
+    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
