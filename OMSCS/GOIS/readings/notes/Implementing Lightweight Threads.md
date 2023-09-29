@@ -153,3 +153,5 @@
     - It is possible to computer a weighted time average and adjust, but it's not certain if the costs outweight the benefits
 - Applications can inform the threads library about their expected concurrency using `thr_setconcurrency()`
 - Occasionally, the number of LWPs can grow to be larger than the number of threads. In this case, the library prunes old LWPs, typically those over 5 minutes
+# Mixed Scope Scheduling
+---
