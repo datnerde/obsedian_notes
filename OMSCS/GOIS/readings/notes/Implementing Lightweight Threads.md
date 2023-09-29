@@ -155,3 +155,9 @@
 - Occasionally, the number of LWPs can grow to be larger than the number of threads. In this case, the library prunes old LWPs, typically those over 5 minutes
 # Mixed Scope Scheduling
 ---
+- Bound and unbound threads can exist in the same process
+- A bound thread in the real-time class can take precendence over the other threads
+- Detached threads (bound or unbound) are put into a queue called `deathrow` and the state is set to ZOMBIE.
+- The thread library has special thread called reaper that clears out the ZOMBIE processes
+    - Runs when there are idle LWPs or when `deathrow` gets full
+- Need to find a good balance between running reaper too often and not often enough
