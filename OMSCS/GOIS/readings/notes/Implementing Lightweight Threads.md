@@ -170,7 +170,7 @@
     - Default blocking behavior is to put the thread to sleep
     - Each synchronization variable has a sleep queue associated with it
         - If a thread is unbound, the scheduler dispatches another thread to its underlying LWP
-        - If it is bound, it shatys permanently bound to its LWP so the LWP is _parked_ on its thread
+        - If it is bound, it stay permanently bound to its LWP so the LWP is _parked_ on its thread
     - Blocked threads are awakened when the synchronization variables become available
     - Blocked threads are removed from the synchronization variable's sleep queue and is dispatched by the scheduler
     - If the thread is bound, the scheduler unparks it so its LWP is dispatched by the kernel
