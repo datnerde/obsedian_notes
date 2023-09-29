@@ -144,3 +144,5 @@
     - A newly RUNNABLE thread has a higher priority than the lowest active thread
     - The priority of an ACTIVE thread is lowered below that of the highest priority RUNNABLE thread
 - ACTIVE threads are preempted by setting a flag and sending its LWP a SIGLWP.
+## The Size of the LWP Pool
+- 
