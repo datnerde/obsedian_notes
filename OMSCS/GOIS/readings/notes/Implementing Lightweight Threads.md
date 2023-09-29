@@ -181,3 +181,12 @@
         - When initialized, they are marked as process-shared
         - This allows for the correct blocking behaviour
             - LWP synchronization primitives put blocking threads to sleep in the kernel still attached to LWPs and correctly synchronize between processes
+# Signals
+---
+- Problem is that signals are sent by the kernel, but user-level threads are invisible to it
+    - Signal delivery is dependent upon the thread signal mask
+- A goal is to provide cheap async safe synchronization primitives
+    - A function is async safe if it is reentrant with respect to signals
+    - Low overhead safe synchronization primitives are crucial for multithreaded libraries
+# Signal Model Implementation 
+---
