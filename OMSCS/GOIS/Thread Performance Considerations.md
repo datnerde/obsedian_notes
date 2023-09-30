@@ -101,3 +101,15 @@
 - benefits
 	-  resolve portability limitations of basic event-driven model
 	- smaller footprint than regular worker thread
+- cons
+	- applicability to certain classes of applications
+	- event routing on multi CPU systems
+# Flash Web Server
+![[Pasted image 20230930170643.png]]
+
+- an event-driven web server (AMPED)
+- with asymmetric helper processes
+- helpers used for disk reads
+- pipes used for comm with dispatcher
+- helper reads file in memory (via mmap)
+- dispatcher checks (via mincore) if pages are in memory to decide "local handler" or helper
