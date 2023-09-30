@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
+                "file": "OMSCS/GOIS/Thread Performance Considerations.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
+                "file": "OMSCS/GOIS/Thread Performance Considerations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
+                "file": "OMSCS/GOIS/Thread Performance Considerations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Introduction to Operating Systems.md"
+                "file": "OMSCS/GOIS/Thread Performance Considerations.md"
               }
             }
           },
@@ -160,6 +160,8 @@
   },
   "active": "c1faaefcb31c07c9",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Introduction to Operating Systems.md",
+    "OMSCS/GOIS/Thread Performance Considerations.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
@@ -172,7 +174,6 @@
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
     "OMSCS/GTID.md",
     "OMSCS/GOIS/Process and Process Management.md",
-    "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/readings/network programming in C.pdf",
     "OMSCS/GOIS/readings/notes/An Introduction to Programming with Threads.md",
     "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
