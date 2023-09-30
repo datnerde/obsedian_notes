@@ -80,4 +80,9 @@
 - benefits
 	- single address space / single flow of control
 	- smaller memory requirement / no context switching
-	- no synchornization
+	- no synchronization
+- cons
+	- a blocking request / handler will block the entire process
+# Helper Threads and Processes
+- Asynchronous I/O Operations
+- 
