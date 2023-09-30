@@ -143,3 +143,11 @@
 	- evaluate both as a function of file size
 	- larger file size => ammortize per connection cost => high bandwidth
 	- larger file size => more work per connection => lower connection rate
+# Experimental Results
+- synthetic load
+	- N requests for same file => best case
+- measure bandwidth
+	- bw = N * bytes (F) / time
+	- File size 0-200 KB
+	- vary work per request
+- 
