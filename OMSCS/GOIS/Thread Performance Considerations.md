@@ -117,3 +117,29 @@
 	- alignment for DMA
 	- use of DMA with scatter-gather => vector I/O operations
 # Apache Web Server
+![[Pasted image 20230930171900.png]]
+
+# Experimental Methodology
+- What systems are you comparing? (Define Comparison Points)
+	- MP (each process single thread)
+	- MT (boss-worker)
+	- single process event-driven (SPED)
+	- Zeus (SPED w/2 processes)
+	- Apache (v.1.3.1, MP)
+	- AMPED (Flash)
+- What workloads will be used? (Define inputs)
+	- Realistic request workload
+		- distribution of web page accesses over time
+	- Controlled, reproducible workload
+		- trace-based (from real web servers)
+	- CS Web Server Trace (Rice Univ)
+	- Owlent trace (Rice Univ)
+	- Synthetic workload
+- How will you measure performance? (Define metrics)
+	- bandwidth == bytes / time
+		- total bytes transferred from files / total time
+	- Connection rate == request / time
+		- total client conn / total time
+	- evaluate both as a function of file size
+	- larger file size => ammortize per connection cost => high bandwidth
+	- larger file size => more work per connection => lower connection rate
