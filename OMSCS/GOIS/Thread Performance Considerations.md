@@ -106,10 +106,14 @@
 	- event routing on multi CPU systems
 # Flash Web Server
 ![[Pasted image 20230930170643.png]]
-
 - an event-driven web server (AMPED)
 - with asymmetric helper processes
 - helpers used for disk reads
 - pipes used for comm with dispatcher
 - helper reads file in memory (via mmap)
 - dispatcher checks (via mincore) if pages are in memory to decide "local handler" or helper
+- Additional Optimization
+	- application-level caching (data and computing)
+	- alignment for DMA
+	- use of DMA with scatter-gather => vector I/O operations
+# Apache Web Server
