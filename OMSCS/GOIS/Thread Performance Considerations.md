@@ -84,10 +84,20 @@
 - cons
 	- a blocking request / handler will block the entire process
 # Helper Threads and Processes
-- Asynchronous I/O Operations
-	- process/thread makes system call
-	- OS obtains all relevant info from stack, and either learns where to return results, or tells caller where to get results later
-	- process/thread can continue
+## Asynchronous I/O Operations
+- process/thread makes system call
+- OS obtains all relevant info from stack, and either learns where to return results, or tells caller where to get results later
+- process/thread can continue
 - Requires support from kernel and / or device
 - Fits nicely with event-driven model
-- 
+## What if Async Calls are not available
+- AMPED 
+![[Pasted image 20230930155429.png]]
+- Helpers
+	- designated for blocking I/O operations only
+	- pipe/socket based comm with event dispatcher
+		- select() and poll() are still OK
+	- helper blocks, but main event loop will not
+- benefits
+	-  resolve portability limitations of basic event-driven model
+	- smaller footprint than regular worker thread
