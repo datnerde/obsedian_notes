@@ -18,6 +18,7 @@
 		- response
 	- hardware
 		- higher utilization (e.g. CPU)
+- Depends on metrics and workloads
 # Thread Performance Considerations Visual Metaphor
 ![[Pasted image 20230930141022.png]]
 # Performance Metrics
@@ -30,4 +31,12 @@
 - experiments with real software deployment, real machines, real workloads
 - 'toy' experiments representative of realistic settings
 - simulation
-#
+# Multi Process vs. Multi Threaded
+![[Pasted image 20230930143052.png]]
+- Multi Process Web Server (MP)
+	- Simple programming (+)
+	- high memory usage (-)
+	- costly context switch (-)
+	- hard / costly to maintain shared state (-)
+- Multi Threaded Web server (MT)
+	- 
