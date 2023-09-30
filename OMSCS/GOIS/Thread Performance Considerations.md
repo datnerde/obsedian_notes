@@ -26,11 +26,8 @@
 - of the system we are interested in
 - to evaluate the system behaviour
 - examples:
-	- wait time
-	- through put
-	- request rate
-	- execution time
-	- CPU utilization
-	- platform efficiency
-	- performance ($ / Wats)
-	- SLA
+	![[Pasted image 20230930141820.png]]
+- experiments with real software deployment, real machines, real workloads
+- 'toy' experiments representative of realistic settings
+- simulation
+#
