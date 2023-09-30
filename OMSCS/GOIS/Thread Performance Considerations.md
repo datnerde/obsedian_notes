@@ -39,4 +39,17 @@
 	- costly context switch (-)
 	- hard / costly to maintain shared state (-)
 - Multi Threaded Web server (MT)
-	- 
+	- shared address space (+)
+	- shared state (+)
+	- cheap context switch (+)
+	- not simple implementation  (-)
+	- requires synchronization  (-)
+	- underlying support for threads  (-)
+# Event-Driven Model
+![[Pasted image 20230930145358.png]]
+- single address space
+- single process
+- single thread of control
+- Dispatcher: state machine external events
+- call handler: jump to code
+- 
