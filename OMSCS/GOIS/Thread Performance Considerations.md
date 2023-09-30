@@ -61,3 +61,6 @@
 	- 1 request per execution context
 - event-driven
 	- many requests interleaved in an execution context
+![[Pasted image 20230930150654.png]]
+
+# Event-Driven Model: Why
