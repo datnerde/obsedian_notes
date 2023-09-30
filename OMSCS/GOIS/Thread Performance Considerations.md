@@ -150,4 +150,18 @@
 	- bw = N * bytes (F) / time
 	- File size 0-200 KB
 	- vary work per request
-- 
+- ![[Pasted image 20230930173928.png]]
+- ![[Pasted image 20230930174033.png]]
+- ![[Pasted image 20230930174127.png]]
+# Summary of Performance Results
+- When data is in cache:
+	- SPED >> AMPED Flash
+		- unnecessary test for memory presence
+	- SPED and AMPED Flash >> MT/ MP
+		- sync & context switching overhead
+- With disk bound workload
+	- AMPED Flash >> SPED
+		- blocks b/c no async I/O
+	- AMPED Flash >> MT / MP
+		- more memory efficient and less context switching
+# Advice on Designing Experiments
