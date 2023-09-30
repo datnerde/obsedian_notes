@@ -64,3 +64,20 @@
 ![[Pasted image 20230930150654.png]]
 
 # Event-Driven Model: Why
+- one 1 CPU "threads high latency"
+- if (t_idle > 2 * t_ctx_swithc*)
+	- ctx_switch to hide latency
+- if (t_idle == empty)
+	- context switching just wastes cycles that could have been used for request processing
+- process request until wait necessary then switch to another request
+- multiple CPUs => multiple event-driven processes
+# Event-Driven Model: How
+- event == input on file descriptor (FD)
+- which file descriptor?
+	- select() : need to search a range of FD
+	- poll(): need to search a range of FD
+	- epoll(): reduce some search 
+- benefits
+	- single address space / single flow of control
+	- smaller memory requirement / no context switching
+	- no synchornization
