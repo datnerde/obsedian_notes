@@ -52,4 +52,12 @@
 - single thread of control
 - Dispatcher: state machine external events
 - call handler: jump to code
-- 
+- Hanlder
+	- run to completion
+	- if they need to block
+		- initiate blocking operation and pass control to dispatch loop
+# Concurrency in the Event Driven Model
+- MP and MT:
+	- 1 request per execution context
+- event-driven
+	- many requests interleaved in an execution context
