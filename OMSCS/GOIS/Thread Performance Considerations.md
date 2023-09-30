@@ -16,4 +16,21 @@
 	- for web service application (avg / max / min/ 95%)
 		- number of client requests/ time
 		- response
-	- 
+	- hardware
+		- higher utilization (e.g. CPU)
+# Thread Performance Considerations Visual Metaphor
+![[Pasted image 20230930141022.png]]
+# Performance Metrics
+- metrics : a measurement standard
+- measurable / quantifiable
+- of the system we are interested in
+- to evaluate the system behaviour
+- examples:
+	- wait time
+	- through put
+	- request rate
+	- execution time
+	- CPU utilization
+	- platform efficiency
+	- performance ($ / Wats)
+	- SLA
