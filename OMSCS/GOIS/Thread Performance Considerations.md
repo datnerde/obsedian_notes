@@ -85,4 +85,9 @@
 	- a blocking request / handler will block the entire process
 # Helper Threads and Processes
 - Asynchronous I/O Operations
+	- process/thread makes system call
+	- OS obtains all relevant info from stack, and either learns where to return results, or tells caller where to get results later
+	- process/thread can continue
+- Requires support from kernel and / or device
+- Fits nicely with event-driven model
 - 
