@@ -141,7 +141,7 @@
 	- Connection rate == request / time
 		- total client conn / total time
 	- evaluate both as a function of file size
-	- larger file size => ammortize per connection cost => high bandwidth
+	- larger file size => amortize per connection cost => high bandwidth
 	- larger file size => more work per connection => lower connection rate
 # Experimental Results
 - synthetic load
@@ -164,4 +164,7 @@
 		- blocks b/c no async I/O
 	- AMPED Flash >> MT / MP
 		- more memory efficient and less context switching
-# Advice on Designing Experiments
+# Summary
+- Event-driven model for concurrent processing
+- Compared multi-process vs. multi-threaded vs. event -driven designs
+- Experimental evaluation and methodology
