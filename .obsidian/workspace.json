@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324,
-    "collapsed": true
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -155,10 +154,11 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "command-palette:Open command palette": false,
-      "templates:Insert template": true
+      "templates:Insert template": true,
+      "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "c1faaefcb31c07c9",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
     "OMSCS/GOIS/Thread Performance Considerations.md",
     "Pictures/Pasted image 20230930174127.png",
