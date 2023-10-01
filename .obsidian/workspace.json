@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Thread Performance Considerations.md",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Thread Performance Considerations.md",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Thread Performance Considerations.md",
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Thread Performance Considerations.md"
+                "file": "OMSCS/GOIS/Introduction to Operating Systems.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   },
   "active": "c1faaefcb31c07c9",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Thread Performance Considerations.md",
     "Pictures/Pasted image 20230930174127.png",
     "Pictures/Pasted image 20230930174033.png",
     "Pictures/Pasted image 20230930173928.png",
@@ -171,9 +172,7 @@
     "Pictures/Pasted image 20230930145358.png",
     "Pictures/Pasted image 20230930143052.png",
     "Pictures/Pasted image 20230930141820.png",
-    "Pictures/Pasted image 20230930141022.png",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "OMSCS/GOIS/Thread Performance Considerations.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
