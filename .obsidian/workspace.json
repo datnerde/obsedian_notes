@@ -155,8 +155,7 @@
       "canvas:Create new canvas": true,
       "daily-notes:Open today's daily note": true,
       "command-palette:Open command palette": false,
-      "templates:Insert template": true,
-      "cmdr:Mind Map: Preview the current note as a Mind Map": false
+      "templates:Insert template": true
     }
   },
   "active": "c1faaefcb31c07c9",
