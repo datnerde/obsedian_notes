@@ -177,4 +177,21 @@
 			- Access bit to track if page is referenced
 	- pages that don't need to be written out
 		- dirty bit to track of modified
-	- avoid non-swappable 
+	- avoid non-swappable pages
+- ![[Pasted image 20231012214007.png]]
+# Copy On Write
+![[Pasted image 20231012214821.png]]
+- MMU Hardware
+	- perform translation, track access, enforce protection ...
+	- useful to build other services and optimization
+- On process creation
+	- copy entire parent addr space
+	- many pages are static, don't change => no need to keep multiple copies
+		- map new VA to original page
+		- write protect original page
+			- save memory and time to copy if it is read only
+		- On write
+			- page fault and copy
+			- pay copy cost only if necessary
+#  Failure Management Checkpointing
+
