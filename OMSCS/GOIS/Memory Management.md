@@ -137,3 +137,7 @@
 	-  dynamic process state (heap), malloc / free
 	- e.g., dlmalloc, memalloc, hoard, tcmalloc
 # Memory Allocation Challenges
+- external fragmentation
+- permits coalescing / aggregation of free areas
+# Linux Kernel Allocators
+- Buddy Allocator
