@@ -136,4 +136,4 @@
 - user-level allocators
 	-  dynamic process state (heap), malloc / free
 	- e.g., dlmalloc, memalloc, hoard, tcmalloc
-- 
+# Memory Allocation Challenges
