@@ -153,3 +153,11 @@
 	- caches for common object types / sizes, on top of contiguous memory
 	- internal fragmentation avoided
 	- external fragmentation not an issue
+
+>[!tips] Internal Fragmentation happens when the memory is split into fixed sized blocks and not fully utilize
+
+
+
+
+
+# Demand Paging
