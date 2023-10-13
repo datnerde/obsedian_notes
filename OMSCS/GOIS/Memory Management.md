@@ -126,3 +126,14 @@
 	- IA x86_64 => paging
 # Page Size
 ![[Pasted image 20231012203812.png]]
+# Memory Allocation
+- memory allocator
+	- determines VA to PA mapping
+	- address translation, page tables
+		- simply determine PA from VA and check validity / permissions
+- kernel-level allocators
+	- kernel state, static process state
+- user-level allocators
+	-  dynamic process state (heap), malloc / free
+	- e.g., dlmalloc, memalloc, hoard, tcmalloc
+- 
