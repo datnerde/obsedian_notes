@@ -1,12 +1,14 @@
 ## Multithreading the Sun OS Kernel
 
-### Abstract
+### Multithreading the Sun OS Kernel
+
+#### Abstract
 
 ----
 
 * Using threads makes the kernel fully preemptible and capable of real-time response
 
-### Introduction
+#### Introduction
 
 ----
 
@@ -14,7 +16,7 @@
 * support more than one thread of control within a user process
 * capable of low latency / user-level multithreading
 
-### Overview of the Kernel Architecture
+#### Overview of the Kernel Architecture
 
 ----
 
@@ -37,7 +39,7 @@
 		* user-level threads can be switched between without entering the kernel
 		* allows a user process to have thousands of threads without overwhelming kernel resources
 
-### Data Structures
+#### Data Structures
 
 ---
 
@@ -65,7 +67,7 @@
 	* contains pointers to the currently executing thread, idle thread, dispatching and interrupt handling information
 * To speed access to the thread, LWP, process, and CPU structures, there is a global register (%g7) that points to the current thread structure
 
-### Kernel Thread Scheduling
+#### Kernel Thread Scheduling
 
 -----
 
@@ -79,7 +81,7 @@
 	* If there are two with the same priority, they are dispatched in round robin order
 * By making the kernel preemptible, the real-time class and interrupt threads are better supported
 
-### System Threads
+#### System Threads
 
 ---
 
@@ -89,7 +91,7 @@
 * The segment driver, `seg_kp` handles stack allocations
 	* Also handles virtual memory allocations for the kernel and provides "red zones" to protect stack overflows
 
-### Synchronization Architecture
+#### Synchronization Architecture
 
 ---
 
@@ -114,7 +116,7 @@
 		* These allow blocking to be interrupted by reception of a signal
 		* Once a signal is received, the caller must release any resources and return
 
-### Mutual Exclusion Lock Implementation
+#### Mutual Exclusion Lock Implementation
 
 ---
 
@@ -138,7 +140,7 @@
 	* non-adaptive mutexes use a separate primitive lock field in the mutex data structure
 		* So, it can always try to apply an adaptive lock first, and if that fails, consider the mutex may be another type
 
-### Turnstiles Vs Queues in Synchronization Objects
+#### Turnstiles Vs Queues in Synchronization Objects
 
 ---
 
@@ -149,7 +151,7 @@
 	* `sleep()` uses this approach in a traditional kernel
 * That said, the turnstile approach is favored for more predictable real-time behaviour since they are never shared by other locks
 
-### Interrupts as Threads
+#### Interrupts as Threads
 
 ---
 
@@ -169,7 +171,7 @@
 * But the restructured kernel has a level above which interrupts are handled more like firmware.
 	* If the thread level is set to max, then all interrupts are locked out during dispatching.
 
-### Implementing Interrupts as Threads
+#### Implementing Interrupts as Threads
 
 ---
 
@@ -190,7 +192,7 @@
 * Alternatively, we can use _bounded first-level interrupt handlers_ to capture device state, whatever that means….
 	* But this requires device drivers to be restructured and a full context switch
 
-#### Interrupt Thread Cost
+##### Interrupt Thread Cost
 
 * Taking an interrupt costs 40 SPARC instructions
 * Savings in mutex enter/exit is 12 instructions
@@ -201,7 +203,7 @@
 	* Each thread requires a stack and data structure of about 8KB so the memory cost can add up
 	* But since it is unlikely all interrupt levels will be active, we can have a smaller pool of threads and block all interrupts below the thread level when the pool is empty
 
-#### Clock Interrupt
+##### Clock Interrupt
 
 * The clock interrupt is handled specially as there is only one in the whole system (not per CPU)
 * The clock interrupt invokes the clock thread only if it is not already active
@@ -210,7 +212,7 @@
 	* If the clock thread finds a non-zero counter it decrements the counter and repeats the clock processing
 		* Rare in practice though
 
-### Kernel Locking Strategy
+#### Kernel Locking Strategy
 
 ---
 
@@ -218,7 +220,7 @@
 	* This meands the mutex and reader/writer locks protect a set of shared data as opposed to protecting routines (monitors)
 		* Every piece of shared data is protected by a synchronization object
 
-### Non-MT Driver Support
+#### Non-MT Driver Support
 
 ---
 
@@ -236,7 +238,7 @@
 	* Drivers that do their own locking are called _MT-safe_
 	* _MT-hot_ refers to drivers that do fine-grained locking
 
-### SVR4/MP DKI Locking Primitives
+#### SVR4/MP DKI Locking Primitives
 
 ---
 
@@ -244,7 +246,7 @@
 	* SunOS implements the same interfaces but uses its own internal mechanisms
 		* This allows for easier porting
 
-### Kernel Time Slicing
+#### Kernel Time Slicing
 
 ---
 
@@ -253,20 +255,20 @@
 	* By increasing the rate of preemption, the developers were able to find locking problems even before multiprocessor architectures were available
 		* Only use as a debugging feature
 
-### Lock Hierarchy Violation Detection
+#### Lock Hierarchy Violation Detection
 
 ---
 
 * The developers created a static analysis tool called _locknest_ that checks for lock ordering violations
 * Valuable in debugging deadlocks
 
-### Deadlock Detection
+#### Deadlock Detection
 
 ---
 
 Deadlocks caused by hierarchy violations are usually detected at run time, and on locks held for writes, but lock held for reads is harder as there is not complete list of threads holding a read lock. Condition variable deadlocks aren't detected
 
-### Summary
+#### Summary
 
 ---
 

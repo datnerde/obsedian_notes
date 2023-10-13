@@ -1,5 +1,11 @@
 [
   "obsidian-linter",
   "obsidian-annotator",
-  "obsidian-auto-link-title"
+  "obsidian-auto-link-title",
+  "cmdr",
+  "obsidian-icon-folder",
+  "obsidian-mind-map",
+  "obsidian-outliner",
+  "obsidian-quiet-outline",
+  "obsidian-git"
 ]
