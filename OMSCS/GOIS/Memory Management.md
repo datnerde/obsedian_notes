@@ -154,10 +154,27 @@
 	- internal fragmentation avoided
 	- external fragmentation not an issue
 
->[!tips] Internal Fragmentation happens when the memory is split into fixed sized blocks and not fully utilize
-
-
-
-
-
+>[!tips] 
+>Internal fragmentation happens when the memory is split into fixed sized blocks and not fully utilize.
+>
+>External fragmentation happens when there’s a sufficient quantity of area within the memory to satisfy the memory request of a method in a non-contiguous manner.
 # Demand Paging
+- virtual memory >> physical memory
+	- virtual memory page not always in physical memory
+	- physical page frame saved and restored to / from secondary storage
+- demand paging
+	- pages swapped in/out of memory and a swap partition (e.g., on disk)
+	- ![[Pasted image 20231012213523.png]]
+# Page Replacement
+- When should pages be swapped out
+	- page (out) daemon
+	- when memory usage is above threshold (high watermark)
+	- when CPU usage is below threshold (low watermark)
+- Which pages should be swapped out
+	- pages that won't be used
+	- history-based prediction
+		- least recently used (LRU policy)
+			- Access bit to track if page is referenced
+	- pages that don't need to be written out
+		- dirty bit to track of modified
+	- avoid non-swappable 
