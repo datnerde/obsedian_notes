@@ -194,4 +194,20 @@
 			- page fault and copy
 			- pay copy cost only if necessary
 #  Failure Management Checkpointing
-
+- Method in general
+![[Pasted image 20231012215008.png]]
+- different ways
+![[Pasted image 20231012215415.png]]
+- debugging
+	- rewind-replay (RR)
+	- rewind == restart from checkpoint
+	- gradually go back to oder checkpoints until error found
+- migration
+	- continue on another machine
+	- disaster recovery
+	- consolidation
+	- repeated checkpoints in a fast loop until pause-and-copy becomes acceptable (or unavoidable)
+# Summary
+- virtual memory abstracts a process' view of physical memory
+- pages and segments
+- allocation and replacement strategies and checkpointing

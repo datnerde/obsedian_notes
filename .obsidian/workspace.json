@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3f1bef107a701844",
+        "id": "f80a7ae6d55663db",
         "type": "tabs",
         "children": [
           {
-            "id": "891009944e75e0e8",
+            "id": "99366eb75937cb64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Memory Management.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324,
-    "collapsed": true
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Memory Management.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,8 +150,11 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "891009944e75e0e8",
+  "active": "99366eb75937cb64",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Memory Management.md",
+    "Pictures/Pasted image 20231012215415.png",
+    "Pictures/Pasted image 20231012215008.png",
     "Pictures/Pasted image 20231012214821.png",
     "Pictures/Pasted image 20231012214007.png",
     "Pictures/Pasted image 20231012213523.png",
@@ -169,12 +163,8 @@
     "Pictures/Pasted image 20231012192106.png",
     "Pictures/Pasted image 20231012190725.png",
     "Pictures/Pasted image 20231012190539.png",
-    "Pictures/Pasted image 20231011223824.png",
-    "Pictures/Pasted image 20231011223805.png",
-    "Pictures/Pasted image 20231011220441.png",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Chip Multithreading Systems Need a New Operating SystemScheduler.pdf",
-    "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/Scheduling.md",
     "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
