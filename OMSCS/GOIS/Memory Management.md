@@ -141,3 +141,15 @@
 - permits coalescing / aggregation of free areas
 # Linux Kernel Allocators
 - Buddy Allocator
+	- start with $2^x$ area
+	- on request
+		- subdivide into $2^x$ chunks and find smallest $2^x$ chunk that can satisfy request
+		- fragmentation still there
+	- on free
+		- check buddy to see if you can aggregate into a larger chunk
+		- aggregate more up the tree
+		- aggregation works well and fast
+- Slab Allocator to solve internal fragmentation from Buddy Allocator
+	- caches for common object types / sizes, on top of contiguous memory
+	- internal fragmentation avoided
+	- external fragmentation not an issue
