@@ -8,4 +8,5 @@
 		- shared memory, memory mapped files ..
 	- high-level semantics
 		- files, RPC
-	- synchornization
+	- synchronization primitives
+# Message Based IPC
