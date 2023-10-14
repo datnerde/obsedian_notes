@@ -60,3 +60,10 @@
 # Copy vs. Map
 ![[Pasted image 20231014132246.png]]
 # SysV Shared Memory
+- "segments" of shared memory => not necessarily contiguous physical pages
+- shared memory is system-wide => system limits on number of segments and total size
+- Create
+	- OS assigns unique key
+- Attach
+	- map virtual => physical addresses
+	- 
