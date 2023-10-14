@@ -11,8 +11,12 @@
             "id": "99366eb75937cb64",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324
+    "width": 475.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md"
+              }
             }
           },
           {
@@ -152,6 +161,8 @@
   },
   "active": "99366eb75937cb64",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20231013180542.png",
+    "OMSCS/GOIS/readings/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
     "Pictures/Pasted image 20231012215415.png",
     "Pictures/Pasted image 20231012215008.png",
@@ -189,7 +200,6 @@
     "Algorithm/Leetcode/31. Partition Array.md",
     "Algorithm/Leetcode/680. Valid Palindrome II.md",
     "Algorithm/Leetcode/15. 3Sum.md",
-    "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
