@@ -66,4 +66,11 @@
 	- OS assigns unique key
 - Attach
 	- map virtual => physical addresses
-	- 
+- Detach
+	- invalidate address mappings
+- Destroy
+	- only remove when explicitly deleted (or reboot)
+# SysV Shared Memory API
+ ![[Pasted image 20231014134139.png]]
+# POSIX Shared Memory API
+ 
