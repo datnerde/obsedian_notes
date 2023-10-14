@@ -51,7 +51,12 @@
 		- VA(P1) and VA(P2) map to the same physical address
 		- VA(P1) not need to be equal VA(P2)
 		- physical memory doesn't need to be contiguous
-- + system calls only for setup data copies potentially reduced (but not eliminated)
+- + system calls only for setup (because only in user scope after setup)
+- + data copies potentially reduced (but not eliminated)
 - - explicit synchronization
 - - communication protocol
 - - shared buffer management
+- APIs: Sys V API, POSIX API, memory mapped files, Android ashmen
+# Copy vs. Map
+![[Pasted image 20231014132246.png]]
+# SysV Shared Memory
