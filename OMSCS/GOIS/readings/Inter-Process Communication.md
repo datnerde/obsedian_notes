@@ -73,4 +73,13 @@
 # SysV Shared Memory API
  ![[Pasted image 20231014134139.png]]
 # POSIX Shared Memory API
- 
+ ![[Pasted image 20231014134703.png]]
+# Shared Memory and Sync
+- synchronization method
+	- mechanisms supported by process threading library (pthreads)
+	- OS supported IPC for synchronization
+- Either method must coordinate
+	- number of concurrent access to shared segment
+	- when data is available and read for consumption
+# PThreads Sync for IPC
+![[Pasted image 20231014135146.png]]
