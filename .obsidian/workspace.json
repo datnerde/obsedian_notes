@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f80a7ae6d55663db",
+        "id": "af947ec3fc0499ea",
         "type": "tabs",
         "children": [
           {
-            "id": "99366eb75937cb64",
+            "id": "9d8c58d9528cf0e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md"
-              }
+              "state": {}
             }
           },
           {
@@ -159,21 +151,20 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "99366eb75937cb64",
+  "active": "9d8c58d9528cf0e9",
   "lastOpenFiles": [
+    "OMSCS/GOIS/readings/Inter-Process Communication.md",
+    "Pictures/Pasted image 20231014141110.png",
+    "Pictures/Pasted image 20231014140937.png",
+    "Pictures/Pasted image 20231014140752.png",
+    "Pictures/Pasted image 20231014140704.png",
     "Pictures/Pasted image 20231014140537.png",
     "Pictures/Pasted image 20231014135146.png",
     "Pictures/Pasted image 20231014134703.png",
     "Pictures/Pasted image 20231014134139.png",
     "Pictures/Pasted image 20231014132246.png",
     "Pictures/Pasted image 20231014131351.png",
-    "Pictures/Pasted image 20231014130612.png",
-    "Pictures/Pasted image 20231013180542.png",
-    "OMSCS/GOIS/readings/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
-    "Pictures/Pasted image 20231012215415.png",
-    "Pictures/Pasted image 20231012215008.png",
-    "Pictures/Pasted image 20231012214821.png",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Chip Multithreading Systems Need a New Operating SystemScheduler.pdf",
     "OMSCS/GOIS/Scheduling.md",

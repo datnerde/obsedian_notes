@@ -86,3 +86,13 @@
 # Sync for Other IPC
 ![[Pasted image 20231014140537.png]]
 # IPC Command Line Tools
+![[Pasted image 20231014140704.png]]
+# Shared Mem Design Considerations
+![[Pasted image 20231014140752.png]]
+## How Many Segments?
+![[Pasted image 20231014140937.png]]
+## What size segments? What if data doesn't fit?
+![[Pasted image 20231014141110.png]]
+# Summary
+- IPC using pipes, messages (ports) and shared memory
+- Memory-based vs. message-based IPC
