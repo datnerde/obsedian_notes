@@ -83,3 +83,6 @@
 	- when data is available and read for consumption
 # PThreads Sync for IPC
 ![[Pasted image 20231014135146.png]]
+# Sync for Other IPC
+![[Pasted image 20231014140537.png]]
+# IPC Command Line Tools
