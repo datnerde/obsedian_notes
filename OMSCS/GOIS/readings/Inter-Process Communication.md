@@ -30,4 +30,28 @@
 # Forms of Message Passing
 - Pipies
 	- carry byte stream between 2 processes
-	- 
+	- e.g., connect output from on process to input of another
+- Message Queues
+	- carry "messages" among processes
+	- OS management includes 
+		- priorities
+			- scheduling of msg delivery
+	- APIs: sysV and POSIX
+- Sockets
+	- send(), recv() == pass message buffers
+	- socket() == create kernel-level socket buffer
+	- associate necessary kernel-level processing (TCP/IP,...)
+	- if different machines, channel b/w process and network device
+	- if same machine, bypass full protocol stack
+# Shared Memory IPC
+![[Pasted image 20231014131351.png]]
+- read and write to shared memory region
+	- OS established shared channel b/w the processes
+		- physical pages mapped into virtual address space
+		- VA(P1) and VA(P2) map to the same physical address
+		- VA(P1) not need to be equal VA(P2)
+		- physical memory doesn't need to be contiguous
+- + system calls only for setup data copies potentially reduced (but not eliminated)
+- - explicit synchronization
+- - communication protocol
+- - shared buffer management
