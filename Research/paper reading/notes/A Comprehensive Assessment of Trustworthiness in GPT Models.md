@@ -6,7 +6,17 @@
 	- Evaluation on diverse user prompts
 		- characteristics of toxicity under different prompts
 	- Ideas:
-		- relationship between different encoding method and toxicity
+		- relationship between different decoding method and toxicity
 		- a criteria to determine which decoding is better from a AI safety perspective
 - Evaluation on stereotypes bias
+	- Understand the stereotypes from GPT from different perspectives
+		- likely
+		- type
+		- how to increase using prompts 
+			- to target
+			- non-target
+	- Ideas:
+		- relationship between different decoding method and bias
+		- a criteria to determine which decoding is better from a AI safety perspective
+- Evaluation on adversarial robustness
 	- 
