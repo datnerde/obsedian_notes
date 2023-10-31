@@ -34,4 +34,9 @@
 	- spurious correlation
 	- backdoors attacks
 - Evaluation on privacy
-	- 
+	- evaluate in traniing set
+	- evalute in in context learning
+	- evalute with privacy workd
+
+- 好的decoding method能让LLM产生的结果更多样更自然更贴合人的说话方式
+- 
