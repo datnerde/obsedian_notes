@@ -30,5 +30,6 @@
 	- in context learning settings
 		- 给的跟测得有差
 - Evaluation on robustness against adversarial demonstrations
-	- counterfactual demonstraions
-	- 
+	- counterfactual demonstrations
+	- spurious correlation
+	- backdoors
