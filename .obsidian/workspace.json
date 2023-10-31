@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
+                "file": "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324,
-    "collapsed": true
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
+                "file": "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md",
+                "file": "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/readings/Inter-Process Communication.md"
+                "file": "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md"
               }
             }
           },
@@ -162,6 +161,7 @@
   "active": "9d8c58d9528cf0e9",
   "lastOpenFiles": [
     "OMSCS/GOIS/readings/Inter-Process Communication.md",
+    "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "Pictures/Pasted image 20231014141110.png",
     "Pictures/Pasted image 20231014140937.png",
     "Pictures/Pasted image 20231014140752.png",
