@@ -24,4 +24,8 @@
 	- focus on subset of evaluation and enhance those attack (the dataset is not released yet)
 - Evaluation on out-of-distribution robustness
 	- OOD 就是给的数据和训练数据完全不一样咋办
+	- 各种style 变形
+		- 换文字风格啥的
+	- 时间上的限制
 	- 
+- Evaluation 
