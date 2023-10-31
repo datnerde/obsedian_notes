@@ -27,5 +27,8 @@
 	- 各种style 变形
 		- 换文字风格啥的
 	- 时间上的限制
+	- in context learning settings
+		- 给的跟测得有差
+- Evaluation on robustness against adversarial demonstrations
+	- counterfactual demonstraions
 	- 
-- Evaluation 
