@@ -8,4 +8,5 @@
 	- Ideas:
 		- relationship between different encoding method and toxicity
 		- a criteria to determine which decoding is better from a AI safety perspective
-- 
+- Evaluation on stereotypes bias
+	- 
