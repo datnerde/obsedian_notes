@@ -39,4 +39,14 @@
 	- evalute with privacy workd
 
 - 好的decoding method能让LLM产生的结果更多样更自然更贴合人的说话方式
-- 
+	- 那会不会相应的多了的风险呢？
+	- 如何衡量这些风险？
+		- out-of-distribution robustness
+			- 我们的的假设是好的decoding method应该更robust
+			- 因为对于不同于模型遇见的数据集，结果更多样的decoding method应该会更容易涵盖edge case?
+		- adversarial robustness （感觉这个相对好做因为有现成的数据集）
+			- same above
+			- 好的decoding method less greedy, less sensitive to probability, 更有可能选到小概率的词汇，更不容易收到这些负面攻击的影响
+		- robustness against adversarial demonstrations
+			- same as above
+			- 可能对于in-context learning来说，decoding的选择影响不大
