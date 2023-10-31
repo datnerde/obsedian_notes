@@ -1,3 +1,11 @@
 - Evaluation on toxicity
 	- Evaluation on standard benchmark
-	- Design of dvrese 
+		- no tuning and RLHF
+	- Evaluation on diverse system prompts
+		- characteristics of toxicity under different prompts
+	- Evaluation on diverse user prompts
+		- characteristics of toxicity under different prompts
+	- Ideas:
+		- relationship between different encoding method and toxicity
+		- a criteria to determine which decoding is better from a AI safety perspective
+- 
