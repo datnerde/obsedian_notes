@@ -32,4 +32,6 @@
 - Evaluation on robustness against adversarial demonstrations
 	- counterfactual demonstrations
 	- spurious correlation
-	- backdoors
+	- backdoors attacks
+- Evaluation on privacy
+	- 
