@@ -21,4 +21,7 @@
 - Evaluation on adversarial robustness
 	- the benchmark:[AdvGLUE Benchmark](https://adversarialglue.github.io/)
 	- benchmark evaluation
-	- focus on subset of evaluation and enhance those attack
+	- focus on subset of evaluation and enhance those attack (the dataset is not released yet)
+- Evaluation on out-of-distribution robustness
+	- OOD 就是给的数据和训练数据完全不一样咋办
+	- 
