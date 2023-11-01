@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md",
+                "file": "OMSCS/GOIS/IO management.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324,
-    "collapsed": true
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md",
+                "file": "OMSCS/GOIS/IO management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md",
+                "file": "OMSCS/GOIS/IO management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md"
+                "file": "OMSCS/GOIS/IO management.md"
               }
             }
           },
@@ -161,6 +160,9 @@
   },
   "active": "0b2323b46d08271b",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20231101081920.png",
+    "OMSCS/GOIS/Synchronization Constructs.md",
+    "OMSCS/GOIS/IO management.md",
     "Pictures/Pasted image 20231031233532.png",
     "Pictures/Pasted image 20231031233040.png",
     "Pictures/Pasted image 20231031232027.png",
@@ -171,8 +173,6 @@
     "Pictures/Pasted image 20231031225708.png",
     "Pictures/Pasted image 20231031225226.png",
     "Pictures/Pasted image 20231031222214.png",
-    "Pictures/Pasted image 20231031221830.png",
-    "OMSCS/GOIS/Synchronization Constructs.md",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
@@ -199,7 +199,6 @@
     "Algorithm/Leetcode/610. Two Sum - Difference equals to target.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/Leetcode/125. Valid Palindrome.md",
-    "Algorithm/Leetcode/31. Partition Array.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
