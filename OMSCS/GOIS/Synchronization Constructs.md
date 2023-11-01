@@ -89,4 +89,7 @@
 	- queue all concurrent instructions but one
 - atomic instructions
 	- critical section with hardware-supported synchronization
--  
+-  ![[Pasted image 20231031221419.png]]
+
+# Shared Memory Multiprocessors
+![[Pasted image 20231031221830.png]]
