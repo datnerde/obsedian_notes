@@ -95,3 +95,6 @@
 ![[Pasted image 20231031221830.png]]
 ![[Pasted image 20231031222214.png]]
 # Cache Coherence
+- non-cache-coherent (NCC) vs. coherent (CC)
+- can achieve cache coherent via hardware support
+- 
