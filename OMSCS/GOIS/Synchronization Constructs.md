@@ -97,4 +97,8 @@
 # Cache Coherence
 - non-cache-coherent (NCC) vs. coherent (CC)
 - can achieve cache coherent via hardware support
-- 
+- ![[Pasted image 20231031225226.png]]\\
+# Cache Coherence and Atomics
+![[Pasted image 20231031225708.png]]
+# Spinlock Performance Metrics
+![[Pasted image 20231031225944.png]]
