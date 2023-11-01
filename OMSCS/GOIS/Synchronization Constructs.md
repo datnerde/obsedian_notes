@@ -79,3 +79,14 @@
 - All need hardware support!
 
 # Atomic Instructions
+- Hardware-specific
+	- test_and_set
+	- read_and_increment
+	- compare_and_swap
+- Guarantees
+	- atomicity
+	- mutual exclusion
+	- queue all concurrent instructions but one
+- atomic instructions
+	- critical section with hardware-supported synchronization
+-  
