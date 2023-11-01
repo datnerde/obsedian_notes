@@ -27,4 +27,12 @@
 - I/O port
 	- dedicated in/out instructions for device access
 	-  target device (i/o port) and value in register
+- Path from Device to CPU
+	- Interrupt (device generate)
+		- - interrupt handling steps
+		- + can be generated as soon as possible
+	- Polling (CPU to call device)
+		- + when convenient for OS
+		- - delay or CPU overhead
+# Device Access POI (Programmed I/O)
 - 
