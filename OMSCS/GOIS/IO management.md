@@ -8,3 +8,15 @@
 - responsible for device access, management and control
 - provided by device manufacturers per OS/version
 - each OS standardizes interfaces
+	- device independence
+	- device diversity
+# Types of Devices
+- Block: disk
+	- read/ write blocks of data
+	- direct access to arbitrary block
+- Character: keyboard
+	- get/put character
+- Network devices
+- OS presentation of a device == special device file
+	- ![[Pasted image 20231101141802.png]]
+# CPU Device Interactions
