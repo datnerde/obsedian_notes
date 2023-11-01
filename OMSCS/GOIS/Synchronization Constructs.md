@@ -93,3 +93,5 @@
 
 # Shared Memory Multiprocessors
 ![[Pasted image 20231031221830.png]]
+![[Pasted image 20231031222214.png]]
+# Cache Coherence
