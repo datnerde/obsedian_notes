@@ -108,3 +108,19 @@
 ![[Pasted image 20231031231209.png]]
 # Spinlock Delay Alternatives
 ![[Pasted image 20231031231929.png]]
+![[Pasted image 20231031232027.png]]
+# Picking a Delay
+- Static Delay
+	- simple approach
+	- unnecessary delay under low contention
+- Dynamic Delay
+	- random delay in a range that increases with "preceived" contention
+	- preceived == failed test_and_set()
+	- delay after each reference will keep growing based on contention or length of critical section
+# Queueing Lock
+- Common problem in spinlock implementation
+	- Everyone tries to acquire a lock at the same time once lock is freed
+		- delay alternatives
+	- Everyone sees the lock is free at the same time
+		- Anderson's Queueing lock
+	- 
