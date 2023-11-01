@@ -123,4 +123,6 @@
 		- delay alternatives
 	- Everyone sees the lock is free at the same time
 		- Anderson's Queueing lock
-	- 
+	- ![[Pasted image 20231031233040.png]]
+# Queueing Lock Implementation
+![[Pasted image 20231031233532.png]]
