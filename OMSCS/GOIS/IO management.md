@@ -20,3 +20,11 @@
 - OS presentation of a device == special device file
 	- ![[Pasted image 20231101141802.png]]
 # CPU Device Interactions
+- access device registers == memory load / store
+- memory-mapped I/O
+	- part of host physical memory dedicated for device interactions
+	- base address registers (BAR)
+- I/O port
+	- dedicated in/out instructions for device access
+	-  target device (i/o port) and value in register
+- 
