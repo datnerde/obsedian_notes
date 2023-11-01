@@ -39,4 +39,8 @@
 - CPU 'programs' the device
 	- via command registers
 	- data movement
-- 
+- Example: NIC, data == network packet
+	- write command to request packet transmission
+	- copy packet to data registers
+	- repeat until packet sent
+	- 
