@@ -35,4 +35,8 @@
 		- + when convenient for OS
 		- - delay or CPU overhead
 # Device Access POI (Programmed I/O)
+- no additional hardware support
+- CPU 'programs' the device
+	- via command registers
+	- data movement
 - 
