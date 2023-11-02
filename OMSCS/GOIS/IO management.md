@@ -59,3 +59,5 @@
 # Typical Device Access
 ![[Pasted image 20231101194251.png]]
 # OS Bypass
+![[Pasted image 20231101195936.png]]
+# Sync vs. Async Access
