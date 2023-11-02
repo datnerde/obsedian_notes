@@ -43,4 +43,16 @@
 	- write command to request packet transmission
 	- copy packet to data registers
 	- repeat until packet sent
-	- 
+	- Example:
+		- ![[Pasted image 20231101181003.png]]
+# Device Access DMA (Direct Memory Access)
+- relies on DMA controller
+- CPU programs the device
+	- via command registers
+	- via DMA controls
+- Example:
+	- write command to request packet transmission
+	- configure DMA controller with in-memory address and size of packet buffer
+- ![[Pasted image 20231101181524.png]]
+- data buffer must be in physical memory until transfer completes ==> pinned region
+
