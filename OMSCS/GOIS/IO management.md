@@ -57,3 +57,5 @@
 - data buffer must be in physical memory until transfer completes ==> pinned region
 
 # Typical Device Access
+![[Pasted image 20231101194251.png]]
+# OS Bypass
