@@ -70,3 +70,18 @@
 		- or process is notified that the operation completed and results are ready
 # Block Device Stack (storage for files)
 ![[Pasted image 20231102174353.png]]
+# Virtual File System
+- What if files are on more than on device
+- What if devices work better with different FS implementations
+- ![[Pasted image 20231102175213.png]]
+# Virtual File System Abstractions
+- file == elements on which the VFS operates
+- file descriptor == OS representation of file
+	- open, read , write, sendfile, lock, close
+- inode == persistent representation of file "index"
+	- list of all data blocks
+	- device, permission, size ...
+- dentry == directory entry, corresponds to single path component
+	- /users/ada => /,/users,/users/ada
+	- dentry cache
+- superblock == filesystem - specific information regrading the FS layout
