@@ -61,3 +61,12 @@
 # OS Bypass
 ![[Pasted image 20231101195936.png]]
 # Sync vs. Async Access
+- Synchronous I/O operations
+	- process blocks
+- Asynchronous I/O operations
+	- process continues
+	- later
+		- process checks and retrieves result
+		- or process is notified that the operation completed and results are ready
+# Block Device Stack (storage for files)
+![[Pasted image 20231102174353.png]]

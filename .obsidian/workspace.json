@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324
+    "width": 475.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -160,6 +161,7 @@
   },
   "active": "0b2323b46d08271b",
   "lastOpenFiles": [
+    "Pictures/Pasted image 20231102174353.png",
     "Pictures/Pasted image 20231101195936.png",
     "Pictures/Pasted image 20231101194251.png",
     "Pictures/Pasted image 20231101181524.png",
@@ -172,7 +174,6 @@
     "OMSCS/GOIS/IO management.md",
     "Pictures/Pasted image 20231031233532.png",
     "Pictures/Pasted image 20231031233040.png",
-    "Pictures/Pasted image 20231031232027.png",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
