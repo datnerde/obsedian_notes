@@ -56,3 +56,4 @@
 - ![[Pasted image 20231101181524.png]]
 - data buffer must be in physical memory until transfer completes ==> pinned region
 
+# Typical Device Access
