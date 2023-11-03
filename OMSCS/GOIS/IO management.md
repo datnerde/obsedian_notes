@@ -85,3 +85,10 @@
 	- /users/ada => /,/users,/users/ada
 	- dentry cache
 - superblock == filesystem - specific information regrading the FS layout
+# VFS on Disk
+![[Pasted image 20231102175827.png]]
+# ext2 Second Extended Filesystem
+![[Pasted image 20231102180117.png]]
+# inodes
+![[Pasted image 20231102180437.png]]
+# inodes with Indirect Pointers
