@@ -92,3 +92,5 @@
 # inodes
 ![[Pasted image 20231102180437.png]]
 # inodes with Indirect Pointers
+![[Pasted image 20231102180819.png]]
+# Disk Access Optimizations
