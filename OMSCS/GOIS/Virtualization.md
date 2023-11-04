@@ -63,4 +63,18 @@
 # Binary Translation
 - goal: full virtualization == guest OS not modified
 - approach: dynamic binary translation
-- 
+	- Inspect code blocks to be executed
+	- If needed, translate to alternate instruction sequence
+		- e.g., to emulate desired behaviour, possibly even avoiding trap
+	- Otherwise, run at hardware speeds
+		- cache translated blocks to amortize translation costs
+# Paravirtualization
+- goal: performance; give up on unmodified guests
+- approach: paravirtualization == modify guest
+- it knows it's running virtualized
+- it makes explicit calls to the hypervisor (hyper calls)
+- hyper call (~ system calls)
+	- package context info
+	- specify desired hyper call
+	- trap to VMM
+- e.g., Xen == open source hypervisor (XenSource -> Citrix)
