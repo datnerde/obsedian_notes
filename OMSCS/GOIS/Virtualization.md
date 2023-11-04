@@ -92,3 +92,4 @@
 # Split Device Driver Model
 ![[Pasted image 20231104141902.png]]
 # Hardware Virtualization
+![[Pasted image 20231104142855.png]]
