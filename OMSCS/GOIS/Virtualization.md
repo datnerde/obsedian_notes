@@ -19,9 +19,19 @@
 - debugging
 - support for legacy OSs
 # Virtualization Models Bare Metal
-- Bare-metal or hypervisor-based
+- Bare-metal or hypervisor-based (type 1)
 	- VMM(hypervisor) manages all hardware resources and supports execution of VMs
 	- privileged, service VM to deal with devices (and other configuration and management task)
 	- Xen (open source or Citrix XenServer)
-		- do
-- Hosted
+		- dom0 and domUs
+		- drivers in dom0
+	- ESX (VMware)
+		- manage open APIs
+		- drivers in VMM
+		- used to have Linux control core, now remote APIs
+- Hosted (type 2)
+	- host OS owns all hardware
+	- special VMM module provides hardware interfaces to VMs and deals with VM context switching
+	- KVM (kernel-based VM)
+		- based on Linux
+		- KVM kernel module + QEMU for hardware virtualization 
