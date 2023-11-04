@@ -85,3 +85,8 @@
 # Device Virtualization
 ![[Pasted image 20231104140019.png]]
 # Passthrough Model
+![[Pasted image 20231104140821.png]]
+# Hypervisor Direct Model
+![[Pasted image 20231104141056.png]]
+![[Pasted image 20231104141140.png]]
+# Split Device Driver Model
