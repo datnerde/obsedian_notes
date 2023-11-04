@@ -50,3 +50,17 @@
 - Switch between two modes
 ![[Pasted image 20231104132242.png]]
 # Processor Virtualization
+- Guest instructions (Trap and Emulate)
+	- executed directly by hardware
+	- for non-privileged operations: hardware speeds => efficiency
+	- for privileged operations: trap to hypervisor
+	- hypervisor determines what needs to be done:
+		- if illegal op: terminate VM
+		- if legal op: emulate the behaviour the guest OS was expecting from the hardware
+# x86 Virtualization in the Past
+![[Pasted image 20231104132852.png]]
+![[Pasted image 20231104133029.png]]
+# Binary Translation
+- goal: full virtualization == guest OS not modified
+- approach: dynamic binary translation
+- 
