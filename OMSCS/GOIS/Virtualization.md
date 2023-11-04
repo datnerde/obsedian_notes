@@ -93,3 +93,5 @@
 ![[Pasted image 20231104141902.png]]
 # Hardware Virtualization
 ![[Pasted image 20231104142855.png]]
+# x86 VT Revolution
+![[Pasted image 20231104143724.png]]
