@@ -80,4 +80,8 @@
 - e.g., Xen == open source hypervisor (XenSource -> Citrix)
 # Memory Virtualization Full
 ![[Pasted image 20231104135340.png]]
-
+# Memory Virtualization Paravirtualized
+![[Pasted image 20231104135819.png]]
+# Device Virtualization
+![[Pasted image 20231104140019.png]]
+# Passthrough Model
