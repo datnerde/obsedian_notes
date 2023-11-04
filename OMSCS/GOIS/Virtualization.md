@@ -78,3 +78,6 @@
 	- specify desired hyper call
 	- trap to VMM
 - e.g., Xen == open source hypervisor (XenSource -> Citrix)
+# Memory Virtualization Full
+![[Pasted image 20231104135340.png]]
+
