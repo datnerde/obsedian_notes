@@ -35,3 +35,5 @@
 	- KVM (kernel-based VM)
 		- based on Linux
 		- KVM kernel module + QEMU for hardware virtualization 
+		- leverages Linux open-source community
+
