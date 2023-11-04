@@ -36,4 +36,17 @@
 		- based on Linux
 		- KVM kernel module + QEMU for hardware virtualization 
 		- leverages Linux open-source community
-
+# Virtualization Requirements
+![[Pasted image 20231104131742.png]]
+# Hardware Protection Levels
+- commodity hardware has more than 2 protection levels
+- e.g. x86 has 4 protection levels(rings)
+	- and 2 protection modes
+	- non-root: VMs:
+		- ring 3: apps
+		- ring 0: OS
+	- root:
+		- ring 0: hypervisor
+- Switch between two modes
+![[Pasted image 20231104132242.png]]
+# Processor Virtualization
