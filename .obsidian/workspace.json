@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324,
-    "collapsed": true
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md"
+                "file": "OMSCS/GOIS/Virtualization.md"
               }
             }
           },
@@ -161,6 +160,8 @@
   },
   "active": "0b2323b46d08271b",
   "lastOpenFiles": [
+    "OMSCS/GOIS/IO management.md",
+    "OMSCS/GOIS/Virtualization.md",
     "Pictures/Pasted image 20231102182204.png",
     "Pictures/Pasted image 20231102180819.png",
     "Pictures/Pasted image 20231102180437.png",
@@ -171,9 +172,7 @@
     "Pictures/Pasted image 20231101195936.png",
     "Pictures/Pasted image 20231101194251.png",
     "Pictures/Pasted image 20231101181524.png",
-    "Pictures/Pasted image 20231101181003.png",
     "OMSCS/GOIS/Synchronization Constructs.md",
-    "OMSCS/GOIS/IO management.md",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
