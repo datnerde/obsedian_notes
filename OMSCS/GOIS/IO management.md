@@ -94,3 +94,4 @@
 # inodes with Indirect Pointers
 ![[Pasted image 20231102180819.png]]
 # Disk Access Optimizations
+![[Pasted image 20231102182204.png]]
