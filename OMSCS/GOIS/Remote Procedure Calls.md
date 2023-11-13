@@ -50,3 +50,9 @@
 	- timeout and retry => no guarantees!
 - special RPC error notification (signal, exception...)
 	- catch all possible ways in which the RPC can (partially) fail
+# RPC Design Choice Summary
+- Binding => how to find the server
+- IDL => how to talk to the server; how to package data
+- Pointers as arguments => disallow or serialize pointer data
+- Partial failures => special error notifications
+# What is SunRPC?
