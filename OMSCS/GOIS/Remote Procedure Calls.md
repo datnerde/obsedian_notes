@@ -42,3 +42,11 @@
 - Visual metaphor
 ![[Pasted image 20231113124747.png]]
 # Pointers in RPCs
+- no pointers 
+- serialize pointers; copy referenced ("pointed to") data structure to send buffer
+# Handling Partial Failures
+- When a client hangs, what is the problem?
+	- server down? service down? network down? message lost?
+	- timeout and retry => no guarantees!
+- special RPC error notification (signal, exception...)
+	- catch all possible ways in which the RPC can (partially) fail
