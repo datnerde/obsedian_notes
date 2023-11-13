@@ -67,3 +67,23 @@
 ![[Pasted image 20231113132535.png]]
 ![[Pasted image 20231113132548.png]]
 # Summarizing XDR Compilation
+![[Pasted image 20231113132921.png]]
+![[Pasted image 20231113133029.png]]
+# SunRPC Registry
+![[Pasted image 20231113133431.png]]
+# SunRPC Binding
+![[Pasted image 20231113133610.png]]
+# XDR Data Types
+- Default Types
+	- char, byte, int, float
+- Additional XDR types
+	- const (# define)
+	- hyper (640bit integer)
+	- quadruple (128-bit float)
+	- opaque (~ C byte)
+		- uninterpreted binary data
+- Fixed-length array
+	- e.g., int data \[80]
+- Variable-length array
+	- e.g., int data <80>
+		- translates into a data structure with "len" and "val" fields
