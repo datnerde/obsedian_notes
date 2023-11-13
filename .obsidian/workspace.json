@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md",
+                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Thread Design considerations.md"
+                "file": "OMSCS/GOIS/Remote Procedure Calls.md"
               }
             }
           },
@@ -160,6 +160,10 @@
   },
   "active": "0b2323b46d08271b",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Thread Design considerations.md",
+    "OMSCS/GOIS/Remote Procedure Calls.md",
+    "Research/paper reading/nucleus sampling.pdf",
+    "Research/paper reading/speculative sampling.pdf",
     "OMSCS/GOIS/Virtualization.md",
     "Pictures/Pasted image 20231104143724.png",
     "Pictures/Pasted image 20231104142855.png",
@@ -184,7 +188,6 @@
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "OMSCS/GOIS/readings/Introduction to Programming with Threads.pdf",
-    "OMSCS/GOIS/Thread Design considerations.md",
     "OMSCS/GOIS/Thread Performance Considerations.md",
     "OMSCS/GOIS/Process and Process Management.md",
     "OMSCS/GOIS/Threads and Concurrency.md",
@@ -201,10 +204,8 @@
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
     "OMSCS/GOIS/readings/network programming in C.pdf",
-    "Research/paper reading/speculative sampling.pdf",
     "Algorithm/Leetcode",
     "Research/paper reading/notes",
-    "OMSCS/GOIS/readings/notes",
     "Untitled.canvas"
   ]
 }
