@@ -112,3 +112,4 @@
 - Example
 ![[Pasted image 20231113135518.png]]
 # Java RMI
+![[Pasted image 20231113135916.png]]
