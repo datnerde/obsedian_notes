@@ -1,4 +1,6 @@
-## Introduction
+## An Efficient and Portable Web Server
+
+### Introduction
 
 ---
 - Web servers cache frequently request content in main memory
@@ -10,7 +12,7 @@
 		- Ex: Apache
 - Flash Server matches the performance of SPED and matches or exceeds MP/MT approaches
 
-## Background
+### Background
 
 ---
 - Serving a request
@@ -29,18 +31,18 @@
 		- transmit the requested content
 - All steps of serving a request can potentially block
 
-## Server Architectures
+### Server Architectures
 
 ---
 
-### Multi-process (MP)
+#### Multi-process (MP)
 
 - Each request is assigned to one process
 	- The OS takes care of switching processes (20-200 at a time)
 	- No synchronization is necessary
 	- But hard to optimize
 
-### Multi-threaded (MT)
+#### Multi-threaded (MT)
 
 - Multiple threads in a shared address space
 - Each thread manages a request (like processes are used in MP)
@@ -49,7 +51,7 @@
 - The OS must support kernel threads.
 	- FreeBSD does not as it only has user-level threads w/o kernel support
 
-### Single-process Event-driven (SPED)
+#### Single-process Event-driven (SPED)
 
 - Single process processes HTTP requests
 - Use non-blocking system calls to perform asynchronous I/O operations
@@ -63,7 +65,7 @@
 	- non-blocking `read` and `write` operations work on network sockets and pipes, but block when used on disk files
 - Some UNIX systems have APIs that implement asynchronous disk I/O but they are not integrated with `select`. Also `open` and `stat` on file descriptors may still block
 
-### Asymmetric Multi-Process Event-Drive (AMPED)
+#### Asymmetric Multi-Process Event-Drive (AMPED)
 
 - Combines event-driven SPED architecture with multiple _helper_ processes (or threads) to handle blocking disk I/O operations
 - The main process handles all HTTP request processing.

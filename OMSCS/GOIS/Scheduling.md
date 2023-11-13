@@ -1,7 +1,11 @@
-# Visual Metaphor
+## Visual Metaphor
+
 ![[Pasted image 20231007164257.png]]
-# Scheduling Overview
-## CPU Scheduling
+
+## Scheduling Overview
+
+### CPU Scheduling
+
 - CPU scheduler
 	- decides how and when processes( and their threads) access shared CPU
 	- schedules tasks running user-level processes / threads as well as kernel-level threads
@@ -21,7 +25,9 @@
 		- scheduling policy / algo
 	- how is this done?
 		- depends on runqueue data structure
-# Run to Completion Scheduling
+
+## Run to Completion Scheduling
+
 - Initial Assumptions
 	- group of tasks / jobs
 	- known execution times
@@ -39,19 +45,23 @@
 	- schedules tasks in order of their execution time
 	- runqueue == ordered queue
 		- tree structure
-# Preemptive Scheduling: SFJ + Preempt
+
+## Preemptive Scheduling: SFJ + Preempt
+
 - Case:
 	- ![[Pasted image 20231008135054.png]]
 	- T2 should be preempted
 	- T2 arrives first
--  Heuristic based on history on job running time
+- Heuristic based on history on job running time
 	- how long did a task run last time
 	- how long did a task run last n time
-# Preemptive Scheduling: Priority
+
+## Preemptive Scheduling: Priority
+
 - Case:
 	- ![[Pasted image 20231008135547.png]]
 	- Task have different priority level
-	- run highest priority task next 
+	- run highest priority task next
 	- Priority: T3>T2>T1
 - Two types of runqueue
 	- runqueue per priority level
@@ -62,9 +72,13 @@
 		- priority aging
 			- priority = f(actual priority, time spent in runqueue)
 	- prevent starvation!
-# Priority Inversion
+
+## Priority Inversion
+
 ![[Pasted image 20231008140323.png]]
-# Round Robin Scheduling
+
+## Round Robin Scheduling
+
 - pick up first task from queue (like FCFS)
 - task may yield to wait on I/O (unlike FCFS)
 - Round Robin with Priorities
@@ -72,25 +86,29 @@
 	- round robin on tasks with same priority
 - Round Robin with interleaving
 	- timeslicing
-# Timesharing and Timeslices
+
+## Timesharing and Timeslices
+
 - timeslicing == maximum amount of uninterrupted time given to a task => time quantum
 - task may run less than timeslice time
 	- has to wait on I/O, synchronization => will be placed on a queue
 	- higher priority task becomes runnable
 - using timeslices tasks are interleave
 	- timesharing the CPU
-	- CPU bound-task => preempted after timeslice
+	- CPU bound-task => preempted after timeslice  
 ![[Pasted image 20231008142010.png]]
 - Pros
-	- short tasks finish  sooner
+	- short tasks finish sooner
 	- more responsive
-	- lengthy I/O ops  initiated sooner
+	- lengthy I/O ops initiated sooner
 - Cons
 	- overhead
 		- interrupts
 		- schedules
 		- context switch
-#  How Long Should a Timeslice Be
+
+## How Long Should a Timeslice Be
+
 - Balance benefits and overheads
 	- I/O bound tasks
 		- ![[Pasted image 20231008145027.png]]
@@ -101,7 +119,9 @@
 		- ![[Pasted image 20231008144702.png]]
 			- limit context switching overheads
 			- keeps CPU utilization and through put
-# Runqueue Data Structure
+
+## Runqueue Data Structure
+
 - if we want I/O and CPU bound tasks to have different timeslice values, then
 	- same runqueue, check type
 	- two different structures
@@ -112,7 +132,9 @@
 - the above design is called multi-level feedback queue (MLFQ)
 	- different treatment of threads at each level
 	- feedback
-# Linux O(1) Scheduler
+
+## Linux O(1) Scheduler
+
 - ![[Pasted image 20231008154305.png]]
 - Timeslice value
 	- depends on priority
@@ -135,7 +157,9 @@
 	- no fairness guarantee
 	- workload changes
 		- replaced by CFS(completely fair scheduler)
-# Linux CFS Scheduler
+
+## Linux CFS Scheduler
+
 - a default scheduler in LINUX for non real-time tasks
 - runqueue == red-black tree
 	- ![[Pasted image 20231008165007.png]]
@@ -143,7 +167,7 @@
 	- ordered by 'v-runtime'
 	- vruntime == time spent on CPU
 - CFS scheduling
-	- always  pick leftmost node
+	- always pick leftmost node
 	- periodically adjust vruntime
 	- compare to leftmost vruntime
 		- if smaller, continue running
@@ -155,10 +179,12 @@
 	- Performance
 		- select task => o(1)
 		- add task => O(logn)
-# Scheduling on Multiprocessors
+
+## Scheduling on Multiprocessors
+
 - ![[Pasted image 20231008165754.png]]
 	- cache-affinity important!
-		- keep  tasks on the same CPU as much as possible
+		- keep tasks on the same CPU as much as possible
 		- hierarchical scheduler architecture
 	- per-cpu runqueue and scheduler
 		- load balance across CPU
@@ -170,7 +196,9 @@
 			- keep tasks on CPU scheduler to MM node where their state is
 				- NUMA-aware scheduling
 - ![[Pasted image 20231008165843.png]]
-# Hyperthreading
+
+## Hyperthreading
+
 - multiple hardware-supported execution contexts
 - still 1 CPU but..
 - with very fast context switch
@@ -178,35 +206,41 @@
 	- SMT ctx_switch - O(cycles)
 	- memory load - O(100 cycles)
 - hyperthreading can high memory access latency
-# Scheduling for Hyperthreading Platforms
+
+## Scheduling for Hyperthreading Platforms
+
 - Assumptions:
 	- thread issues instruction on each cycle
 		- max instruction-per-cycle (IPC)= 1
 	- memory access = 4 cycles
 	- hardware switching instantaneous
-	- SMT with 2 hardware threads 
+	- SMT with 2 hardware threads
 - ![[Pasted image 20231008174528.png]]
 - ![[Pasted image 20231008174705.png]]
 - ![[Pasted image 20231008174826.png]]
-# CPU Bound or Memory Bound
+
+## CPU Bound or Memory Bound
+
 - Use historical information
 - "sleep time" won't work
 	- the thread is not sleeping when waiting on MM
 	- software takes too much time to compute
 - need hardware-level information to answer the question
 	- Hardware counters
-		- L1, L2,... LLC misses
+		- L1, L2,… LLC misses
 		- IPC
 		- power and energy data
 		- Software interface and tools
-			- e.g., oprofile, Linux perf tool...
+			- e.g., oprofile, Linux perf tool…
 			- oprofile websties lists available hardware counters on different architectures
 	- (g) estimate what kind of resources a thread needs
 		- scheduler can make informed decisions
 			- typically multiple counters
 			- models with per architecture thresholds
 			- based on well-understood workloads
-# Scheduling with Hardware Counters
+
+## Scheduling with Hardware Counters
+
 - Is cycles-per-instruction (CPI) useful?
 	- memory bound => high CPI
 	- CPU-bound => 1 (or low) CPI

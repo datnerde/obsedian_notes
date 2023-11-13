@@ -1,16 +1,21 @@
-# What is Virtualization
+## What is Virtualization
+
 - virtualization allows concurrent execution of multiple OSs (and their applications) on the same physical machine
 - virtual resources == each OS thinks that it "owns" hardware resources
 - virtual machine (VM) == OS + applications + virtual resources (guest domain)
-- virtualization layer == management of physical hardware (virtual machine monitor, hypervisor)
+- virtualization layer == management of physical hardware (virtual machine monitor, hypervisor)  
 ![[Pasted image 20231103191843.png]]
-# Defining Virtualization
+
+## Defining Virtualization
+
 - A virtual machine is an efficient, isolated duplicate of the real machine
 - supported by a virtual machine monitor (VMM)
 	- fidelity: provides environment essentially identical with the original machine
 	- performance: programs show at worst only minor decrease in speed
 	- safety & isolation: VMM is in complete control of system resources
-# Benefits of Virtualization
+
+## Benefits of Virtualization
+
 - consolidation
 	- decrease cost, improve manageability
 - migration
@@ -18,7 +23,9 @@
 - security
 - debugging
 - support for legacy OSs
-# Virtualization Models Bare Metal
+
+## Virtualization Models Bare Metal
+
 - Bare-metal or hypervisor-based (type 1)
 	- VMM(hypervisor) manages all hardware resources and supports execution of VMs
 	- privileged, service VM to deal with devices (and other configuration and management task)
@@ -34,11 +41,15 @@
 	- special VMM module provides hardware interfaces to VMs and deals with VM context switching
 	- KVM (kernel-based VM)
 		- based on Linux
-		- KVM kernel module + QEMU for hardware virtualization 
+		- KVM kernel module + QEMU for hardware virtualization
 		- leverages Linux open-source community
-# Virtualization Requirements
+
+## Virtualization Requirements
+
 ![[Pasted image 20231104131742.png]]
-# Hardware Protection Levels
+
+## Hardware Protection Levels
+
 - commodity hardware has more than 2 protection levels
 - e.g. x86 has 4 protection levels(rings)
 	- and 2 protection modes
@@ -47,9 +58,11 @@
 		- ring 0: OS
 	- root:
 		- ring 0: hypervisor
-- Switch between two modes
+- Switch between two modes  
 ![[Pasted image 20231104132242.png]]
-# Processor Virtualization
+
+## Processor Virtualization
+
 - Guest instructions (Trap and Emulate)
 	- executed directly by hardware
 	- for non-privileged operations: hardware speeds => efficiency
@@ -57,10 +70,14 @@
 	- hypervisor determines what needs to be done:
 		- if illegal op: terminate VM
 		- if legal op: emulate the behaviour the guest OS was expecting from the hardware
-# x86 Virtualization in the Past
-![[Pasted image 20231104132852.png]]
+
+## X86 Virtualization in the Past
+
+![[Pasted image 20231104132852.png]]  
 ![[Pasted image 20231104133029.png]]
-# Binary Translation
+
+## Binary Translation
+
 - goal: full virtualization == guest OS not modified
 - approach: dynamic binary translation
 	- Inspect code blocks to be executed
@@ -68,7 +85,9 @@
 		- e.g., to emulate desired behaviour, possibly even avoiding trap
 	- Otherwise, run at hardware speeds
 		- cache translated blocks to amortize translation costs
-# Paravirtualization
+
+## Paravirtualization
+
 - goal: performance; give up on unmodified guests
 - approach: paravirtualization == modify guest
 - it knows it's running virtualized
@@ -78,20 +97,36 @@
 	- specify desired hyper call
 	- trap to VMM
 - e.g., Xen == open source hypervisor (XenSource -> Citrix)
-# Memory Virtualization Full
+
+## Memory Virtualization Full
+
 ![[Pasted image 20231104135340.png]]
-# Memory Virtualization Paravirtualized
+
+## Memory Virtualization Paravirtualized
+
 ![[Pasted image 20231104135819.png]]
-# Device Virtualization
+
+## Device Virtualization
+
 ![[Pasted image 20231104140019.png]]
-# Passthrough Model
+
+## Passthrough Model
+
 ![[Pasted image 20231104140821.png]]
-# Hypervisor Direct Model
-![[Pasted image 20231104141056.png]]
+
+## Hypervisor Direct Model
+
+![[Pasted image 20231104141056.png]]  
 ![[Pasted image 20231104141140.png]]
-# Split Device Driver Model
+
+## Split Device Driver Model
+
 ![[Pasted image 20231104141902.png]]
-# Hardware Virtualization
+
+## Hardware Virtualization
+
 ![[Pasted image 20231104142855.png]]
-# x86 VT Revolution
+
+## X86 VT Revolution
+
 ![[Pasted image 20231104143724.png]]

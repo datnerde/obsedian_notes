@@ -1,6 +1,8 @@
+## Threads and Concurrency
+
 ![[Pasted image 20230827125300.png]]
 
-## Visual Metaphor
+### Visual Metaphor
 
 > [!quote]  
 > A thread is like a worker in a toy shop
@@ -12,17 +14,17 @@
 * requires coordination
 	* sharing of I/O devices, CPUs, memory
 
-## Process v.s. Thread
+### Process v.s. Thread
 
 ![[Pasted image 20230827130011.png]]
 
-## Benefits of Multithreading
+### Benefits of Multithreading
 
 * Parallelization => Speed UP
 * Specialization => Hot Cache!
 * Efficiency => lower memory management requirement& cheaper IPC
 
-## Benefits of Multithreading: # Threads > # CPUs
+### Benefits of Multithreading: # Threads > # CPUs
 
 ![[Pasted image 20230827171717.png]]
 
@@ -31,11 +33,11 @@
 	* because threads are in a shared address space even in a single CPU
 * hide latency
 
-## Benefits of Multithreading: Apps and OS
+### Benefits of Multithreading: Apps and OS
 
 ![[Pasted image 20230827172036.png]]
 
-## Basic Thread Mechanisms
+### Basic Thread Mechanisms
 
 * What we need to support thread?
 	* thread data structure
@@ -50,7 +52,7 @@
 		* specific condition before proceeding
 	* waking up other threads from the wait stage
 
-## Thread Creation
+### Thread Creation
 
 * Thread type
 	* thread data structure ![[Pasted image 20230827202600.png]]
@@ -61,20 +63,20 @@
 	* terminate a thread
 * ![[Pasted image 20230827203156.png]]
 
-## Mutual Exclusion
+### Mutual Exclusion
 
 * Mutex
 	* It is like a Lock![[Pasted image 20230827204823.png]]
 	* Critical Section: The portion of code protected by the Mutex
 	* ![[Pasted image 20230827205302.png]]
 
-## Condition Variable
+### Condition Variable
 
 ![[Pasted image 20230827213108.png]]
 
 * use the Signal to notify wait function for consumer to modify the list when it is full
 
-## Condition Variable API
+### Condition Variable API
 
 * Condition type data structure
 * Wait (mutex, cond)
@@ -85,7 +87,7 @@
 	* notify all waiting thread
 * Why we use while instead of i ![[Pasted image 20230827213837.png]]
 
-## Reader/Writer Problem
+### Reader/Writer Problem
 
 * Problem Description  
 ![[Pasted image 20230827215254.png]]
@@ -96,7 +98,7 @@
 * Critical Section Structure with Proxy Variable![[Pasted image 20230828210900.png]]
 	* By pass the limitation of mutex so that we can perform more complicated operation
 
-## Common Pitfalls
+### Common Pitfalls
 
 * keep track of mutex / cond. variables used with a resource
 	* e.g., mutex_type
@@ -133,7 +135,7 @@
 		* apply the ostrich algorithm => do nothing!
 		* if all else fails just reboot
 
-## Kernel vs. User-level Threads
+### Kernel vs. User-level Threads
 
 * Multithreading Models
 	* One to One Model![[Pasted image 20230828215257.png]]

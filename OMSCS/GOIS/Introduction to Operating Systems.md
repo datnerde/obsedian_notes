@@ -1,13 +1,15 @@
 ## Introduction to Operating Systems
 
-### Simple OS Definition
+### Introduction to Operating Systems
+
+#### Simple OS Definition
 
 - A special software that
 	- Abstracts and Simplify what hardwares actually look like
 	- Arbitrates: To manage, control & oversee the hardware
 	- The use of a computer system
 
-### Visual Metaphor
+#### Visual Metaphor
 
 > [!quote]  
 > An operating system is like a toy shop manager
@@ -22,17 +24,17 @@
 	- OS: abstract hardware details
 	- Manager: simplifies operations / Optimize performance
 
-### What is an Operation System?
+#### What is an Operation System?
 
 - Hide hardware complexity
 - Resource management
 - Provide isolation & protection
 
-### Operation System Definition
+#### Operation System Definition
 
 ![[Pasted image 20230826150957.png]]
 
-### OS Elements
+#### OS Elements
 
 - Abstractions
 	- process, thread, file, socket, memory page
@@ -41,7 +43,7 @@
 - Policies
 	- least-recently used (LRU), earliest deadline first(EDF)
 
-### OS Design Principles
+#### OS Design Principles
 
 - Separation of mechanism & policy
 	- Implement flexible mechanisms to support many policies
@@ -50,7 +52,7 @@
 	- What will the user want to execute on that machine?
 	- …
 
-### User / Kernel Protection Boundary
+#### User / Kernel Protection Boundary
 
 > [!quote]  
 > In order for OS to manage hardware, it shall have a privileged access called kernel -level, compared to user-level
@@ -66,7 +68,7 @@
 		- open, send, mmap
 	- Signals
 
-### System Call Flowchart
+#### System Call Flowchart
 
 - To make a system call an application mush
 	- write arguments
@@ -74,7 +76,7 @@
 	- make system call
 	- ![[Pasted image 20230826153832.png]]
 
-### Crossing the OS Boundary
+#### Crossing the OS Boundary
 
 - hardware supported
 	- e.g. traps on illegal instructions or memory access requiring special privilege
@@ -83,14 +85,14 @@
 	- affects hardware cache
 - not cheap
 
-### OS Services
+#### OS Services
 
 - process management
 - file management
 - device management
 - …
 
-### Monolithic OS
+#### Monolithic OS
 
 - Pros
 	- Everything included
@@ -100,7 +102,7 @@
 	- Memory footprint
 	- performance
 
-### Modular OS (more common)
+#### Modular OS (more common)
 
 - Pros
 	- maintainability
@@ -110,7 +112,7 @@
 	- indirection can impact performance
 	- maintenance can still be an issue
 
-### Microkernel
+#### Microkernel
 
 ![[Pasted image 20230826155849.png]]
 

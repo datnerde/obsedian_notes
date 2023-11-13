@@ -1,14 +1,16 @@
-## Preview
+## Thread Design Considerations
+
+### Preview
 
 - Kernel vs. user-level threads
 - Threads and interrupts
 - Threads and signal handling
 
-## Kernel vs. User Level Threads
+### Kernel vs. User Level Threads
 
 ![[Pasted image 20230904160322.png]]
 
-## Thread Data Structures: Single CPU
+### Thread Data Structures: Single CPU
 
 ![[Pasted image 20230904161801.png]]
 
@@ -17,9 +19,9 @@
 	- The PCB will still contain info of virtual address mapping for the whole process warped in user level
 	- Thread_lib will contain info for each user-level thread (ULT)
 
-## Thread Data Structures: At Scale![[Pasted image 20230904162643.png]]
+### Thread Data Structures: At Scale![[Pasted image 20230904162643.png]]
 
-## Hard and Light Process State
+### Hard and Light Process State
 
 ![[Pasted image 20230904195922.png]]
 
@@ -27,7 +29,7 @@
 	- hard process state contains all user-level threads that execute within that process
 	- light process state contains user-level threads that are associated with kernel level threads
 
-## Rationale for Data Structures
+### Rationale for Data Structures
 
 - Single PCB
 	- characteristics
@@ -52,7 +54,7 @@
 		- performance
 		- flexibility
 
-## User Level Structures in Solaris 2.0
+### User Level Structures in Solaris 2.0
 
 ![[Pasted image 20230905203950.png]]
 
@@ -66,7 +68,7 @@
 	- stack growth can be dangerous
 		- solution => red zone![[Pasted image 20230905204503.png]]
 
-## Kernel Level Structures in Solaris 2.0
+### Kernel Level Structures in Solaris 2.0
 
 - process
 	- list of kernel-level threads
@@ -93,7 +95,7 @@
 	- on SPARC dedicated reg == current thread  
 ![[Pasted image 20230905211332.png]]
 
-## Basic Thread Management Interaction
+### Basic Thread Management Interaction
 
 - Request additional kernel-level thread![[Pasted image 20230905212622.png]]
 - When kernel-level threads are blocked
@@ -101,9 +103,9 @@
 	- Kernel does not know what is happening in user-level library![[Pasted image 20230905213033.png]]
 - System calls and special signals allow kernel and ULT library to interact and coordinate
 
-## Thread Management Visibility and Design
+### Thread Management Visibility and Design
 
-### Lack of Thread Management Visibility
+#### Lack of Thread Management Visibility
 
 - Kernel sees
 	- KLTs
@@ -123,7 +125,7 @@
 		- mutex variables and wait queues
 	- 1-1 helps address some of these issues
 
-### How / When Does the UL Library Run?
+#### How / When Does the UL Library Run?
 
 - Process jumps to UL library scheduler
 	- ULTs explicitly yield
@@ -133,7 +135,7 @@
 	- runs on ULT operations
 	- runs on signals from timer or kernel
 
-## Issues on Multiple CPUs
+### Issues on Multiple CPUs
 
 ![[Pasted image 20230906201400.png]]
 
@@ -141,7 +143,7 @@
 - ![[Pasted image 20230906201447.png]]
 - ![[Pasted image 20230906201526.png]]
 
-## Synchronization-Related Issues
+### Synchronization-Related Issues
 
 - ![[Pasted image 20230906202156.png]]
 - Adaptive mutexes:
@@ -154,7 +156,7 @@
 		- periodically destroyed by reaper thread
 		- otherwise thread structures / stacks are reused => performance gained
 
-## Interrupts and Signals Intro![[Pasted image 20230906203545.png]]
+### Interrupts and Signals Intro![[Pasted image 20230906203545.png]]
 
 - Interrupts v.s. signals
 	- Interrupts
@@ -172,11 +174,11 @@
 		- interrupt handler set for entire system by OS
 		- signal handlers set on per process basis, by process
 
-## Interrupt Handling
+### Interrupt Handling
 
 ![[Pasted image 20230906204641.png]]
 
-## Signal Handling
+### Signal Handling
 
 ![[Pasted image 20230906204836.png]]
 
@@ -191,7 +193,7 @@
 		- for most signals, some cannot be "caught"
 	- Examples![[Pasted image 20230906205228.png]]
 
-## Why Disable Interrupts or Signals
+### Why Disable Interrupts or Signals
 
 - Deadlock
 	- keep handler code simple
@@ -200,7 +202,7 @@
 		- user interrupt / signal masks
 		- ![[Pasted image 20230906210000.png]]
 
-## More on Signal Masks
+### More on Signal Masks
 
 - Interrupt mask
 	- if mask disables interrupt, hardware interrupt routing mechanism will not deliver interrupt to CPU
@@ -208,13 +210,13 @@
 	- are per execution context
 	- if mask disables interrupt, kernel sees mask and will not interrupt routing corresponding thread
 
-## Interrupts on Multicore Systems
+### Interrupts on Multicore Systems
 
 - Interrupts can be directed to any CPU that has them enabled
 - May set interrupt on just a single core
 	- avoids overheads & perturbations on all other cores
 
-## Types of Signals
+### Types of Signals
 
 - one-shot signals
 	- "n signals pending == 1 signal pending", the handler will be triggered at least once
@@ -222,7 +224,7 @@
 - real time signals
 	- "if n signals raised, then handler is called n times"
 
-## Interrupts as Threads
+### Interrupts as Threads
 
 ![[Pasted image 20230906211454.png]]
 
@@ -232,11 +234,11 @@
 - Optimization
 	- pre-create & preinitialize thread structures for interrupt routines
 
-## Interrupts: Top vs. Bottom Half
+### Interrupts: Top vs. Bottom Half
 
 ![[Pasted image 20230906212334.png]]
 
-## Performance of Threads as Interrupts
+### Performance of Threads as Interrupts
 
 - Overall Cost
 	- overhead of 40 SPARC instructions per interrupt
@@ -245,21 +247,21 @@
 	- fewer interrupts than mutex lock / unlock operations => a win!
 	- Optimize for the common case
 
-## Threads and Signal Handling
+### Threads and Signal Handling
 
-### Case 2
+#### Case 2
 
 ![[Pasted image 20230906214548.png]]
 
 - The thread_lib will invoke the UTL with mask = 1 to handle the signal
 
-### Case 3
+#### Case 3
 
 ![[Pasted image 20230906215307.png]]
 
 - thread_lib will send a signal to the second KLT and use that to talk to ULT for handling signal
 
-### Case 4
+#### Case 4
 
 ![[Pasted image 20230906215731.png]]![[Pasted image 20230906220011.png]]
 
@@ -268,7 +270,7 @@
 	- system calls avoided - cheaper to update UL mask
 	- signal handling more expensive
 
-## Task in Linux
+### Task in Linux
 
 - Task Struct
 	- main execution abstraction => task

@@ -1,11 +1,16 @@
-# Preview
+## Preview
+
 - Performance comparisons
 	- multi-process vs. multi-threaded vs. event-driven
 - Event-driven architectures
 	- "Flash" vs Apache
-# Which Threading Model is Better
+
+## Which Threading Model is Better
+
 ![[Pasted image 20230929222000.png]]
-# Are Threads Useful
+
+## Are Threads Useful
+
 - parallelization => speed up
 - specialization => hot cache
 - efficiency => lower memory requirements and cheaper synchronization
@@ -19,20 +24,27 @@
 	- hardware
 		- higher utilization (e.g. CPU)
 - Depends on metrics and workloads
-# Thread Performance Considerations Visual Metaphor
+
+## Thread Performance Considerations Visual Metaphor
+
 ![[Pasted image 20230930141022.png]]
-# Performance Metrics
+
+## Performance Metrics
+
 - metrics : a measurement standard
 - measurable / quantifiable
 - of the system we are interested in
 - to evaluate the system behaviour
-- examples:
+- examples:  
 	![[Pasted image 20230930141820.png]]
 - experiments with real software deployment, real machines, real workloads
 - 'toy' experiments representative of realistic settings
 - simulation
-# Multi Process vs. Multi Threaded
+
+## Multi Process vs. Multi Threaded
+
 ![[Pasted image 20230930143052.png]]
+
 - Multi Process Web Server (MP)
 	- Simple programming (+)
 	- high memory usage (-)
@@ -42,28 +54,34 @@
 	- shared address space (+)
 	- shared state (+)
 	- cheap context switch (+)
-	- not simple implementation  (-)
-	- requires synchronization  (-)
-	- underlying support for threads  (-)
-# Event-Driven Model
+	- not simple implementation (-)
+	- requires synchronization (-)
+	- underlying support for threads (-)
+
+## Event-Driven Model
+
 ![[Pasted image 20230930145358.png]]
+
 - single address space
 - single process
 - single thread of control
 - Dispatcher: state machine external events
 - call handler: jump to code
-- Hanlder
+- Handler
 	- run to completion
 	- if they need to block
 		- initiate blocking operation and pass control to dispatch loop
-# Concurrency in the Event Driven Model
+
+## Concurrency in the Event Driven Model
+
 - MP and MT:
 	- 1 request per execution context
 - event-driven
-	- many requests interleaved in an execution context
+	- many requests interleaved in an execution context  
 ![[Pasted image 20230930150654.png]]
 
-# Event-Driven Model: Why
+## Event-Driven Model: Why
+
 - one 1 CPU "threads high latency"
 - if (t_idle > 2 * t_ctx_swithc*)
 	- ctx_switch to hide latency
@@ -71,27 +89,34 @@
 	- context switching just wastes cycles that could have been used for request processing
 - process request until wait necessary then switch to another request
 - multiple CPUs => multiple event-driven processes
-# Event-Driven Model: How
+
+## Event-Driven Model: How
+
 - event == input on file descriptor (FD)
 - which file descriptor?
 	- select() : need to search a range of FD
 	- poll(): need to search a range of FD
-	- epoll(): reduce some search 
+	- epoll(): reduce some search
 - benefits
 	- single address space / single flow of control
 	- smaller memory requirement / no context switching
 	- no synchronization
 - cons
 	- a blocking request / handler will block the entire process
-# Helper Threads and Processes
-## Asynchronous I/O Operations
+
+## Helper Threads and Processes
+
+### Asynchronous I/O Operations
+
 - process/thread makes system call
 - OS obtains all relevant info from stack, and either learns where to return results, or tells caller where to get results later
 - process/thread can continue
 - Requires support from kernel and / or device
 - Fits nicely with event-driven model
-## What if Async Calls are not available
-- AMPED 
+
+### What if Async Calls Are not Available
+
+- AMPED  
 ![[Pasted image 20230930155429.png]]
 - Helpers
 	- designated for blocking I/O operations only
@@ -99,13 +124,16 @@
 		- select() and poll() are still OK
 	- helper blocks, but main event loop will not
 - benefits
-	-  resolve portability limitations of basic event-driven model
+	- resolve portability limitations of basic event-driven model
 	- smaller footprint than regular worker thread
 - cons
 	- applicability to certain classes of applications
 	- event routing on multi CPU systems
-# Flash Web Server
+
+## Flash Web Server
+
 ![[Pasted image 20230930170643.png]]
+
 - an event-driven web server (AMPED)
 - with asymmetric helper processes
 - helpers used for disk reads
@@ -116,10 +144,13 @@
 	- application-level caching (data and computing)
 	- alignment for DMA
 	- use of DMA with scatter-gather => vector I/O operations
-# Apache Web Server
+
+## Apache Web Server
+
 ![[Pasted image 20230930171900.png]]
 
-# Experimental Methodology
+## Experimental Methodology
+
 - What systems are you comparing? (Define Comparison Points)
 	- MP (each process single thread)
 	- MT (boss-worker)
@@ -143,7 +174,9 @@
 	- evaluate both as a function of file size
 	- larger file size => amortize per connection cost => high bandwidth
 	- larger file size => more work per connection => lower connection rate
-# Experimental Results
+
+## Experimental Results
+
 - synthetic load
 	- N requests for same file => best case
 - measure bandwidth
@@ -153,7 +186,9 @@
 - ![[Pasted image 20230930173928.png]]
 - ![[Pasted image 20230930174033.png]]
 - ![[Pasted image 20230930174127.png]]
-# Summary of Performance Results
+
+## Summary of Performance Results
+
 - When data is in cache:
 	- SPED >> AMPED Flash
 		- unnecessary test for memory presence
@@ -164,7 +199,9 @@
 		- blocks b/c no async I/O
 	- AMPED Flash >> MT / MP
 		- more memory efficient and less context switching
-# Summary
+
+## Summary
+
 - Event-driven model for concurrent processing
 - Compared multi-process vs. multi-threaded vs. event -driven designs
 - Experimental evaluation and methodology

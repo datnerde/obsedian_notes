@@ -1,10 +1,13 @@
-# Visual Metaphor
+## Visual Metaphor
+
 ![[Pasted image 20231011173959.png]]
-# Memory Management: Goals
+
+## Memory Management: Goals
+
 - Virtual vs. Physical memory
 - ![[Pasted image 20231011195417.png]]
 	- Allocate
-		- allocation, replacement...
+		- allocation, replacement…
 	- Arbitrate
 		- address translation and validation
 - Page-based memory management
@@ -13,7 +16,9 @@
 - Segment-based memory management
 	- Allocate: segments
 	- Arbitrate: segment registers
-# Memory Management: Hardware Support
+
+## Memory Management: Hardware Support
+
 - ![[Pasted image 20231011200951.png]]
 - CPU issues virtual memory addresses
 - MMU (memory management unit)
@@ -27,11 +32,14 @@
 	- make it faster
 - Translation
 	- actual PA generation done in hardware
-# Page Tables
+
+## Page Tables
+
 ![[Pasted image 20231011202442.png]]
+
 - virtual memory pages and physical memory pages frames are the same size
 - virtual page number (VPN) + offset = Physical Frame Number(PFN)
--  Allocation on first touch
+- Allocation on first touch
 	- init_array(&array_addr) => create a array address in virtual space
 	- take a physical address and establish a mapping in page table if this array is not accessed before
 - unused pages == reclaimed
@@ -43,7 +51,9 @@
 	- per process
 	- switch to valid page table on context switch
 		- update register (pointer to the page table)
-# Page Table Entry
+
+## Page Table Entry
+
 - Page Frame Number
 - Flags
 	- Persent (valid / invalid)
@@ -61,19 +71,23 @@
 		- on x86
 			- error code from PTE(page table entry) flags
 			- faulting address in register CR2
-# Page Table Size
+
+## Page Table Size
+
 - 32-bit architecture
 	- Page Table Entry(PTE)
 		- 4 bytes, including PFN + Flags
 	- Virtual Page Number(VPN)
 		- 2^23 / page size
 	- Page Size
-		- 4kb (..8kb,...)
-		- (2^32/2^12) x 4B = 4MB => per process 
+		- 4kb (..8kb,…)
+		- (2^32/2^12) x 4B = 4MB => per process
 - process doesn't use entire address space
 - even on 32-bit arch will not always use all of 4GB
 - But page table assumes an entry per VPN, regardless of whether corresponding virtual memory is needed or not
-# Multi Level Page Tables
+
+## Multi Level Page Tables
+
 - Hierarchical Page Tables
 	- ![[Pasted image 20231011220314.png]]
 	- outer page table or top page table == page table directory
@@ -90,33 +104,44 @@
 		- larger and more sparse
 			- larger gaps => could save more internal page table components
 	- Multi-level PT tradeoffs
-		- + smaller internal page tables / directories; granularity of coverage => reduced page table size
-		- - more memory accesses required for translation => increase translation latency
+		- - smaller internal page tables / directories; granularity of coverage => reduced page table size
+		- more memory accesses required for translation => increase translation latency
 		- Quiz![[Pasted image 20231011223824.png]]
 			- Format 1
 				- 2^6 = 64
 			- Format 2
 				- 2^(4+6) = 1 KB
-				- outer table has 2 bits so 4 combinations, each one will contain 1KB virtual address 
+				- outer table has 2 bits so 4 combinations, each one will contain 1KB virtual address
 				- we only use 3 KB in total
 				- 3 x 2^4 = 48
-# Speeding Up Translation TLB
-## Overhead of Address Translation
+
+## Speeding Up Translation TLB
+
+### Overhead of Address Translation
+
 ![[Pasted image 20231012190539.png]]
-## Page Table Cache (TLB)
+
+### Page Table Cache (TLB)
+
 ![[Pasted image 20231012190725.png]]
-# Inverted Page Tables
+
+## Inverted Page Tables
+
 ![[Pasted image 20231012192106.png]]
+
 - build it based on physical memory elements
 - slow linear search, PLB to the recuse
 - Hashing Page Tables
 	- hash function to has table
 	- point to a linked list of possible search
 	- speed up the linear search
-# Segmentation
+
+## Segmentation
+
 ![[Pasted image 20231012203014.png]]
+
 - segments == arbitrary granularity
-	- e.g., code, heap, data, stack ...
+	- e.g., code, heap, data, stack …
 	- addr == segment selector + offset
 - segment == contiguous physical memory
 	- segment size == segment + base + limit registers
@@ -124,9 +149,13 @@
 	- IA x86_32 => segmentation + paging
 		- Linux: up to 8k per process / global segment
 	- IA x86_64 => paging
-# Page Size
+
+## Page Size
+
 ![[Pasted image 20231012203812.png]]
-# Memory Allocation
+
+## Memory Allocation
+
 - memory allocator
 	- determines VA to PA mapping
 	- address translation, page tables
@@ -134,12 +163,16 @@
 - kernel-level allocators
 	- kernel state, static process state
 - user-level allocators
-	-  dynamic process state (heap), malloc / free
+	- dynamic process state (heap), malloc / free
 	- e.g., dlmalloc, memalloc, hoard, tcmalloc
-# Memory Allocation Challenges
+
+## Memory Allocation Challenges
+
 - external fragmentation
 - permits coalescing / aggregation of free areas
-# Linux Kernel Allocators
+
+## Linux Kernel Allocators
+
 - Buddy Allocator
 	- start with $2^x$ area
 	- on request
@@ -154,18 +187,22 @@
 	- internal fragmentation avoided
 	- external fragmentation not an issue
 
->[!tips] 
->Internal fragmentation happens when the memory is split into fixed sized blocks and not fully utilize.
->
->External fragmentation happens when there’s a sufficient quantity of area within the memory to satisfy the memory request of a method in a non-contiguous manner.
-# Demand Paging
+> [!tips]  
+> Internal fragmentation happens when the memory is split into fixed sized blocks and not fully utilize.
+> 
+> External fragmentation happens when there's a sufficient quantity of area within the memory to satisfy the memory request of a method in a non-contiguous manner.
+
+## Demand Paging
+
 - virtual memory >> physical memory
 	- virtual memory page not always in physical memory
 	- physical page frame saved and restored to / from secondary storage
 - demand paging
 	- pages swapped in/out of memory and a swap partition (e.g., on disk)
 	- ![[Pasted image 20231012213523.png]]
-# Page Replacement
+
+## Page Replacement
+
 - When should pages be swapped out
 	- page (out) daemon
 	- when memory usage is above threshold (high watermark)
@@ -179,10 +216,13 @@
 		- dirty bit to track of modified
 	- avoid non-swappable pages
 - ![[Pasted image 20231012214007.png]]
-# Copy On Write
+
+## Copy On Write
+
 ![[Pasted image 20231012214821.png]]
+
 - MMU Hardware
-	- perform translation, track access, enforce protection ...
+	- perform translation, track access, enforce protection …
 	- useful to build other services and optimization
 - On process creation
 	- copy entire parent addr space
@@ -193,10 +233,12 @@
 		- On write
 			- page fault and copy
 			- pay copy cost only if necessary
-#  Failure Management Checkpointing
-- Method in general
+
+## Failure Management Checkpointing
+
+- Method in general  
 ![[Pasted image 20231012215008.png]]
-- different ways
+- different ways  
 ![[Pasted image 20231012215415.png]]
 - debugging
 	- rewind-replay (RR)
@@ -207,7 +249,9 @@
 	- disaster recovery
 	- consolidation
 	- repeated checkpoints in a fast loop until pause-and-copy becomes acceptable (or unavoidable)
-# Summary
+
+## Summary
+
 - virtual memory abstracts a process' view of physical memory
 - pages and segments
 - allocation and replacement strategies and checkpointing
