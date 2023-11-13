@@ -6,3 +6,4 @@
 ![[Pasted image 20231112232215.png]]
 # Structure of RPC
 ![[Pasted image 20231112232833.png]]
+# Steps in RPC
