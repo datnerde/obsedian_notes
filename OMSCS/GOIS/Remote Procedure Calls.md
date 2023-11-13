@@ -92,3 +92,23 @@
 	- stored in memory as a normal null-terminated string
 	- encoded (for transmission) as a pair of length and data
 # XDR Routines
+![[Pasted image 20231113134904.png]]
+# Encoding (What goes on the wire)
+- RPC header
+	- service procedure ID, version number, request ID...
+- Actual data
+	- arguments or results
+	- encoded into a bytestream depending on data type
+- Transport header
+	- e.g., TCP, UDP
+# XDR Encoding
+- XDR == IDL + the encoding
+	- i.e., the binary representation of data "on-the-wire"
+- XDR Encoding Rules
+	- all data types are encoded in multiples of 4 bytes
+	- big endian is the transmission standard
+	- two's complement is used for integers
+	- IEEE format is used for floating point
+- Example
+![[Pasted image 20231113135518.png]]
+# Java RMI
