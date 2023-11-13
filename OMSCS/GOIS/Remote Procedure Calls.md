@@ -56,3 +56,8 @@
 - Pointers as arguments => disallow or serialize pointer data
 - Partial failures => special error notifications
 # What is SunRPC?
+![[Pasted image 20231113131035.png]]
+# SunRPC Overview
+![[Pasted image 20231113131621.png]]
+- Oracle purchased Sun and maintained it
+	- TI-RPC == Transport- Independent Sun RPC
