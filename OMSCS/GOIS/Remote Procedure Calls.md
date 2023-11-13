@@ -61,3 +61,9 @@
 ![[Pasted image 20231113131621.png]]
 - Oracle purchased Sun and maintained it
 	- TI-RPC == Transport- Independent Sun RPC
+# SunRPC XDR Example
+![[Pasted image 20231113132305.png]]
+# Compiling XDR
+![[Pasted image 20231113132535.png]]
+![[Pasted image 20231113132548.png]]
+# Summarizing XDR Compilation
