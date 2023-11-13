@@ -21,4 +21,24 @@
 - RPC can use IDL that is (only for the interface)
 	- language-agnostic
 	- language-specific
-# Marshalling
+# Marshalling / Un-marshalling
+![[Pasted image 20231113123959.png]]
+![[Pasted image 20231113124215.png]]
+# Binding and Registry
+- Client determines
+	- which server should it connect to
+	- how will it connect to that server
+- Registry == database of available services
+	- search for service name to find service (which) and contact details (how)
+	- distributed
+		- any RPC service can register
+	- machine-specific
+		- for services running on same machine
+		- client must know machine address
+			- registry provides port number needed for connection
+	- needs naming protocol
+		- exact match for "add"
+		- or consider "summation","sum","addition"
+- Visual metaphor
+![[Pasted image 20231113124747.png]]
+# Pointers in RPCs
