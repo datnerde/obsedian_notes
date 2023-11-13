@@ -87,3 +87,8 @@
 - Variable-length array
 	- e.g., int data <80>
 		- translates into a data structure with "len" and "val" fields
+- except for strings
+	- string line <80> => C pointer to char
+	- stored in memory as a normal null-terminated string
+	- encoded (for transmission) as a pair of length and data
+# XDR Routines
