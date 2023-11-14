@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1dfdd53c8ba0ac5a",
+        "id": "ede1f0f564e35d1b",
         "type": "tabs",
         "children": [
           {
-            "id": "e62d149f11cda727",
+            "id": "28f183470559f748",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,8 +150,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e62d149f11cda727",
+  "active": "28f183470559f748",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Distributed Shared Memory.md",
     "Pictures/Pasted image 20231113224836.png",
     "Pictures/Pasted image 20231113224251.png",
     "Pictures/Pasted image 20231113223926.png",
@@ -170,8 +163,6 @@
     "Pictures/Pasted image 20231113221242.png",
     "Pictures/Pasted image 20231113215245.png",
     "Pictures/Pasted image 20231113214742.png",
-    "Pictures/Pasted image 20231113210811.png",
-    "OMSCS/GOIS/Distributed Shared Memory.md",
     "OMSCS/GOIS/Distributed File Systems.md",
     "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Thread Design considerations.md",
