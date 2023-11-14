@@ -14,3 +14,15 @@
 # Hardware vs Software DSM
 ![[Pasted image 20231113210811.png]]
 # DSM Design: Sharing Granularity
+- cache line granularity
+	- => overheads too high for DSM
+- variable granularity (still too find granularity, and overheads)
+- page granularity (OS-level)
+- object granularity (language runtime)
+- => beware of false sharing
+	- e.g., X and Y are on same page
+# DSM Design: Access Algorithm
+- single reader / single writer (SRSW)
+- multiple readers / single writer (MRSW)
+- multiple readers / multiple writers (MRMW)
+# DSM Design: Migration vs Replication
