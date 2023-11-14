@@ -93,3 +93,7 @@
 # Strict Consistency
 ![[Pasted image 20231113223420.png]]
 # Sequential Consistency
+![[Pasted image 20231113223926.png]]
+# Causal Consistency
+![[Pasted image 20231113224251.png]]
+# Weak Consistency
