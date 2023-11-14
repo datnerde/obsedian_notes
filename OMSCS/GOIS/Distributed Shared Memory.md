@@ -97,3 +97,4 @@
 # Causal Consistency
 ![[Pasted image 20231113224251.png]]
 # Weak Consistency
+![[Pasted image 20231113224836.png]]
