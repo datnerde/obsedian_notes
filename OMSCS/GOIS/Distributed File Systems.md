@@ -32,3 +32,23 @@
 	 - augment with flush()/sync() API
  - Immutable files => never modify, new files created
  - Transactions => all changes atomic
+# File vs Directory Service
+![[Pasted image 20231113191432.png]]
+# Replication and Partitioning
+- Replication
+	- each machine holds all files
+	- + load balancing, availability, fault tolerance
+	- - writes become more complex
+		- synchronously to all
+		- or, write to one, then propagated to others
+	- - replicas must be reconciled
+		- e.g., voting
+- Partitioning
+	- each machine has subset of files
+	- + availability v.s. single server DFS
+	- + scalability with file system size
+	- + single file writes simpler
+	- - on failure, lose portion of data
+	- - load balancing harder; if not balanced then hot-spots possible
+- Can combine both techniques.. replicate each partition!
+# Networking File System (NFS) Design
