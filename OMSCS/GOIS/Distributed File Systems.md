@@ -64,3 +64,9 @@
 	- lease-based
 	- NFSv4 => also ''share reservation" reader /writer lock
 # Sprite Distributed File System
+![[Pasted image 20231113193319.png]]
+# Sprite DFS Access Pattern Analysis
+![[Pasted image 20231113193658.png]]
+# Sprite DFS From Analysis to Design
+![[Pasted image 20231113194016.png]]
+# File Access Operations in Sprite
