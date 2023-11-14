@@ -22,3 +22,4 @@
 	- on client storage device (HDD/SSD)
 	- in buffer cache in memory on server (usefulness will depend on clients load / request interleaving...)
 # File Sharing Semantics on a DFS
+ 
