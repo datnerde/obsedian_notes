@@ -7,4 +7,10 @@
 # Remote File Service: Extremes
 ![[Pasted image 20231113174756.png]]
 ![[Pasted image 20231113174928.png]]
-# Remote File Service A Compromise
+# Remote File Service: A Compromise
+![[Pasted image 20231113175304.png]]
+
+# Stateless vs. Stateful File Server
+![[Pasted image 20231113175856.png]]
+# Caching State in a DFS
+- locally clients main
