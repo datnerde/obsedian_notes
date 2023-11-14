@@ -66,4 +66,20 @@
 	- Global map (replicated)
 		- object(page) id => manager node id
 		- manager map available on each node!
-	- 
+	- Metadata for local pages (partitioned)
+		- per. page metadata is distributed across managers
+	- Global mapping table
+		- object id => index into mapping table => manager node
+![[Pasted image 20231113221955.png]]
+# Implementing DSM
+- Problem: DSM must "intercept" accesses to DSM state
+	- to send remote messages requesting access
+	- to trigger coherence messages
+	- => overheads should be avoided for local, non-shared state (pages)
+	- => dynamically "engage" and "disengage" DSM when necessary
+- Solution: Use hardware MMU support!
+	- trap in OS if mapping invalid or access not permitted
+	- remote address mapping => trap and pass to DSM to send msg
+	- cached content => trap and pass to DSM to perform necessary coherence ops.
+	- other MMU information useful (e.g., dirty page)
+- 
