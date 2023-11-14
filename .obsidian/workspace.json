@@ -11,8 +11,12 @@
             "id": "28f183470559f748",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OMSCS/GOIS/DataCenter Technologies.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OMSCS/GOIS/DataCenter Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OMSCS/GOIS/DataCenter Technologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OMSCS/GOIS/DataCenter Technologies.md"
+              }
             }
           },
           {
@@ -152,6 +160,7 @@
   },
   "active": "28f183470559f748",
   "lastOpenFiles": [
+    "OMSCS/GOIS/DataCenter Technologies.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
     "Pictures/Pasted image 20231113224836.png",
     "Pictures/Pasted image 20231113224251.png",
