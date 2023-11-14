@@ -70,3 +70,4 @@
 # Sprite DFS From Analysis to Design
 ![[Pasted image 20231113194016.png]]
 # File Access Operations in Sprite
+![[Pasted image 20231113194516.png]]

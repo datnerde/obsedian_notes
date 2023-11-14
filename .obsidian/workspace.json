@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f1d958817367f353",
+        "id": "1dfdd53c8ba0ac5a",
         "type": "tabs",
         "children": [
           {
-            "id": "0b2323b46d08271b",
+            "id": "e62d149f11cda727",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Distributed File Systems.md",
+                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Distributed File Systems.md",
+                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Distributed File Systems.md",
+                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Distributed File Systems.md"
+                "file": "OMSCS/GOIS/Distributed Shared Memory.md"
               }
             }
           },
@@ -158,8 +158,11 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "0b2323b46d08271b",
+  "active": "e62d149f11cda727",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Distributed Shared Memory.md",
+    "OMSCS/GOIS/Distributed File Systems.md",
+    "Pictures/Pasted image 20231113194516.png",
     "Pictures/Pasted image 20231113194016.png",
     "Pictures/Pasted image 20231113193658.png",
     "Pictures/Pasted image 20231113193319.png",
@@ -169,10 +172,7 @@
     "Pictures/Pasted image 20231113175856.png",
     "Pictures/Pasted image 20231113175304.png",
     "Pictures/Pasted image 20231113174928.png",
-    "Pictures/Pasted image 20231113174756.png",
-    "Pictures/Pasted image 20231113174626.png",
     "OMSCS/GOIS/Remote Procedure Calls.md",
-    "OMSCS/GOIS/Distributed File Systems.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading/speculative sampling.pdf",
