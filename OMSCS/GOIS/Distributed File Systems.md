@@ -52,3 +52,15 @@
 	- - load balancing harder; if not balanced then hot-spots possible
 - Can combine both techniques.. replicate each partition!
 # Networking File System (NFS) Design
+![[Pasted image 20231113192527.png]]
+# NFS Versions
+- NFSv3 == stateless, NFv4 == stateful
+- caching
+	- session-based (non-concurrent)
+	- periodic updates
+		- default: 3 sec files; 30 sec for dir
+	- NFSv4 => delegation to client for a period of time (avoids 'update checks')
+- locking
+	- lease-based
+	- NFSv4 => also ''share reservation" reader /writer lock
+# Sprite Distributed File System
