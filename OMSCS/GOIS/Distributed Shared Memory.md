@@ -40,3 +40,30 @@
 	- optimistic
 - => when these methods get triggered depends o the consistency model for the shared state
 # DSM Architecture
+- page-based DSM architecture
+	- distributed nodes, each w/own local mm contribution
+	- pool of pages from all nodes
+	- each page has ID, page frame number
+- if MRMW
+	- need local caches for performance (latency)
+	- home (or manager) node drives coherence ops
+	- all nodes responsible for part of distributed memory (state) management
+- "Home" node
+	- keep state: pages accessed, modifications, caching enabled /disabled, locked...
+	- current "owner" (owner may not equal home node)
+- Explicit replicas
+	- for load balancing, performance, or reliability
+	- "home" / manager node controls management
+- summary
+![[Pasted image 20231113221242.png]]
+# Summarizing DSM Architecture
+![[Pasted image 20231113221344.png]]
+# Indexing Distributed State
+- DSM Metadata
+	- Each page (object) has...
+		- address == node ID + page frame number
+		- node ID == "home" node
+	- Global map (replicated)
+		- object(page) id => manager node id
+		- manager map available on each node!
+	- 
