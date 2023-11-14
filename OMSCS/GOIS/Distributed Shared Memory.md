@@ -82,4 +82,14 @@
 	- remote address mapping => trap and pass to DSM to send msg
 	- cached content => trap and pass to DSM to perform necessary coherence ops.
 	- other MMU information useful (e.g., dirty page)
-- 
+# What is a Consistency Model
+- consistency model == agreement between memory (state) and upper software layers
+- mem behaves correctly if and only if software follows specific rules
+- memory (state) guarantees to behave correctly
+	- access ordering
+	- propagation / visibility of updates
+- Notations:
+![[Pasted image 20231113223120.png]]
+# Strict Consistency
+![[Pasted image 20231113223420.png]]
+# Sequential Consistency
