@@ -22,4 +22,13 @@
 	- on client storage device (HDD/SSD)
 	- in buffer cache in memory on server (usefulness will depend on clients load / request interleaving...)
 # File Sharing Semantics on a DFS
- 
+ - UNIX semantics => every write visible immediately
+ - Session semantics (between open-close => session)
+	 - write-back on close(), update on open()
+	 - easy to reason, but may be insufficient
+ - Periodic Updates
+	 - client writes-back periodically => clients have a "lease" on cached data (not exclusive necessarily)
+	 - server invalidates periodically => provides bounds on "inconsistency"
+	 - augment with flush()/sync() API
+ - Immutable files => never modify, new files created
+ - Transactions => all changes atomic
