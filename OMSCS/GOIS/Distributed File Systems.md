@@ -13,4 +13,12 @@
 # Stateless vs. Stateful File Server
 ![[Pasted image 20231113175856.png]]
 # Caching State in a DFS
-- locally clients main
+- locally clients maintain portion of state (e.g., file blcoks)
+- locally clients perform operations on cached state(e.g., open/read/write...)
+- => requires coherence mechanisms
+![[Pasted image 20231113180216.png]]
+- where files or file blocks can be cached in a DFS with a single file server and many clients
+	- in client memory
+	- on client storage device (HDD/SSD)
+	- in buffer cache in memory on server (usefulness will depend on clients load / request interleaving...)
+# File Sharing Semantics on a DFS
