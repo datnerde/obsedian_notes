@@ -12,3 +12,5 @@
 	- slower overall memory access
 	- commodity interconnect technologies support this (RDMA)
 # Hardware vs Software DSM
+![[Pasted image 20231113210811.png]]
+# DSM Design: Sharing Granularity
