@@ -26,3 +26,17 @@
 - multiple readers / single writer (MRSW)
 - multiple readers / multiple writers (MRMW)
 # DSM Design: Migration vs Replication
+![[Pasted image 20231113214742.png]]
+# DMS Design: Consistency Management
+- Recap consistency management in Shared memory processors
+![[Pasted image 20231113215245.png]]
+- Push invalidations when data is written to
+	- proactive
+	- eager
+	- pessimistic
+- Pull modification info periodically
+	- on-demand (reactive)
+	- lazy
+	- optimistic
+- => when these methods get triggered depends o the consistency model for the shared state
+# DSM Architecture
