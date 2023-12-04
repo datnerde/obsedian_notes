@@ -22,6 +22,7 @@
 	- + keep front-end simple
 		- doesn't mean that each nodes has all data; just each node can get to all data
 	- - how to benefit from caching?
+![[Pasted image 20231204155639.png]]
 # Heterogeneous Architectures
 - functionaly heterogeneous
 	- different nodes, different tasks / requests
@@ -29,3 +30,5 @@
 	- + benefit of locality and caching
 	- - more complex FE
 	- - more complex management
+![[Pasted image 20231204160011.png]]
+
