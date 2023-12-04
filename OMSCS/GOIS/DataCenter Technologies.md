@@ -33,3 +33,23 @@
 ![[Pasted image 20231204160011.png]]
 ![[Pasted image 20231204162335.png]]
 # Cloud Computing Poster Child: Animoto
+- Amazon
+	- provisioned hardware resources for holiday sale season
+	- resources idle the rest of the year
+	- opened access to its resources via web-based APIs
+	- third party workloads on Amazon hardware for a fee
+	- => Amazon Web Services(AWS) and Amazon's Elastic Compute Cloud (EC2)
+- Animoto rented comput instances in EC2
+	- become available to Facebook Users
+	- EC2 scale crazy
+# Cloud Computing Requirements
+- Traditional Approach
+	- buy and configure resources
+		- determine capacity based on expected demand (peak)
+	- when demand exceeds capacity
+		- dropped requests
+		-  lost opportunity
+- Ideal Cloud
+	- capacity scales elasticially with demand
+	- scaling in instantaneous, both up and down
+		- cost is proportional to demand, to revenue opportunity
