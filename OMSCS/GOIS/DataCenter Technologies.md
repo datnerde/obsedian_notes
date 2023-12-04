@@ -31,4 +31,5 @@
 	- - more complex FE
 	- - more complex management
 ![[Pasted image 20231204160011.png]]
-
+![[Pasted image 20231204162335.png]]
+# Cloud Computing Poster Child: Animoto
