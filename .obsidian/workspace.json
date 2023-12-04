@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ede1f0f564e35d1b",
+        "id": "3c2302b700f966cd",
         "type": "tabs",
         "children": [
           {
-            "id": "28f183470559f748",
+            "id": "068aaf107f774452",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,8 +150,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "28f183470559f748",
+  "active": "068aaf107f774452",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Distributed File Systems.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
     "OMSCS/GOIS/DataCenter Technologies.md",
@@ -173,7 +166,6 @@
     "Pictures/Pasted image 20231113221242.png",
     "Pictures/Pasted image 20231113215245.png",
     "Pictures/Pasted image 20231113214742.png",
-    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading/speculative sampling.pdf",
