@@ -24,4 +24,8 @@
 	- - how to benefit from caching?
 # Heterogeneous Architectures
 - functionaly heterogeneous
-	- different nodes, different 
+	- different nodes, different tasks / requests
+	- data doesn't have to be uniformly accessible everywhere
+	- + benefit of locality and caching
+	- - more complex FE
+	- - more complex management
