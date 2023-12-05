@@ -95,3 +95,4 @@
 		- no sql, distributed in-memory caches
 - Software - befined .. networking, storage, datacenters
 - monitoring == real time log processing (flume, cloudwatch, log insight)
+# The Cloud as a Big Data Engine
