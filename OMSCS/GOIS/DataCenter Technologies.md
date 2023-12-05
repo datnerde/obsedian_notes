@@ -96,3 +96,9 @@
 - Software - befined .. networking, storage, datacenters
 - monitoring == real time log processing (flume, cloudwatch, log insight)
 # The Cloud as a Big Data Engine
+- data storage layer
+- data processing layer
+- caching layer
+- language front-ends
+- analytics libraries
+# Example Big Data Stacks
