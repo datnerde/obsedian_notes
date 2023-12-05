@@ -50,6 +50,18 @@
 		- dropped requests
 		-  lost opportunity
 - Ideal Cloud
-	- capacity scales elasticially with demand
+	- capacity scales elastically with demand
 	- scaling in instantaneous, both up and down
 		- cost is proportional to demand, to revenue opportunity
+	- all of this happens automatically no need for hacking wizardry
+	- can access anytime anywhere
+	- done't own resources
+- Summarized
+	- On-demand. elastic resources and services
+	- fine-grained pricing based on usage
+	- professionally managed and hosted
+	- API-based access
+# Cloud Computing Overview
+- Shared resources
+	- infrastructure and software / services
+	- 
