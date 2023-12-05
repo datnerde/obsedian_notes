@@ -82,4 +82,16 @@
 - fungible resources
 - elastic, dynamic resource allocation methods
 - scale: management at scale, scalable resources allocations
-- 
+- dealign with failures
+- multi-tenancy: performance & isolation
+- security
+# Cloud Enabling Technologies
+- Virtualization
+- Resources provisioning (scheduling)
+	- mesos, yarn
+- big data processing (hadoop, mapreduce, spark)
+	- storage
+		- distributed FS
+		- no sql, distributed in-memory caches
+- Software - befined .. networking, storage, datacenters
+- monitoring == real time log processing (flume, cloudwatch, log insight)
