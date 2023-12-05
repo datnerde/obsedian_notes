@@ -62,6 +62,8 @@
 	- professionally managed and hosted
 	- API-based access
 # Cloud Computing Overview
-- Shared resources
-	- infrastructure and software / services
-	- 
+![[Pasted image 20231204170346.png]]
+# Why Does Cloud Computing Work
+![[Pasted image 20231204170508.png]]
+# Cloud Computing Vision
+![[Pasted image 20231204170823.png]]
