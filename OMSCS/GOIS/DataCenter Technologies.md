@@ -101,4 +101,4 @@
 - caching layer
 - language front-ends
 - analytics libraries
-# Example Big Data Stacks
+
