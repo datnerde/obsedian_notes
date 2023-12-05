@@ -67,3 +67,19 @@
 ![[Pasted image 20231204170508.png]]
 # Cloud Computing Vision
 ![[Pasted image 20231204170823.png]]
+# Cloud Deployment Models
+- Public
+	- third party customers / tenants
+- Private
+	- leverage technology internally
+- Hybrid (Public + Private)
+	- failover, dealing with spikes, testing
+- Community
+	- used by certain type of users
+# Cloud Service Models
+![[Pasted image 20231204172921.png]]
+# Requirements for the Cloud
+- fungible resources
+- elastic, dynamic resource allocation methods
+- scale: management at scale, scalable resources allocations
+- 
