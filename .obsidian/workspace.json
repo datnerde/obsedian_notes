@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3c2302b700f966cd",
+        "id": "bb3fac98310de7d7",
         "type": "tabs",
         "children": [
           {
-            "id": "068aaf107f774452",
+            "id": "2fb4c9ba83277e46",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Memory Management.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Memory Management.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,8 +150,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "068aaf107f774452",
+  "active": "2fb4c9ba83277e46",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
     "OMSCS/GOIS/DataCenter Technologies.md",
     "Pictures/Pasted image 20231204172921.png",
@@ -182,7 +175,6 @@
     "OMSCS/GOIS/Synchronization Constructs.md",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/Inter-Process Communication.md",
-    "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Chip Multithreading Systems Need a New Operating SystemScheduler.pdf",
     "OMSCS/GOIS/Scheduling.md",
