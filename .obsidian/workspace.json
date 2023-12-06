@@ -11,8 +11,12 @@
             "id": "2fb4c9ba83277e46",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "OMSCS/GOIS/Inter-Process Communication.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sysv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "OMSCS/GOIS/Inter-Process Communication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OMSCS/GOIS/Inter-Process Communication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "OMSCS/GOIS/Inter-Process Communication.md"
+              }
             }
           },
           {
@@ -150,8 +158,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "2fb4c9ba83277e46",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
     "OMSCS/GOIS/DataCenter Technologies.md",
@@ -162,7 +171,6 @@
     "Pictures/Pasted image 20231204162335.png",
     "Pictures/Pasted image 20231204160011.png",
     "Pictures/Pasted image 20231204155639.png",
-    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Distributed File Systems.md",
     "Pictures/Pasted image 20231113224836.png",
     "Pictures/Pasted image 20231113224251.png",
@@ -174,7 +182,7 @@
     "OMSCS/GOIS/IO management.md",
     "OMSCS/GOIS/Synchronization Constructs.md",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
-    "OMSCS/GOIS/readings/Inter-Process Communication.md",
+    "OMSCS/GOIS/Inter-Process Communication.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Chip Multithreading Systems Need a New Operating SystemScheduler.pdf",
     "OMSCS/GOIS/Scheduling.md",
