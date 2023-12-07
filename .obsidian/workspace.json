@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "23a337c8943ff3c8",
+        "id": "0226c242e839b029",
         "type": "tabs",
         "children": [
           {
-            "id": "610bcb0c1fb9d3a6",
+            "id": "016bd2b04f089ba1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OMSCS/GOIS/Synchronization Constructs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,8 +150,9 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "610bcb0c1fb9d3a6",
+  "active": "016bd2b04f089ba1",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Synchronization Constructs.md",
     "OMSCS/GOIS/Inter-Process Communication.md",
     "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Memory Management.md",
@@ -181,7 +174,6 @@
     "Research/paper reading/speculative sampling.pdf",
     "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/IO management.md",
-    "OMSCS/GOIS/Synchronization Constructs.md",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Chip Multithreading Systems Need a New Operating SystemScheduler.pdf",
