@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
+                "file": "OMSCS/GOIS/IO management.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "share memory p",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
+                "file": "OMSCS/GOIS/IO management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
+                "file": "OMSCS/GOIS/IO management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md"
+                "file": "OMSCS/GOIS/IO management.md"
               }
             }
           },
@@ -159,12 +158,12 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "321a442ce4078c70",
+  "active": "ab92c2c8d2ec0542",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/Synchronization Constructs.md",
     "OMSCS/GOIS/Inter-Process Communication.md",
-    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
     "OMSCS/GOIS/DataCenter Technologies.md",

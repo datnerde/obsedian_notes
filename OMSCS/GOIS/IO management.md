@@ -45,7 +45,7 @@
 		- - when convenient for OS
 		- delay or CPU overhead
 
-## Device Access POI (Programmed I/O)
+## Device Access PIO (Programmed I/O)
 
 - no additional hardware support
 - CPU 'programs' the device
