@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/IO management.md"
+                "file": "OMSCS/GOIS/Virtualization.md"
               }
             }
           },
@@ -160,12 +160,12 @@
   },
   "active": "ab92c2c8d2ec0542",
   "lastOpenFiles": [
+    "OMSCS/GOIS/IO management.md",
     "OMSCS/GOIS/DataCenter Technologies.md",
     "OMSCS/GOIS/Synchronization Constructs.md",
     "OMSCS/GOIS/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/Scheduling.md",
-    "OMSCS/GOIS/IO management.md",
     "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
