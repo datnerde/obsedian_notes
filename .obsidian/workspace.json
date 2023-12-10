@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
+                "file": "OMSCS/GOIS/Distributed File Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d36c988cf2f5485",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
+                "file": "OMSCS/GOIS/Distributed File Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md",
+                "file": "OMSCS/GOIS/Distributed File Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Remote Procedure Calls.md"
+                "file": "OMSCS/GOIS/Distributed File Systems.md"
               }
             }
           },
@@ -160,6 +172,9 @@
   },
   "active": "ab92c2c8d2ec0542",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Distributed Shared Memory.md",
+    "OMSCS/GOIS/Distributed File Systems.md",
+    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/IO management.md",
     "OMSCS/GOIS/DataCenter Technologies.md",
@@ -167,8 +182,6 @@
     "OMSCS/GOIS/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
     "OMSCS/GOIS/Scheduling.md",
-    "OMSCS/GOIS/Remote Procedure Calls.md",
-    "OMSCS/GOIS/Distributed Shared Memory.md",
     "Pictures/Pasted image 20231204172921.png",
     "Pictures/Pasted image 20231204170823.png",
     "Pictures/Pasted image 20231204170508.png",
@@ -176,7 +189,6 @@
     "Pictures/Pasted image 20231204162335.png",
     "Pictures/Pasted image 20231204160011.png",
     "Pictures/Pasted image 20231204155639.png",
-    "OMSCS/GOIS/Distributed File Systems.md",
     "Pictures/Pasted image 20231113224836.png",
     "Pictures/Pasted image 20231113224251.png",
     "Pictures/Pasted image 20231113223926.png",
