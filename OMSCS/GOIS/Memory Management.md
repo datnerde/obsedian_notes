@@ -78,7 +78,7 @@
 	- Page Table Entry(PTE)
 		- 4 bytes, including PFN + Flags
 	- Virtual Page Number(VPN)
-		- 2^23 / page size
+		- 2^32 / page size
 	- Page Size
 		- 4kb (..8kb,…)
 		- (2^32/2^12) x 4B = 4MB => per process

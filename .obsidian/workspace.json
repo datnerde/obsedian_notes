@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Scheduling.md",
+                "file": "OMSCS/GOIS/Memory Management.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Scheduling.md",
+                "file": "OMSCS/GOIS/Memory Management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Scheduling.md",
+                "file": "OMSCS/GOIS/Memory Management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Scheduling.md"
+                "file": "OMSCS/GOIS/Memory Management.md"
               }
             }
           },
@@ -160,9 +160,10 @@
   },
   "active": "ab92c2c8d2ec0542",
   "lastOpenFiles": [
+    "OMSCS/GOIS/Scheduling.md",
     "OMSCS/GOIS/IO management.md",
-    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Virtualization.md",
+    "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Synchronization Constructs.md",
     "OMSCS/GOIS/Inter-Process Communication.md",
     "OMSCS/GOIS/Memory Management.md",
@@ -185,7 +186,6 @@
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/Chip Multithreading Systems Need a New Operating SystemScheduler.pdf",
-    "OMSCS/GOIS/Scheduling.md",
     "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
