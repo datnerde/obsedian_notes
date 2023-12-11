@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324,
-    "collapsed": true
+    "width": 475.5026054382324
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md",
+                "file": "OMSCS/GOIS/Virtualization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Distributed Shared Memory.md"
+                "file": "OMSCS/GOIS/Virtualization.md"
               }
             }
           },
@@ -159,10 +158,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "0d36c988cf2f5485",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
-    "OMSCS/GOIS/Distributed File Systems.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
+    "OMSCS/GOIS/Distributed File Systems.md",
     "OMSCS/GOIS/Remote Procedure Calls.md",
     "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/IO management.md",
