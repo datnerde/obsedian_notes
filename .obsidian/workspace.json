@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "edda61d9e54f5f83",
+        "id": "cdb2b3f0b87f7031",
         "type": "tabs",
         "children": [
           {
-            "id": "8328d7049f1bd428",
+            "id": "63dbbc9d46cddeed",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Investment/Books Reading/The Intelligent Investor.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Investment/Books Reading/The Intelligent Investor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Investment/Books Reading/The Intelligent Investor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Investment/Books Reading/The Intelligent Investor.md"
+              }
             }
           },
           {
@@ -152,9 +160,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "8328d7049f1bd428",
+  "active": "63dbbc9d46cddeed",
   "lastOpenFiles": [
-    "Investment/Books Reading/聪明的投资者.md",
+    "Pictures/Pasted image 20240820131437.png",
+    "Investment/Books Reading/The Intelligent Investor.md",
     "Investment/Trading Thoughts",
     "Investment/Trading Automation",
     "Investment/Technical Analysis",
