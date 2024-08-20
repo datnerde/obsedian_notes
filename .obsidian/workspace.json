@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "74fe3d23c96138a5",
+        "id": "04e9dfc85ddcddd8",
         "type": "tabs",
         "children": [
           {
-            "id": "0d36c988cf2f5485",
+            "id": "8a86f68b3019f1c2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OMSCS/GOIS/Virtualization.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "mindmap",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OMSCS/GOIS/Virtualization.md",
+                "file": "System Design/Encoding and Evolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OMSCS/GOIS/Virtualization.md",
+                "file": "System Design/Encoding and Evolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OMSCS/GOIS/Virtualization.md"
+                "file": "System Design/Encoding and Evolution.md"
               }
             }
           },
@@ -135,7 +131,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -160,10 +158,17 @@
   },
   "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Template/annotate.md",
+    "Investment/Books Reading/Untitled.md",
+    "Books/Elements of Programming Interviews in Python.pdf",
+    "Investment/Books Reading",
+    "Investment",
+    "Books/DDIA Notes.md",
+    "Books/DDIA.pdf",
+    "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
     "OMSCS/GOIS/Distributed File Systems.md",
     "OMSCS/GOIS/Remote Procedure Calls.md",
-    "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/IO management.md",
     "OMSCS/GOIS/DataCenter Technologies.md",
     "OMSCS/GOIS/Synchronization Constructs.md",
@@ -198,13 +203,7 @@
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
     "Algorithm/Leetcode/75. Sort Colours.md",
-    "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
-    "Algorithm/Leetcode/19. Remove Nth Node From End of List.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
-    "OMSCS/GOIS/readings/Implementing Lightweight Threads.pdf",
-    "OMSCS/GOIS/readings/network programming in C.pdf",
-    "Algorithm/Leetcode",
-    "Research/paper reading/notes",
     "Untitled.canvas"
   ]
 }
