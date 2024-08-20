@@ -5,5 +5,7 @@ It will affect your discount rate.
 # Cost of Equity
 ![[Pasted image 20240820140413.png]]
 
+# Time Horizon 
+If your cash flows stretch out over the long term, your risk free rate has to be a long term risk free rate.
 # Reference
 [Session 3: The Risk Free Rate - YouTube](https://www.youtube.com/watch?v=xV80dt1OZtQ)

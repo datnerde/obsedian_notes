@@ -140,14 +140,21 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "d09e63b47ca46631",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,7 +167,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "71b78a6bf602aab4",
+  "active": "d09e63b47ca46631",
   "lastOpenFiles": [
     "Pictures/Pasted image 20240820140413.png",
     "Untitled.md",
