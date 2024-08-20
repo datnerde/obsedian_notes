@@ -22,6 +22,7 @@ Defensive investors are those who prefer a more conservative approach, focusing 
 7. **Moderate Price-to-Book Ratio (P/B)**:
     - Price should be no more than 1.5 times the book value. Alternatively, the product of the P/E ratio and the P/B ratio should not exceed 22.5.
 ## 2. **Screener for Enterprising Investors**:
+![[Pasted image 20240820131527.png]]
 Enterprising investors are willing to take on more risk for potentially higher returns. Graham suggests the following criteria:
 
 1. **Adequate Financial Condition**:
@@ -53,6 +54,7 @@ Graham’s stock screening criteria are designed to filter out companies that ar
 -----
 
 # Margin of Safety
+![[Pasted image 20240820131651.png]]
 
 The **margin of safety** is a central concept in Benjamin Graham's investment philosophy, introduced in _The Intelligent Investor_. It refers to the difference between a stock's intrinsic value (the true worth of a company based on its fundamentals) and its market price.
 

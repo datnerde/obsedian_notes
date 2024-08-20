@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investment/Books Reading/The Intelligent Investor.md",
+                "file": "Investment/Books Reading/The Little Book That Still Beats the Market.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Books Reading/The Intelligent Investor.md",
+                "file": "Investment/Books Reading/The Little Book That Still Beats the Market.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Books Reading/The Intelligent Investor.md",
+                "file": "Investment/Books Reading/The Little Book That Still Beats the Market.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investment/Books Reading/The Intelligent Investor.md"
+                "file": "Investment/Books Reading/The Little Book That Still Beats the Market.md"
               }
             }
           },
@@ -162,8 +162,11 @@
   },
   "active": "63dbbc9d46cddeed",
   "lastOpenFiles": [
-    "Pictures/Pasted image 20240820131437.png",
     "Investment/Books Reading/The Intelligent Investor.md",
+    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
+    "Pictures/Pasted image 20240820131651.png",
+    "Pictures/Pasted image 20240820131527.png",
+    "Pictures/Pasted image 20240820131437.png",
     "Investment/Trading Thoughts",
     "Investment/Trading Automation",
     "Investment/Technical Analysis",
@@ -192,9 +195,6 @@
     "Pictures/Pasted image 20231204162335.png",
     "Pictures/Pasted image 20231204160011.png",
     "Pictures/Pasted image 20231204155639.png",
-    "Pictures/Pasted image 20231113224836.png",
-    "Pictures/Pasted image 20231113224251.png",
-    "Pictures/Pasted image 20231113223926.png",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading/speculative sampling.pdf",
