@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investment/Books Reading/Untitled.md",
+                "file": "Investment/Books Reading/聪明的投资者.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Books Reading/Untitled.md",
+                "file": "Investment/Books Reading/聪明的投资者.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Books Reading/Untitled.md",
+                "file": "Investment/Books Reading/聪明的投资者.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investment/Books Reading/Untitled.md"
+                "file": "Investment/Books Reading/聪明的投资者.md"
               }
             }
           },
@@ -160,12 +160,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "99b7d48e5336e657",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Investment/Technical Analysis",
+    "Investment/Valuation",
+    "Template/annotate.md",
+    "Investment/Books Reading/聪明的投资者.md",
     "Books/DDIA Notes.md",
     "System Design/Encoding and Evolution.md",
-    "Template/annotate.md",
-    "Investment/Books Reading/Untitled.md",
     "Books/Elements of Programming Interviews in Python.pdf",
     "Investment/Books Reading",
     "Investment",
@@ -206,8 +208,6 @@
     "OMSCS/GOIS/Threads and Concurrency.md",
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
-    "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "Untitled.canvas"
   ]
 }
