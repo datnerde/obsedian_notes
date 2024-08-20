@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "04e9dfc85ddcddd8",
+        "id": "20d6678cd5a10793",
         "type": "tabs",
         "children": [
           {
-            "id": "8a86f68b3019f1c2",
+            "id": "99b7d48e5336e657",
             "type": "leaf",
             "state": {
-              "type": "mindmap",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Investment/Books Reading/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Encoding and Evolution.md",
+                "file": "Investment/Books Reading/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Design/Encoding and Evolution.md",
+                "file": "Investment/Books Reading/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Encoding and Evolution.md"
+                "file": "Investment/Books Reading/Untitled.md"
               }
             }
           },
@@ -156,14 +160,15 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "99b7d48e5336e657",
   "lastOpenFiles": [
+    "Books/DDIA Notes.md",
+    "System Design/Encoding and Evolution.md",
     "Template/annotate.md",
     "Investment/Books Reading/Untitled.md",
     "Books/Elements of Programming Interviews in Python.pdf",
     "Investment/Books Reading",
     "Investment",
-    "Books/DDIA Notes.md",
     "Books/DDIA.pdf",
     "OMSCS/GOIS/Virtualization.md",
     "OMSCS/GOIS/Distributed Shared Memory.md",
@@ -202,7 +207,6 @@
     "OMSCS/GOIS/Threads Case Study - PThreads.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "Algorithm/Leetcode/5. Longest Palindromic Substring.md",
-    "Algorithm/Leetcode/75. Sort Colours.md",
     "OMSCS/GOIS/readings/Flash_Web Server.pdf",
     "Untitled.canvas"
   ]
