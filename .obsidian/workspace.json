@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "20d6678cd5a10793",
+        "id": "edda61d9e54f5f83",
         "type": "tabs",
         "children": [
           {
-            "id": "99b7d48e5336e657",
+            "id": "8328d7049f1bd428",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investment/Books Reading/聪明的投资者.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Books Reading/聪明的投资者.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Books Reading/聪明的投资者.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Investment/Books Reading/聪明的投资者.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,14 +152,14 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "8328d7049f1bd428",
   "lastOpenFiles": [
+    "Investment/Books Reading/聪明的投资者.md",
     "Investment/Trading Thoughts",
     "Investment/Trading Automation",
     "Investment/Technical Analysis",
     "Investment/Valuation",
     "Template/annotate.md",
-    "Investment/Books Reading/聪明的投资者.md",
     "Books/DDIA Notes.md",
     "System Design/Encoding and Evolution.md",
     "Books/Elements of Programming Interviews in Python.pdf",
@@ -198,7 +190,6 @@
     "Research/paper reading/nucleus sampling.pdf",
     "Research/paper reading/speculative sampling.pdf",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
-    "OMSCS/GOIS/readings/Multithreading the SunOS Kernel.pdf",
     "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
