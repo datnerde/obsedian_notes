@@ -58,3 +58,48 @@ annotation-target: security-analysis.pdf
 >%%TAGS%%
 >
 ^p00nsggfz0j
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:24:20.724Z","text":"Two vital rules in estimation of future earnings\n","updated":"2024-08-22T04:24:20.724Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":181266,"end":181373},{"type":"TextQuoteSelector","exact":"A firm’s average earnings can pro-vide a rough guide to the future; the earnings trend is far less reliable","prefix":"d oft-overlooked) distinction.  ","suffix":".Any baseball fan knows that jus"}]}]}
+>```
+>%%
+>*%%PREFIX%%d oft-overlooked) distinction.%%HIGHLIGHT%% ==A firm’s average earnings can pro-vide a rough guide to the future; the earnings trend is far less reliable== %%POSTFIX%%.Any baseball fan knows that jus*
+>%%LINK%%[[#^sx2l5zqnm|show annotation]]
+>%%COMMENT%%
+>Two vital rules in estimation of future earnings
+>
+>%%TAGS%%
+>
+^sx2l5zqnm
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:26:57.625Z","text":"interesting insights when analyzing financial statements\n","updated":"2024-08-22T04:26:57.625Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":184496,"end":184610},{"type":"TextQuoteSelector","exact":" Thus, when the income statement andthe cash flow statement start to diverge, it’s a signal that something isamiss","prefix":"But they can’t manufacture cash.","suffix":".  At Sunbeam, the high-flying a"}]}]}
+>```
+>%%
+>*%%PREFIX%%But they can’t manufacture cash.%%HIGHLIGHT%% ==Thus, when the income statement andthe cash flow statement start to diverge, it’s a signal that something isamiss== %%POSTFIX%%.  At Sunbeam, the high-flying a*
+>%%LINK%%[[#^m5q1wpoygx|show annotation]]
+>%%COMMENT%%
+>interesting insights when analyzing financial statements
+>
+>%%TAGS%%
+>
+^m5q1wpoygx
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:32:36.737Z","text":"lol\n","updated":"2024-08-22T04:32:36.737Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":190528,"end":190777},{"type":"TextQuoteSelector","exact":"Graham and Doddreferred to this as “double-counting”—that is, investors buy the stock onthe basis of their faith in management and then, seeing that the stockhas risen, take it as additional proof of management’s powers and bidthe stock up further. ","prefix":"anagement to increase earnings. ","suffix":"In 1997, an analyst at Oppenheim"}]}]}
+>```
+>%%
+>*%%PREFIX%%anagement to increase earnings.%%HIGHLIGHT%% ==Graham and Doddreferred to this as “double-counting”—that is, investors buy the stock onthe basis of their faith in management and then, seeing that the stockhas risen, take it as additional proof of management’s powers and bidthe stock up further.== %%POSTFIX%%In 1997, an analyst at Oppenheim*
+>%%LINK%%[[#^c6o0m03yygf|show annotation]]
+>%%COMMENT%%
+>lol
+>
+>%%TAGS%%
+>
+^c6o0m03yygf
