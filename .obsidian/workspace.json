@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "12011112208846d8",
+        "id": "1d36ce5b2c8209cf",
         "type": "tabs",
         "children": [
           {
-            "id": "71b78a6bf602aab4",
+            "id": "31b5832c3dbb0b5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md",
-                "mode": "source",
-                "source": false
+                "file": "Investment/Books Reading/Security Aaalysis.md"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5026054382324
+    "width": 398.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md",
+                "file": "Investment/Books Reading/Security Aaalysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md",
+                "file": "Investment/Books Reading/Security Aaalysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md"
+                "file": "Investment/Books Reading/Security Aaalysis.md"
               }
             }
           },
@@ -154,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,12 +167,16 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "d09e63b47ca46631",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
+    "Investment/Books Reading/Security Aaalysis.md",
+    "Books/security-analysis.pdf",
+    "Investment/Books Reading/Security Analysis.md",
+    "Template/annotate.md",
+    "Investment/Valuation/Risk Free Rate.md",
     "Pictures/Pasted image 20240820140413.png",
     "Untitled.md",
-    "Investment/Valuation/Risk Free Rate.md",
-    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Investment/Books Reading/The Intelligent Investor.md",
     "Pictures/Pasted image 20240820131651.png",
     "Pictures/Pasted image 20240820131527.png",
@@ -181,7 +185,6 @@
     "Investment/Trading Automation",
     "Investment/Technical Analysis",
     "Investment/Valuation",
-    "Template/annotate.md",
     "Books/DDIA Notes.md",
     "System Design/Encoding and Evolution.md",
     "Books/Elements of Programming Interviews in Python.pdf",
@@ -204,17 +207,13 @@
     "Pictures/Pasted image 20231204170346.png",
     "Pictures/Pasted image 20231204162335.png",
     "Pictures/Pasted image 20231204160011.png",
-    "Pictures/Pasted image 20231204155639.png",
     "OMSCS/GOIS/Thread Design considerations.md",
     "Research/paper reading/nucleus sampling.pdf",
-    "Research/paper reading/speculative sampling.pdf",
     "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
     "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
     "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
     "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
     "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
-    "OMSCS/GOIS/Thread Performance Considerations.md",
-    "OMSCS/GOIS/Process and Process Management.md",
     "Untitled.canvas"
   ]
 }

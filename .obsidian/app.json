@@ -5,5 +5,5 @@
   "tabSize": 5,
   "alwaysUpdateLinks": true,
   "foldHeading": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }
