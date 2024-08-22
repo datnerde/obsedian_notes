@@ -131,3 +131,59 @@ annotation-target: security-analysis.pdf
 >%%TAGS%%
 >
 ^82fvr6qybpb
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:44:42.443Z","text":"we just need to justify our action with the estimation","updated":"2024-08-22T04:44:42.443Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":204761,"end":205005},{"type":"TextQuoteSelector","exact":"The essential point is that security analysis does notseek to determine exactly what is the intrinsic value of a given security.It needs only to establish either that the value is adequate—e.g., to pro-tect a bond or to justify a stock purchase","prefix":"cations of ourvarious examples. ","suffix":"—or else that the value is con-s"}]}]}
+>```
+>%%
+>*%%PREFIX%%cations of ourvarious examples.%%HIGHLIGHT%% ==The essential point is that security analysis does notseek to determine exactly what is the intrinsic value of a given security.It needs only to establish either that the value is adequate—e.g., to pro-tect a bond or to justify a stock purchase== %%POSTFIX%%—or else that the value is con-s*
+>%%LINK%%[[#^qoy9yucb6f8|show annotation]]
+>%%COMMENT%%
+>we just need to justify our action with the estimation
+>%%TAGS%%
+>
+^qoy9yucb6f8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:49:05.396Z","updated":"2024-08-22T04:49:05.396Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":209812,"end":209843},{"type":"TextQuoteSelector","exact":"a. Inadequate orIncorrect Data.","prefix":"cles to Success of the Analyst. ","suffix":" Needless to say, the analyst ca"}]}]}
+>```
+>%%
+>*%%PREFIX%%cles to Success of the Analyst.%%HIGHLIGHT%% ==a. Inadequate orIncorrect Data.== %%POSTFIX%%Needless to say, the analyst ca*
+>%%LINK%%[[#^i0tegxrhrg8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^i0tegxrhrg8
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:49:16.402Z","updated":"2024-08-22T04:49:16.402Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":211068,"end":211097},{"type":"TextQuoteSelector","exact":"Uncertainties of the Future. ","prefix":"e to an incorrect conclusion.b. ","suffix":"Of much greater moment is the el"}]}]}
+>```
+>%%
+>*%%PREFIX%%e to an incorrect conclusion.b.%%HIGHLIGHT%% ==Uncertainties of the Future.== %%POSTFIX%%Of much greater moment is the el*
+>%%LINK%%[[#^tgcipd5v6wb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^tgcipd5v6wb
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:49:59.641Z","updated":"2024-08-22T04:49:59.641Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":212198,"end":212235},{"type":"TextQuoteSelector","exact":"The Irrational Behavior of the Market","prefix":"certainty and radical change.c. ","suffix":". The third handicap to secu-rit"}]}]}
+>```
+>%%
+>*%%PREFIX%%certainty and radical change.c.%%HIGHLIGHT%% ==The Irrational Behavior of the Market== %%POSTFIX%%. The third handicap to secu-rit*
+>%%LINK%%[[#^gr8jzzjg0vj|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^gr8jzzjg0vj
