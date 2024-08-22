@@ -103,3 +103,31 @@ annotation-target: security-analysis.pdf
 >%%TAGS%%
 >
 ^c6o0m03yygf
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:41:09.684Z","text":"Intrinsic value is a vague concept","updated":"2024-08-22T04:41:09.684Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":201301,"end":201641},{"type":"TextQuoteSelector","exact":"We must recognize, however, that intrinsic value is an elusive con-cept. In general terms it is understood to be that value which is justi-fied by the facts, e.g., the assets, earnings, dividends, definite prospects,as distinct, let us say, from market quotations established by artificialmanipulation or distorted by psychological excesses","prefix":"nsic value and the marketprice. ","suffix":". But it is a greatmistake to im"}]}]}
+>```
+>%%
+>*%%PREFIX%%nsic value and the marketprice.%%HIGHLIGHT%% ==We must recognize, however, that intrinsic value is an elusive con-cept. In general terms it is understood to be that value which is justi-fied by the facts, e.g., the assets, earnings, dividends, definite prospects,as distinct, let us say, from market quotations established by artificialmanipulation or distorted by psychological excesses== %%POSTFIX%%. But it is a greatmistake to im*
+>%%LINK%%[[#^pfkgdqcozj|show annotation]]
+>%%COMMENT%%
+>Intrinsic value is a vague concept
+>%%TAGS%%
+>
+^pfkgdqcozj
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:43:06.273Z","updated":"2024-08-22T04:43:06.273Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":202431,"end":202513},{"type":"TextQuoteSelector","exact":" that  the  intrinsic  value  of  a  business  wasdetermined by its earning power.","prefix":"ded  by  a  newer  view,  viz., ","suffix":" But the phrase “earning power” "}]}]}
+>```
+>%%
+>*%%PREFIX%%ded  by  a  newer  view,  viz.,%%HIGHLIGHT%% ==that  the  intrinsic  value  of  a  business  wasdetermined by its earning power.== %%POSTFIX%%But the phrase “earning power”*
+>%%LINK%%[[#^82fvr6qybpb|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^82fvr6qybpb
