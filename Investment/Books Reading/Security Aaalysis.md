@@ -187,3 +187,17 @@ annotation-target: security-analysis.pdf
 >%%TAGS%%
 >
 ^gr8jzzjg0vj
+
+
+>%%
+>```annotation-json
+>{"created":"2024-08-22T04:53:56.797Z","updated":"2024-08-22T04:53:56.797Z","document":{"title":"security-analysis.pdf","link":[{"href":"urn:x-pdf:9f46be918771cfaf056c4b94ef7105ab"},{"href":"vault:/Books/security-analysis.pdf"}],"documentFingerprint":"9f46be918771cfaf056c4b94ef7105ab"},"uri":"vault:/Books/security-analysis.pdf","target":[{"source":"vault:/Books/security-analysis.pdf","selector":[{"type":"TextPositionSelector","start":215084,"end":215282},{"type":"TextQuoteSelector","exact":"In other words, by the time the price finally does reflect thevalue, this value may have changed considerably and the facts and reason-ing on which his decision was based may no longer be applicable","prefix":"elf to the value ashe found it. ","suffix":".The analyst must seek to guard "}]}]}
+>```
+>%%
+>*%%PREFIX%%elf to the value ashe found it.%%HIGHLIGHT%% ==In other words, by the time the price finally does reflect thevalue, this value may have changed considerably and the facts and reason-ing on which his decision was based may no longer be applicable== %%POSTFIX%%.The analyst must seek to guard*
+>%%LINK%%[[#^9dsty9qyj9p|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^9dsty9qyj9p
