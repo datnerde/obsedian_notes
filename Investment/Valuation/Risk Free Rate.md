@@ -7,5 +7,10 @@ It will affect your discount rate.
 
 # Time Horizon 
 If your cash flows stretch out over the long term, your risk free rate has to be a long term risk free rate.
+
+# Risk Free Rate
+* 10 year bond rate is recommended
+* TIPS rate: only use it when you want to estimation valuation without inflation
+* 
 # Reference
 [Session 3: The Risk Free Rate - YouTube](https://www.youtube.com/watch?v=xV80dt1OZtQ)

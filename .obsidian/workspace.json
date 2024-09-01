@@ -11,9 +11,12 @@
             "id": "31b5832c3dbb0b5f",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Investment/Books Reading/Security Aaalysis.md"
+                "file": "Investment/Valuation/Risk Free Rate.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -84,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Books Reading/Security Aaalysis.md",
+                "file": "Investment/Valuation/Risk Free Rate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Books Reading/Security Aaalysis.md",
+                "file": "Investment/Valuation/Risk Free Rate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investment/Books Reading/Security Aaalysis.md"
+                "file": "Investment/Valuation/Risk Free Rate.md"
               }
             }
           },
@@ -169,8 +172,8 @@
   },
   "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
-    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Investment/Books Reading/Security Aaalysis.md",
+    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Books/security-analysis.pdf",
     "Investment/Books Reading/Security Analysis.md",
     "Template/annotate.md",
