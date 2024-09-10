@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md",
+                "file": "Investment/Valuation/Equity Risk Premium.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5024719238281,
-    "collapsed": true
+    "width": 398.5024719238281
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md",
+                "file": "Investment/Valuation/Equity Risk Premium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md",
+                "file": "Investment/Valuation/Equity Risk Premium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investment/Valuation/Risk Free Rate.md"
+                "file": "Investment/Valuation/Equity Risk Premium.md"
               }
             }
           },
@@ -170,14 +169,15 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "31b5832c3dbb0b5f",
   "lastOpenFiles": [
+    "Investment/Valuation/Risk Free Rate.md",
+    "Investment/Valuation/Equity Risk Premium.md",
     "Investment/Books Reading/Security Aaalysis.md",
     "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Books/security-analysis.pdf",
     "Investment/Books Reading/Security Analysis.md",
     "Template/annotate.md",
-    "Investment/Valuation/Risk Free Rate.md",
     "Pictures/Pasted image 20240820140413.png",
     "Untitled.md",
     "Investment/Books Reading/The Intelligent Investor.md",
