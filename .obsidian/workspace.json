@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1d36ce5b2c8209cf",
+        "id": "0a6bff8b505e75a6",
         "type": "tabs",
         "children": [
           {
-            "id": "31b5832c3dbb0b5f",
+            "id": "2be7bbd085e5347d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investment/Valuation/Equity Risk Premium.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investment/Valuation/Equity Risk Premium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investment/Valuation/Equity Risk Premium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Investment/Valuation/Equity Risk Premium.md"
-              }
+              "state": {}
             }
           },
           {
@@ -169,10 +160,10 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "31b5832c3dbb0b5f",
+  "active": "2be7bbd085e5347d",
   "lastOpenFiles": [
-    "Investment/Valuation/Risk Free Rate.md",
     "Investment/Valuation/Equity Risk Premium.md",
+    "Investment/Valuation/Risk Free Rate.md",
     "Investment/Books Reading/Security Aaalysis.md",
     "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Books/security-analysis.pdf",
