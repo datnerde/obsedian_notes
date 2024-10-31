@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db81a9c35c168234",
+        "id": "1424cdac79a3ca19",
         "type": "tabs",
         "children": [
           {
-            "id": "3c2e2516195e3828",
+            "id": "03e915d213f0d552",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,7 +160,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "3c2e2516195e3828",
+  "active": "03e915d213f0d552",
   "lastOpenFiles": [
     "Investment/Valuation/Equity Risk Premium.md",
     "Investment/Valuation/Risk Free Rate.md",
