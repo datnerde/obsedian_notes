@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1424cdac79a3ca19",
+        "id": "f4a667ed183237a8",
         "type": "tabs",
         "children": [
           {
-            "id": "03e915d213f0d552",
+            "id": "5d754255e36dd5f1",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
+              "title": "New tab"
             }
           }
         ]
@@ -182,8 +180,24 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "03e915d213f0d552",
+  "active": "5d754255e36dd5f1",
   "lastOpenFiles": [
+    "Algorithm/Leetcode/15. 3Sum.md",
+    "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
+    "Algorithm/Leetcode/680. Valid Palindrome II.md",
+    "Algorithm/Leetcode/31. Partition Array.md",
+    "Algorithm/Leetcode/75. Sort Colours.md",
+    "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
+    "Algorithm/Leetcode/19. Remove Nth Node From End of List.md",
+    "Algorithm/Leetcode/26. Remove Duplicates from Sorted Array.md",
+    "Algorithm/Leetcode/1. Two Sum.md",
+    "Algorithm/Leetcode/610. Two Sum - Difference equals to target.md",
+    "Algorithm/同向two pointer.md",
+    "Algorithm/相向two pointer.md",
+    "Algorithm/背向two pointer.md",
+    "Algorithm/Two Pointer.md",
+    "Algorithm/Sorting Algo.md",
+    "Algorithm/Tips on Improving Coding Quality.md",
     "Investment/Valuation/Equity Risk Premium.md",
     "Investment/Valuation/Risk Free Rate.md",
     "Investment/Books Reading/Security Aaalysis.md",
@@ -207,29 +221,13 @@
     "Investment/Books Reading",
     "Investment",
     "Books/DDIA.pdf",
-    "OMSCS/GOIS/Virtualization.md",
-    "OMSCS/GOIS/Distributed Shared Memory.md",
-    "OMSCS/GOIS/Distributed File Systems.md",
-    "OMSCS/GOIS/Remote Procedure Calls.md",
-    "OMSCS/GOIS/IO management.md",
-    "OMSCS/GOIS/DataCenter Technologies.md",
-    "OMSCS/GOIS/Synchronization Constructs.md",
-    "OMSCS/GOIS/Inter-Process Communication.md",
-    "OMSCS/GOIS/Memory Management.md",
-    "OMSCS/GOIS/Scheduling.md",
     "Pictures/Pasted image 20231204172921.png",
     "Pictures/Pasted image 20231204170823.png",
     "Pictures/Pasted image 20231204170508.png",
     "Pictures/Pasted image 20231204170346.png",
     "Pictures/Pasted image 20231204162335.png",
     "Pictures/Pasted image 20231204160011.png",
-    "OMSCS/GOIS/Thread Design considerations.md",
     "Research/paper reading/nucleus sampling.pdf",
-    "Research/paper reading/notes/A Comprehensive Assessment of Trustworthiness in GPT Models.md",
-    "OMSCS/GOIS/readings/notes/An Efficient and Portable Web Server.md",
-    "OMSCS/GOIS/readings/notes/Multithreading the Sun OS Kernel.md",
-    "OMSCS/GOIS/readings/notes/Implementing Lightweight Threads.md",
-    "OMSCS/GOIS/readings/notes/Introduction to Programming with Threads.md",
     "Untitled.canvas"
   ]
 }
