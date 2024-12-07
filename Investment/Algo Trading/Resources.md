@@ -21,4 +21,8 @@
 		- permutation and randomization tests for trading system  development
 	- Not about Trading
 		- Assessing and Improving prediction and classification
-		- 
+		- data-driven science and engineering
+	- Nich
+		- technical analysis for algo pattern recognition
+		- detecting regime change in computational finance
+		- trading on sentiments
