@@ -4,6 +4,10 @@
 		- Systemic Trading
 		- Trading System and Methods
 		- Advances in Financial Machine Learning
+		- Quantitative Trading – Ernest Chan
+		- Trading and Exchanges
+		- The Quants – Scott Patterson
+		- Algorithmic Trading – Ernst Chan
 	- Risk Management
 		- Leverage space trading model
 		- the math for money management
@@ -26,3 +30,4 @@
 		- technical analysis for algo pattern recognition
 		- detecting regime change in computational finance
 		- trading on sentiments
+- 
