@@ -1,0 +1,14 @@
+- Quantatics - [Contents](https://quantiacs.com/documentation/en/)
+- Books
+	- Begineer
+		- Systemic Trading
+		- Trading System and Methods
+		- Advances in Financial Machine Learning
+	- Risk Management
+		- Leverage space trading model
+		- the math for money management
+	- Indicators
+		- 
+	- Strategies
+	- Trading System Development
+	- Not about Traiding

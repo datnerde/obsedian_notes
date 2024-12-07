@@ -11,10 +11,15 @@
             "id": "6e0efbbf908adb38",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Investment/Algo Trading/Resources.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Resources"
             }
           }
         ]
@@ -182,6 +187,11 @@
   },
   "active": "6e0efbbf908adb38",
   "lastOpenFiles": [
+    "Investment/Valuation/Risk Free Rate.md",
+    "Investment/Algo Trading/Resources.md",
+    "Investment/Algo Trading",
+    "Investment/Valuation/Equity Risk Premium.md",
+    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Algorithm/Leetcode/15. 3Sum.md",
     "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
     "Algorithm/Leetcode/680. Valid Palindrome II.md",
@@ -198,10 +208,7 @@
     "Algorithm/Two Pointer.md",
     "Algorithm/Sorting Algo.md",
     "Algorithm/Tips on Improving Coding Quality.md",
-    "Investment/Valuation/Equity Risk Premium.md",
-    "Investment/Valuation/Risk Free Rate.md",
     "Investment/Books Reading/Security Aaalysis.md",
-    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
     "Books/security-analysis.pdf",
     "Investment/Books Reading/Security Analysis.md",
     "Template/annotate.md",
@@ -216,7 +223,6 @@
     "Investment/Technical Analysis",
     "Investment/Valuation",
     "Books/DDIA Notes.md",
-    "System Design/Encoding and Evolution.md",
     "Books/Elements of Programming Interviews in Python.pdf",
     "Investment/Books Reading",
     "Investment",
@@ -227,7 +233,6 @@
     "Pictures/Pasted image 20231204170346.png",
     "Pictures/Pasted image 20231204162335.png",
     "Pictures/Pasted image 20231204160011.png",
-    "Research/paper reading/nucleus sampling.pdf",
     "Untitled.canvas"
   ]
 }
