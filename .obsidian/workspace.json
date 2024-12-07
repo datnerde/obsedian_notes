@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f4a667ed183237a8",
+        "id": "baef3877bb400a40",
         "type": "tabs",
         "children": [
           {
-            "id": "5d754255e36dd5f1",
+            "id": "6e0efbbf908adb38",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "New tab"
             }
           }
         ]
@@ -182,7 +180,7 @@
       "cmdr:Mind Map: Preview the current note as a Mind Map": false
     }
   },
-  "active": "5d754255e36dd5f1",
+  "active": "6e0efbbf908adb38",
   "lastOpenFiles": [
     "Algorithm/Leetcode/15. 3Sum.md",
     "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
