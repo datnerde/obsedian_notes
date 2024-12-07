@@ -8,7 +8,17 @@
 		- Leverage space trading model
 		- the math for money management
 	- Indicators
-		- 
+		- cycle analytics for traders
+		- cybernetic analysis for stock and futures
+		- rocket science for traders
+		- statistically sound indicators for financial market prediction
 	- Strategies
+		- universal tactics of successful trend trading
+		- stock on the move
+		- cybernetic trading strategies
 	- Trading System Development
-	- Not about Traiding
+		- testing and tuning market trading system
+		- permutation and randomization tests for trading system  development
+	- Not about Trading
+		- Assessing and Improving prediction and classification
+		- 
