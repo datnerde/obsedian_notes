@@ -8,57 +8,96 @@ status: growing
 # 🤖 Machine Learning — Map of Content
 
 > Navigation hub for all ML notes.  
-> Source: primarily from *Quest for Machine Learning* book.
+> Source: primarily from *Quest for Machine Learning* (百面机器学习).
 
 ---
 
-## 📖 Source Outline
-→ [[Quest for Machine Learning Book Outline]]
+## 📖 Source
+- [[Quest for Machine Learning Book Outline]] — chapter index for 百面机器学习
+- All content compiled into atomic notes below
 
 ---
 
 ## 🗂️ Topics
 
-### Data Preparation
-- [[Feature Engineering]] 🌿 — Normalization, encoding, feature crosses
-- [[Dimensional Reduction]] 🌿 — PCA, feature selection
+### 🔧 Feature Engineering
+- [[Feature Engineering]] — hub note
+  - [[Feature Normalization]] — Min-Max, Z-Score; why gradient descent needs it 🌲
+  - [[Categorical Encoding]] — ordinal, one-hot, binary encoding 🌲
+  - [[Text Representation]] — Bag of Words, TF-IDF, topic models 🌿
+  - [[Word2Vec]] — CBOW, Skip-gram, embedding space 🌿
 
-### Models
-- [[Supervised Learning]] 🌿 — Classification & regression fundamentals
-- [[Classic Model]] 🌿 — Linear regression, SVM, decision trees
-- [[Unsupervised Learning]] 🌿 — Clustering, dimensionality reduction
+### 📐 Dimensionality Reduction
+- [[Dimensional Reduction]] — hub note
+  - [[PCA]] — unsupervised, maximize variance 🌲
+  - [[LDA (Linear Discriminant Analysis)]] — supervised, maximize class separation 🌲
 
-### Probabilistic & Advanced
-- [[Probability Graphical Model]] 🌿 — Bayesian networks, MRF
-- [[Sampling]] 🌿 — Monte Carlo, MCMC
+### 🤖 Models
 
-### Training & Evaluation
-- [[Model Evaluation]] 🌿 — Metrics, cross-validation, bias-variance
-- [[Optimization]] 🌿 — Gradient descent, SGD, Adam
-- [[AB Testing]] 🌿 — Experiment design, statistical significance
+#### Supervised
+- [[Supervised Learning]] — outline
+- [[Classic Model]] — hub with comparison table 🌲
+  - [[SVM]] — max-margin hyperplane, kernel trick 🌿
+  - [[Logistic Regression]] — log-odds model, Softmax for multi-class 🌿
+  - [[Decision Tree]] — recursive splits, pruning, no normalization needed 🌿
+
+#### Unsupervised
+- [[Unsupervised Learning]] — hub note
+  - [[K-Means Clustering]] — hard assignment, EM, K++ 🌲
+  - [[Gaussian Mixture Model]] — soft assignment, probabilistic 🌿
+
+#### Probabilistic
+- [[Probability Graphical Model]] — Bayesian Networks, MRF 🌱
+
+### 📊 Training & Optimization
+- [[Optimization]] — Gradient Descent, SGD, Adam, RMSProp 🌲
+
+### 🧪 Evaluation
+- [[Model Evaluation]] — hub note
+  - [[Classification Metrics]] — Accuracy, Precision, Recall, F1 🌲
+  - [[ROC and AUC]] — threshold-invariant, robust to imbalance 🌲
+  - [[Cross Validation]] — K-fold, LOO, Bootstrap 🌲
+  - [[Overfitting and Underfitting]] — bias-variance, regularization 🌲
+  - [[Hyperparameter Tuning]] — grid search, random, Bayesian 🌿
+  - [[AB Testing]] — online evaluation, causal inference 🌿
+
+### 🎲 Sampling & Statistics
+- [[Sampling]] — hub note
+  - [[MCMC]] — high-dimensional sampling via Markov chains 🌿
+  - [[Imbalanced Data]] — SMOTE, over/under-sampling 🌲
 
 ---
 
-## 🔗 Key Concept Connections
+## 🔗 Key Concept Graph
 
 ```
-Feature Engineering → Model Training → Model Evaluation
-         ↓                   ↓
-  Dimensional Reduction   Optimization
-         ↓
-  Unsupervised Learning
+Raw Data
+  └── Feature Engineering
+        ├── Feature Normalization ──────→ Optimization (faster convergence)
+        ├── Categorical Encoding
+        ├── Text Representation ────────→ Word2Vec
+        └── Dimensional Reduction
+              ├── PCA (unsupervised)
+              └── LDA (supervised)
+                    ↓
+              Model Training
+              ├── Classic Model (SVM, LR, DT)
+              ├── K-Means / GMM (unsupervised)
+              └── Optimization (gradient descent)
+                    ↓
+              Evaluation
+              ├── Classification Metrics → ROC and AUC
+              ├── Cross Validation
+              ├── Overfitting and Underfitting
+              └── AB Testing (online)
 ```
-
----
-
-## 📚 Related Books
-- [[Quest for Machine Learning Notes]] — master book note
 
 ---
 
 ## 🌱 To Be Added
-- `Deep Learning` fundamentals
-- `Transformer / Attention`
+- `Deep Learning` — neural network fundamentals
+- `Transformer / Attention` — self-attention, BERT, GPT
+- `Ensemble Methods` — Random Forest, Gradient Boosting, XGBoost
 - `Recommender Systems`
 - `MLOps / Model Serving`
 

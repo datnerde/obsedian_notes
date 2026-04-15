@@ -189,3 +189,7 @@ source: "GOIS Course"
 		* shared-buffer based or communication b/w stages
 	* Layered Pattern![[Pasted image 20230828222615.png]]
 	* Time Calculation![[Pasted image 20230828223812.png]]
+
+## Cross-Domain Links
+- [[System Design/Reliable, Scalable and Maintainable]] — concurrency and thread design underpin scalability
+- [[Machine Learning/Optimization]] — parallel training exploits multi-threading

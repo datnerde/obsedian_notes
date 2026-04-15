@@ -19,11 +19,11 @@
 
 ## 📚 By Source Material
 
-### Books Being Distilled
-- [[Quest for Machine Learning Book Outline]] → expands into `Machine Learning/`
-- [[DDIA Notes]] → expands into `System Design/`
+### Books Compiled Into Wiki
+- [[Quest for Machine Learning Book Outline]] → compiled into `Machine Learning/` atomic notes
+- DDIA → compiled into `System Design/` notes
 - [[The Intelligent Investor]] → `Investment/Books Reading/`
-- [[Security Aaalysis]] → `Investment/Books Reading/`
+- [[Security Analysis]] → `Investment/Books Reading/`
 - [[The Little Book That Still Beats the Market]] → `Investment/Books Reading/`
 
 ---
@@ -64,14 +64,22 @@ LIST FROM "" WHERE status = "growing" SORT file.mtime DESC
 
 ---
 
-## 🗃️ Raw Sources
+## 🗃️ Source Layers
 
-Raw materials (PDFs, articles) live in `_raw/`.  
-Compiled knowledge lives in domain folders.
-
+### 📦 `_raw/` — New sources (add future PDFs here)
 - `_raw/books/` — Book PDFs
 - `_raw/papers/` — Research papers
 - `_raw/courses/` — Course slides & materials
+
+### 📖 `Books/` — PDF Annotation Layer (legacy, do not move)
+> These are Obsidian Annotator files with hardcoded vault paths. Treat as read-only raw source.
+
+| File | Source Book | Compiles Into |
+|------|-------------|---------------|
+| [[DDIA Notes]] | Designing Data-Intensive Applications | `System Design/` |
+| [[Quest for Machine Learning Notes]] | 百面机器学习 | `Machine Learning/` |
+
+**Other PDFs in Books/:** ESLII.pdf, Elements of Programming Interviews in Python.pdf, System Design Interview.pdf, 面试常考算法模板.pdf — reference materials, not yet annotated.
 
 ---
 

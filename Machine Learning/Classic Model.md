@@ -1,43 +1,34 @@
 ---
-title: Classic Model
+title: Classic ML Models
 tags: [ml, supervised-learning, models]
 created: 2026-04-14
-status: growing
-source: "Quest for Machine Learning"
+status: evergreen
+related: [[Supervised Learning]], [[Feature Normalization]], [[Overfitting and Underfitting]]
+source: Quest for Machine Learning
 ---
 
-## Classic Model
+# Classic ML Models
 
-### 1. Support Vector Machine[[Supervised Learning]]
-- Where it comes from:![[Pasted image 20230702170546.png]]
-- Soft Margin help with the sensitivity of support vectors
-- Intuition:
-	- Project low dimensional data to high dimensional space so that they can be separates into two groups by a support vector classifier
-- Kernel function:
-	- Systematically projections to higher dimensional space
-	- Radial Kernel (RBF)
-	- Polynomial Kernel
-	- Kernel Trick:
-		- Calculate the relationships between every pair of points as if they are in the higher dimension instead of doing the transformation
-### 2.Logistics Regression[[Supervised Learning]]
-- Comparison against linear regression
-	- Binary v.s. regression
-	- Logistics regression can be considered as regression model of log(odd) of event $y = \frac{1}{x}$ , with $odd = \frac{p}{1-p}$ 
-	- Continus y v.s. discontinus y
-	- Both can use Maximum likelihood estimation to estimate $\beta$ 
-- Multiple Labels
-	- If one sample only has one label
-		- Softmax Regression
-	- If one sample can have multiple label
-		- Train k binary classifier, where i classifier is to classify if a sample belongs to class i or not.
-### 3.Decision Tree[[Supervised Learning]]
-- Comparison of different decision tree methods:
-	- ![[Pasted image 20230702173806.png]]
-- Pruning
-	- Pre-pruning
-		- Stop tree growth with certain depth
-		- Stop tree growth with certain sample size
-		- Stop tree growth with certain model improvement
-	- Post pruning
-		- REP, PEP, CVP, OPP
-		- Cost Complexity Pruning
+> Hub note for the foundational supervised learning algorithms. Each model has its own atomic note.
+
+## Models
+
+- [[SVM]] — maximize margin hyperplane; kernel trick for non-linear boundaries
+- [[Logistic Regression]] — model log-odds; outputs probabilities; extends to multi-class via Softmax
+- [[Decision Tree]] — recursive feature splits; no normalization needed; prune to prevent overfitting
+- [[LDA (Linear Discriminant Analysis)]] — supervised dim reduction + classifier; assumes Gaussian, equal covariance
+
+## Quick Comparison
+
+| Model | Normalization Needed | Interpretable | Handles Non-linearity | Probabilistic Output |
+|-------|---------------------|---------------|-----------------------|----------------------|
+| [[SVM]] | ✅ Required | ❌ | ✅ (kernel) | ❌ |
+| [[Logistic Regression]] | ✅ Recommended | ✅ | ❌ | ✅ |
+| [[Decision Tree]] | ❌ Not needed | ✅ | ✅ | ❌ |
+| [[LDA (Linear Discriminant Analysis)\|LDA]] | ✅ Recommended | ✅ | ❌ | ✅ |
+
+## Related
+- [[Supervised Learning]] — all models here are supervised
+- [[Feature Normalization]] — required for SVM and Logistic Regression
+- [[Overfitting and Underfitting]] — all models need regularization strategy
+- [[K-Means Clustering]] / [[Gaussian Mixture Model]] — unsupervised counterparts

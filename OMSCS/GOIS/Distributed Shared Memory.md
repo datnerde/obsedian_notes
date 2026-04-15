@@ -106,3 +106,7 @@ source: "GOIS Course"
 ![[Pasted image 20231113224251.png]]
 # Weak Consistency
 ![[Pasted image 20231113224836.png]]
+
+## Cross-Domain Links
+- [[System Design/Replication]] — distributed shared memory and DB replication share consistency challenges
+- [[System Design/Encoding and Evolution]] — data serialization matters for DSM across machines

@@ -13,7 +13,8 @@ status: growing
 ---
 
 ## 📖 Source
-→ [[DDIA Notes]] — master book note
+- *Designing Data-Intensive Applications* (DDIA) — Martin Kleppmann
+- Compiled into atomic notes below
 
 ---
 

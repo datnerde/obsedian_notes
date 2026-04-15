@@ -29,3 +29,8 @@ source: "Designing Data-Intensive Applications Ch.2"
 	- tell exactly how to perform certain operation in a certain order.
 -  declarative
 	-  just specify the pattern
+
+## Related
+- [[Storage and Retrieval]] — how these models are stored on disk
+- [[Replication]] — replication is model-agnostic
+- [[Encoding and Evolution]] — how data is serialized across the wire

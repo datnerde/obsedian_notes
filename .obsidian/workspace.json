@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "93712e83bd37ac3d",
+        "id": "729c4e38fc9a2bce",
         "type": "tabs",
         "children": [
           {
-            "id": "dc5943a2303c3539",
+            "id": "fd43fd8fa6438abf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_raw/README.md",
+                "file": "00-MOC/Investment-MOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Investment-MOC"
             }
           }
         ]
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_raw/README.md",
+                "file": "00-MOC/Investment-MOC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Investment-MOC"
             }
           },
           {
@@ -204,35 +204,35 @@
   },
   "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
-    "Investment/Valuation/Risk Free Rate.md",
-    "00-MOC/Investment-MOC.md",
-    "00-MOC/OMSCS-MOC.md",
-    "_log.md",
-    "INDEX.md",
-    "README.md",
-    "Untitled.base",
-    "🗺️ Vault Redesign Plan.md",
+    "Investment/Books Reading/Security Analysis.md",
+    "Machine Learning/Decision Tree.md",
+    "Machine Learning/Logistic Regression.md",
+    "Machine Learning/SVM.md",
+    "Algorithm/Tips on Improving Coding Quality.md",
+    "Algorithm/相向two pointer.md",
+    "Algorithm/同向two pointer.md",
+    "Algorithm/背向two pointer.md",
+    "Algorithm/Problems/1246. Longest Repeating Character Replacement.md",
+    "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA Notes.md",
+    "Machine Learning/Classic Model.md",
+    "00-MOC/Investment-MOC.md",
+    "_raw/README.md",
+    "Machine Learning/Imbalanced Data.md",
+    "Machine Learning/MCMC.md",
+    "Machine Learning/LDA (Linear Discriminant Analysis).md",
+    "Machine Learning/PCA.md",
+    "Machine Learning/Gaussian Mixture Model.md",
+    "Machine Learning/K-Means Clustering.md",
+    "Machine Learning/Hyperparameter Tuning.md",
+    "Machine Learning/Overfitting and Underfitting.md",
+    "Machine Learning/Cross Validation.md",
+    "Machine Learning/ROC and AUC.md",
+    "Machine Learning/Classification Metrics.md",
+    "Machine Learning/Word2Vec.md",
+    "Untitled.base",
     "Books/security-analysis.pdf",
-    "System Design/Replication.md",
-    "Machine Learning/Sampling.md",
-    "Machine Learning/Probability Graphical Model.md",
-    "Machine Learning/Model Evaluation.md",
-    "Machine Learning/AB Testing.md",
-    "Machine Learning/Dimensional Reduction.md",
-    "Machine Learning/Optimization.md",
-    "Machine Learning/Unsupervised Learning.md",
-    "Investment/Valuation/Equity Risk Premium.md",
-    "Investment/Algo Trading/Resources.md",
     "Investment/Algo Trading",
-    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
-    "Algorithm/Leetcode/15. 3Sum.md",
-    "Algorithm/Leetcode/170. Two Sum III - Data structure design.md",
-    "Algorithm/Leetcode/680. Valid Palindrome II.md",
-    "Algorithm/Leetcode/31. Partition Array.md",
-    "Algorithm/Leetcode/75. Sort Colours.md",
-    "Algorithm/Leetcode/1246. Longest Repeating Character Replacement.md",
-    "Algorithm/Leetcode/19. Remove Nth Node From End of List.md",
     "Pictures/Pasted image 20240820140413.png",
     "Pictures/Pasted image 20240820131651.png",
     "Pictures/Pasted image 20240820131527.png",

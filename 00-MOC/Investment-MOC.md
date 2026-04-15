@@ -22,11 +22,12 @@ status: growing
 
 #### Value Investing Classics
 - [[The Intelligent Investor]] — Benjamin Graham
-- [[Security Aaalysis]] — Graham & Dodd
+- [[Security Analysis]] — Graham & Dodd
 - [[The Little Book That Still Beats the Market]] — Joel Greenblatt
 
 #### Quant / Algo Trading Reading List
 → [[Resources]] — curated book list by category
+
 
 ### 🤖 Algo Trading
 - [[Resources]] 🌱 — Book list: beginner, risk mgmt, strategies, indicators

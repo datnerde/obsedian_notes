@@ -38,3 +38,9 @@ source: "Designing Data-Intensive Applications Ch.3"
 * Page-Oriented - B-trees: RDBMS
 	* ![[Pasted image 20230709171740.png]]
 	* ![[Pasted image 20230709171802.png]]
+
+## Related
+- [[Replication]] — storage engines are what gets replicated
+- [[Data Models and Query Languages]] — storage layer serves the data model
+- [[Reliable, Scalable and Maintainable]] — storage choices affect all three properties
+- [[Encoding and Evolution]] — how data is encoded before stored

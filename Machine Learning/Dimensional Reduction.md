@@ -2,29 +2,30 @@
 title: Dimensional Reduction
 tags: [ml, dimensionality-reduction]
 created: 2026-04-14
-status: growing
-source: "Quest for Machine Learning"
+status: evergreen
+related: [[ML-MOC]], [[Feature Engineering]], [[Unsupervised Learning]]
+source: Quest for Machine Learning
 ---
 
-## Dimensional Reduction
-### 1.PCA
-- Methodology
-	1. Centralize data (deviation from the mean)
-	2. Calculate the Covariance matrix
-	3. Eigen decomposition of the covariance matrix to find the eigenvectors and eigenvalues (rank them from large to small)
-	4. Select the first corresponding eigenvectors based on the eigenvalues (large to small) to form the projections to principle components
-- Kernel PCA
-	- works for complex dataset that needs non-linear dimensional reductions
-### 2.LDA
-- Linear Discriminant Analysis can be used for classification / supervised dimensional reduction
-- Intuition:
-	- Maximize inter-class distance while minimizing inner class distance
-- Limitation:
-	- Gaussian Distribution
-	- Covariance is the same across two classes
-- QDA
-### 3. Comparison
-- Different purposes:
-	- PCA picks the direction that maximizes the variance after projections
-	- LDA picks the direction that minimize inner class variance and maximize inter class variance
-	- Both can be done by eigendecomposition
+# Dimensional Reduction
+
+> Reduce the number of features while preserving important structure. Prevents the curse of dimensionality, improves interpretability, and speeds up training.
+
+## Unsupervised Methods
+- [[PCA]] — maximize variance; projects to uncorrelated components
+  - Kernel PCA for non-linear data
+
+## Supervised Methods
+- [[LDA (Linear Discriminant Analysis)]] — maximize class separability
+
+## PCA vs LDA Summary
+| | PCA | LDA |
+|---|---|---|
+| Uses labels | No | Yes |
+| Goal | Max variance | Max class separation |
+| Both via | Eigendecomposition | Eigendecomposition |
+
+## Related
+- [[Feature Engineering]] — dim reduction is a feature engineering technique
+- [[K-Means Clustering]] — reduce dimensions before clustering high-dimensional data
+- [[Categorical Encoding]] — one-hot encoding → often needs dim reduction
