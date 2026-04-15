@@ -1,3 +1,11 @@
+---
+title: Memory Management
+tags: [omscs, os, memory, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Visual Metaphor
 
 ![[Pasted image 20231011173959.png]]

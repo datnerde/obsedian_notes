@@ -1,3 +1,11 @@
+---
+title: Thread Design considerations
+tags: [omscs, os, threads, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Thread Design Considerations
 
 ### Preview

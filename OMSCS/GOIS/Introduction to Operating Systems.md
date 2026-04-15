@@ -1,3 +1,11 @@
+---
+title: Introduction to Operating Systems
+tags: [omscs, os, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Introduction to Operating Systems
 
 ### Introduction to Operating Systems

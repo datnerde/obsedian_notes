@@ -1,3 +1,11 @@
+---
+title: Synchronization Constructs
+tags: [omscs, os, synchronization, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Visual Metaphor
 
 - Synchronization is like waiting for a coworker to finish so you can continue working

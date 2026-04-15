@@ -1,3 +1,11 @@
+---
+title: Model Evaluation
+tags: [ml, model-evaluation]
+created: 2026-04-14
+status: growing
+source: "Quest for Machine Learning"
+---
+
 ## Model Evaluation
 
 ### 1.Limitation Of Metrics

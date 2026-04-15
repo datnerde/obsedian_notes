@@ -1,3 +1,11 @@
+---
+title: Classic Model
+tags: [ml, supervised-learning, models]
+created: 2026-04-14
+status: growing
+source: "Quest for Machine Learning"
+---
+
 ## Classic Model
 
 ### 1. Support Vector Machine[[Supervised Learning]]

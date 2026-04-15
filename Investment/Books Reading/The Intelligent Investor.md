@@ -1,3 +1,11 @@
+---
+title: The Intelligent Investor
+tags: [investment, book-notes, value-investing]
+created: 2026-04-14
+status: growing
+source: "The Intelligent Investor - Benjamin Graham"
+---
+
 # Stock Screener
 In _The Intelligent Investor_, Benjamin Graham provides specific criteria, or "screeners," to help investors select stocks. These screeners are primarily aimed at identifying companies that are financially sound, undervalued, and likely to provide steady returns. Graham offers slightly different criteria for **defensive** and **enterprising** investors.
 

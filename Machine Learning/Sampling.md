@@ -1,3 +1,11 @@
+---
+title: Sampling
+tags: [ml, sampling, statistics]
+created: 2026-04-14
+status: growing
+source: "Quest for Machine Learning"
+---
+
 # Application in Machine Learning
 * Mimic the random events to give a more intuitive understanding
 * Use small samples (prior distribution) as a proxy of population's distribution, to describe the randomness of the event as a non-parametric models

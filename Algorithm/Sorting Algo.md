@@ -1,3 +1,10 @@
+---
+title: Sorting Algo
+tags: [algorithm, sorting]
+created: 2026-04-14
+status: growing
+---
+
 # Quick Sort
 - Expected Time Complexity: O(nlogn)
 - Worst Time Complexity: O(n^2)

@@ -1,3 +1,11 @@
+---
+title: Reliable, Scalable and Maintainable
+tags: [system-design, distributed-systems, ddia]
+created: 2026-04-14
+status: growing
+source: "Designing Data-Intensive Applications Ch.1"
+---
+
 [[DDIA.pdf]]
 ## What is a Data Insensitive Application
 

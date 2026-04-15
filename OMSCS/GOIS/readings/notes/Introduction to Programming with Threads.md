@@ -1,3 +1,10 @@
+---
+title: Introduction to Programming with Threads
+tags: [omscs, os, threads, paper-notes, gois]
+created: 2026-04-14
+status: growing
+---
+
 ## Introduction to Programming with Threads
 
 ### Introduction to Programming with Threads

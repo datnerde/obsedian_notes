@@ -1,3 +1,10 @@
+---
+title: 相向two pointer
+tags: [algorithm, two-pointer, pattern]
+created: 2026-04-14
+status: growing
+---
+
 # 模版
 ```python
 # 相向双指针(patition in quicksort)

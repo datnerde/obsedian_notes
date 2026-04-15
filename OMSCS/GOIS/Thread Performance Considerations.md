@@ -1,3 +1,11 @@
+---
+title: Thread Performance Considerations
+tags: [omscs, os, threads, performance, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Preview
 
 - Performance comparisons

@@ -7,5 +7,7 @@
   "obsidian-mind-map",
   "obsidian-outliner",
   "obsidian-quiet-outline",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "dataview"
 ]

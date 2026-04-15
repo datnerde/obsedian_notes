@@ -1,3 +1,11 @@
+---
+title: Distributed Shared Memory
+tags: [omscs, os, distributed-systems, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ![[Pasted image 20231113195605.png]]
 # Peer Distributed Applications
 ![[Pasted image 20231113201343.png]]

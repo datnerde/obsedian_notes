@@ -1,3 +1,10 @@
+---
+title: Resources
+tags: [investment, quant, algo-trading, reading-list]
+created: 2026-04-14
+status: seedling
+---
+
 - Quantatics - [Contents](https://quantiacs.com/documentation/en/)
 - Books
 	- Begineer

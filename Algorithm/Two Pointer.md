@@ -1,3 +1,10 @@
+---
+title: Two Pointer
+tags: [algorithm, two-pointer, pattern]
+created: 2026-04-14
+status: evergreen
+---
+
 * [[相向two pointer]]
 * [[背向two pointer]]
 * [[同向two pointer]]

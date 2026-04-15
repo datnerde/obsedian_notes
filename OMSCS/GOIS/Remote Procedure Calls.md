@@ -1,3 +1,11 @@
+---
+title: Remote Procedure Calls
+tags: [omscs, os, rpc, distributed-systems, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 # Why PRC?
 ![[Pasted image 20231112212112.png]]
 # Benefits of RPC

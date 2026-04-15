@@ -1,3 +1,11 @@
+---
+title: Risk Free Rate
+tags: [investment, valuation, dcf]
+created: 2026-04-14
+status: growing
+source: "Damodaran Valuation"
+---
+
 # Nominal v.s. Real:
 If the cash flows being discounted are nominal cash flows (e.g., reflect expected inflation), the discount rate shall be nominal.
 # Currency 

@@ -1,3 +1,11 @@
+---
+title: Quest for Machine Learning Book Outline
+tags: [ml, book-outline]
+created: 2026-04-14
+status: evergreen
+source: "Quest for Machine Learning"
+---
+
 ## Outline
 
 1. [[Feature Engineering]]

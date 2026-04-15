@@ -1,3 +1,11 @@
+---
+title: Virtualization
+tags: [omscs, os, virtualization, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## What is Virtualization
 
 - virtualization allows concurrent execution of multiple OSs (and their applications) on the same physical machine

@@ -1,3 +1,10 @@
+---
+title: Multithreading the Sun OS Kernel
+tags: [omscs, os, threads, paper-notes, gois]
+created: 2026-04-14
+status: growing
+---
+
 ## Multithreading the Sun OS Kernel
 
 ### Multithreading the Sun OS Kernel

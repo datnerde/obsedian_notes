@@ -1,3 +1,11 @@
+---
+title: Scheduling
+tags: [omscs, os, scheduling, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Visual Metaphor
 
 ![[Pasted image 20231007164257.png]]

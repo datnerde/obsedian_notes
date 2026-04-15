@@ -1,3 +1,10 @@
+---
+title: Implementing Lightweight Threads
+tags: [omscs, os, threads, paper-notes, gois]
+created: 2026-04-14
+status: growing
+---
+
 ## Implementing Lightweight Threads
 
 ### Implementing Lightweight Threads

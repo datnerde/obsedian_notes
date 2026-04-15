@@ -1,3 +1,11 @@
+---
+title: IO management
+tags: [omscs, os, io, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ![[Pasted image 20231101081920.png]]
 
 ## I/O Device Features

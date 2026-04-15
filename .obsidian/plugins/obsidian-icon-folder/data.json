@@ -31,17 +31,15 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "lucideIconPackType": "native",
-    "debugMode": false
+    "debugMode": false,
+    "useInternalPlugins": false
   },
   "Machine Learning": "🎰",
-  "Machine Learning System Design": "🧠",
-  "Bayesian Statistics": "🔢",
   "Template": "🖨",
   "System Design": "🖥",
   "Books": "📗",
   "Pictures": "🖼",
   "Algorithm": "SiWolframmathematica",
   "OMSCS": "SiInternetarchive",
-  "Research": "SiResearchgate",
   "Investment": "🤑"
 }

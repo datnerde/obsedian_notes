@@ -1,3 +1,11 @@
+---
+title: The Little Book That Still Beats the Market
+tags: [investment, book-notes, value-investing]
+created: 2026-04-14
+status: growing
+source: "The Little Book That Still Beats the Market - Joel Greenblatt"
+---
+
 ### Key Components of the Magic Formula:
 
 1. **Return on Capital (ROC)**:

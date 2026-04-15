@@ -1,3 +1,10 @@
+---
+title: An Efficient and Portable Web Server
+tags: [omscs, os, web-server, paper-notes, gois]
+created: 2026-04-14
+status: growing
+---
+
 ## An Efficient and Portable Web Server
 
 ### Introduction

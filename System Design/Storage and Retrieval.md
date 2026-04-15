@@ -1,3 +1,11 @@
+---
+title: Storage and Retrieval
+tags: [system-design, storage, ddia]
+created: 2026-04-14
+status: growing
+source: "Designing Data-Intensive Applications Ch.3"
+---
+
 # Type of Database
 - OLTP - Online Transaction processing database are optimized for latency.
 	- E.g. MySQL, Oracle.

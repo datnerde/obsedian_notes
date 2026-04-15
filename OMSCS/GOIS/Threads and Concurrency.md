@@ -1,3 +1,11 @@
+---
+title: Threads and Concurrency
+tags: [omscs, os, threads, concurrency, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Threads and Concurrency
 
 ![[Pasted image 20230827125300.png]]

@@ -1,3 +1,11 @@
+---
+title: Threads Case Study - PThreads
+tags: [omscs, os, threads, pthreads, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Overview
 
 * PThreads == POSIX Threads

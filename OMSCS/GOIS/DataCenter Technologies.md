@@ -1,3 +1,11 @@
+---
+title: DataCenter Technologies
+tags: [omscs, os, datacenter, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 # Internet Services
 - Internet Service == any type of service provided via web interface
 	- presentation == static content

@@ -1,3 +1,11 @@
+---
+title: Unsupervised Learning
+tags: [ml, unsupervised-learning]
+created: 2026-04-14
+status: growing
+source: "Quest for Machine Learning"
+---
+
 # K-mean Clustering
 - ## Goal
 	- Via iterations, find the combination of K clusters that minimize the cost function. In this case, we can represent the cost function as sum of square distance between point to cluster center of each cluster

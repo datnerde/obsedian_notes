@@ -1,3 +1,11 @@
+---
+title: Data Models and Query Languages
+tags: [system-design, data-models, ddia]
+created: 2026-04-14
+status: growing
+source: "Designing Data-Intensive Applications Ch.2"
+---
+
 [[DDIA Notes]]
 ## Data Model
 - ![[Pasted image 20230704165926.png]]

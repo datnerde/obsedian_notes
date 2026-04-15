@@ -1,3 +1,11 @@
+---
+title: Dimensional Reduction
+tags: [ml, dimensionality-reduction]
+created: 2026-04-14
+status: growing
+source: "Quest for Machine Learning"
+---
+
 ## Dimensional Reduction
 ### 1.PCA
 - Methodology

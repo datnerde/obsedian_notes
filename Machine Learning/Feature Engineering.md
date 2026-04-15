@@ -1,3 +1,11 @@
+---
+title: Feature Engineering
+tags: [ml, feature-engineering, preprocessing]
+created: 2026-04-14
+status: growing
+source: "Quest for Machine Learning"
+---
+
 ## 1.Normalization
 
 - Reason:

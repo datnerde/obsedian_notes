@@ -1,3 +1,11 @@
+---
+title: Process and Process Management
+tags: [omscs, os, process, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Process and Process Management
 
 ### Simple Process Definition

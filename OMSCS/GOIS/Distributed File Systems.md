@@ -1,3 +1,11 @@
+---
+title: Distributed File Systems
+tags: [omscs, os, distributed-systems, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 # DFS Visual Metaphor
 ![[Pasted image 20231113173850.png]]
 # DFS

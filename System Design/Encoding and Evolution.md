@@ -1,3 +1,11 @@
+---
+title: Encoding and Evolution
+tags: [system-design, encoding, ddia]
+created: 2026-04-14
+status: growing
+source: "Designing Data-Intensive Applications Ch.4"
+---
+
 # Chapter 4: Encoding and Evolution
 
 - Backward compatibility means newer code can read data written by older code. Forward compatibility means older code can read data written by newer code.

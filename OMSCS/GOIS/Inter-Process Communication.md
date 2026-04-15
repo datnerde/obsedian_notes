@@ -1,3 +1,11 @@
+---
+title: Inter-Process Communication
+tags: [omscs, os, ipc, gois]
+created: 2026-04-14
+status: growing
+source: "GOIS Course"
+---
+
 ## Visual Metaphor
 
 ![[Pasted image 20231013180542.png]]
