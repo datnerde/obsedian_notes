@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-MOC/Investment-MOC.md",
+                "file": "System Design/Replication.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Investment-MOC"
+              "title": "Replication"
             }
           }
         ]
@@ -148,13 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-MOC/Investment-MOC.md",
+                "file": "System Design/Replication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Investment-MOC"
+              "title": "Outline of Replication"
             }
           },
           {
@@ -202,34 +202,34 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e2c420374f9dcc97",
+  "active": "fd43fd8fa6438abf",
   "lastOpenFiles": [
-    "Investment/Books Reading/Security Analysis.md",
+    "OMSCS/GOIS/Introduction to Operating Systems.md",
+    "OMSCS/GOIS/Thread Performance Considerations.md",
+    "OMSCS/GOIS/Distributed File Systems.md",
+    "OMSCS/GOIS/Distributed Shared Memory.md",
+    "OMSCS/GTID.md",
     "Machine Learning/Decision Tree.md",
     "Machine Learning/Logistic Regression.md",
     "Machine Learning/SVM.md",
-    "Algorithm/Tips on Improving Coding Quality.md",
-    "Algorithm/相向two pointer.md",
+    "Investment/Valuation/Risk Free Rate.md",
+    "Investment/Valuation/Equity Risk Premium.md",
+    "Investment/Books Reading/Security Analysis.md",
+    "Investment/Books Reading/The Intelligent Investor.md",
+    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
+    "Algorithm/Two Pointer.md",
+    "Algorithm/Sorting Algo.md",
     "Algorithm/同向two pointer.md",
     "Algorithm/背向two pointer.md",
+    "00-MOC/Investment-MOC.md",
+    "Algorithm/Tips on Improving Coding Quality.md",
+    "Algorithm/相向two pointer.md",
     "Algorithm/Problems/1246. Longest Repeating Character Replacement.md",
     "Books/Quest for Machine Learning Notes.md",
     "Books/DDIA Notes.md",
     "Machine Learning/Classic Model.md",
-    "00-MOC/Investment-MOC.md",
     "_raw/README.md",
     "Machine Learning/Imbalanced Data.md",
-    "Machine Learning/MCMC.md",
-    "Machine Learning/LDA (Linear Discriminant Analysis).md",
-    "Machine Learning/PCA.md",
-    "Machine Learning/Gaussian Mixture Model.md",
-    "Machine Learning/K-Means Clustering.md",
-    "Machine Learning/Hyperparameter Tuning.md",
-    "Machine Learning/Overfitting and Underfitting.md",
-    "Machine Learning/Cross Validation.md",
-    "Machine Learning/ROC and AUC.md",
-    "Machine Learning/Classification Metrics.md",
-    "Machine Learning/Word2Vec.md",
     "Untitled.base",
     "Books/security-analysis.pdf",
     "Investment/Algo Trading",
