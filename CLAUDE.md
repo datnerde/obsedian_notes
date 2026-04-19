@@ -24,7 +24,7 @@
 2. Detect new files: `git log --since="YYYY-MM-DD" --name-only --pretty=format: --diff-filter=A -- 0-raw/ 1-sources/`
    Fallback: `find 0-raw/ 1-sources/ -newer _log.md -name "*.md"`
 3. Report list of new files; for each, run the INGEST workflow below
-4. Append: `## YYYY-MM-DD | DELTA-SYNC | N files processed`
+4. Append: `## [YYYY-MM-DD] | DELTA-SYNC | N files processed`
 
 If no new files: "Vault up to date since YYYY-MM-DD." and stop.
 
@@ -35,7 +35,7 @@ If no new files: "Vault up to date since YYYY-MM-DD." and stop.
 3. Update touched `2-wiki/<domain>/` pages — typically 5–15 per source
 4. Update `2-wiki/_nav/<Domain>-MOC.md`
 5. Update `INDEX.md`
-6. Append: `## YYYY-MM-DD | INGEST | Source Title`
+6. Append: `## [YYYY-MM-DD] | INGEST | Source Title`
 
 > Integrate, don't just summarize. Revise existing pages. Flag contradictions on both pages.
 
@@ -45,7 +45,7 @@ If no new files: "Vault up to date since YYYY-MM-DD." and stop.
 2. Read relevant `2-wiki/` notes
 3. Synthesize across notes
 4. **Auto-file**: if ≥2 pages read OR answer involves comparison/analysis/cross-domain → write `3-synthesis/query-YYYY-MM-DD-topic.md` (no need to ask). Update INDEX.md Synthesis table. Mention filename at end of response.
-5. Append: `## YYYY-MM-DD | QUERY | summary`
+5. Append: `## [YYYY-MM-DD] | QUERY | summary`
 
 **Domain → MOC**: ml→`ML-MOC.md` · system-design→`System-Design-MOC.md` · algorithm→`Algorithm-MOC.md` · investment→`Investment-MOC.md` · omscs→`OMSCS-MOC.md` · ai-systems→`AI-Systems-MOC.md`
 
@@ -56,7 +56,7 @@ If no new files: "Vault up to date since YYYY-MM-DD." and stop.
 3. MOC gaps — notes not listed in their domain MOC
 4. Stale seedlings — status unchanged after 30+ days
 5. Write `3-synthesis/lint-YYYY-MM-DD.md`
-6. Append: `## YYYY-MM-DD | LINT | N issues`
+6. Append: `## [YYYY-MM-DD] | LINT | N issues`
 
 ---
 

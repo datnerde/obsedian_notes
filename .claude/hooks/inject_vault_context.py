@@ -25,7 +25,7 @@ def get_last_sync_date():
     if not os.path.exists(LOG_PATH):
         return None
     last_date = None
-    pattern = re.compile(r"^##\s+(\d{4}-\d{2}-\d{2})\s*\|.*?(INGEST|DELTA-SYNC)", re.IGNORECASE)
+    pattern = re.compile(r"^##\s+\[(\d{4}-\d{2}-\d{2})\]\s*\|.*?(INGEST|DELTA-SYNC)", re.IGNORECASE)
     with open(LOG_PATH, encoding="utf-8") as f:
         for line in f:
             m = pattern.match(line)

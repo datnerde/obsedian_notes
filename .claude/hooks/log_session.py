@@ -6,7 +6,6 @@ stdin: {"session_id": "...", "stop_hook_active": true, "transcript_path": "..."}
 """
 import json
 import os
-import re
 import sys
 from datetime import date
 
@@ -81,7 +80,7 @@ def main():
     if synthesis_files:
         detail += f" — synthesis: {', '.join(synthesis_files)}"
 
-    log_entry = f"\n## {today} | {op_str} | {detail}\n"
+    log_entry = f"\n## [{today}] | {op_str} | {detail}\n"
 
     try:
         with open(LOG_PATH, "a", encoding="utf-8") as f:
