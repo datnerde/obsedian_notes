@@ -10,7 +10,7 @@
 
 | Domain | MOC | Notes Count |
 | --- | --- | --- |
-| Machine Learning | [[ML-MOC]] | 29 notes |
+| Machine Learning | [[ML-MOC]] | 30 notes |
 | System Design | [[System-Design-MOC]] | 5 notes |
 | Algorithm | [[Algorithm-MOC]] | 18 notes |
 | Investment | [[Investment-MOC]] | 6 notes |
@@ -27,7 +27,7 @@ Per-source summary pages — one per book, paper, course, or article ingested.
 
 | Source | Type | Date Ingested | Status |
 | --- | --- | --- | --- |
-| *(add entries here as sources are ingested)* | — | — | — |
+| [[article-2015-03-10-Data-Mining-Problems-in-Retail\|Data Mining Problems in Retail (Katsov)]] | article | 2026-04-19 | ingested |
 
 ---
 
@@ -102,4 +102,4 @@ LIST FROM "" WHERE status = "seedling" SORT file.mtime DESC
 
 ---
 
-Last updated: 2026-04-18 | [[_log]]
+Last updated: 2026-04-19 | [[_log]]

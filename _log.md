@@ -202,3 +202,25 @@ _assets/, _templates/  ← Support files
 
 - `OMSCS-MOC.md` — removed GTID entry
 - `ML-MOC.md` — removed Supervised Learning outline entry, updated Quest for ML link to `1-sources/`
+
+---
+
+## [2026-04-19] | INGEST | Data Mining Problems in Retail (Katsov 2015)
+
+**Source:** `1-sources/article-2015-03-10-Data-Mining-Problems-in-Retail.md` (raw clipping preserved at `1-sources/inbox/Data Mining Problems in Retail.md`)
+
+**New wiki pages (3):**
+- `2-wiki/ml/Recommender Systems.md` — content vs collaborative filtering, multi-objective ranking, implicit-dimension labeling
+- `2-wiki/ml/Uplift Modeling.md` — differential response / incremental-lift estimation, four-quadrant decomposition
+- `2-wiki/ml/Demand Prediction.md` — multiplicative decomposition D = V · P(purchase|visit) · P(j|purchase) · E[Q], MNL choice model, stockout censoring
+
+**Updated wiki pages (3):**
+- `2-wiki/ml/Logistic Regression.md` — linked softmax ↔ MNL ↔ Demand Prediction; added Uplift Modeling to Related
+- `2-wiki/ml/AB Testing.md` — added "Beyond A/B: Uplift Estimation" section
+- `2-wiki/ml/Text Representation.md` — added "Application: Labeling Implicit Dimensions" section linking to Recommender Systems
+
+**Updated navigation:**
+- `2-wiki/_nav/ML-MOC.md` — added new "Applied / Marketing & Retail" section; moved Recommender Systems out of "To Be Added"; added Katsov source reference
+- `INDEX.md` — added Sources table entry; bumped ML note count 29 → 32; last-updated 2026-04-19
+
+## [2026-04-19] | DELTA-SYNC | 1 file processed (5 gois PDFs and 2 other files already relocated in 2026-04-18 restructure, no re-ingest needed)

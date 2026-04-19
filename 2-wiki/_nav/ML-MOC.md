@@ -12,9 +12,10 @@ status: growing
 
 ---
 
-## Source
+## Sources
 
 - [[Quest-for-Machine-Learning]] — chapter index for 百面机器学习 (in `1-sources/`)
+- [[article-2015-03-10-Data-Mining-Problems-in-Retail]] — Katsov's survey of 6 retail optimization problems
 - All content compiled into atomic notes below
 
 ---
@@ -74,6 +75,12 @@ status: growing
   - [[MCMC]] — high-dimensional sampling via Markov chains
   - [[Imbalanced Data]] — SMOTE, over/under-sampling
 
+### Applied / Marketing & Retail
+
+- [[Recommender Systems]] — content vs collaborative filtering, multi-objective ranking
+- [[Uplift Modeling]] — differential response / incremental lift estimation
+- [[Demand Prediction]] — multiplicative decomposition, MNL choice model
+
 ---
 
 ## Key Concept Graph
@@ -107,7 +114,6 @@ Raw Data
 - `Deep Learning` — neural network fundamentals
 - `Transformer / Attention` — self-attention, BERT, GPT
 - `Ensemble Methods` — Random Forest, Gradient Boosting, XGBoost
-- `Recommender Systems`
 - `MLOps / Model Serving`
 
 ---

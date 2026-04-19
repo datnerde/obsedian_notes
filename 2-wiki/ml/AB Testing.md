@@ -45,6 +45,10 @@ Compare two versions (A and B) of a system by randomly splitting users and measu
 - Multiple testing (running many simultaneous tests → use Bonferroni correction)
 - Network effects (treatment group affects control group)
 
+## Beyond A/B: Uplift Estimation
+A/B randomization is the training substrate for [[Uplift Modeling]] — once you have a randomized treated/control split, you can fit a per-user *incremental* effect model (not just the population-average treatment effect). This is what lets you target interventions by predicted uplift instead of predicted response.
+
 ## Related
 - [[Model Evaluation]] — AB testing is the online evaluation layer
 - [[Cross Validation]] — offline evaluation counterpart
+- [[Uplift Modeling]] — per-user causal effect estimation from randomized trials

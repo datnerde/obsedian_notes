@@ -31,6 +31,7 @@ Model the **log-odds** of a binary outcome as a linear function of features. Out
 - For when each sample has **exactly one** label
 - Generalizes logistic regression to K classes
 - Output is a probability distribution over all K classes
+- Structurally identical to the **Multinomial Logit (MNL)** model in discrete-choice econometrics — see [[Demand Prediction]] for its retail application (modeling $P(j \mid \text{purchase})$ across competing products)
 
 ### One-vs-Rest (OvR)
 - For when a sample can have **multiple labels**
@@ -47,3 +48,5 @@ Model the **log-odds** of a binary outcome as a linear function of features. Out
 - [[Classification Metrics]] — logistic regression outputs probabilities → threshold to get labels
 - [[Overfitting and Underfitting]] — L1/L2 regularization (Lasso/Ridge Logistic Regression)
 - [[Classic Model]] — hub note
+- [[Demand Prediction]] — MNL / softmax as the discrete-choice model
+- [[Uplift Modeling]] — logistic regression is the base estimator for response probability
