@@ -11,10 +11,24 @@
             "id": "1db55df58b87e47f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-sources/README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -134,12 +148,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1-sources/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
@@ -171,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,8 +203,9 @@
   },
   "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
-    "1-sources/personal notes",
     "1-sources/inbox/Data Mining Problems in Retail.md",
+    "2-wiki/ml/Logistic Regression.md",
+    "1-sources/personal notes",
     "1-sources/personal notes/Quest-for-Machine-Learning.md",
     "1-sources/inbox",
     "Clippings/Data Mining Problems in Retail.md",
@@ -227,7 +243,6 @@
     "Pictures/Pasted image 20240820131437.png",
     "Investment/Trading Thoughts",
     "Investment/Trading Automation",
-    "Investment/Technical Analysis",
     "Pictures/Pasted image 20231204172921.png",
     "Pictures/Pasted image 20231204170823.png",
     "Pictures/Pasted image 20231204170508.png",
