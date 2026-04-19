@@ -12,11 +12,6 @@ status: growing
 
 ---
 
-## 📋 Enrollment Info
-→ [[GTID]] — Georgia Tech ID and enrollment details
-
----
-
 ## 📚 Courses
 
 ### GOIS — Operating Systems
@@ -69,8 +64,8 @@ IPC → RPC → Distributed Systems
 ---
 
 ## 🔗 Cross-Domain Links
-- OS concepts → [[System Design/Replication]] (fault tolerance)
-- Threads/Concurrency → [[System Design/Reliable, Scalable and Maintainable]]
+- OS concepts → [[Replication]] (fault tolerance)
+- Threads/Concurrency → [[Reliable, Scalable and Maintainable]]
 - Distributed systems in GOIS ↔ [[System-Design-MOC]]
 
 ---

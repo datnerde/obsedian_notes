@@ -1,7 +1,11 @@
 # 📝 Operation Log
 
-> Append-only log of all vault operations. Never edit past entries.  
-> Format: `YYYY-MM-DD | action | details`
+> Append-only log of all vault operations. Never edit past entries.
+>
+> **Format (new, from 2026-04-18):** `## [YYYY-MM-DD] operation | Title`
+> Supports: `grep "^## \[" _log.md | tail -10` to show recent entries.
+>
+> Legacy format (pre-2026-04-18): `YYYY-MM-DD | action | details` — kept as-is below.
 
 ---
 
@@ -118,3 +122,83 @@
 - Fixed `Security Aaalysis` → `Security Analysis` link in Investment-MOC
 - Updated CLAUDE.md, INDEX.md, ML-MOC, System-Design-MOC, Algorithm-MOC, Investment-MOC
 - Updated ML-MOC to include SVM, Logistic Regression, Decision Tree entries
+
+---
+
+## [2026-04-18] refactor | Vault upgraded to full Karpathy WikiLLM pattern
+
+**Changes made:**
+
+- `CLAUDE.md` — Rewrote with complete Ingest/Query/Lint SOP; added `sources/` and `synthesis/` to folder structure and Knowledge Layer Map; added source/synthesis frontmatter formats
+- `_log.md` — Migrated to new grep-friendly format `## [YYYY-MM-DD] operation | Title`
+- `INDEX.md` — Added page-type metadata column; added Sources and Synthesis sections
+- Created `sources/` folder with README — for per-source summary pages
+- Created `synthesis/` folder with README — for cross-domain analysis and filed query answers
+
+**Why:** Gap analysis against Karpathy's WikiLLM design revealed missing: Lint operation, Synthesis layer (query answers not filed back), per-source summary pages, and grep-friendly log format.
+
+---
+
+## [2026-04-18] refactor | Folder architecture redesigned — 3-layer numbering scheme
+
+**Old structure (flat, mixed layers):**
+
+```txt
+_raw/, 00-MOC/, Algorithm/, Machine Learning/, System Design/, OMSCS/, Investment/, sources/, synthesis/, Template/, Pictures/
+```
+
+**New structure (numbered layers):**
+
+```txt
+0-raw/  ← Layer 0: Immutable sources
+1-sources/  ← Layer 1: Source summaries
+2-wiki/_nav/, 2-wiki/ml/, 2-wiki/system-design/, 2-wiki/algorithm/, 2-wiki/investment/, 2-wiki/omscs/  ← Layer 2
+3-synthesis/  ← Layer 3: Cross-domain analysis
+_assets/, _templates/  ← Support files
+```
+
+**Files moved:**
+
+- `_raw/` → `0-raw/`
+- `sources/` → `1-sources/`
+- `Machine Learning/` → `2-wiki/ml/`
+- `System Design/` → `2-wiki/system-design/`
+- `Algorithm/` → `2-wiki/algorithm/`
+- `Investment/` → `2-wiki/investment/`
+- `OMSCS/` → `2-wiki/omscs/`
+- `00-MOC/` → `2-wiki/_nav/`
+- `synthesis/` → `3-synthesis/`
+- `Pictures/` → `_assets/`
+- `Template/` → `_templates/`
+
+**Wikilinks fixed:** Path-qualified `[[System Design/X]]` links in 5 OMSCS files converted to filename-only `[[X]]` format before move.
+
+**Updated:** `CLAUDE.md`, `INDEX.md` — all path references updated to new structure.
+
+---
+
+## [2026-04-18] cleanup | Vault scan and cleanup — removed 13 files, fixed 2 stubs
+
+**Deleted (no value / superseded):**
+
+- `🗺️ Vault Redesign Plan.md` — old planning doc, fully superseded
+- `Untitled.base` — empty Obsidian base file
+- `README.md` (root) — 1-line description, superseded by CLAUDE.md
+- `0-raw/README.md` — duplicate of CLAUDE.md content
+- `2-wiki/omscs/GTID.md` — stored a student ID number, not knowledge
+- `_assets/Untitled.png`, `Untitled 1.png`, `Untitled 2.png`, `Untitled 2 1.png` — orphaned images, no references
+
+**Moved to correct layer:**
+
+- `2-wiki/ml/Quest for Machine Learning Book Outline.md` → `1-sources/Quest-for-Machine-Learning.md` (source outline, not a wiki concept)
+- `2-wiki/omscs/GOIS/readings/*.pdf` (5 files) → `0-raw/courses/gois/` (raw material belongs in Layer 0)
+
+**Deleted stubs (content absorbed into MOC):**
+
+- `2-wiki/ml/Supervised Learning.md` — 9-line bullet list with no content; concept covered by ML-MOC and model notes
+- References removed from: `Classic Model.md`, `Decision Tree.md`, `Unsupervised Learning.md`, `ML-MOC.md`
+
+**References cleaned:**
+
+- `OMSCS-MOC.md` — removed GTID entry
+- `ML-MOC.md` — removed Supervised Learning outline entry, updated Quest for ML link to `1-sources/`

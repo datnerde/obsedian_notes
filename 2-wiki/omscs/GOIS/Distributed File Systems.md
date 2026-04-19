@@ -81,5 +81,5 @@ source: "GOIS Course"
 ![[Pasted image 20231113194516.png]]
 
 ## Cross-Domain Links
-- [[System Design/Replication]] — DFS replication strategies mirror distributed DB replication (leader/follower, quorum)
-- [[System Design/Reliable, Scalable and Maintainable]] — fault tolerance in DFS relates to reliability principles
+- [[Replication]] — DFS replication strategies mirror distributed DB replication (leader/follower, quorum)
+- [[Reliable, Scalable and Maintainable]] — fault tolerance in DFS relates to reliability principles

@@ -3,7 +3,7 @@ title: Classic ML Models
 tags: [ml, supervised-learning, models]
 created: 2026-04-14
 status: evergreen
-related: [[Supervised Learning]], [[Feature Normalization]], [[Overfitting and Underfitting]]
+related: [[Feature Normalization]], [[Overfitting and Underfitting]]
 source: Quest for Machine Learning
 ---
 
@@ -28,7 +28,7 @@ source: Quest for Machine Learning
 | [[LDA (Linear Discriminant Analysis)\|LDA]] | ✅ Recommended | ✅ | ❌ | ✅ |
 
 ## Related
-- [[Supervised Learning]] — all models here are supervised
+
 - [[Feature Normalization]] — required for SVM and Logistic Regression
 - [[Overfitting and Underfitting]] — all models need regularization strategy
 - [[K-Means Clustering]] / [[Gaussian Mixture Model]] — unsupervised counterparts

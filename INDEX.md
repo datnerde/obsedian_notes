@@ -1,52 +1,83 @@
-# 📋 Steven's Vault — Global Index
+# Steven's Vault — Global Index
 
-> Quick navigation hub for the entire knowledge base.  
+> Quick navigation hub for the entire knowledge base.
 > For AI agents: see `CLAUDE.md` for full instructions.
+> **AI agents: read this file first when answering queries to find relevant pages.**
 
 ---
 
-## 🗺️ Domain Maps (Start Here)
+## Domain Maps (Start Here)
 
 | Domain | MOC | Notes Count |
-|--------|-----|-------------|
-| 🤖 Machine Learning | [[ML-MOC]] | 11 notes |
-| 🏗️ System Design | [[System-Design-MOC]] | 5 notes |
-| 🧮 Algorithm | [[Algorithm-MOC]] | 12 LeetCode + 6 patterns |
-| 💰 Investment | [[Investment-MOC]] | 5 notes |
-| 🎓 OMSCS | [[OMSCS-MOC]] | 14 notes |
+| --- | --- | --- |
+| Machine Learning | [[ML-MOC]] | 29 notes |
+| System Design | [[System-Design-MOC]] | 5 notes |
+| Algorithm | [[Algorithm-MOC]] | 18 notes |
+| Investment | [[Investment-MOC]] | 6 notes |
+| OMSCS | [[OMSCS-MOC]] | 21 notes |
+
+MOCs are in `2-wiki/_nav/`.
 
 ---
 
-## 📚 By Source Material
+## Sources (`1-sources/`)
 
-### Books Compiled Into Wiki
-- [[Quest for Machine Learning Book Outline]] → compiled into `Machine Learning/` atomic notes
-- DDIA → compiled into `System Design/` notes
-- [[The Intelligent Investor]] → `Investment/Books Reading/`
-- [[Security Analysis]] → `Investment/Books Reading/`
-- [[The Little Book That Still Beats the Market]] → `Investment/Books Reading/`
+Per-source summary pages — one per book, paper, course, or article ingested.
+
+| Source | Type | Date Ingested | Status |
+| --- | --- | --- | --- |
+| *(add entries here as sources are ingested)* | — | — | — |
 
 ---
 
-## 🔖 By Status
+## Synthesis (`3-synthesis/`)
 
-### 🌲 Evergreen (stable reference)
-> Use Dataview query below once Dataview plugin is installed:
+Cross-domain analysis pages and filed query answers.
+
+| Page | Domains | Type | Created |
+| --- | --- | --- | --- |
+| *(add entries here as synthesis pages are created)* | — | — | — |
+
+---
+
+## By Source Material
+
+| Book | Compiled Into | Source Page |
+| --- | --- | --- |
+| 百面机器学习 (Quest for ML) | `2-wiki/ml/` atomic notes | *(create 1-sources/ page)* |
+| Designing Data-Intensive Apps (DDIA) | `2-wiki/system-design/` notes | *(create 1-sources/ page)* |
+| The Intelligent Investor | `2-wiki/investment/` | *(create 1-sources/ page)* |
+| Security Analysis | `2-wiki/investment/` | *(create 1-sources/ page)* |
+| The Little Book That Still Beats the Market | `2-wiki/investment/` | *(create 1-sources/ page)* |
+
+---
+
+## By Status
+
+### Evergreen (stable reference)
+
 ```dataview
 LIST FROM "" WHERE status = "evergreen" SORT file.mtime DESC
 ```
 
-### 🌿 Growing (in progress)
+### Growing (in progress)
+
 ```dataview
 LIST FROM "" WHERE status = "growing" SORT file.mtime DESC
 ```
 
+### Seedling (raw capture)
+
+```dataview
+LIST FROM "" WHERE status = "seedling" SORT file.mtime DESC
+```
+
 ---
 
-## 🏷️ Master Tag List
+## Master Tag List
 
 | Tag | Domain |
-|-----|--------|
+| --- | --- |
 | `ml` | Machine Learning |
 | `feature-engineering` | ML subfield |
 | `model-evaluation` | ML subfield |
@@ -61,26 +92,9 @@ LIST FROM "" WHERE status = "growing" SORT file.mtime DESC
 | `quant` | Algo trading |
 | `os` | Operating Systems |
 | `omscs` | OMSCS coursework |
+| `synthesis` | Cross-domain analysis |
+| `source-summary` | Per-source summary pages |
 
 ---
 
-## 🗃️ Source Layers
-
-### 📦 `_raw/` — New sources (add future PDFs here)
-- `_raw/books/` — Book PDFs
-- `_raw/papers/` — Research papers
-- `_raw/courses/` — Course slides & materials
-
-### 📖 `Books/` — PDF Annotation Layer (legacy, do not move)
-> These are Obsidian Annotator files with hardcoded vault paths. Treat as read-only raw source.
-
-| File | Source Book | Compiles Into |
-|------|-------------|---------------|
-| [[DDIA Notes]] | Designing Data-Intensive Applications | `System Design/` |
-| [[Quest for Machine Learning Notes]] | 百面机器学习 | `Machine Learning/` |
-
-**Other PDFs in Books/:** ESLII.pdf, Elements of Programming Interviews in Python.pdf, System Design Interview.pdf, 面试常考算法模板.pdf — reference materials, not yet annotated.
-
----
-
-*Last updated: 2026-04-14 | [[_log]]*
+Last updated: 2026-04-18 | [[_log]]

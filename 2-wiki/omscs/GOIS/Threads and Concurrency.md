@@ -191,5 +191,5 @@ source: "GOIS Course"
 	* Time Calculation![[Pasted image 20230828223812.png]]
 
 ## Cross-Domain Links
-- [[System Design/Reliable, Scalable and Maintainable]] — concurrency and thread design underpin scalability
+- [[Reliable, Scalable and Maintainable]] — concurrency and thread design underpin scalability
 - [[Machine Learning/Optimization]] — parallel training exploits multi-threading

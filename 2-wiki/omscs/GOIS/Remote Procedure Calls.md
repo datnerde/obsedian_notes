@@ -122,5 +122,5 @@ source: "GOIS Course"
 # Java RMI
 ![[Pasted image 20231113135916.png]]
 ## Cross-Domain Links
-- [[System Design/Encoding and Evolution]] — RPC encoding (XDR, Thrift, Protobuf) is the same problem as data serialization
-- [[System Design/Data Models and Query Languages]] — REST and RPC are both covered in DDIA Ch.4
+- [[Encoding and Evolution]] — RPC encoding (XDR, Thrift, Protobuf) is the same problem as data serialization
+- [[Data Models and Query Languages]] — REST and RPC are both covered in DDIA Ch.4

@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "729c4e38fc9a2bce",
+        "id": "58f48dc49105ab5f",
         "type": "tabs",
         "children": [
           {
-            "id": "fd43fd8fa6438abf",
+            "id": "1db55df58b87e47f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design/Replication.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Replication"
+              "title": "New tab"
             }
           }
         ]
@@ -88,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5024719238281
+    "width": 307.5
   },
   "right": {
     "id": "a096e7958b4d1b57",
@@ -148,13 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Design/Replication.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Replication"
+              "title": "Outline"
             }
           },
           {
@@ -198,12 +183,23 @@
       "daily-notes:Open today's daily note": true,
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
-      "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fd43fd8fa6438abf",
+  "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "1-sources/personal notes",
+    "1-sources/inbox/Data Mining Problems in Retail.md",
+    "1-sources/personal notes/Quest-for-Machine-Learning.md",
+    "1-sources/inbox",
+    "Clippings/Data Mining Problems in Retail.md",
+    "Clippings",
+    "2-wiki/ml/Feature Engineering.md",
+    "sources/README.md",
+    "sources",
+    "synthesis/README.md",
+    "synthesis",
+    "System Design/Replication.md",
     "OMSCS/GOIS/Introduction to Operating Systems.md",
     "OMSCS/GOIS/Thread Performance Considerations.md",
     "OMSCS/GOIS/Distributed File Systems.md",
@@ -222,14 +218,6 @@
     "Algorithm/同向two pointer.md",
     "Algorithm/背向two pointer.md",
     "00-MOC/Investment-MOC.md",
-    "Algorithm/Tips on Improving Coding Quality.md",
-    "Algorithm/相向two pointer.md",
-    "Algorithm/Problems/1246. Longest Repeating Character Replacement.md",
-    "Books/Quest for Machine Learning Notes.md",
-    "Books/DDIA Notes.md",
-    "Machine Learning/Classic Model.md",
-    "_raw/README.md",
-    "Machine Learning/Imbalanced Data.md",
     "Untitled.base",
     "Books/security-analysis.pdf",
     "Investment/Algo Trading",
@@ -240,10 +228,6 @@
     "Investment/Trading Thoughts",
     "Investment/Trading Automation",
     "Investment/Technical Analysis",
-    "Investment/Valuation",
-    "Books/Elements of Programming Interviews in Python.pdf",
-    "Investment/Books Reading",
-    "Investment",
     "Pictures/Pasted image 20231204172921.png",
     "Pictures/Pasted image 20231204170823.png",
     "Pictures/Pasted image 20231204170508.png",
