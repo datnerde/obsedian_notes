@@ -15,6 +15,7 @@
 | Algorithm | [[Algorithm-MOC]] | 18 notes |
 | Investment | [[Investment-MOC]] | 6 notes |
 | OMSCS | [[OMSCS-MOC]] | 21 notes |
+| AI Systems | [[AI-Systems-MOC]] | 0 notes |
 
 MOCs are in `2-wiki/_nav/`.
 
@@ -92,6 +93,10 @@ LIST FROM "" WHERE status = "seedling" SORT file.mtime DESC
 | `quant` | Algo trading |
 | `os` | Operating Systems |
 | `omscs` | OMSCS coursework |
+| `ai-systems` | AI Systems |
+| `llm` | LLM fundamentals |
+| `ai-agent` | AI agent architecture |
+| `ab-testing-llm` | LLM evaluation & experimentation |
 | `synthesis` | Cross-domain analysis |
 | `source-summary` | Per-source summary pages |
 
