@@ -35,8 +35,29 @@ Real data is often not linearly separable in the original space. The kernel tric
 - Works well for high-dimensional data and clear margin cases
 - Slow on very large datasets (O(n²) to O(n³))
 
+## Primal → Dual Derivation
+
+**Primal problem** (maximize margin = minimize $\|w\|^2$):
+$$\min_{w,b} \tfrac{1}{2}\|w\|^2 \quad \text{s.t.} \quad y_i(w^T x_i + b) \geq 1, \forall i$$
+
+**Lagrangian** (introduce $\alpha_i \geq 0$):
+$$\mathcal{L} = \tfrac{1}{2}\|w\|^2 - \sum_i \alpha_i [y_i(w^Tx_i + b) - 1]$$
+
+**KKT stationarity conditions:**
+$$\frac{\partial\mathcal{L}}{\partial w} = 0 \implies w = \sum_i \alpha_i y_i x_i$$
+$$\frac{\partial\mathcal{L}}{\partial b} = 0 \implies \sum_i \alpha_i y_i = 0$$
+
+**Dual problem** (substitute back):
+$$\max_\alpha \sum_i \alpha_i - \tfrac{1}{2}\sum_{i,j} \alpha_i \alpha_j y_i y_j \underbrace{x_i^T x_j}_{\text{inner product}}$$
+
+Key insight: the dual depends on data **only through inner products** $x_i^T x_j$. Replacing with $K(x_i, x_j)$ enables the kernel trick with no change to the algorithm.
+
+**Support vectors** are points where $\alpha_i > 0$ (KKT complementary slackness: $\alpha_i[y_i(w^Tx_i+b)-1]=0$).
+
+---
+
 ## Related
 - [[Feature Normalization]] — required before training SVM
-- [[Overfitting and Underfitting]] — C and kernel parameters control bias-variance
+- [[Overfitting and Underfitting]] — C and kernel parameters control bias-variance; L2 penalty connects to soft-margin SVM
 - [[Classic Model]] — hub note
 - [[LDA (Linear Discriminant Analysis)]] — another margin-based approach

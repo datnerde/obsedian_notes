@@ -10,12 +10,13 @@
 
 | Domain | MOC | Notes Count |
 | --- | --- | --- |
-| Machine Learning | [[ML-MOC]] | 30 notes |
+| Machine Learning | [[ML-MOC]] | 38 notes |
 | System Design | [[System-Design-MOC]] | 5 notes |
 | Algorithm | [[Algorithm-MOC]] | 18 notes |
-| Investment | [[Investment-MOC]] | 6 notes |
+| Investment | [[Investment-MOC]] | 9 notes |
 | OMSCS | [[OMSCS-MOC]] | 21 notes |
-| AI Systems | [[AI-Systems-MOC]] | 0 notes |
+| AI Systems | [[AI-Systems-MOC]] | 1 note |
+| Career | [[Career-MOC]] | 9 notes |
 
 MOCs are in `2-wiki/_nav/`.
 
@@ -99,7 +100,10 @@ LIST FROM "" WHERE status = "seedling" SORT file.mtime DESC
 | `ab-testing-llm` | LLM evaluation & experimentation |
 | `synthesis` | Cross-domain analysis |
 | `source-summary` | Per-source summary pages |
+| `career` | Career growth / soft skills |
+| `interview` | Interview preparation |
+| `behavioural` | Behavioural interview |
 
 ---
 
-Last updated: 2026-04-19 | [[_log]]
+Last updated: 2026-04-19 (Notion migration — full sweep) | [[_log]]

@@ -9,6 +9,21 @@ source: Quest for Machine Learning
 
 # AB Testing
 
+## Interview Framework (8 Stages)
+
+When asked to design or critique an A/B test in an interview, walk through these in order:
+
+1. **Define the problem** — objective, user journey, audience scope
+2. **Choose metrics** — North Star / primary success / guardrail / secondary (1–2 each)
+3. **Randomization unit** — randomize on user, session, or device? Define trigger condition and ensure representativeness
+4. **State hypotheses** — write explicit $H_0$ and $H_1$
+5. **Choose statistical test** — based on data type and distributional assumptions
+6. **Power analysis** — compute required sample size; plan ramp-up strategy
+7. **Analyze results** — when and how to read experiment data
+8. **Decision and recommendation** — what evidence standard is required to ship?
+
+---
+
 ## Core Idea
 Compare two versions (A and B) of a system by randomly splitting users and measuring a target metric. The gold standard for causal inference about system changes.
 

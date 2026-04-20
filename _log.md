@@ -224,3 +224,68 @@ _assets/, _templates/  ← Support files
 - `INDEX.md` — added Sources table entry; bumped ML note count 29 → 32; last-updated 2026-04-19
 
 ## [2026-04-19] | DELTA-SYNC | 1 file processed (5 gois PDFs and 2 other files already relocated in 2026-04-18 restructure, no re-ingest needed)
+
+## [2026-04-19] | INGEST | Notion → Obsidian migration (ML, Investment, Career, AI Systems)
+
+**Source:** Notion workspace — Project Seattle (interview prep hub), Investment, Career pages
+
+**New wiki pages (11):**
+- `2-wiki/ml/Ensemble-Methods.md` — RF + AdaBoost + ensemble variance proof ($\rho\sigma^2$ formula)
+- `2-wiki/ml/Backpropagation.md` — delta notation, chain rule derivation, vanishing/exploding gradients
+- `2-wiki/ml/KL-Divergence.md` — definition, Jensen proof, cross-entropy = entropy + KL
+- `2-wiki/ml/ML-Coding-Patterns.md` — from-scratch NumPy implementations; coverage grid; sklearn pipeline boilerplate
+- `2-wiki/investment/Investment-Principles.md` — 10 personal rules (ETF premium, stop-loss, leveraged products, etc.)
+- `2-wiki/investment/Stock-Valuation-Framework.md` — PE/PS/PB by category; Graham formula; buy-sell rules per stock type
+- `2-wiki/investment/Options-Trading.md` — LEAPS mechanics, timing, position sizing
+- `2-wiki/career/Career-Growth-Framework.md` — Junior→Senior→Lead progression; alignment conversations; proactivity
+- `2-wiki/career/Behavioural-Interview-STAR.md` — 10-story quick-recall cheat sheet with BQ topic mapping
+- `2-wiki/_nav/Career-MOC.md` — new domain navigation hub
+- `2-wiki/ai-systems/ML-System-Design-Template.md` — 6-step ML system design interview framework with timing guide
+
+**Updated wiki pages (3):**
+- `2-wiki/ml/Overfitting and Underfitting.md` — added full bias-variance decomposition proof + L1 vs L2 soft-thresholding derivation
+- `2-wiki/ml/SVM.md` — added primal→dual derivation, KKT conditions, support vector definition
+- `2-wiki/ml/AB Testing.md` — added 8-stage interview framework at top
+
+**Updated navigation (5):**
+- `2-wiki/_nav/ML-MOC.md` — added Deep Learning, Ensemble Methods, Information Theory, Coding Reference sections
+- `2-wiki/_nav/Investment-MOC.md` — added Personal Framework section with 3 new notes
+- `2-wiki/_nav/AI-Systems-MOC.md` — populated first note
+- `INDEX.md` — added Career domain row, updated note counts, added career/interview tags
+- `CLAUDE.md` — added `2-wiki/career/` domain + `Career-MOC.md` routing
+
+## [2026-04-19] | INGEST | Notion → Obsidian migration — full sweep (A/B Testing, Product Sense, Interview Tips)
+
+**Source:** Notion Project Seattle — Case Study (Product Sense), A/B Testing sub-pages, Interview Feedback
+
+**New wiki pages (8):**
+- `2-wiki/ml/AB-Testing-Statistics-Deep-Dive.md` — CLT, p-value definition, CI, Type I/II errors, power analysis, non-normal data handling, multiple metrics (Bonferroni/FDR/OEC), ramp-up issues
+- `2-wiki/ml/AB-Testing-Experiment-Design.md` — unit of diversion, cohort vs population, learning effects (change aversion/novelty), sample size reduction strategies, duration rules, sanity checks
+- `2-wiki/ml/Statistical-Tests-Cheat-Sheet.md` — decision guide: t-test variants, non-parametric equivalents, chi-square/Fisher's exact, Pearson/Spearman, time series tests (ADF/Ljung-Box/Granger/Diebold-Mariano), multiple testing correction, quick decision tree
+- `2-wiki/career/Product-Sense-Framework.md` — universal 6-step framework + 3 templates (Diagnose Metric Change, Measure Success, Launch or Not)
+- `2-wiki/career/Metrics-Encyclopedia.md` — AARRR, Engagement, Revenue/LTV/CAC, Conversion, Retention — all with formulas; Profitability Tree
+- `2-wiki/career/Business-Frameworks.md` — 3C&P, 4P Marketing Mix, STP (Segmentation/Targeting/Positioning), AIDA funnel, Vanity vs Actionable metrics
+- `2-wiki/career/Why-Leave-Narrative.md` — 3 career transition templates (Universal, Traditional/Enterprise, Tech/Startup)
+- `2-wiki/career/Interview-ML-Tips.md` — boosting comparison table (AdaBoost/GBM/XGBoost/LightGBM/CatBoost), XGBoost tuning order, RF hyperparameters, 6 core ML Q&A, time-series models table
+
+**Updated wiki pages (1):**
+- `2-wiki/ml/Ensemble-Methods.md` — added boosting comparison table and link to Interview-ML-Tips
+
+**Updated navigation (3):**
+- `2-wiki/_nav/ML-MOC.md` — added A/B Testing & Statistics section; removed resolved "To Be Added" item
+- `2-wiki/_nav/Career-MOC.md` — added Product Sense and Technical Interview entries for all 5 new notes
+- `INDEX.md` — updated note counts (ML 34→37, Career 2→7)
+
+## [2026-04-19] | INGEST | Notion → Obsidian migration — final sweep (Causal Inference, Product Sense Cases, Case Study Tips)
+
+**Source:** Notion Project Seattle — A/B Testing (Causal Inference sub-page), Case Study sub-pages 4 & 5
+
+**New wiki pages (3):**
+- `2-wiki/ml/Causal-Inference.md` — full decision tree (A/B → CUPED/Switchback → DiD/RDD/CausalImpact/SCM → PSM/IPW/Double ML/IV → Uplift/CausalForest); DoWhy 4-step framework (Model DAG → Identify → Estimate → Refute); interview traps; 3 real case summaries (ByteDance creator incentive, convenience store remodel SCM, loyalty offer uplift)
+- `2-wiki/career/Product-Sense-Cases.md` — 12 real DS interview questions across 5 types (Diagnose Metric Change, Measure Success, Product Strategy, Diagnostic, Profitability) with full worked framework answers
+- `2-wiki/career/Case-Study-Tips.md` — interviewer evaluation criteria, Do's/Don'ts, 30-min time allocation, starter phrases, common follow-up handling
+
+**Updated navigation (3):**
+- `2-wiki/_nav/ML-MOC.md` — added Causal Inference section
+- `2-wiki/_nav/Career-MOC.md` — added Product-Sense-Cases and Case-Study-Tips entries
+- `INDEX.md` — updated note counts (ML 37→38, Career 7→9)

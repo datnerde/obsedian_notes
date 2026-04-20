@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "58f48dc49105ab5f",
+        "id": "1a9eba6be9a82887",
         "type": "tabs",
         "children": [
           {
-            "id": "1db55df58b87e47f",
+            "id": "e1572b2406e667bc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-sources/README.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README"
+              "title": "New tab"
             }
           }
         ]
@@ -148,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-sources/README.md",
+                "file": "2026-04-19.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 2026-04-19"
             }
           },
           {
@@ -180,29 +166,62 @@
               "icon": "lines-of-text",
               "title": "Quiet Outline"
             }
+          },
+          {
+            "id": "db2eb16c535af2e4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 583.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "cmdr:Mind Map: Preview the current note as a Mind Map": false,
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
+      "cmdr:Mind Map: Preview the current note as a Mind Map": true,
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": true,
-      "daily-notes:Open today's daily note": true,
+      "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "templates:Insert template": true,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": true,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e2c420374f9dcc97",
   "lastOpenFiles": [
+    "2026-04-19.md",
+    "INDEX.md",
+    "CLAUDE.md",
+    "2-wiki/ml/Feature Engineering.md",
+    "2-wiki/ml/SVM.md",
+    "2-wiki/ml/AB Testing.md",
+    "2-wiki/ml/AB-Testing-Statistics-Deep-Dive.md",
+    "2-wiki/ml/AB-Testing-Experiment-Design.md",
+    "2-wiki/ml/Causal-Inference.md",
+    "2-wiki/ai-systems/ML-System-Design-Template.md",
+    "2-wiki/career/Case-Study-Tips.md",
+    "2-wiki/career/Product-Sense-Cases.md",
+    "2-wiki/career/Interview-ML-Tips.md",
+    "2-wiki/career/Why-Leave-Narrative.md",
+    "2-wiki/career/Career-Growth-Framework.md",
+    "2-wiki/career/Metrics-Encyclopedia.md",
+    "2-wiki/career/Business-Frameworks.md",
+    "2-wiki/omscs/GOIS/Remote Procedure Calls.md",
+    "2-wiki/_nav/Untitled.base",
+    "2-wiki/_nav/Career-MOC.md",
+    "2-wiki/_nav/ML-MOC.md",
+    "1-sources/README.md",
     "1-sources/inbox/Data Mining Problems in Retail.md",
     "2-wiki/ml/Logistic Regression.md",
     "1-sources/personal notes",
@@ -210,30 +229,9 @@
     "1-sources/inbox",
     "Clippings/Data Mining Problems in Retail.md",
     "Clippings",
-    "2-wiki/ml/Feature Engineering.md",
     "sources/README.md",
     "sources",
-    "synthesis/README.md",
     "synthesis",
-    "System Design/Replication.md",
-    "OMSCS/GOIS/Introduction to Operating Systems.md",
-    "OMSCS/GOIS/Thread Performance Considerations.md",
-    "OMSCS/GOIS/Distributed File Systems.md",
-    "OMSCS/GOIS/Distributed Shared Memory.md",
-    "OMSCS/GTID.md",
-    "Machine Learning/Decision Tree.md",
-    "Machine Learning/Logistic Regression.md",
-    "Machine Learning/SVM.md",
-    "Investment/Valuation/Risk Free Rate.md",
-    "Investment/Valuation/Equity Risk Premium.md",
-    "Investment/Books Reading/Security Analysis.md",
-    "Investment/Books Reading/The Intelligent Investor.md",
-    "Investment/Books Reading/The Little Book That Still Beats the Market.md",
-    "Algorithm/Two Pointer.md",
-    "Algorithm/Sorting Algo.md",
-    "Algorithm/同向two pointer.md",
-    "Algorithm/背向two pointer.md",
-    "00-MOC/Investment-MOC.md",
     "Untitled.base",
     "Books/security-analysis.pdf",
     "Investment/Algo Trading",
@@ -242,7 +240,6 @@
     "Pictures/Pasted image 20240820131527.png",
     "Pictures/Pasted image 20240820131437.png",
     "Investment/Trading Thoughts",
-    "Investment/Trading Automation",
     "Pictures/Pasted image 20231204172921.png",
     "Pictures/Pasted image 20231204170823.png",
     "Pictures/Pasted image 20231204170508.png",

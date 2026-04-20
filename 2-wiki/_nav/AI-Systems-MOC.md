@@ -17,7 +17,8 @@ Covers LLM internals, AI agent architecture, and evaluation/experimentation for 
 
 ## Notes
 
-*(add notes here as they are ingested)*
+### ML System Design
+- [[ML-System-Design-Template]] 🌱 — 6-step interview framework: clarify → metrics → architecture → data → model → serving; MLOps woven throughout
 
 ## Related Domains
 

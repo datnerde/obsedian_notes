@@ -14,7 +14,12 @@ status: growing
 
 ## 🗂️ Topics
 
-### Valuation
+### Personal Framework
+- [[Investment-Principles]] 🌱 — 10 hard-won rules: ETF premiums, stop-loss discipline, not trading on policy, moat investing
+- [[Stock-Valuation-Framework]] 🌱 — PE/PS/PB by stock category; Graham formula; buy/sell rules for moat/growth/cigar-butt stocks
+- [[Options-Trading]] 🌱 — LEAPS mechanics, position sizing rules, when to buy calls
+
+### Valuation (Academic)
 - [[Risk Free Rate]] 🌿 — 10Y bond, TIPS, nominal vs real, currency
 - [[Equity Risk Premium]] 🌿 — ERP estimation methods
 
@@ -52,6 +57,7 @@ Intrinsic Value
 - `Magic Formula` — Greenblatt's approach
 - `Backtesting Framework` — quant trading workflow
 - `Factor Investing` — value, momentum, quality factors
+- `Market Cycle Awareness` — media as contrarian indicator (principle #8)
 
 ---
 

@@ -1,6 +1,6 @@
 # Steven's Knowledge Vault
 
-**Domains**: `2-wiki/ml/` · `2-wiki/system-design/` · `2-wiki/algorithm/` · `2-wiki/omscs/` · `2-wiki/investment/` · `2-wiki/ai-systems/`
+**Domains**: `2-wiki/ml/` · `2-wiki/system-design/` · `2-wiki/algorithm/` · `2-wiki/omscs/` · `2-wiki/investment/` · `2-wiki/ai-systems/` · `2-wiki/career/`
 
 **Layers**: `0-raw/` (immutable) → `1-sources/` → `2-wiki/_nav/` + `2-wiki/<domain>/` → `3-synthesis/`
 
@@ -47,7 +47,7 @@ If no new files: "Vault up to date since YYYY-MM-DD." and stop.
 4. **Auto-file**: if ≥2 pages read OR answer involves comparison/analysis/cross-domain → write `3-synthesis/query-YYYY-MM-DD-topic.md` (no need to ask). Update INDEX.md Synthesis table. Mention filename at end of response.
 5. Append: `## [YYYY-MM-DD] | QUERY | summary`
 
-**Domain → MOC**: ml→`ML-MOC.md` · system-design→`System-Design-MOC.md` · algorithm→`Algorithm-MOC.md` · investment→`Investment-MOC.md` · omscs→`OMSCS-MOC.md` · ai-systems→`AI-Systems-MOC.md`
+**Domain → MOC**: ml→`ML-MOC.md` · system-design→`System-Design-MOC.md` · algorithm→`Algorithm-MOC.md` · investment→`Investment-MOC.md` · omscs→`OMSCS-MOC.md` · ai-systems→`AI-Systems-MOC.md` · career→`Career-MOC.md`
 
 ### LINT (monthly / every ~20 ingests)
 

@@ -69,6 +69,17 @@ status: growing
   - [[Hyperparameter Tuning]] — grid search, random, Bayesian
   - [[AB Testing]] — online evaluation, causal inference
 
+### A/B Testing & Statistics
+
+- [[AB Testing]] — 8-stage interview framework, pitfalls, uplift extensions
+- [[AB-Testing-Statistics-Deep-Dive]] 🌱 — CLT, p-value, CI, Type I/II errors, power analysis, multiple metrics, ramp-up issues
+- [[AB-Testing-Experiment-Design]] 🌱 — unit of diversion, cohort vs population, learning effects, sample size, sanity checks
+- [[Statistical-Tests-Cheat-Sheet]] 🌿 — decision guide: t-tests, non-parametric, categorical, correlation, time series, multiple testing correction
+
+### Causal Inference
+
+- [[Causal-Inference]] 🌿 — full decision tree: A/B → CUPED/Switchback → DiD/RDD/CausalImpact → PSM/IPW/DML/IV → Uplift Modeling; DoWhy 4-step framework
+
 ### Sampling & Statistics
 
 - [[Sampling]] — hub note
@@ -109,11 +120,27 @@ Raw Data
 
 ---
 
+### Deep Learning
+
+- [[Backpropagation]] 🌱 — delta notation, vanishing/exploding gradients, why backprop is efficient
+
+### Ensemble Methods
+
+- [[Ensemble-Methods]] 🌱 — RF + AdaBoost + proof of why ensembles reduce variance ($\rho\sigma^2$ formula)
+
+### Information Theory
+
+- [[KL-Divergence]] 🌱 — definition, non-negativity proof, connection to cross-entropy loss
+
+### Interview Coding Reference
+
+- [[ML-Coding-Patterns]] 🌱 — from-scratch NumPy implementations; pipeline boilerplate
+
+---
+
 ## To Be Added
 
-- `Deep Learning` — neural network fundamentals
 - `Transformer / Attention` — self-attention, BERT, GPT
-- `Ensemble Methods` — Random Forest, Gradient Boosting, XGBoost
 - `MLOps / Model Serving`
 
 ---
